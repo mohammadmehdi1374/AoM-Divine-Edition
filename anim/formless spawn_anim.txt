@@ -1,0 +1,290 @@
+//==============================================================================
+// squid_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+//Particle Attachments
+//==============================================================================
+
+define Glow
+{
+   set hotspot
+   {
+      version
+      {
+         //Visualparticle SFX x manowar glow
+      }
+   }
+}
+
+//==============================================================================
+define rippleidle
+{
+   set hotspot
+   {
+      version
+      {
+         //Visualparticle Special N Kraken Idle
+      }
+   }
+}
+
+//==============================================================================
+define wakewalk
+{
+   set hotspot
+   {
+      version
+      {
+         //Visualparticle Special N Kraken Walk
+      }
+   }
+}
+
+//==============================================================================
+define attacksplash
+{
+   set hotspot
+   {
+      version
+      {
+         //Visualparticle Special N Kraken Attack Splash
+      }
+   }
+}
+
+//==============================================================================
+define attackring
+{
+   set hotspot
+   {
+      version
+      {
+         //Visualparticle Special N Kraken Attack Ring
+      }
+   }
+}
+
+//==============================================================================
+define bubbles
+{
+   set hotspot
+   {
+      version
+      {
+         //Visualparticle Special N Kraken Death
+      }
+   }
+}
+
+//==============================================================================
+define Shock
+{
+   set hotspot
+   {
+      version
+      {
+         //VisualLightning Special N Manowar bolts
+      }
+   }
+}
+
+//==============================================================================
+//Model Attachments
+//==============================================================================
+
+
+//==============================================================================
+define TenacleWalkA
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Manowar TenacleA_Walk
+                     ReplaceTexture mu x atlantean manowar map/mu x atlantean manowar map eldritch
+
+      }
+   }
+}
+
+//==============================================================================
+define TenacleWalkB
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Manowar TenacleB_Walk
+                     ReplaceTexture mu x atlantean manowar map/mu x atlantean manowar map eldritch
+
+      }
+   }
+}
+
+//==============================================================================
+define TenacleA
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Manowar TenacleA_idle
+                     ReplaceTexture mu x atlantean manowar map/mu x atlantean manowar map eldritch
+
+      }
+   }
+}
+
+//==============================================================================
+define TenacleB
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Manowar TenacleB_idle
+                     ReplaceTexture mu x atlantean manowar map/mu x atlantean manowar map eldritch
+
+      }
+   }
+}
+
+//==============================================================================
+define TenacleC
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Manowar TenacleC_idle
+                     ReplaceTexture mu x atlantean manowar map/mu x atlantean manowar map eldritch
+
+      }
+   }
+}
+
+
+//==============================================================================
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {	
+      set hotspot
+      {
+         version
+         {
+            Visual AMU X Atlantean Manowar_idleA
+            ReplaceTexture mu x atlantean manowar map/mu x atlantean manowar map eldritch
+
+           
+				Connect ATTACHPOINT TenacleA hotspot
+				Connect FRONTABDOMEN TenacleB hotspot
+				Connect ATTACHPOINT rippleidle hotspot
+			}
+      }
+
+   }
+}
+
+//==============================================================================
+anim Birth
+{
+   SetSelector
+   {	
+      set hotspot
+      {
+         version
+         {
+            Visual AMU X Atlantean Manowar_idleA
+                        ReplaceTexture mu x atlantean manowar map/mu x atlantean manowar map eldritch
+
+				Connect ATTACHPOINT TenacleA hotspot
+				Connect FRONTABDOMEN TenacleB hotspot
+				Connect ATTACHPOINT rippleidle hotspot
+			}
+      }
+
+   }
+}
+
+//==============================================================================
+anim Walk
+{
+   SetSelector
+   {	
+      set hotspot
+      {
+         version
+         {
+            Visual AMU X Atlantean Manowar_walkA
+                        ReplaceTexture mu x atlantean manowar map/mu x atlantean manowar map eldritch
+
+				Connect FRONTABDOMEN TenaclewalkA hotspot
+				Connect BACKABDOMEN TenaclewalkB hotspot
+				Connect ATTACHPOINT wakewalk hotspot
+			}
+      }
+
+   }
+}
+
+//==============================================================================
+anim RangedAttack
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual AMU X Atlantean Manowar_attackA
+                        ReplaceTexture mu x atlantean manowar map/mu x atlantean manowar map eldritch
+
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag Attack 0.53 true   
+               tag GenericSound 0.60 true   
+               tag SpecificSoundSet 0.53 false OsirisBolt checkVisible 
+//-- end auto generated section
+				Connect ATTACHPOINT rippleidle hotspot
+				Connect ATTACHPOINT TenacleA hotspot
+				Connect FRONTABDOMEN TenacleB hotspot
+				Connect SMOKE0 Attacksplash hotspot
+				Connect SMOKE1 Attackring hotspot
+				Connect Launchpoint Shock hotspot
+				Connect lefthand glow hotspot
+				Connect righthand glow hotspot
+         }
+      }
+      
+   }
+}
+
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+            Visual AMU X Atlantean Manowar_deathA
+                        ReplaceTexture mu x atlantean manowar map/mu x atlantean manowar map eldritch
+
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag SpecificSoundSet 0.14 false ShipDeathSplash checkVisible 
+//-- end auto generated section
+				Connect ATTACHPOINT rippleidle hotspot
+				Connect ATTACHPOINT TenacleA hotspot
+				Connect FRONTABDOMEN TenacleB hotspot
+				Connect ATTACHPOINT bubbles hotspot
+         }
+      }
+      
+   }
+}

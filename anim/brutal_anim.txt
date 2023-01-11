@@ -1,0 +1,725 @@
+//==============================================================================
+// Varangian Guard_anim.txt
+//==============================================================================
+
+import Norse_2_Hand_Axe_anim.txt
+
+//==============================================================================
+
+define LargeNorseShield
+{
+   set hotspot
+   {
+      version
+      {
+					visual Attachments N Shield Large Iron
+					ReplaceTexture Attachments N Shield Copper/Attachments N Shield Bronze
+      }
+   }
+}
+
+//==============================================================================
+
+define hammer
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Tool Hammer
+      }
+   }
+}
+
+//==============================================================================
+define swoosh
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle Attachments A Sword Swoosh
+      }
+   }
+}
+
+//=============================================================================
+
+anim Bored
+{
+   SetSelector
+   {
+      CinematicLogic
+		SetSelector 
+		{
+			TechLogic none/Medium Infantry/Heavy Infantry/Champion Infantry
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_boredA
+						ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+						ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+						ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_boredA
+						ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+						ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+						ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_boredA
+						ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+						ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+						ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_boredA
+						ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+						ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+						ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+					}
+				}
+			}
+		}
+		SetSelector 
+		{
+			set hotspot
+			{
+				version
+				{
+					VisualGranny NHuskarl_IdleA
+						ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+						ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+						ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+				}
+			}
+   	}
+   }
+}
+
+//==============================================================================
+
+anim Idle
+{
+   SetSelector
+   {
+      CinematicLogic
+		SetSelector 
+		{
+			TechLogic none/Medium Infantry/Heavy Infantry/Champion Infantry
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_IdleA
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+						ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+						ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_IdleA
+						ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+						ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+						ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+						{
+						Visual Infantry N Huskarl_IdleA
+						ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+						ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+						ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_IdleA
+						ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+						ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+						ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+					}
+				}
+			}
+		}
+		SetSelector 
+		{
+			set hotspot
+			{
+				version
+				{
+					VisualGranny NHuskarl_IdleA
+				}
+			}
+   	}
+   }
+}
+
+//==============================================================================
+anim whirlwindAttack
+//anim Groundsmash
+{
+   SetSelector 
+   {
+      set hotspot
+      {
+         version
+         {
+		  Visual Infantry N Huskarl_AttackA
+		  ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+		  ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+		  ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+		  connect RightHand Norse2HandAxe hotspot
+		  connect LeftForearm LargeNorseShield hotspot
+		  connect ATTACHPOINT swoosh hotspot
+	          connect LEFTHAND swoosh hotspot
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+                  tag Attack 0.46 true   
+                  tag GenericSound 0.60 true   
+                  tag SpecificSoundSet 0.52 false SwordSwing checkVisible 
+//-- end auto generated section
+	length 3.0
+         }
+      }
+   }	
+}
+
+//==============================================================================
+anim Build
+{
+	SetSelector 
+   {
+		TechLogic none/Medium Infantry/Heavy Infantry/Champion Infantry
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag SpecificSoundSet 0.67 false Build checkVisible 
+//-- end auto generated section
+					connect RightHand hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+					ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+					ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag SpecificSoundSet 0.67 false Build checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+					ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+					ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+					connect RightHand hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag SpecificSoundSet 0.67 false Build checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+					ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+					ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+					connect RightHand hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_BuildA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+               tag SpecificSoundSet 0.67 false Build checkVisible 
+//-- end auto generated section
+					ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+					ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+					ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+					connect RightHand hammer hotspot
+					connect LeftForearm LargeNorseShield hotspot
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+
+anim Walk
+{
+   SetSelector
+   {
+      CinematicLogic
+		SetSelector 
+		{
+			TechLogic none/Medium Infantry/Heavy Infantry/Champion Infantry
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+                  tag FootstepLeft 0.30 true   
+                  tag FootstepRight 0.70 true   
+//-- end auto generated section
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+						ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+						ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+						ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+                  tag FootstepLeft 0.30 true   
+                  tag FootstepRight 0.70 true   
+//-- end auto generated section
+						ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+						ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+						ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+                  tag FootstepLeft 0.30 true   
+                  tag FootstepRight 0.70 true   
+//-- end auto generated section
+						ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+						ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+						ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+					}
+				}
+			}
+			SetSelector
+			{
+				set hotspot
+				{
+					version
+					{
+						Visual Infantry N Huskarl_WalkA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+                  tag FootstepLeft 0.30 true   
+                  tag FootstepRight 0.70 true   
+//-- end auto generated section
+						ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+						ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+						ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+						connect RightHand Norse2HandAxe hotspot
+						connect LeftForearm LargeNorseShield hotspot
+					}
+				}
+			}
+		}
+		SetSelector 
+		{
+			set hotspot
+			{
+				version
+				{
+					VisualGranny NHuskarl_WalkA
+				}
+			}
+   	}
+   }
+}
+
+//==============================================================================
+
+anim Attack
+{
+	SetSelector 
+   {
+		TechLogic none/Medium Infantry/Heavy Infantry/Champion Infantry
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+                  tag Attack 0.67 true   
+//-- end auto generated section
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+					ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+					ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+                  tag Attack 0.67 true   
+//-- end auto generated section
+					ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+					ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+					ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+                  tag Attack 0.67 true   
+//-- end auto generated section
+					ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+					ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+					ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+                  tag Attack 0.67 true   
+//-- end auto generated section
+					ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+					ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+					ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+
+anim Death
+{
+	SetSelector 
+   {
+		TechLogic none/Medium Infantry/Heavy Infantry/Champion Infantry
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_DeathA
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+					ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+					ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_DeathA
+					ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+					ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+					ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_DeathA
+					ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+					ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+					ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_DeathA
+					ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+					ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+					ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+
+anim Flail
+{
+	SetSelector 
+   {
+		TechLogic none/Medium Infantry/Heavy Infantry/Champion Infantry
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_FlailA
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+					ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+					ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+					ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_FlailA
+					ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+					ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+					ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_FlailA
+					ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+					ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+					ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+				}
+			}
+		}
+		SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					Visual Infantry N Huskarl_FlailA
+					ReplaceTexture Infantry N Huskarl Standard/celticwarrior
+					ReplaceTexture Infantry N Huskarl Head Standard/celticwarrior head
+					ReplaceTexture Infantry N Huskarl cape/celticwarrior cape
+					connect RightHand Norse2HandAxe hotspot
+					connect LeftForearm LargeNorseShield hotspot
+				}
+			}
+		}
+	}
+}
+
+//==============================================================================
+
+anim Cinematic
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         name Huskarl_aomsp28hurlcabin
+         version
+         {
+            VisualGranny NHuskarl_aomsp28hurlcabin
+         }
+		}
+		set hotspot
+      {
+         name Huskarl_aomsp28idont
+         version
+         {
+            VisualGranny NHuskarl_aomsp28idont
+         }
+		}
+		set hotspot
+      {
+         name Huskarl_aomsp27giant
+         version
+         {
+            VisualGranny NHuskarl_aomsp27giant
+         }
+		}
+		set hotspot
+      {
+         name Huskarl_cined1crouchidle
+         version
+         {
+            VisualGranny NHuskarl_cined1crouchidle
+         }
+		}
+		set hotspot
+      {
+         name Huskarl_cined1firstthe
+         version
+         {
+            VisualGranny NHuskarl_cined1firstthe
+         }
+		}
+		set hotspot
+      {
+         name NHuskarl_aomsp30notlong
+         version
+         {
+            VisualGranny NHuskarl_aomsp30notlong
+         }
+		}
+		set hotspot
+      {
+         name NHuskarl_aomsp33midspeared
+         version
+         {
+            Visual NoHuskarl_aomsp33midspeared
+         }
+		}
+	}
+}

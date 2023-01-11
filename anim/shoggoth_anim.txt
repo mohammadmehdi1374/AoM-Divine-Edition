@@ -1,0 +1,333 @@
+//==============================================================================
+// squid_anim.txt
+//==============================================================================
+
+
+//==============================================================================
+//Particle Attachments
+//==============================================================================
+
+define rippleidle
+{
+   set hotspot
+   {
+      version
+      {
+         //Visualparticle Special N Kraken Idle
+      }
+   }
+}
+
+//==============================================================================
+define wakewalk
+{
+   set hotspot
+   {
+      version
+      {
+         //Visualparticle Special N Kraken Walk
+      }
+   }
+}
+
+//==============================================================================
+define attacksplash
+{
+   set hotspot
+   {
+      version
+      {
+         //Visualparticle Special N Kraken Attack Splash
+      }
+   }
+}
+
+//==============================================================================
+define attackring
+{
+   set hotspot
+   {
+      version
+      {
+         //Visualparticle Special N Kraken Attack Ring
+      }
+   }
+}
+
+//==============================================================================
+define bubbles
+{
+   set hotspot
+   {
+      version
+      {
+         //Visualparticle Special N Kraken Death
+      }
+   }
+}
+
+//==============================================================================
+//Model Attachments
+//==============================================================================
+
+
+//==============================================================================
+define TenacleWalk
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Naval N TenacleA_WalkA
+         				replaceTexture Naval N Kraken/Naval N Kraken Eldritch
+				replaceTexture Naval N Kraken Map/Naval N Kraken Map Eldritch
+				replaceTexture Naval N Kraken Upgrade/Naval N Kraken Upgrade Eldritch
+      }
+   }
+}
+
+//==============================================================================
+define TenacleWalkB
+{
+   set hotspot
+   {
+      version
+      {
+
+         Visual Naval N TenacleA_WalkB
+         				replaceTexture Naval N Kraken/Naval N Kraken Eldritch
+				replaceTexture Naval N Kraken Map/Naval N Kraken Map Eldritch
+				replaceTexture Naval N Kraken Upgrade/Naval N Kraken Upgrade Eldritch
+      }
+   }
+}
+
+//==============================================================================
+define TenacleA
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Naval N TenacleA_idle
+         				replaceTexture Naval N Kraken/Naval N Kraken Eldritch
+				replaceTexture Naval N Kraken Map/Naval N Kraken Map Eldritch
+				replaceTexture Naval N Kraken Upgrade/Naval N Kraken Upgrade Eldritch
+      }
+   }
+}
+
+//==============================================================================
+define TenacleB
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Naval N TenacleB_idle
+         				replaceTexture Naval N Kraken/Naval N Kraken Eldritch
+				replaceTexture Naval N Kraken Map/Naval N Kraken Map Eldritch
+				replaceTexture Naval N Kraken Upgrade/Naval N Kraken Upgrade Eldritch
+      }
+   }
+}
+
+//==============================================================================
+define TenacleC
+{
+   set hotspot
+   {
+      version
+      {
+         Visual Naval N TenacleC_idle
+         				replaceTexture Naval N Kraken/Naval N Kraken Eldritch
+				replaceTexture Naval N Kraken Map/Naval N Kraken Map Eldritch
+				replaceTexture Naval N Kraken Upgrade/Naval N Kraken Upgrade Eldritch
+      }
+   }
+}
+
+
+//==============================================================================
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+
+      set hotspot
+      {
+         version
+         {
+            Visual ANaval N Kraken_idle
+				replaceTexture Naval N Kraken/Naval N Kraken Eldritch
+				replaceTexture Naval N Kraken Map/Naval N Kraken Map Eldritch
+				replaceTexture Naval N Kraken Upgrade/Naval N Kraken Upgrade Eldritch
+				Connect ATTACHPOINT rippleidle hotspot
+				Connect LEFTFOOT TenacleA hotspot
+				Connect RIGHTFOOT TenacleB hotspot
+				Connect LEFTHAND TenacleC hotspot
+				Connect RIGHTHAND TenacleA hotspot
+			}
+			version
+         {
+            Visual ANaval N Kraken_idleB
+				replaceTexture Naval N Kraken/Naval N Kraken Eldritch
+				replaceTexture Naval N Kraken Map/Naval N Kraken Map Eldritch
+				replaceTexture Naval N Kraken Upgrade/Naval N Kraken Upgrade Eldritch
+				Connect ATTACHPOINT rippleidle hotspot
+				Connect LEFTFOOT TenacleA hotspot
+				Connect RIGHTFOOT TenacleB hotspot
+				Connect LEFTHAND TenacleC hotspot
+				Connect RIGHTHAND TenacleA hotspot
+         }
+      }
+   }
+}
+//==============================================================================
+anim Walk
+{
+   SetSelector
+   {
+
+      set hotspot
+      {
+         version
+         {
+            Visual ANaval N Kraken_WalkA
+				replaceTexture Naval N Kraken/Naval N Kraken Eldritch
+				replaceTexture Naval N Kraken Map/Naval N Kraken Map Eldritch
+				replaceTexture Naval N Kraken Upgrade/Naval N Kraken Upgrade Eldritch
+				Connect LEFTFOOT TenacleWalk hotspot
+				Connect RIGHTFOOT TenacleWalkB hotspot
+				Connect LEFTHAND TenacleWalk hotspot
+				Connect RIGHTHAND TenacleWalkB hotspot
+				Connect ATTACHPOINT wakewalk hotspot
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Attack
+{
+   SetSelector
+   {
+
+      set hotspot
+      {
+         version
+         {
+            Visual ANaval N Kraken_attackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+            tag Attack 0.60 true   
+            tag GenericSound 0.60 true   
+//-- end auto generated section
+replaceTexture Naval N Kraken/Naval N Kraken Eldritch
+				replaceTexture Naval N Kraken Map/Naval N Kraken Map Eldritch
+				replaceTexture Naval N Kraken Upgrade/Naval N Kraken Upgrade Eldritch				
+                //Connect ATTACHPOINT rippleidle hotspot
+				Connect LEFTFOOT TenacleA hotspot
+				Connect RIGHTFOOT TenacleB hotspot
+				Connect LEFTHAND TenacleC hotspot
+				Connect RIGHTHAND TenacleA hotspot
+				Connect SMOKE0 Attacksplash hotspot
+				Connect SMOKE1 Attackring hotspot
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+
+      set hotspot
+      {
+         version
+         {
+            Visual ANaval N Kraken_death
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+            tag SpecificSoundSet 0.43 false ShipDeathSplash checkVisible 
+//-- end auto generated section
+replaceTexture Naval N Kraken/Naval N Kraken Eldritch
+				replaceTexture Naval N Kraken Map/Naval N Kraken Map Eldritch
+				replaceTexture Naval N Kraken Upgrade/Naval N Kraken Upgrade Eldritch				
+                //Connect ATTACHPOINT rippleidle hotspot
+				Connect LEFTFOOT TenacleA hotspot
+				Connect RIGHTFOOT TenacleB hotspot
+				Connect LEFTHAND TenacleC hotspot
+				Connect RIGHTHAND TenacleA hotspot
+				Connect ATTACHPOINT bubbles hotspot
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Pickup
+{
+   SetSelector 
+   {
+
+      set hotspot
+      {
+         version
+         {
+            Visual ANaval N Kraken_throw
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+            tag Pickup 0.28 true   
+            tag Throw 0.67 true   
+            tag SpecificSoundSet 0.69 false SwordSwing checkVisible 
+//-- end auto generated section
+				Connect CHIN rippleidle hotspot
+				Connect LEFTFOOT TenacleA hotspot
+				Connect RIGHTFOOT TenacleB hotspot
+				Connect LEFTHAND TenacleC hotspot
+				Connect RIGHTHAND TenacleA hotspot
+replaceTexture Naval N Kraken/Naval N Kraken Eldritch
+				replaceTexture Naval N Kraken Map/Naval N Kraken Map Eldritch
+				replaceTexture Naval N Kraken Upgrade/Naval N Kraken Upgrade Eldritch         
+           }
+      }
+   }
+}
+
+
+
+
+//==============================================================================
+anim whirlwindAttack
+{
+   SetSelector 
+   {
+
+      set hotspot
+      {
+         version
+         {
+            Visual ANaval N Kraken_whirlwindAttack
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+            tag Pickup 0.00 true   
+            tag Throw 0.00 true   
+//-- end auto generated section
+				Connect ATTACHPOINT rippleidle hotspot
+				Connect LEFTFOOT TenacleA hotspot
+				Connect RIGHTFOOT TenacleB hotspot
+				Connect LEFTHAND TenacleC hotspot
+				Connect RIGHTHAND TenacleA hotspot
+				Connect ATTACHPOINT bubbles hotspot
+replaceTexture Naval N Kraken/Naval N Kraken Eldritch
+				replaceTexture Naval N Kraken Map/Naval N Kraken Map Eldritch
+				replaceTexture Naval N Kraken Upgrade/Naval N Kraken Upgrade Eldritch         
+           }
+      }
+   }
+}
+

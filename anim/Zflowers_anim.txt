@@ -1,0 +1,40 @@
+//==============================================================================
+// bush_anim.txt
+//==============================================================================
+
+
+
+//==============================================================================
+anim None
+{
+	SetSelector none 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual GreatPlainsFlowers
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual ShrubTexas
+				
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual FlowerBunch
+				
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Maw" type="Plenty" techname="maw">
+	<activetime>2.00</activetime>
+	<createunit quantity="1" radius="0.0" delay="0.0" norotate="">Maw</createunit>
+	<placement forceonmap="1" losprotounit="Maw">full</placement>
+	<placementprotounitid>Maw</placementprotounitid>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="Caster">PlentyBirth</soundset>
+	<icon>improvement maw icon</icon>
+	<usedicon>improvement maw icon done</usedicon>
+	<recharges>0</recharges>
+	<rechargetime>2 </rechargetime>
+</power>

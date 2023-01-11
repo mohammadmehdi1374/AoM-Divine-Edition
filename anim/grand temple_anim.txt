@@ -1,0 +1,137 @@
+//==============================================================================
+// test_anim.txt
+//==============================================================================
+import Civ_statue_defines_anim.txt
+import Construction_defines_anim.txt
+
+//==============================================================================
+define Dust
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Building DustA
+      }
+   }  
+}
+
+//==============================================================================
+define Fire1
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Fire Tiny
+      }
+   }  
+}
+
+//==============================================================================
+define smoketiny
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Smoke Small
+      }
+   }
+}
+
+
+//==============================================================================
+anim Idle
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+                  Visual Building G Hades Temple
+                  connect leftear smoketiny HOTSPOT
+						connect rightear smoketiny HOTSPOT
+                  connect leftear fire1 HOTSPOT
+						connect rightear fire1 HOTSPOT
+						connect righthand statue hotspot
+
+
+			ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			ReplaceTexture Building G age0/Building Eld age0
+			ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			ReplaceTexture Building G gateall/Building Eld gateall
+			ReplaceTexture Building G roofage1/Building Eld roofage1
+			ReplaceTexture Building G roofage2/Building Eld roofage2
+			ReplaceTexture Building G roofage3/Building Eld roofage3
+			ReplaceTexture Building G ruins/Building Eld ruins
+			ReplaceTexture Building G shrine/Building Eld shrine
+			ReplaceTexture Building G templeage1/Building Eld templeage1
+			ReplaceTexture Building G templeage2/Building Eld templeage2
+			ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			ReplaceTexture Building G towers/Building Eld towers
+			ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			ReplaceTexture Building G wallsage3/Building Eld wallsage3
+			ReplaceTexture World G Hades Temple/World Eld Hades Temple
+         }
+      }
+   }
+}
+
+//==============================================================================
+anim Death
+{
+   SetSelector
+   {
+      set hotspot
+      {
+         version
+         {
+                  Visual Building G Hades Temple_Death
+                  connect leftear smoketiny HOTSPOT
+						connect rightear smoketiny HOTSPOT
+                  connect leftear fire1 HOTSPOT
+						connect rightear fire1 HOTSPOT
+						connect righthand statue hotspot
+						connect Smoke0 Dust hotspot
+						connect Smoke1 Dust hotspot
+						connect Smoke2 Dust hotspot
+						connect Smoke3 Dust hotspot
+						connect Smoke4 Dust hotspot
+						connect Smoke5 Dust hotspot
+						connect Smoke6 Dust hotspot
+						connect Smoke7 Dust hotspot
+
+			ReplaceTexture Building G Settlement02/Building Eld Settlement02
+			ReplaceTexture Building G Settlementage1/Building Eld Settlementage1
+			ReplaceTexture Building G Settlementage2/Building Eld Settlementage2
+			ReplaceTexture Building G Settlementage3/Building Eld Settlementage3
+			ReplaceTexture Building G Settlementfence/Building Eld Settlementfence
+
+			ReplaceTexture Building G age0/Building Eld age0
+			ReplaceTexture Building G fortifiedwall/Building Eld fortifiedwall
+			ReplaceTexture Building G gateall/Building Eld gateall
+			ReplaceTexture Building G roofage1/Building Eld roofage1
+			ReplaceTexture Building G roofage2/Building Eld roofage2
+			ReplaceTexture Building G roofage3/Building Eld roofage3
+			ReplaceTexture Building G ruins/Building Eld ruins
+			ReplaceTexture Building G shrine/Building Eld shrine
+			ReplaceTexture Building G templeage1/Building Eld templeage1
+			ReplaceTexture Building G templeage2/Building Eld templeage2
+			ReplaceTexture Building G towerbasearea/Building Eld towerbasearea
+			ReplaceTexture Building G towers/Building Eld towers
+			ReplaceTexture Building G wallsage1/Building Eld wallsage1
+			ReplaceTexture Building G wallsage2/Building Eld wallsage2
+			ReplaceTexture Building G wallsage3/Building Eld wallsage3
+			ReplaceTexture World G Hades Temple/World Eld Hades Temple
+         }
+      }
+   }
+}

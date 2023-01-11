@@ -1,0 +1,422 @@
+//==============================================================================
+// Storehouse_anim.txt
+//==============================================================================
+
+import Construction_defines_anim.txt
+
+//==============================================================================
+define VINEA
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building VineA
+		}
+	}  
+}
+
+//==============================================================================
+define CypressB
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Terrain G CypressB
+		}
+	}  
+}
+
+//==============================================================================
+define Dust
+{
+	set hotspot
+	{
+		version
+		{
+			Visualparticle SFX A Building DustA
+		}
+	}  
+}
+
+//==============================================================================
+anim idle
+{
+	SetSelector
+	{
+		TechLogic none/age 2/age 3/age 4
+		SetSelector
+		{
+			ConstructionLogic 0 33 66
+			set hotspot
+			{
+				version
+				{
+					Visual Building C Storage Pit Age1
+					//connect Rightfoot VineA hotspot
+					//connect Rightear VineA hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small A
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small B
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building G ConstructionMine
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+		}
+	 //---------------------------Age 1--------------------------------// 
+		SetSelector
+		{
+			ConstructionLogic 0 33 66
+			set hotspot
+			{
+				version
+				{
+					Visual Building C Storage Pit Age1
+					ReplaceTexture building c roofage1/building c roofage2
+					ReplaceTexture building c wallsage1/building c wallsage2
+					//connect Rightfoot VineA hotspot
+					//connect Rightear VineA hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small A
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small B
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building G ConstructionMine
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+		}
+	 //---------------------------Age 2--------------------------------//  
+		SetSelector
+		{
+			ConstructionLogic 0 33 66
+			set hotspot
+			{
+				version
+				{
+					Visual Building C Storage Pit Age1
+					ReplaceTexture building c roofage1/building c roofage3
+					ReplaceTexture building c wallsage1/building c wallsage3
+					//connect Rightfoot VineA hotspot
+					//connect Rightear VineA hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small A
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small B
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building G ConstructionMine
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+		}
+	 //---------------------------Age 3--------------------------------//  
+		SetSelector
+		{
+			ConstructionLogic 0 33 66
+			set hotspot
+			{
+				version
+				{
+					Visual Building C Storage Pit Age1
+					ReplaceTexture building c roofage1/building c roofage4
+					ReplaceTexture building c wallsage1/building c wallsage4
+					//connect Rightfoot VineA hotspot
+					//connect Rightear VineA hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small A
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small B
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building G ConstructionMine
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+		}
+	}
+}
+//==============================================================================
+anim Death
+{
+	SetSelector
+	{
+		TechLogic none/age 2/age 3/age 4
+		SetSelector
+		{
+			ConstructionLogic 0 33 66
+			set hotspot
+			{
+				version
+				{
+					Visual Building C Storage Pit Age1_Death
+					connect Smoke0 Dust hotspot
+					connect Smoke1 Dust hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small A
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small B
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building G ConstructionMine
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+		}
+	 //---------------------------Age 1--------------------------------// 
+		SetSelector
+		{
+			ConstructionLogic 0 33 66
+			set hotspot
+			{
+				version
+				{
+					Visual Building C Storage Pit Age1_Death
+					ReplaceTexture building c roofage1/building c roofage2
+					ReplaceTexture building c wallsage1/building c wallsage2
+					connect Smoke0 Dust hotspot
+					connect Smoke1 Dust hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small A
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small B
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building G ConstructionMine
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+		}
+	 //---------------------------Age 2--------------------------------//  
+		SetSelector
+		{
+			ConstructionLogic 0 33 66
+			set hotspot
+			{
+				version
+				{
+					Visual Building C Storage Pit Age1_Death
+					ReplaceTexture building c roofage1/building c roofage3
+					ReplaceTexture building c wallsage1/building c wallsage3
+					connect Smoke0 Dust hotspot
+					connect Smoke1 Dust hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small A
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small B
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building G ConstructionMine
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+		}
+	 //---------------------------Age 3--------------------------------//  
+		SetSelector
+		{
+			ConstructionLogic 0 33 66
+			set hotspot
+			{
+				version
+				{
+					Visual Building C Storage Pit Age1_Death
+					ReplaceTexture building c roofage1/building c roofage4
+					ReplaceTexture building c wallsage1/building c wallsage4
+					connect Smoke0 Dust hotspot
+					connect Smoke1 Dust hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small A
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building Construction small B
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+			set hotspot
+			{
+				version
+				{
+					Visual Building G ConstructionMine
+					connect CHIN G_Small_Brick hotspot
+					connect FACE G_Medium_Brick hotspot
+					connect ATTACHPOINT G_Long_Brick hotspot
+				}
+			}
+		}
+	}
+}
+
+
