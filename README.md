@@ -20,10 +20,11 @@ As the mod is very large, hosting it on Steam Workshop is not practical. As such
 
 ### Instructions
 
-1. Download the mod folder and place it in the /mods/ folder in your Age of Mythology files. 
+1. Download the mod folder and place it in the /mods/ folder in your Age of Mythology files.
+	1. In order for multiplayer to work properly, make sure the folder is named "AoM-Divine-Edition".
 2. Subscribe to the following mods on Steam Workshop, and make sure that they are of lower priority than Divine Edition.
-    1. AOM Alpha-Beta Content by AL
-    2. UMC Ancient Unit Pack
+      1. AOM Alpha-Beta Content by AL
+      2. UMC Ancient Unit Pack
 3. Exclude the /injector/ folder in Divine Edition from your antivirus. This is because the injector executable, as it directly edits another program (that being Age of Mythology), will look like a possible virus to most antivirus programs. 
 4. Start Age of Mythology.
 5. When you get to the main menu screen, run inject.exe from the /injector/ folder. You can do this either via the command line (where it should print out the process number) or by double-clicking. 
