@@ -40,6 +40,11 @@ active
 
 
 
+
+
+
+
+
 rule MinervaGP
 minInterval 0
 maxInterval 0
@@ -2797,3 +2802,547 @@ priority 100
 	xsSetContextPlayer(prevPlayer);
 }
 
+
+rule RomeMUs
+minInterval 1
+maxInterval 1
+active
+{
+
+
+	for (i=1; < cNumberPlayers)
+    {
+		xsSetContextPlayer(i);
+
+		if (kbGetTechStatus(1134) == cTechStatusActive) {
+
+			int civChosen = -1;
+
+			int q_id = kbUnitQueryCreate("Roman Eagle");
+			kbUnitQuerySetPlayerID(q_id, i);
+			kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Roman Eagle"));
+			kbUnitQuerySetState(q_id,2);
+			int q_len = kbUnitQueryExecute(q_id);
+			for(j=0;<q_len) {
+				xsSetContextPlayer(i);
+				trUnitSelectClear();
+				trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
+				vector center = kbUnitGetPosition(kbUnitQueryGetResult(q_id,j));
+				int center_id = kbUnitQueryGetResult(q_id,j);
+
+				trUnitSelectClear();
+
+				for (k=1; <cNumberPlayers) {
+					xsSetContextPlayer(k);
+					int q_id3 = kbUnitQueryCreate("Town Center");
+				
+					kbUnitQuerySetPlayerID(q_id3, k);
+					kbUnitQuerySetUnitType(q_id3,kbGetProtoUnitID("Settlement Level 1"));
+					kbUnitQuerySetState(q_id3,2);
+
+					//kbUnitQuerySetPosition(q_id3, center);
+					//kbUnitQuerySetMaximumDistance(q_id3, 10.0);
+					int q_len3 = kbUnitQueryExecute(q_id3); 
+
+					for(j3=0;<q_len3) {
+						trUnitSelectClear();
+						trUnitSelectByID(kbUnitQueryGetResult(q_id3,j3));
+						if (trUnitDistanceToUnitID(center_id) < 5) {
+							//trChatSend(k, "Found a TC!");
+							civChosen = k;
+							break;
+						}
+					}
+					if (civChosen != -1) {
+						break;
+					}
+				}
+
+				for (k=1; <cNumberPlayers) {
+					xsSetContextPlayer(k);
+					q_id3 = kbUnitQueryCreate("Town Center");
+				
+					kbUnitQuerySetPlayerID(q_id3, k);
+					kbUnitQuerySetUnitType(q_id3,kbGetProtoUnitID("Settlement Level 1"));
+					kbUnitQuerySetState(q_id3,2);
+
+					//kbUnitQuerySetPosition(q_id3, center);
+					//kbUnitQuerySetMaximumDistance(q_id3, 10.0);
+					q_len3 = kbUnitQueryExecute(q_id3); 
+
+					for(j3=0;<q_len3) {
+						trUnitSelectClear();
+						trUnitSelectByID(kbUnitQueryGetResult(q_id3,j3));
+						if (trUnitDistanceToUnitID(center_id) < 5) {
+							//trChatSend(k, "Found a TC!");
+							civChosen = k;
+							break;
+						}
+					}
+					if (civChosen != -1) {
+						break;
+					}
+				}
+
+				for (k=1; <cNumberPlayers) {
+					xsSetContextPlayer(k);
+					q_id3 = kbUnitQueryCreate("Town Center");
+				
+					kbUnitQuerySetPlayerID(q_id3, k);
+					kbUnitQuerySetUnitType(q_id3,kbGetProtoUnitID("Settlement Level 1"));
+					kbUnitQuerySetState(q_id3,2);
+
+					//kbUnitQuerySetPosition(q_id3, center);
+					//kbUnitQuerySetMaximumDistance(q_id3, 10.0);
+					q_len3 = kbUnitQueryExecute(q_id3); 
+
+					for(j3=0;<q_len3) {
+						trUnitSelectClear();
+						trUnitSelectByID(kbUnitQueryGetResult(q_id3,j3));
+						if (trUnitDistanceToUnitID(center_id) < 5) {
+							//trChatSend(k, "Found a TC!");
+							civChosen = k;
+							break;
+						}
+					}
+					if (civChosen != -1) {
+						break;
+					}
+				}
+			}
+
+
+
+			if (civChosen != -1) {
+			xsSetContextPlayer(civChosen);
+
+			if (kbGetTechStatus(863) == cTechStatusActive) { // poseidon
+				civChosen = 3;
+			} else if (kbGetTechStatus(862) == cTechStatusActive) { // hades
+				civChosen = 2;
+			} else if (kbGetTechStatus(861) == cTechStatusActive) { // zeus
+				civChosen = 1;
+			} else if (kbGetTechStatus(651) == cTechStatusActive) { // azathoth
+				civChosen = 16;
+			} else if (kbGetTechStatus(653) == cTechStatusActive) { // shub-niggurath
+				civChosen = 18;
+			} else if (kbGetTechStatus(652) == cTechStatusActive) { // yog-sothoth
+				civChosen = 17;
+			} else if (kbGetTechStatus(959) == cTechStatusActive) { // ra
+				civChosen = 4;
+			} else if (kbGetTechStatus(960) == cTechStatusActive) { // isis
+				civChosen = 5;
+			} else if (kbGetTechStatus(961) == cTechStatusActive) { // set
+				civChosen = 6;
+			} else if (kbGetTechStatus(963) == cTechStatusActive) { // thor
+				civChosen = 7;
+			} else if (kbGetTechStatus(962) == cTechStatusActive) { // odin
+				civChosen = 8;
+			} else if (kbGetTechStatus(964) == cTechStatusActive) { // loki
+				civChosen = 9;
+			} else if (kbGetTechStatus(965) == cTechStatusActive) { // kronos
+				civChosen = 10;
+			} else if (kbGetTechStatus(967) == cTechStatusActive) { // oranos
+				civChosen = 11;
+			} else if (kbGetTechStatus(966) == cTechStatusActive) { // gaia
+				civChosen = 12;
+			} else if (kbGetTechStatus(877) == cTechStatusActive) { // fu xi
+				civChosen = 13;
+			} else if (kbGetTechStatus(878) == cTechStatusActive) { // nu wa
+				civChosen = 14;
+			} else if (kbGetTechStatus(879) == cTechStatusActive) { // shennong
+				civChosen = 15;
+			} else if (kbGetTechStatus(871) == cTechStatusActive) { // tezcatlipoca
+				civChosen = 19;
+			} else if (kbGetTechStatus(872) == cTechStatusActive) { // quetzalcoatl
+				civChosen = 20;
+			} else if (kbGetTechStatus(873) == cTechStatusActive) { // huitzilopochtli
+				civChosen = 21;
+			} else if (kbGetTechStatus(1131) == cTechStatusActive) { // jupiter
+				civChosen = 0;
+			} else if (kbGetTechStatus(1132) == cTechStatusActive) { // juno
+				civChosen = 0;
+			} else if (kbGetTechStatus(1133) == cTechStatusActive) { // minerva
+				civChosen = 0;
+			}
+			}
+
+
+
+			xsSetContextPlayer(i);
+			int q_id2 = kbUnitQueryCreate("Rome MU Placeholder 1");
+			kbUnitQuerySetPlayerID(q_id2, i);
+			kbUnitQuerySetUnitType(q_id2,kbGetProtoUnitID("Rome MU Placeholder 1"));
+			kbUnitQuerySetState(q_id2,2);
+			int q_len2 = kbUnitQueryExecute(q_id2);
+			for(j2=0;<q_len2) {
+				trUnitSelectClear();
+				trUnitSelectByID(kbUnitQueryGetResult(q_id2,j2));
+
+
+				switch( civChosen ) {
+				case 1: { if (j2 < 2) {													// Zeus
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Minotaur", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Arrow", 0.01);
+				} }
+				case 2: { if (j2 < 2) {													// Hades
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Cyclops", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Arrow", 0.01);
+				} }
+				case 3: { if (j2 < 2) {													// Poseidon
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Centaur", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Arrow", 0.01);
+				} }
+				case 4: { if (j2 < 2) {													// Ra
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Wadget", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Wadget", 0.01);
+				} }
+				case 5: { if (j2 < 2) {													// Isis
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Sphinx", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Arrow", 0.01);
+				} }
+				case 6: { if (j2 < 2) {													// Set
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Anubite", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Anubite", 0.01);
+				} }
+				case 7: { if (j2 < 2) {													// Thor
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Valkyrie", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Arrow", 0.01);
+				} }
+				case 8: { if (j2 < 2) {													// Odin
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Einheriar", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Arrow", 0.01);
+				} }
+				case 9: { if (j2 < 2) {													// Loki
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Troll", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Troll", 0.01);
+				} }
+				case 10: { if (j2 < 2) {													// Kronos
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Promethean", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Promethean", 0.01);
+				} }
+				case 11: { if (j2 < 2) {													// Oranos
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Caladria", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Arrow", 0.01);
+				} }
+				case 12: { if (j2 < 2) {													// Gaia
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Automaton", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Automaton", 0.01);
+				} }
+				case 13: { if (j2 < 2) {													// Fu Xi
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Terracotta Soldier", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Terracotta Soldier", 0.01);
+				} }
+				case 14: { if (j2 < 2) {													// Nu Wa
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Qulin", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Arrow", 0.01);
+				} }
+				case 15: { if (j2 < 2) {													// Shennong
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Monkey King", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Arrow", 0.01);
+				} }
+				case 16: { if (j2 < 2) {													// Azathoth
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Formless Spawn", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Formless Spawn", 0.01);
+				} }
+				case 17: { if (j2 < 2) {													// Yog-Sothoth
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Spider of Leng", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Arrow", 0.01);
+				} }
+				case 18: { if (j2 < 2) {													// Shub-Niggurath
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Wendigo", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Wendigo", 0.01);
+				} }
+				case 19: { if (j2 < 2) {													// Tezcatlipoca
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Amoxoaque", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Arrow", 0.01);
+				} }
+				case 20: { if (j2 < 2) {													// Quetzalcoatl
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Ahuizotl", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Arrow", 0.01);
+				} }
+				case 21: { if (j2 < 2) {													// Huitzilopochtli
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Roc Capture", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Arrow", 0.01);
+				} }
+				default: { if (j2 < 1) {												// Roman/else
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Manes", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Arrow", 0.01);
+				} } }
+
+
+				
+			}
+
+
+			q_id2 = kbUnitQueryCreate("Rome MU Placeholder 2");
+			kbUnitQuerySetPlayerID(q_id2, i);
+			kbUnitQuerySetUnitType(q_id2,kbGetProtoUnitID("Rome MU Placeholder 2"));
+			kbUnitQuerySetState(q_id2,2);
+			q_len2 = kbUnitQueryExecute(q_id2);
+			for(j2=0;<q_len2) {
+				trUnitSelectClear();
+				trUnitSelectByID(kbUnitQueryGetResult(q_id2,j2));
+				switch( civChosen ) {
+				case 1: { if (j2 < 2) {													// Zeus
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Hydra", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} }
+				case 2: { if (j2 < 2) {													// Hades
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Manticore", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} }
+				case 3: { if (j2 < 2) {													// Poseidon
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Nemean Lion", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} }
+				case 4: { if (j2 < 2) {													// Ra
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Petsuchos", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} }
+				case 5: { if (j2 < 2) {													// Isis
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Scorpion Man", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} }
+				case 6: { if (j2 < 2) {													// Set
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Scarab", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} }
+				case 7: { if (j2 < 2) {													// Thor
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Frost Giant", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} }
+				case 8: { if (j2 < 2) {													// Odin
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Mountain Giant", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} }
+				case 9: { if (j2 < 2) {													// Loki
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Battle Boar", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} }
+				case 10: { if (j2 < 2) {													// Kronos
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Satyr", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Satyr", 0.01);
+				} }
+				case 11: { if (j2 < 2) {													// Oranos
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Stymphalian Bird", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} }
+				case 12: { if (j2 < 2) {													// Gaia
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Behemoth", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} }
+				case 13: { if (j2 < 2) {													// Fu Xi
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Pixiu", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Pixiu", 0.01);
+				} }
+				case 14: { if (j2 < 2) {													// Nu Wa
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "War Salamander", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} }
+				case 15: { if (j2 < 2) {													// Shennong
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Jaingshi", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Jaingshi", 0.01);
+				} }
+				case 16: { if (j2 < 2) {													// Azathoth
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Serpent of Yig", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Serpent of Yig", 0.01);
+				} }
+				case 17: { if (j2 < 2) {													// Yog-Sothoth
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Deep One", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Deep One", 0.01);
+				} }
+				case 18: { if (j2 < 2) {													// Shub-Niggurath
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Unwraveler", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} }
+				case 19: { if (j2 < 1) {													// Tezcatlipoca
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Plumed Serpent", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Quinametzin", 0.01);
+				} }
+				case 20: { if (j2 < 2) {													// Quetzalcoatl
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Camazotz", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} }
+				case 21: { if (j2 < 2) {													// Huitzilopochtli
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Cloud Giant", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} }
+				default: { if (j2 < 2) {												// Roman/else
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Manes", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} } }
+			}
+
+			q_id2 = kbUnitQueryCreate("Rome MU Placeholder 3");
+			kbUnitQuerySetPlayerID(q_id2, i);
+			kbUnitQuerySetUnitType(q_id2,kbGetProtoUnitID("Rome MU Placeholder 3"));
+			kbUnitQuerySetState(q_id2,2);
+			q_len2 = kbUnitQueryExecute(q_id2);
+			for(j2=0;<q_len2) {
+				trUnitSelectClear();
+				trUnitSelectByID(kbUnitQueryGetResult(q_id2,j2));
+				switch( civChosen ) {
+				case 1: { if (j2 < 2) {													// Zeus
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Medusa", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
+				} }
+				case 2: { if (j2 < 2) {													// Hades
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Colossus", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
+				} }
+				case 3: { if (j2 < 2) {													// Poseidon
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Chimera", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
+				} }
+				case 4: { if (j2 < 2) {													// Ra
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Avenger", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Avenger", 0.01);
+				} }
+				case 5: { if (j2 < 2) {													// Isis
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Mummy", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
+				} }
+				case 6: { if (j2 < 2) {													// Set
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Phoenix", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Phoenix", 0.01);
+				} }
+				case 7: { if (j2 < 2) {													// Thor
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Fire Giant", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
+				} }
+				case 8: { if (j2 < 2) {													// Odin
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Fenris Wolf", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Fenris Wolf", 0.01);
+				} }
+				case 9: { if (j2 < 1) {													// Loki
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Fire Giant", 0.01);
+				} else if (j2 < 2) {													
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Mountain Giant", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Frost Giant", 0.01);
+				} }
+				case 10: { if (j2 < 2) {													// Kronos
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Argus", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Argus", 0.01);
+				} }
+				case 11: { if (j2 < 2) {													// Oranos
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Heka Gigantes", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
+				} }
+				case 12: { if (j2 < 2) {													// Gaia
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Lampades", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Lampades", 0.01);
+				} }
+				case 13: { if (j2 < 2) {													// Fu Xi
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Azure Dragon", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
+				} }
+				case 14: { if (j2 < 2) {													// Nu Wa
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Vermilion Bird", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
+				} }
+				case 15: { if (j2 < 2) {													// Shennong
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "White Tiger", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
+				} }
+				case 16: { if (j2 < 2) {													// Azathoth
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Faceless One", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
+				} }
+				case 17: { if (j2 < 2) {													// Yog-Sothoth
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Yellow One", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
+				} }
+				case 18: { if (j2 < 2) {													// Shub-Niggurath
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Shoggoth", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
+				} }
+				case 19: { if (j2 < 2) {													// Tezcatlipoca
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Cihuateteo", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
+				} }
+				case 20: { if (j2 < 2) {													// Quetzalcoatl
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Dark Lady Fly", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
+				} }
+				case 21: { if (j2 < 2) {													// Huitzilopochtli
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Xochitonal", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
+				} }
+				default: { if (j2 < 2) {												// Roman/else
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Manes", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Manes", 0.01);
+				} } }
+			}
+
+		}
+
+	}
+
+}

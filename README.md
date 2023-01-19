@@ -20,12 +20,14 @@ As the mod is very large, hosting it on Steam Workshop is not practical. As such
 
 ### Instructions
 
-1. Download the mod folder and place it in the /mods/ folder in your Age of Mythology files.
+1. Download the mod folder (if you're not Git-savvy, click the green button that says "<> CODE" and then click on "Download ZIP") and place it in the /mods/ folder in your Age of Mythology files.
 	1. In order for multiplayer to work properly, make sure the folder is named "AoM-Divine-Edition".
-2. Subscribe to the following mods on Steam Workshop, and make sure that they are of lower priority than Divine Edition.
-      1. AOM Alpha-Beta Content by AL
-      2. UMC Ancient Unit Pack
-3. Exclude the /injector/ folder in Divine Edition from your antivirus. This is because the injector executable, as it directly edits another program (that being Age of Mythology), will look like a possible virus to most antivirus programs. 
+2. Subscribe to the following mods on Steam Workshop, and make sure that they are of lower priority than Divine Edition. If, when you start a game, all your units die instantly, that means Divine Edition was not top priority.
+      1. AOM Alpha-Beta Content by AL: https://steamcommunity.com/sharedfiles/filedetails/?id=2070833856
+      2. UMC Ancient Unit Pack: https://steamcommunity.com/sharedfiles/filedetails/?id=851936808
+	3. Age of Wrath - Files 1: https://steamcommunity.com/sharedfiles/filedetails/?id=2862754011
+	4. Age of Wrath - Files 2: https://steamcommunity.com/sharedfiles/filedetails/?id=2862754194
+3. Exclude the /injector/ folder in Divine Edition from your antivirus. This is because the injector executable, as it directly edits another program (that being Age of Mythology), will look like a possible virus to most antivirus programs. If, when you run the .exe, it vanishes, that means your antivirus deleted it. 
 4. Start Age of Mythology.
 5. When you get to the main menu screen, run inject.exe from the /injector/ folder. You can do this either via the command line (where it should print out the process number) or by double-clicking. 
 6. Proceed to random maps or multiplayer, and have fun! 
@@ -69,6 +71,8 @@ As the mod is very large, hosting it on Steam Workshop is not practical. As such
 IF YOU EXPERIENCE ANY DESYNCS IN ONLINE PLAY, PLEASE RECORD THE EXACT SCENARIO AND INFORM THE DEVELOPMENT TEAM AT ONCE
 
 ### Contributors
+ABI3 
+
 Alan Wake (AKA WintorGod) (Aztec Main Designer) (Emeritus, went off to focus on his YouTube, ModdingAoM) 
 
 Ana Winters (Lakota Main Designer) 
@@ -77,9 +81,9 @@ AProperGentleman (Project Lead) (Eldritch|Japanese|Roman Main Designer)
 
 BookWyrm 
 
-Kaoru
+Kaoru 
 
-Soully
+Soully 
 
 Nox118 (Protogenoi Main Designer)
 

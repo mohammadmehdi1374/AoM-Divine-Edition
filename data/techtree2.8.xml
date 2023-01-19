@@ -25504,6 +25504,11 @@
 
 			<specificage>Classical Age</specificage>
 			<techstatus status="Active">Can do Itztlacoliuhqui</techstatus>
+			<civilization>
+				<civname>Fuxi</civname>
+				<civname>Nuwa</civname>
+				<civname>Shennong</civname>
+			</civilization>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">90022</effect>
@@ -25590,7 +25595,7 @@
 			<typecount unit="Temple" count="1.00" state="noneState aliveState " operator="gte"></typecount>
 			<techstatus status="Active">Can do Xipe Totec</techstatus>
 			<specificage>Archaic Age</specificage>
-		<civilization>
+			<civilization>
 				<civname>Fuxi</civname>
 				<civname>Nuwa</civname>
 				<civname>Shennong</civname>
@@ -28425,6 +28430,11 @@
 			<typecount unit="AbstractTemple" count="1.00" state="noneState aliveState " operator="gte"></typecount>
 			<specificage>Archaic Age</specificage>
 			<techstatus status="Active">Can Do Capa</techstatus>
+
+			<culture>
+				<culturename>Greek</culturename>
+			</culture>
+			
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">110024</effect>
@@ -28467,6 +28477,9 @@
 			<typecount unit="AbstractTemple" count="1.00" state="noneState aliveState " operator="gte"></typecount>
 			<specificage>Archaic Age</specificage>
 			<techstatus status="Active">Can Do Iktomi</techstatus>
+			<culture>
+				<culturename>Greek</culturename>
+			</culture>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">110028</effect>
@@ -28510,6 +28523,9 @@
 			<typecount unit="AbstractTemple" count="1.00" state="noneState aliveState " operator="gte"></typecount>
 			<specificage>Archaic Age</specificage>
 			<techstatus status="Active">Can Do Wani</techstatus>
+			<culture>
+				<culturename>Greek</culturename>
+			</culture>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">110032</effect>
@@ -28554,6 +28570,9 @@
 			<typecount unit="Armory" count="1.00" state="noneState aliveState " operator="gte"></typecount>
 			<specificage>Classical Age</specificage>
 			<techstatus status="Active">Can Do Anung Ite</techstatus>
+			<culture>
+				<culturename>Greek</culturename>
+			</culture>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">110036</effect>
@@ -28597,6 +28616,9 @@
 			<typecount unit="Armory" count="1.00" state="noneState aliveState " operator="gte"></typecount>
 			<specificage>Classical Age</specificage>
 			<techstatus status="Active">Can Do Wophe</techstatus>
+			<culture>
+				<culturename>Greek</culturename>
+			</culture>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">110040</effect>
@@ -28640,6 +28662,9 @@
 			<typecount unit="Armory" count="1.00" state="noneState aliveState " operator="gte"></typecount>
 			<specificage>Classical Age</specificage>
 			<techstatus status="Active">Can Do Untunktahe</techstatus>
+			<culture>
+				<culturename>Greek</culturename>
+			</culture>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">110044</effect>
@@ -28683,6 +28708,9 @@
 			<typecount unit="Market" count="1.00" state="noneState aliveState " operator="gte"></typecount>
 			<specificage>Heroic Age</specificage>
 			<techstatus status="Active">Can Do Hihan-Kaga</techstatus>
+			<culture>
+				<culturename>Greek</culturename>
+			</culture>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">110048</effect>
@@ -28722,6 +28750,9 @@
 			<typecount unit="Market" count="1.00" state="noneState aliveState " operator="gte"></typecount>
 			<specificage>Heroic Age</specificage>
 			<techstatus status="Active">Can Do Wakinyan</techstatus>
+			<culture>
+				<culturename>Greek</culturename>
+			</culture>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">110052</effect>
@@ -28761,6 +28792,9 @@
 			<typecount unit="Market" count="1.00" state="noneState aliveState " operator="gte"></typecount>
 			<specificage>Heroic Age</specificage>
 			<techstatus status="Active">Can Do Unk</techstatus>
+			<culture>
+				<culturename>Greek</culturename>
+			</culture>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">110056</effect>
@@ -32248,6 +32282,11 @@
 					<offset x="-20.00" y="0.00" z="28.00"></offset>
 				</pattern>
 			</effect>
+			<effect type="CreateUnit" unit="Roman Eagle" delay="30000.00" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-20.00" y="0.00" z="28.00"></offset>
+				</pattern>
+			</effect>
 
 
 
@@ -32396,11 +32435,6 @@
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Temple Neptune</target>
 			</effect>
-			<effect type="CreateUnit" unit="Military Engineer" generator="SettlementsThatTrainVillagers">
-				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="2.00" minradius="0.00">
-					<offset x="-7.00" y="0.00" z="-3.00"></offset>
-				</pattern>
-			</effect>
 		</effects>
 		<exclude>Age 2 Apollo</exclude>
 		<exclude>Age 2 Diana</exclude>
@@ -32482,11 +32516,6 @@
 				<target type="ProtoUnit">Temple Minerva</target>
 			</effect>
 
-			<effect type="CreateUnit" unit="Military Engineer" generator="SettlementsThatTrainVillagers">
-				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="2.00" minradius="0.00">
-					<offset x="-7.00" y="0.00" z="-3.00"></offset>
-				</pattern>
-			</effect>
 		</effects>
 		<exclude>Age 2 Neptune</exclude>
 		<exclude>Age 2 Diana</exclude>
@@ -32567,11 +32596,6 @@
 				<target type="ProtoUnit">Temple Minerva</target>
 			</effect>
 			
-			<effect type="CreateUnit" unit="Military Engineer" generator="SettlementsThatTrainVillagers">
-				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="2.00" minradius="0.00">
-					<offset x="-7.00" y="0.00" z="-3.00"></offset>
-				</pattern>
-			</effect>
 		</effects>
 		<exclude>Age 2 Apollo</exclude>
 		<exclude>Age 2 Neptune</exclude>
@@ -32648,11 +32672,6 @@
 				<target type="ProtoUnit">Temple Minerva</target>
 			</effect>
 
-			<effect type="CreateUnit" unit="Military Engineer" generator="SettlementsThatTrainVillagers">
-				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="2.00" minradius="0.00">
-					<offset x="-7.00" y="0.00" z="-3.00"></offset>
-				</pattern>
-			</effect>
 
 		</effects>
 		<exclude>Age 3 Vulcan</exclude>
@@ -32730,11 +32749,6 @@
 				<target type="ProtoUnit">Temple Minerva</target>
 			</effect>
 			
-			<effect type="CreateUnit" unit="Military Engineer" generator="SettlementsThatTrainVillagers">
-				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="2.00" minradius="0.00">
-					<offset x="-7.00" y="0.00" z="-3.00"></offset>
-				</pattern>
-			</effect>
 
 		</effects>
 		<exclude>Age 3 Venus</exclude>
@@ -32809,11 +32823,6 @@
 				<target type="ProtoUnit">Temple Mercury</target>
 			</effect>
 
-			<effect type="CreateUnit" unit="Military Engineer" generator="SettlementsThatTrainVillagers">
-				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="2.00" minradius="0.00">
-					<offset x="-7.00" y="0.00" z="-3.00"></offset>
-				</pattern>
-			</effect>
 
 		</effects>
 		<exclude>Age 3 Vulcan</exclude>
@@ -32867,11 +32876,6 @@
 				<target type="ProtoUnit">Temple Minerva</target>
 			</effect>
 
-			<effect type="CreateUnit" unit="Military Engineer" generator="SettlementsThatTrainVillagers">
-				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="2.00" minradius="0.00">
-					<offset x="-7.00" y="0.00" z="-3.00"></offset>
-				</pattern>
-			</effect>
 		</effects>
 		<exclude>Age 4 Ceres</exclude>
 		<exclude>Age 4 Mars</exclude>
@@ -32923,11 +32927,6 @@
 				<target type="ProtoUnit">Temple Minerva</target>
 			</effect>
 
-			<effect type="CreateUnit" unit="Military Engineer" generator="SettlementsThatTrainVillagers">
-				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="2.00" minradius="0.00">
-					<offset x="-7.00" y="0.00" z="-3.00"></offset>
-				</pattern>
-			</effect>
 		</effects>
 		<exclude>Age 4 Vesta</exclude>
 		<exclude>Age 4 Mars</exclude>
@@ -32976,11 +32975,6 @@
 				<target type="ProtoUnit">Temple Mars</target>
 			</effect>
 
-			<effect type="CreateUnit" unit="Military Engineer" generator="SettlementsThatTrainVillagers">
-				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="2.00" minradius="0.00">
-					<offset x="-7.00" y="0.00" z="-3.00"></offset>
-				</pattern>
-			</effect>
 		</effects>
 		<exclude>Age 4 Ceres</exclude>
 		<exclude>Age 4 Vesta</exclude>
@@ -35320,6 +35314,86 @@
 		<effects>
 		</effects>
 	</tech>
+
+	<tech name="ShadowNyx" type="Power">
+		<dbid></dbid>
+		<displaynameid>19728</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>God Power bronze icon</icon>
+		<rollovertextid>10819</rollovertextid>
+		<buttonpos row="0" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Rome Myth Classical" type="Normal">
+		<dbid></dbid>
+		<displaynameid>99040</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<flag>HideFromDetailHelp</flag>
+		<status>OBTAINABLE</status>
+		<icon>Improvement dreamland village Icon</icon>
+		<rollovertextid>99041</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Roman Civ</techstatus>
+			<typecount unit="AbstractTemple" count="2.00" state="noneState aliveState " operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Rome MU Placeholder 1" delay="5000.00" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00"  quantity="3.00" minradius="0.00">
+					<offset x="-10.00" y="0.00" z="00.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TextOutput">120342</effect>
+		</effects>
+	</tech>
+
+	<tech name="Rome Myth Heroic" type="Normal">
+		<dbid></dbid>
+		<displaynameid>99040</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<flag>HideFromDetailHelp</flag>
+		<status>OBTAINABLE</status>
+		<icon>Improvement dreamland village Icon</icon>
+		<rollovertextid>99041</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Roman Civ</techstatus>
+			<typecount unit="AbstractTemple" count="3.00" state="noneState aliveState " operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Rome MU Placeholder 2" delay="5000.00" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="3.00" minradius="0.00">
+					<offset x="-10.00" y="0.00" z="00.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TextOutput">120342</effect>
+		</effects>
+	</tech>
+
+	<tech name="Rome Myth Mythic" type="Normal">
+		<dbid></dbid>
+		<displaynameid>99040</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<flag>HideFromDetailHelp</flag>
+		<status>OBTAINABLE</status>
+		<icon>Improvement dreamland village Icon</icon>
+		<rollovertextid>99041</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Roman Civ</techstatus>
+			<typecount unit="AbstractTemple" count="4.00" state="noneState aliveState " operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Rome MU Placeholder 3" delay="5000.00" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="3.00" minradius="0.00">
+					<offset x="-10.00" y="0.00" z="00.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TextOutput">120342</effect>
+		</effects>
+	</tech>
+
 
 
 
