@@ -32296,6 +32296,14 @@
 			<effect type="Data" amount="0.0" subtype="Cost" resource="Favor" relativity="BasePercent">
 				<target type="Tech">Secrets of the Titans</target>
 			</effect>
+
+
+			<effect type="Data" amount="0.0" subtype="Cost" resource="Favor" relativity="BasePercent">
+				<target type="ProtoUnit">Wonder</target>
+			</effect>
+			<effect type="Data" amount="1.5" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">Wonder</target>
+			</effect>
 		</effects>
 	</tech>
 
@@ -33501,10 +33509,10 @@
 			<specificage>Heroic Age</specificage>
 		</prereqs>
 		<effects>
-			<effect type="Data" action="HandAttack" amount="2.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
 				<target type="ProtoUnit">Scorpio</target>
 			</effect>
-			<effect type="Data" action="HandAttack" amount="3.00" subtype="DamageBonus" unittype="FlyingUnit" relativity="Absolute">
+			<effect type="Data" action="RangedAttack" amount="3.00" subtype="DamageBonus" unittype="FlyingUnit" relativity="Absolute">
 				<target type="ProtoUnit">Scorpio</target>
 			</effect>
 		</effects>
