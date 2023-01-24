@@ -46,6 +46,9 @@
 			<effect type="Data" amount="0.3" action="repair" subtype="workrate" unittype="Abstractwall" relativity="basepercent">
 				<target type="ProtoUnit">Hero</target>
 			</effect>
+			<effect type="Data" amount="2.50" subtype="TrainPoints" relativity="BasePercent">
+				<target type="ProtoUnit">Helepolis</target>
+			</effect>
 		</effects>
 	</tech>
 	<tech name="Age 2" type="Normal">
@@ -4527,6 +4530,11 @@
 			</effect>
 			<effect type="Data" action="ChargedRangedAttack" amount="1.20" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
 				<target type="ProtoUnit">AutoupgradedUnit</target>
+			</effect>
+			
+			
+			<effect type="Data" amount="0.4" subtype="TrainPoints" relativity="BasePercent">
+				<target type="ProtoUnit">Helepolis</target>
 			</effect>
 		</effects>
 	</tech>
@@ -33289,6 +33297,9 @@
 			<effect type="Data" action="HandAttack" amount="4.0" subtype="Damage" damagetype="Hack" relativity="BasePercent">
 				<target type="ProtoUnit">Military Engineer</target>
 			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.50" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">HumanSoldier</target>
+			</effect>
 			<effect type="Data" action="ChargedRangedAttack" amount="1.50" subtype="Damage" damagetype="Hack" relativity="BasePercent">
 				<target type="ProtoUnit">HumanSoldier</target>
 			</effect>
@@ -35402,7 +35413,179 @@
 		</effects>
 	</tech>
 
+	<tech name="Demeter Triggered" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120347</displaynameid>
+		<researchpoints>0.0001</researchpoints>
+		<status>AVAILABLE</status>
+		<rollovertextid>120348</rollovertextid>
+		<delay>0.0100</delay>
+		<prereqs>
+			<civilization>
+				<civname>Zeus</civname>
+			</civilization>
+		</prereqs>
+		<icon>God Power Bolt icon</icon>
+		<effects>
+			<effect type="TextOutput">120349</effect>
+			<effect all="true" type="TextOutput">120350</effect>
+			<effect type="TechStatus" status="Active">Normal Greek Gods</effect>
 
+			<effect type="TechStatus" status="unobtainable">Zeus Real</effect>
+			<effect type="TechStatus" status="unobtainable">Hades Real</effect>
+			<effect type="TechStatus" status="unobtainable">Poseidon Real</effect>
+			<effect mute="true" type="CreateUnit" unit="Villager Greek" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-3.00" y="0.00" z="-4.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Villager Greek" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="8.00">
+					<offset x="1.00" y="0.00" z="-4.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Villager Greek" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-1.00" y="0.00" z="-4.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Scout" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-12.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Pegasus</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Granary</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Storehouse</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Villager Greek</target>
+			</effect>
+			<effect tech="Blight" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Fishing Ship Greek</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">House</target>
+			</effect>
+
+
+
+
+			<effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="BasePercent">
+				<target type="Tech">Plow</target>
+			</effect>
+			<effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="Tech">Plow</target>
+			</effect>
+			<effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="BasePercent">
+				<target type="Tech">Irrigation</target>
+			</effect>
+			<effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="Tech">Irrigation</target>
+			</effect>
+			<effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="BasePercent">
+				<target type="Tech">Flood Control</target>
+			</effect>
+			<effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="Tech">Flood Control</target>
+			</effect>
+
+
+			<effect type="Data" amount="-0.95" subtype="ArmorVulnerability" damagetype="Hack" relativity="Percent">
+				<target type="ProtoUnit">Farm</target>
+			</effect>
+			<effect type="Data" amount="-0.95" subtype="ArmorVulnerability" damagetype="Pierce" relativity="Percent">
+				<target type="ProtoUnit">Farm</target>
+			</effect>
+			<effect type="Data" amount="-0.95" subtype="ArmorVulnerability" damagetype="Crush" relativity="Percent">
+				<target type="ProtoUnit">Farm</target>
+			</effect>
+
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Helepolis</target>
+			</effect>
+
+			
+
+			<Effect type="Sound">GreekThemeMusic</Effect>
+		</effects>
+	</tech>
+
+
+	<tech name="FarmGP" type="Power">
+		<dbid></dbid>
+		<displaynameid></displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>God Power Bolt icon</icon>
+		<rollovertextid></rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Demeter Triggered</techstatus>
+		</prereqs>
+	</tech>
+
+
+
+	<tech name="Gaia Farm Instant" type="Normal">
+		<dbid></dbid>
+		<displaynameid></displaynameid>
+		<cost resourcetype="Gold">300.0000</cost>
+		<cost resourcetype="Favor">15.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement basalt construction icon</icon>
+		<rollovertextid></rollovertextid>
+		<prereqs>
+			
+		</prereqs>
+		<effects>
+
+
+			<effect type="Data" amount="0.00" subtype="BuildPoints" relativity="Percent">
+				<target type="ProtoUnit">Farm</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Blight" type="Power">
+		<dbid></dbid>
+		<displaynameid>120351</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>God Power Bolt icon</icon>
+		<rollovertextid>120352</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Demeter Triggered</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Blight Active" type="Normal">
+		<dbid>x</dbid>
+		<displaynameid>120351</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<delay>2.0000</delay>
+		<flag>Volatile</flag>
+		<icon>God Power Bolt icon</icon>
+		<rollovertextid>120352</rollovertextid>
+		<buttonpos row="0" column="1"></buttonpos>
+		<prereqs>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="Gather" amount="0.50" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+		</effects>
+	</tech>
 
 
 

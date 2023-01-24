@@ -348,8 +348,7 @@ define Statue
 		{
 			version
 			{
-				Visual World G Statue Zeus
-				connect hotspot ZeusStand hotspot
+				Visual World Beta G Statue Misenus
 			}
 		}
 	}

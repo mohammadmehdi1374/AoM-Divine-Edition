@@ -30,9 +30,12 @@ active
 	//trchatsend(0, kbGetTechName(1033)  ); // Fushimi Pilgrimage
 	//trchatsend(0, kbGetTechName(1096)  ); // God Picked
 	//trchatsend(0, kbGetTechName(1145)  ); // Age 2 Apollo
+	trChatSend(0, kbGetTechName(1236)  ); // Demeter Triggered
+	trChatSend(0, kbGetTechName(304)  ); // Omniscience
 
 
-
+	trTechSetStatus(0, 304, cTechStatusActive);
+	trTechSetStatus(0, 1238, cTechStatusActive);
 
 		
     xsDisableSelf();
@@ -519,6 +522,9 @@ active
 			trPlayerKillAllGodPowers(i);
 		} else if(kbGetTechStatus(1107) == cTechStatusActive) {
 			trChatSend(i, "I picked khaos!");
+			trChatSend(i, "lol jk it's demeter!");
+			trPlayerKillAllGodPowers(i);
+			trTechSetStatus(i, 1236, cTechStatusActive);
 		} else if(kbGetTechStatus(1108) == cTechStatusActive) {
 			trChatSend(i, "I picked chronos!");
 		} else if(kbGetTechStatus(1109) == cTechStatusActive) {
@@ -783,6 +789,10 @@ priority 100
 				trPlayerKillAllGodPowers(i);
 				trTechSetStatus(i, 1133, cTechStatusActive);
 				trSetCivilizationNameOverride(i, "Minerva");
+			} else if (kbGetTechStatus(1236) == cTechStatusActive) { // Demeter
+				//trPlayerKillAllGodPowers(i);
+				//trTechSetStatus(i, 1133, cTechStatusActive);
+				trSetCivilizationNameOverride(i, "Demeter");
 			}   else {													// Nothing selected
 				trChatSend(i, "This god was unimplemented -- I am playing as Zeus.");
 				//trSetCivAndCulture(i, 0, 0);
@@ -1509,6 +1519,41 @@ active
 	}
 
 
+}
+
+
+
+
+// REPLACE THIS WITH PURE TECHTREE 
+rule BlightEffect
+minInterval 1
+maxInterval 1
+active
+{
+
+    //Iterate over the players, we start at 1 as gaia should
+    // not be checked
+    for (i=1; < cNumberPlayers)
+    {
+        
+		xsSetContextPlayer(i);
+		int q_id = kbUnitQueryCreate("Blight Debuff");
+		kbUnitQuerySetPlayerID(q_id, i);
+		kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Blight Debuff"));
+		kbUnitQuerySetState(q_id,2);
+		int q_len = kbUnitQueryExecute(q_id);
+		if (q_len > 0) {
+			if (trTechStatusActive(i, 1240)) {
+			} else {
+				trTechSetStatus(i, 1240, cTechStatusActive);
+			}
+
+		} else {
+			trTechSetStatus(i, 1240, cTechStatusUnobtainable);
+		}
+
+
+    }
 }
 
 
@@ -2377,6 +2422,44 @@ active
     }
 }
 
+rule DemeterFarms
+minInterval 1
+maxInterval 1
+active
+{
+
+    for (i=1; < cNumberPlayers)
+    {
+        
+        xsSetContextPlayer(i);
+
+
+	if(kbGetTechStatus(1236) == cTechStatusActive)
+	{
+		
+		int q_id = kbUnitQueryCreate("Settlement Level 1");
+		kbUnitQuerySetPlayerID(q_id, i);
+		kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Settlement Level 1"));
+		kbUnitQuerySetState(q_id,2);
+		int q_len = kbUnitQueryExecute(q_id);
+		for(j=0;<q_len)
+		{
+			trUnitSelectClear();
+			trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
+
+			vector center = kbUnitGetPosition(kbUnitQueryGetResult(q_id,j));
+
+
+			trUnitChangeInArea(0, i, "Farm", "Farm", 17.5);
+			trTechInvokeGodPower(0, "FarmGP", center, center);
+
+		}
+	}
+
+	}
+
+}
+
 
 
 rule ConvertSouls
@@ -2396,6 +2479,14 @@ active
 		if(trPlayerResourceCount(i, "Favor")>100) {
 			trPlayerGrantResources(i, "Favor", 100-trPlayerResourceCount(i, "Favor"));
 		}
+	}
+
+	if(kbGetTechStatus(1236) == cTechStatusActive)
+	{
+		if(trPlayerResourceCount(i, "Favor")>100) {
+			trPlayerGrantResources(i, "Favor", 100-trPlayerResourceCount(i, "Favor"));
+		}
+		
 	}
 
 

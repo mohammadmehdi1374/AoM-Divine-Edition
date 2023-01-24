@@ -710,9 +710,8 @@ anim Death
 			{
 				version
 				{
-					Visual World G Statue Zeus_Death
 					connect hotspot Dust Hotspot
-					connect neck zeusstand hotspot
+					Visual World Beta G Statue Misenus
 				}
 			}
 		}

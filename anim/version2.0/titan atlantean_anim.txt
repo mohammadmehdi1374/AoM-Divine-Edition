@@ -136,6 +136,18 @@ define AttackDustCloudRight
 }
 
 //==============================================================================
+define House
+{
+	set hotspot
+	{
+		version
+		{
+			Visual Building E HouseA Age1
+		}
+	}  
+}
+
+//==============================================================================
 anim Idle
 {
 	SetSelector
@@ -148,6 +160,8 @@ anim Idle
 				version
 				{
 					VisualGranny TitanEBird_idleA
+					//Visual skeleton_test
+					//connect topofhead house hotspot
 				}
 			}
 		}

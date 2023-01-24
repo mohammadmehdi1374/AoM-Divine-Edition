@@ -44,7 +44,7 @@ As the mod is very large, hosting it on Steam Workshop is not practical. As such
 - The major god summary pages are incomplete for the Aztecs and Eldritch, and there are issues with the rollover text. We are still trying to find an elegant solution for this.
 - The fake techtrees visible in the in-game techtree viewer are unfinished for the Eldritch and Roman gods. This is because making fake techtrees is agonizing and nobody has wanted to do it yet. 
 - Many icons, particularly the Aztec icons, are placeholders and are not owned by the Divine Edition modding team.
-- Many histories, particualrly the Roman histories, are not yet written.
+- Many histories are not yet written.
 - The culture-specific music that plays at the start of matches is considered a sound and so is unaffected by adjusting the music volume.
 - The UI is almost completely untouched.
 - The Roman titan is the Greek titan.
@@ -68,7 +68,7 @@ As the mod is very large, hosting it on Steam Workshop is not practical. As such
 - Overall jank that you will almost certainly experience.
 - You will have to run the injector each and every time you want to play the mod. 
 
-IF YOU EXPERIENCE ANY DESYNCS IN ONLINE PLAY, PLEASE RECORD THE EXACT SCENARIO AND INFORM THE DEVELOPMENT TEAM AT ONCE
+IF YOU EXPERIENCE ANY DESYNCS IN ONLINE PLAY NOT INVOLVING AI, PLEASE RECORD THE EXACT SCENARIO AND INFORM THE DEVELOPMENT TEAM AT ONCE
 
 ### Contributors
 ABI3 
