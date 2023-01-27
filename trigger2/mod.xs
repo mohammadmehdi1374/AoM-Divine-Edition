@@ -2191,10 +2191,18 @@ if (0 == 1) {
 
 		//rmAddPlayerResource(i, "Gold", 10000);
 		
-		int resources = trPlayerResourceCount(i, "Food")+trPlayerResourceCount(i, "Wood")+trPlayerResourceCount(i, "Gold");
-		trPlayerGrantResources(i, "Food", (resources / 3)-trPlayerResourceCount(i, "Food"));
-		trPlayerGrantResources(i, "Wood", (resources / 3)-trPlayerResourceCount(i, "Wood"));
-		trPlayerGrantResources(i, "Gold", (resources / 3)-trPlayerResourceCount(i, "Gold"));
+		//int resources = trPlayerResourceCount(i, "Food")+trPlayerResourceCount(i, "Wood")+trPlayerResourceCount(i, "Gold");
+		//trPlayerGrantResources(i, "Food", (resources / 3)-trPlayerResourceCount(i, "Food"));
+		//trPlayerGrantResources(i, "Wood", (resources / 3)-trPlayerResourceCount(i, "Wood"));
+		//trPlayerGrantResources(i, "Gold", (resources / 3)-trPlayerResourceCount(i, "Gold"));
+
+		
+		int favor = trPlayerResourceCount(i, "Favor");
+		trPlayerGrantResources(i, "Food", favor * 10);
+		trPlayerGrantResources(i, "Wood", favor * 10);
+		trPlayerGrantResources(i, "Gold", favor * 10);
+		trPlayerGrantResources(i, "Favor", 0 - favor);
+
 		trUnitDelete(false);
 	}
 
@@ -2308,31 +2316,32 @@ minInterval 1
 maxInterval 1
 active
 {
-    tempModIndex = tempModIndex + 1;
-    tempModIndex = tempModIndex % plagueMod ;
+    //tempModIndex = tempModIndex + 1;
+    //tempModIndex = tempModIndex % plagueMod ;
 
     for (i=0; < 1)
     {
         
         xsSetContextPlayer(i);
 
-	int q_id = kbUnitQueryCreate("Plague Mushroom");
-	kbUnitQuerySetPlayerID(q_id, i);
-	kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Plague Mushroom"));
-	kbUnitQuerySetState(q_id,2);
-	int q_len = kbUnitQueryExecute(q_id);
-        for(j=0;<q_len)
-	{
-		if (j % plagueMod == tempModIndex) {
-			trUnitSelectClear();
-			trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
+		int q_id = kbUnitQueryCreate("Zombie Marker");
+		kbUnitQuerySetPlayerID(q_id, i);
+		kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Zombie Marker"));
+		kbUnitQuerySetState(q_id,2);
+		int q_len = kbUnitQueryExecute(q_id);
+		for(j=0;<q_len)
+		{
+			//if (j % plagueMod == tempModIndex) {
+				trUnitSelectClear();
+				trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
 
-			vector center = kbUnitGetPosition(kbUnitQueryGetResult(q_id,j));
-			trTechInvokeGodPower(0, "Infect", center, center);
+				vector center = kbUnitGetPosition(kbUnitQueryGetResult(q_id,j));
+				trTechInvokeGodPower(0, "Infect", center, center);
+
+
+			//}
 
 		}
-
-	}
 
     }
 
@@ -2403,22 +2412,27 @@ active
     {
         
         xsSetContextPlayer(i);
-	int q_id = kbUnitQueryCreate("Town Hall Ready");
-	kbUnitQuerySetPlayerID(q_id, i);
-	kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Town Hall Ready"));
-	kbUnitQuerySetState(q_id,2);
-	int q_len = kbUnitQueryExecute(q_id);
-        for(j=0;<q_len)
-	{
-		trUnitSelectClear();
-		trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
-		if (trUnitGetContained() > 0) {
-			trPlayerGrantResources(i, "Favor", (trUnitGetContained() * 7.5));
-			trUnitDelete(false);
+		int q_id = kbUnitQueryCreate("Town Hall Readylkjlkjlk");
+		kbUnitQuerySetPlayerID(q_id, i);
+		kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Town Hall Readylkjlkjlkjl"));
+		kbUnitQuerySetState(q_id,2);
+		int q_len = kbUnitQueryExecute(q_id);
+		for(j=0;<q_len)
+		{
+			trUnitSelectClear();
+			trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
+			//if (trUnitGetContained() > 0) {
+			//	trPlayerGrantResources(i, "Favor", (trUnitGetContained() * 7.5));
+			//	trUnitDelete(false);
+			//}
+
+
+			if (trUnitGetIsContained("Town Hall")) {
+				trUnitChangeProtoUnit("Heavenlight");
+				trPlayerGrantResources(i, "Favor", 7.5);
+			}
+
 		}
-	}
-
-
     }
 }
 
@@ -3088,9 +3102,9 @@ active
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Arrow", 0.01);
 				} }
 				case 4: { if (j2 < 2) {													// Ra
-					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Wadget", 0.01);
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Wadjet", 0.01);
 				} else {
-					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Wadget", 0.01);
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Wadjet", 0.01);
 				} }
 				case 5: { if (j2 < 2) {													// Isis
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Sphinx", 0.01);

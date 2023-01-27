@@ -91,6 +91,10 @@
 	<god dbid="77" nameid="120054" techname="Age 4 Vesta" portrait="portrait vesta" position="1" age="4"></god>
 	<god dbid="78" nameid="120055" techname="Age 4 Ceres" portrait="portrait ceres" position="2" age="4"></god>
 	<god dbid="79" nameid="120056" techname="Age 4 Mars" portrait="portrait mars" position="3" age="4"></god>
+	<god dbid="80" nameid="120393" techname="Age 2 Nike" portrait="portrait nike" position="4" age="2"></god>
+	<god dbid="81" nameid="120394" techname="Age 3 Persephone" portrait="portrait persephone" position="4" age="3"></god>
+	<god dbid="82" nameid="120395" techname="Age 4 Hestia" portrait="portrait hestia" position="4" age="4"></god>
+	
 
 
 </minorgods>

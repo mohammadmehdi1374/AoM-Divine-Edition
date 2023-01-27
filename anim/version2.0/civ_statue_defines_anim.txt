@@ -179,7 +179,7 @@ define ShennongStand
 define Statue
 {
 	
-    TechLogic none/Aztec Civ/Eldritch Civ/Roman Civ
+    TechLogic none/Aztec Civ/Eldritch Civ/Roman Civ/Demeter Triggered
 	SetSelector
     {
 		CivilizationLogic isis/ra/set/hades/poseidon/zeus/loki/odin/thor/kronos/gaia/ouranos/fuxi/nuwa/shennong
@@ -349,6 +349,16 @@ define Statue
 			version
 			{
 				Visual World Beta G Statue Misenus
+			}
+		}
+	}
+	SetSelector
+	{
+		Set Hotspot
+		{
+			version
+			{
+				Visual FountainStatue
 			}
 		}
 	}

@@ -4,7 +4,7 @@
 	<activetime>45</activetime>
 	<placement forceonmap="1">skip</placement>
 	<minimapeventtime sendalertto="ally">10.0</minimapeventtime>
-	<createunit quantity="120" minradius="0" maxradius="50" pattern="random" norotate="" delay="0.0">Ironwood</createunit>
+	<createunit quantity="300" minradius="0" maxradius="50" pattern="random" norotate="" delay="0.0">Ironwood</createunit>
 	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
 	<soundset type="StartSound" listenertype="IfOnScreenAlly">SentinelBirth</soundset>
 	<icon>god power sentinel icon</icon>

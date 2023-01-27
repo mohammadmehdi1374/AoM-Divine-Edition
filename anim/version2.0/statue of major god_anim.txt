@@ -197,7 +197,7 @@ anim Idle
 {
 	SetSelector 
 	{
-	TechLogic none/Aztec Civ/Eldritch Civ/Roman Civ
+	TechLogic none/Aztec Civ/Eldritch Civ/Roman Civ/Demeter Triggered
     SetSelector
     {
 		CivilizationLogic isis/ra/set/hades/poseidon/zeus/loki/odin/thor/Kronos/Gaia/Ouranos/Fuxi/Nuwa/Shennong
@@ -440,8 +440,20 @@ anim Idle
 			{
 				version
 				{
-					Visual World G Statue Zeus
-					connect hotspot ZeusStand hotspot
+					Visual World Beta G Statue Misenus
+				}
+			}
+		}
+	}
+	SetSelector
+	{
+		SetSelector
+		{
+			Set Hotspot
+			{
+				version
+				{
+					Visual FountainStatue
 				}
 			}
 		}
@@ -454,7 +466,7 @@ anim Death
 {
 	SetSelector 
 	{
-	TechLogic none/Aztec Civ/Eldritch Civ/Roman Civ
+	TechLogic none/Aztec Civ/Eldritch Civ/Roman Civ/Demeter Triggered
     SetSelector
     {
 		CivilizationLogic isis/ra/set/hades/poseidon/zeus/loki/odin/thor/Kronos/Gaia/Ouranos/Fuxi/Nuwa/Shennong
@@ -712,6 +724,18 @@ anim Death
 				{
 					connect hotspot Dust Hotspot
 					Visual World Beta G Statue Misenus
+				}
+			}
+		}
+	}
+	SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					connect hotspot Dust Hotspot
+					Visual FountainStatue
 				}
 			}
 		}

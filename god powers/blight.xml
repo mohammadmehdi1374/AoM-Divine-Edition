@@ -30,6 +30,6 @@
 	<smallrainspotproto>Farm</smallrainspotproto>
 	<sfx>Blight Debuff</sfx>
 	<swapenemyonly></swapenemyonly>
-	<icon>Insonia of  Endymion</icon>
-	<usedicon>Insonia of  Endymion</usedicon>
+	<icon>improvement blight icon</icon>
+	<usedicon>improvement blight used icon</usedicon>
 </power>

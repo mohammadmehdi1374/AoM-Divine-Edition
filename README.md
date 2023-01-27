@@ -22,7 +22,7 @@ As the mod is very large, hosting it on Steam Workshop is not practical. As such
 
 1. Download the mod folder (if you're not Git-savvy, click the green button that says "<> CODE" and then click on "Download ZIP") and place it in the /mods/ folder in your Age of Mythology files.
 	1. In order for multiplayer to work properly, make sure the folder is named "AoM-Divine-Edition".
-2. Subscribe to the following mods on Steam Workshop, and make sure that they are of lower priority than Divine Edition. If, when you start a game, all your units die instantly, that means Divine Edition was not top priority.
+2. Subscribe to the following mods on Steam Workshop, and make sure that they are of lower priority than Divine Edition. If, when you start a game, all your units die instantly, that means Divine Edition was not top priority. BE AWARE: Steam can and will tell you to subscribe to other mods when you subscribe to those file packs. You do not have to and probably should not. 
       1. AOM Alpha-Beta Content by AL: https://steamcommunity.com/sharedfiles/filedetails/?id=2070833856
       2. UMC Ancient Unit Pack: https://steamcommunity.com/sharedfiles/filedetails/?id=851936808
 	3. Age of Wrath - Files 1: https://steamcommunity.com/sharedfiles/filedetails/?id=2862754011
@@ -34,10 +34,13 @@ As the mod is very large, hosting it on Steam Workshop is not practical. As such
 
 ### Known Issues/Unfinished Portions/Rough Edges
 
+- Eldritch 2.0 coming soon! It won't change too much, but many things will be made far more streamlined and less needlessly complex.
 - The sudden death and nomad maps will not work seamlessly. This is due to how they are set up with the random map generation.
-- Lightning and Deathmatch modes are not currently supported. This is partially due to balance reasons, as we have not yet determined how to properly balance the Eldritch in particular. 
+- Lightning and Deathmatch modes are not currently supported. This is partially due to balance reasons, as we have not yet determined how to properly balance the Eldritch in particular. If you decide to try those modes out anyway, I recommend not having headphones on. It gets loud. 
 - Playing in online games against AI opponents may cause desyncs. This is a rare but well-documented issue and affects many mods. 
 - The AI cannot play any of the new gods and, if somehow given a new god, will default to an old one. Moreover, the AI will not react properly to many strategies, such as ignoring Eldritch rituals, not properly quarantining during the use of Plague, and massing counter-infantry against Roman legion units. 
+- The AI for Zeus is currently offended by some unknown change. As such, the game will lag significantly when an AI playing as Zeus advances to the mythic age, advances to the titan age, or researches omniscience.
+- The menu background and menu music are from Age of Wrath, and will soon be changed to Divine Edition-exclusive backgrounds and music.
 - Many assets, particularly for the Eldritch, are placeholders. As the Eldritch are visually distinct and very much playable, making their assets is considered a low-priority. 
 - Picking an unfinished god will default you to Zeus.
 - Picking a random god will pick a random god from the first thirty. As nine out of the second fifteen are unfinished, they will default to Zeus. 
@@ -58,7 +61,7 @@ As the mod is very large, hosting it on Steam Workshop is not practical. As such
 - This mod will violently conflict with almost any other mods you have active. 
 - Using the "LETS GO!  NOW!" cheat at the beginning of the game will result in overlapping music from 1-2 minutes in.
 - In multiplayer, with more than six players all playing Eldritch or Japanese, you may experience slightly more lag.
-- I have no idea how saved games will react to this mod, try at your own risk.
+- I have no idea how saved games will react to this mod, try at your own risk. 
 - To edit hotkeys for many units, you will need to enter the hotkey twice: once to make the hotkey work, once to make it display properly ingame. 
 - It is very possible that your units lost counter for the Eldritch will be insanely inaccurate. I haven't tested that fully yet.
 - Your favorite unit/favorite myth unit may be incorrect. I thought I got all of the tags correct, but it's possible I missed some.
@@ -95,6 +98,23 @@ Stu (Significant and integral contributions to the injector code and method)
 Nottud (Source code vetting and verification)
 
 The Retun of the Gods Team (The ROTG Aztecs 2nd Cosmology, Mayans, and Incas will be added to Divine Edition once they are finished)
+
+### Music Credits
+Ritual by Victor Wayne
+
+Sakuya by Sana Bibliothecam
+
+Jotunn by The Muspelheim
+
+Awakening of the Great Old Ones by Rage Sound
+
+Epic Battle Music Remix Rome Total War Soundtrack by Soundtrack Refinery
+
+Mother of Abominations by Cradle of Filth
+
+Microsoft and the original AoM and AoE soundtracks
+
+and numerous pieces by JeHathor
 
 ### Join Our Team!
 If you're a modder, especially with modeling/animation experience, we would love to have you on our team! If there's a civilization that you really want in the game, then join us and make the assets for it! That's exactly how we got the Romans, who were never originally part of the plan. 

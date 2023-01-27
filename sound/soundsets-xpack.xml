@@ -2279,10 +2279,10 @@
 	<soundset name="EinheriarHorn" volume="1.0000" maxnum="1">
 		<sound filename="EinheriarHorn.wav" volume="1.0000"></sound>
 	</soundset>
-	<soundset name="WendigoScream" volume="0.9000" maxnum="3">
+	<soundset name="WendigoScream" volume="0.7000" maxnum="3">
 		<sound filename="WendigoScream.wav" volume="1.0000"></sound>
 	</soundset>
-		<soundset name="WendigoSelect" volume="0.6000">
+		<soundset name="WendigoSelect" volume="0.4000">
 		<sound filename="Wendigo_select.wav" volume="1.0000"></sound>
 	</soundset>
 	<soundset name="WendigoAcknowledge" volume="0.5000">
@@ -2291,7 +2291,7 @@
 	<soundset name="WendigoDeath" volume="0.7000">
 		<sound filename="wendigo_death.wav" volume="1.0000"></sound>
 	</soundset>
-	<soundset name="WendigoGrunt" volume="0.5000" maxnum="1">
+	<soundset name="WendigoGrunt" volume="0.45000" maxnum="1">
 		<sound filename="wendigo_grunt.wav" volume="1.5000"></sound>
 	</soundset>
 	<soundset name="WendigoAttack" volume="0.6000">
@@ -4249,6 +4249,1035 @@
 	<soundset name="EarthDragonBirth" volume="1.0000" maxnum="1">
 		<sound filename="earthdragonbirth.wav" volume="1.0000"></sound>
 	</soundset>
+	
+	
+	  <!-- Age of Wrath -->
+
+	<soundset name="sunnydayloop" volume="1.0000">
+		<sound filename="sunnydayloop.mp3" volume="1.0000"></sound>
+	</soundset>
+	
+	<soundset name="bloodmoonloop" volume="0.8000">
+		<sound filename="bloodmoonloop.mp3" volume="0.8000"></sound>
+	</soundset>
+	
+	<soundset name="Heavenscream" volume="0.8000" maxnum="1">
+		<sound filename="Heavenscream1.mp3" volume="0.8000"></sound>
+		<sound filename="Heavenscream2.mp3" volume="0.8000"></sound>
+	</soundset>
+	
+	<soundset name="Nikegrunt" volume="0.8500" maxnum="1">
+		<sound filename="Nikegrunt1.mp3" volume="1.0000"></sound>
+		<sound filename="Nikegrunt2.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="Nikeattack" volume="1.0000">
+		<sound filename="NikeAttack1.mp3" volume="1.0000"></sound>
+		<sound filename="NikeAttack2.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="Nikedeath" volume="0.8500" maxnum="1">
+		<sound filename="NikeDeath.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="Nikemove" volume="0.8500" maxnum="1">
+		<sound filename="NikeMove1.mp3" volume="1.0000"></sound>
+		<sound filename="NikeMove3.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="Nikeselect" volume="0.8500" maxnum="1">
+		<sound filename="NikeSelect2.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="NikeBuff" volume="1.0000" maxnum="1">
+		<sound filename="NikeBuff.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="NikeJump" volume="1.0000" maxnum="1">
+		<sound filename="NikeJump.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="Niketalk" volume="1.0000" maxnum="1">
+		<sound filename="Niketalk1.mp3" volume="1.0000"></sound>
+		<sound filename="Niketalk2.mp3" volume="1.0000"></sound>
+		<sound filename="Niketalk3.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="GryphonSpecialAttack" volume="1.0000">
+		<sound filename="GryphonSpecialAttack.mp3" volume="1.0000"></sound>
+	</soundset>
+
+	<soundset name="Wyvernattack" volume="9.0000">
+		<sound filename="Wyvernattack1.mp3" volume="0.8500"></sound>
+	</soundset>
+	<soundset name="WyvernSelect" volume="0.9000">
+		<sound filename="WyvernSelect.mp3" volume="0.9000"></sound>
+	</soundset>
+	<soundset name="WyvernDeath" volume="0.9000">
+		<sound filename="WyvernDeath.mp3" volume="0.9000"></sound>
+	</soundset>
+	<soundset name="WyvernGrunt" volume="0.8000">
+		<sound filename="WyvernGrunt.mp3" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="WyvernMove" volume="0.8000">
+		<sound filename="WyvernMove.mp3" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="WyvernEat" volume="0.7500">
+		<sound filename="WyvernEat.mp3" volume="0.7500"></sound>
+	</soundset>
+	<soundset name="WyvernGrowl" volume="0.6500">
+		<sound filename="WyvernGrowl.mp3" volume="0.6500"></sound>
+	</soundset>
+	<soundset name="WyvernElec" volume="0.8500">
+		<sound filename="Wyvern_Elec.wav" volume="0.8500"></sound>
+	</soundset>
+
+	<soundset name="wingflaps" volume="0.4800" maxnum="2">
+		<sound filename="wingflaps01.wav" volume="0.4500"></sound>
+		<sound filename="wingflapb02.wav" volume="0.4500"></sound>
+	</soundset>	
+	<soundset name="BigstepsW" volume="0.2500" maxnum="2">
+		<sound filename="Bigsteps1.wav" volume="0.2000"></sound>
+		<sound filename="Bigsteps2.wav" volume="0.2000"></sound>
+	</soundset>	
+	
+	<soundset name="Fenrirattack" volume="0.9000">
+		<sound filename="Fenrirattack.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="FenrirSelect" volume="0.9000">
+		<sound filename="FenrirSelect.mp3" volume="0.9000"></sound>
+	</soundset>
+	<soundset name="FenrirDeath" volume="1.1000">
+		<sound filename="FenrirDeath.mp3" volume="0.9000"></sound>
+	</soundset>
+	<soundset name="FenrirGrunt" volume="0.8000">
+		<sound filename="Fenrirhit.mp3" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="FenrirGrowl" volume="0.9000">
+		<sound filename="Fenrirhit.mp3" volume="0.9000"></sound>
+	</soundset>
+	<soundset name="FenrirGrowl2" volume="1.1000">
+		<sound filename="Fenrirhit.mp3" volume="1.1000"></sound>
+	</soundset>
+	<soundset name="FenrirMove" volume="0.8500">
+		<sound filename="FenrirMove.mp3" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="FenrirBuff" volume="1.0000">
+		<sound filename="Fenrirroar.mp3" volume="1.0000"></sound>
+	</soundset>
+
+	<soundset name="BigstepsF" volume="0.3500" maxnum="2">
+		<sound filename="Bigsteps1.wav" volume="0.3000"></sound>
+		<sound filename="Bigsteps2.wav" volume="0.3000"></sound>
+	</soundset>	
+
+	<soundset name="Winds" volume="0.5000">
+		<sound filename="Winds.mp3" volume="0.5000"></sound>
+	</soundset>
+
+	<soundset name="duckSelect" volume="0.5000">
+		<sound filename="duckdeath1.Wav" volume="0.5000"></sound>
+	</soundset>
+	
+	<soundset name="CetusAttack" volume="0.9000">
+		<sound filename="CetusAttack.mp3" volume="0.9000"></sound>
+	</soundset>
+	<soundset name="CetusSelect" volume="0.8500" maxnum="1">
+		<sound filename="CetusSelect.mp3" volume="0.8500"></sound>
+	</soundset>
+	<soundset name="CetusDeath" volume="0.9000">
+		<sound filename="CetusDeath.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="CetusGrunt" volume="0.8000">
+		<sound filename="CetusGrunt.mp3" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="CetusMove" volume="0.8000" maxnum="1">
+		<sound filename="CetusMove.mp3" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="Cetuspit" volume="0.8000" maxnum="1">
+		<sound filename="Cetuspit.mp3" volume="0.8000"></sound>
+	</soundset>
+
+	<soundset name="WaterLoop" volume="0.8000" maxnum="1">
+		<sound filename="WaterLoop.mp3" volume="0.8000"></sound>
+	</soundset>
+
+	<soundset name="Spidersteps" volume="0.3000" maxnum="50">
+		<sound filename="SpiderStep1.mp3" volume="1.0000"></sound>
+		<sound filename="SpiderStep2.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="SpiderAttack" volume="0.8000" maxnum="1">
+		<sound filename="SpiderAttack1.mp3" volume="1.0000"></sound>
+		<sound filename="SpiderAttack2.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="SpiderGrunt" volume="0.7500" maxnum="1">
+		<sound filename="SpiderGrunt.mp3" volume="0.8500"></sound>
+	</soundset>
+	<soundset name="SpiderSelect" volume="0.8000">
+		<sound filename="SpiderSelect.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="SpiderMove" volume="0.8000">
+		<sound filename="SpiderMove.mp3" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="SpiderDeath" volume="0.8500" maxnum="1">
+		<sound filename="SpiderDeath.mp3" volume="0.8500"></sound>
+	</soundset>
+	<soundset name="SpiderBored" volume="0.8000" maxnum="1">
+		<sound filename="SpiderBored.mp3" volume="0.8000"></sound>
+	</soundset>
+	
+	<soundset name="Timelapse" volume="1.0000" maxnum="1">
+		<sound filename="Timelapse.mp3" volume="1.0000"></sound>
+	</soundset>
+
+	<soundset name="MediumFall" volume="0.5000" maxnum="3">
+		<sound filename="GenericHeavyFall1.wav" volume="1.0000"></sound>
+		<sound filename="GenericHeavyFall2.wav" volume="1.0000"></sound>
+		<sound filename="GenericHeavyFall3.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="Flip" volume="0.5500" maxnum="1">
+		<sound filename="GenericHeavyFall1.wav" volume="1.0000"></sound>
+	</soundset>		
+	<soundset name="wingflapb" volume="0.5500" maxnum="2">
+		<sound filename="wingflapb01.wav" volume="0.5000"></sound>
+		<sound filename="wingflapb02.wav" volume="0.5000"></sound>
+	</soundset>
+	<soundset name="wingflaps" volume="0.4500" maxnum="2">
+		<sound filename="wingflaps01.wav" volume="0.4000"></sound>
+		<sound filename="wingflaps02.wav" volume="0.4000"></sound>
+	</soundset>
+
+	<soundset name="Gargoyleattack" volume="0.9000">
+		<sound filename="Gargoyleattack.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="Gargoyleselect" volume="0.9000">
+		<sound filename="Gargoyleselect.mp3" volume="0.9000"></sound>
+	</soundset>
+	<soundset name="Gargoyledeath" volume="1.1000">
+		<sound filename="Gargoyledeath.mp3" volume="0.9000"></sound>
+	</soundset>
+	<soundset name="Gargoylegrunt" volume="0.8000">
+		<sound filename="Gargoylegrunt.mp3" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="Gargoylemove" volume="0.8500">
+		<sound filename="Gargoylemove.mp3" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="Gargoyleroar" volume="1.0000">
+		<sound filename="Gargoyleroar.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="Gargoylestone" volume="1.0000">
+		<sound filename="Gargoylestone.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="Gargoylebirth" volume="0.9500" maxnum="1">
+		<sound filename="Gargoylebirth.mp3" volume="0.8500"></sound>
+	</soundset>
+	<soundset name="Grotesquebored" volume="0.8500" maxnum="1">
+		<sound filename="Gargoylegrunt.mp3" volume="0.8500"></sound>
+	</soundset>
+	
+	
+	<soundset name="hestiarepair" volume="0.8000" maxnum="1">
+		<sound filename="hestiarepair.mp3" volume="0.8000"></sound>
+		<sound filename="hestiarepair2.mp3" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="Hestiapdeath" volume="0.7000" maxnum="1">
+		<sound filename="Hestiapdeath.mp3" volume="0.7000"></sound>
+	</soundset>
+	<soundset name="Hestiapgrunt" volume="0.8000" maxnum="1">
+		<sound filename="Hestiapgrunt1.mp3" volume="0.8000"></sound>
+		<sound filename="Hestiapgrunt2.mp3" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="Hestiapselect" volume="0.8000" maxnum="1">
+		<sound filename="Hestiapselect1.mp3" volume="0.8000"></sound>
+		<sound filename="Hestiapselect2.mp3" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="Hestiapmove" volume="0.8000" maxnum="1">
+		<sound filename="Hestiapmove1.mp3" volume="0.8000"></sound>
+	</soundset>
+
+	<soundset name="Grotesqueroar" volume="1.2000" maxnum="1">
+		<sound filename="Grotesqueroar.mp3" volume="1.2000"></sound>
+	</soundset>
+	<soundset name="Gargoylesattack" volume="0.6500">
+		<sound filename="Gargoyleattack.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="Gargoylesselect" volume="0.6000">
+		<sound filename="Gargoyleselect.mp3" volume="0.9000"></sound>
+	</soundset>
+	<soundset name="Gargoylesdeath" volume="0.8000">
+		<sound filename="Gargoyledeath.mp3" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="Gargoylesgrunt" volume="0.6000">
+		<sound filename="Gargoylegrunt.mp3" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="Gargoylesmove" volume="0.6000">
+		<sound filename="Gargoylemove.mp3" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="Gargoylesbirth" volume="0.7500" maxnum="1">
+		<sound filename="Gargoylebirth.mp3" volume="0.6500"></sound>
+	</soundset>
+
+	<soundset name="Skeletonattack" volume="0.9000">
+		<sound filename="Skeletonattack.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="Skeletonselect" volume="0.9000" maxnum="1">
+		<sound filename="Skeletonselect.mp3" volume="0.9000"></sound>
+		<sound filename="Skeletonselect2.mp3" volume="0.9000"></sound>
+	</soundset>
+	<soundset name="Skeletondeath" volume="1.1000">
+		<sound filename="Skeletondeath.mp3" volume="0.9000"></sound>
+	</soundset>
+	<soundset name="Skeletongrunt" volume="0.8000">
+		<sound filename="Skeletongrunt.mp3" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="Skeletonmove" volume="0.8500" maxnum="1">
+		<sound filename="Skeletonmove.mp3" volume="0.8000"></sound>
+		<sound filename="Skeletonmove2.mp3" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="Skeletonidle" volume="1.0000">
+		<sound filename="Skeletonroar.mp3" volume="1.0000"></sound>
+	</soundset>	
+	
+		<soundset name="Thanatosattack" volume="0.9000">
+		<sound filename="Thanatosattack.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="Thanatosselect" volume="0.9000">
+		<sound filename="Thanatosselect.mp3" volume="0.9000"></sound>
+	</soundset>
+	<soundset name="Thanatosdeath" volume="1.1000">
+		<sound filename="Thanatosdeath.mp3" volume="1.1000"></sound>
+	</soundset>
+	<soundset name="Thanatosborn" volume="0.8000">
+		<sound filename="Thanatosborn.mp3" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="Thanatosmove" volume="0.8500">
+		<sound filename="Thanatosmove.mp3" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="Thanatosbored" volume="1.0000">
+		<sound filename="Thanatosbored.mp3" volume="1.0000"></sound>
+		<sound filename="Thanatosbored2.mp3" volume="1.0000"></sound>
+		<sound filename="Thanatosbored3.mp3" volume="1.0000"></sound>
+	</soundset>
+
+	<soundset name="Bloodcurse" volume="1.0000" maxnum="1">
+		<sound filename="Bloodcurse.wav" volume="1.0000"></sound>
+	</soundset>
+
+	<soundset name="EBoarAttack" volume="0.9000" maxnum="2">
+		<sound filename="EBoarAttack1.mp3" volume="1.0000"></sound>
+		<sound filename="EBoarAttack2.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EBoarHit" volume="0.8500" maxnum="1">
+		<sound filename="EBoarHit.mp3" volume="0.9500"></sound>
+	</soundset>
+	<soundset name="EBoarSelect" volume="0.9000" maxnum="2">
+		<sound filename="EBoarSelect1.mp3" volume="1.0000"></sound>
+		<sound filename="EBoarSelect2.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EBoarMove" volume="0.9000" maxnum="2">
+		<sound filename="EBoarMove1.mp3" volume="0.9000"></sound>
+		<sound filename="EBoarMove2.mp3" volume="0.9000"></sound>
+	</soundset>
+	<soundset name="EBoarDeath" volume="0.9500" maxnum="1">
+		<sound filename="EBoarDeath1.mp3" volume="0.9500"></sound>
+	</soundset>
+	<soundset name="EBoarGore" volume="0.9500" maxnum="1">
+		<sound filename="EBoarGore1.mp3" volume="0.9500"></sound>
+	</soundset>	
+	<soundset name="EBoarRoar" volume="0.9000" maxnum="1">
+		<sound filename="EBoarRoar.mp3" volume="0.9000"></sound>
+	</soundset>	
+	
+	<soundset name="BigstepsEB" volume="0.1800" maxnum="2">
+		<sound filename="Bigsteps1.wav" volume="0.1600"></sound>
+		<sound filename="Bigsteps2.wav" volume="0.1600"></sound>
+	</soundset>		
+
+	<soundset name="GroundSmash" volume="0.7500" maxnum="10">
+		<sound filename="GroundSmash.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="GroundPlates" volume="0.5500" maxnum="10">
+		<sound filename="GroundPlates.wav" volume="1.0000"></sound>
+	</soundset>	
+	
+	<soundset name="HardSwing" volume="0.5500" maxnum="2">
+		<sound filename="HardSwing.wav" volume="1.0000"></sound>
+	</soundset>	
+	<soundset name="HardFall" volume="0.6000" maxnum="2">
+		<sound filename="HardFall.wav" volume="1.0000"></sound>
+	</soundset>	
+
+	<soundset name="PoisonSpit" volume="1.000" maxnum="6">
+		<sound filename="PoisonSpit1.mp3" volume="1.000"></sound>
+		<sound filename="PoisonSpit3.mp3" volume="1.000"></sound>
+	</soundset>	
+
+	<soundset name="GroundSlam" volume="1.000" maxnum="6">
+		<sound filename="GroundSlam1.mp3" volume="1.000"></sound>
+		<sound filename="GroundSlam2.mp3" volume="1.000"></sound>
+	</soundset>			
+	
+	<soundset name="ScavengerRocattack" volume="0.9000" maxnum="2">
+		<sound filename="ScavengerRocattack1.wav" volume="0.9000"></sound>
+		<sound filename="ScavengerRocattack1.wav" volume="0.9000"></sound>
+	</soundset>
+	<soundset name="ScavengerRochit" volume="0.8500" maxnum="1">
+		<sound filename="ScavengerRochit.wav" volume="0.8500"></sound>
+	</soundset>
+	<soundset name="ScavengerRocselect" volume="0.8500" maxnum="2">
+		<sound filename="ScavengerRocselect1.wav" volume="0.9000"></sound>
+		<sound filename="ScavengerRocselect2.wav" volume="0.9000"></sound>
+	</soundset>
+	<soundset name="ScavengerRocmove" volume="0.7500" maxnum="2">
+		<sound filename="ScavengerRocmove1.wav" volume="0.7500"></sound>
+		<sound filename="ScavengerRocmove2.wav" volume="0.7500"></sound>
+	</soundset>
+	<soundset name="ScavengerRocdeath" volume="0.9000" maxnum="1">
+		<sound filename="ScavengerRocdeath1.wav" volume="0.9000"></sound>
+	</soundset>
+	<soundset name="ScavengerRoccry" volume="0.9000" maxnum="1">
+		<sound filename="ScavengerRoccry.wav" volume="0.9000"></sound>
+	</soundset>	
+	<soundset name="ScavengerRocwingflaps" volume="0.4500" maxnum="2">
+		<sound filename="wingflaps01.wav" volume="0.4000"></sound>
+		<sound filename="wingflaps02.wav" volume="0.4000"></sound>
+	</soundset>	
+	<soundset name="ImpactHit" volume="0.5500" maxnum="1">
+		<sound filename="ImpactHit2.wav" volume="0.5000"></sound>
+		<sound filename="ImpactHit1.wav" volume="0.5000"></sound>
+	</soundset>
+	<soundset name="Windhit" volume="0.8500" maxnum="1">
+		<sound filename="Windhit.mp3" volume="0.8500"></sound>
+	</soundset>
+	
+	<soundset name="sobekattack" volume="0.9000" maxnum="2">
+		<sound filename="sobekattack.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="sobekgrunt" volume="0.8500" maxnum="1">
+		<sound filename="sobekgrunt1.mp3" volume="0.9500"></sound>
+		<sound filename="sobekgrunt2.mp3" volume="0.9500"></sound>
+	</soundset>
+	<soundset name="sobekselect" volume="0.9000" maxnum="2">
+		<sound filename="sobekselect1.mp3" volume="1.0000"></sound>
+		<sound filename="sobekselect2.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="sobekmove" volume="0.9000" maxnum="2">
+		<sound filename="sobekmove1.mp3" volume="0.9000"></sound>
+		<sound filename="sobekmove1.mp3" volume="0.9000"></sound>
+	</soundset>
+	<soundset name="sobekdeath" volume="0.9000" maxnum="1">
+		<sound filename="sobekdeath.mp3" volume="0.9000"></sound>
+	</soundset>
+	<soundset name="sobekbirth" volume="0.9000" maxnum="1">
+		<sound filename="sobekbirth.wav" volume="0.9000"></sound>
+	</soundset>
+	
+	<soundset name="BlazeTempestLoop" volume="0.8500" maxnum="1">
+		<sound filename="BlazeTempestLoop.wav" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="BlazeTempestStart" volume="0.9500" maxnum="1">
+		<sound filename="BlazeTempestStart.wav" volume="0.8500"></sound>
+	</soundset>	
+
+	<soundset name="BigSwing" volume="0.7000" maxnum="2">
+		<sound filename="BigSwing01.wav" volume="0.7000"></sound>
+		<sound filename="BigSwing02.wav" volume="0.7000"></sound>
+		<sound filename="BigSwing03.wav" volume="0.7000"></sound>
+	</soundset>	
+	
+	<soundset name="HeavySwing" volume="0.7500" maxnum="1">
+		<sound filename="HeavySwing.wav" volume="0.7500"></sound>
+	</soundset>		
+
+	<soundset name="euderuswingflaps" volume="0.3500" maxnum="3">
+		<sound filename="wingflaps01.wav" volume="0.3000"></sound>
+		<sound filename="wingflaps02.wav" volume="0.3000"></sound>
+	</soundset>
+	
+	<soundset name="HadesScoutMove" volume="0.8500" maxnum="3">
+		<sound filename="HadesScoutMove.wav" volume="0.8000"></sound>
+		<sound filename="HadesScoutSelect.wav" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="HadesScoutSelect" volume="0.8500" maxnum="3">
+		<sound filename="HadesScoutSelect.wav" volume="0.8000"></sound>
+		<sound filename="HadesScoutMove.wav" volume="0.8000"></sound>
+	</soundset>
+	<soundset name="HadesScoutGrunt" volume="0.5500" maxnum="3">
+		<sound filename="HadesScoutSelect.wav" volume="0.5000"></sound>
+	</soundset>
+	<soundset name="HadesScoutAttack" volume="0.7500" maxnum="3">
+		<sound filename="HadesScoutAttack.wav" volume="0.7000"></sound>
+	</soundset>
+	<soundset name="HadesScoutDeath" volume="0.8500" maxnum="3">
+		<sound filename="HadesScoutDeath.wav" volume="0.8000"></sound>
+	</soundset>	
+	<soundset name="Bonesteps" volume="0.3250" maxnum="3">
+		<sound filename="SpiderStep1.mp3" volume="1.0000"></sound>
+		<sound filename="SpiderStep2.mp3" volume="1.0000"></sound>
+	</soundset>	
+	
+	<soundset name="HeidrunAttack" volume="1.0000" maxnum="2">
+		<sound filename="HeidrunAttack1.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="HeidrunHit" volume="0.8500" maxnum="1">
+		<sound filename="HeidrunGrunt1.mp3" volume="0.9500"></sound>
+	</soundset>
+	<soundset name="HeidrunSelect" volume="0.7000" maxnum="2">
+		<sound filename="HeidrunSelect1.mp3" volume="0.7000"></sound>
+	</soundset>
+	<soundset name="HeidrunMove" volume="0.9500" maxnum="2">
+		<sound filename="HeidrunMove1.mp3" volume="0.9500"></sound>
+		<sound filename="HeidrunMove2.mp3" volume="0.9500"></sound>
+	</soundset>
+	<soundset name="HeidrunDeath" volume="0.9500" maxnum="1">
+		<sound filename="HeidrunDeath2.mp3" volume="0.9500"></sound>
+	</soundset>
+	<soundset name="HeidrunGore" volume="0.9500" maxnum="1">
+		<sound filename="HeidrunGore1.mp3" volume="0.9500"></sound>
+	</soundset>	
+
+	<soundset name="AvalancheExist" volume="1.0000" maxnum="1">
+		<sound filename="AvalancheExist.mp3" volume="1.0000"></sound>
+	</soundset>	
+	
+	<soundset name="AncientDryadSelect" volume="0.8500" maxnum="2">
+		<sound filename="AncientDryadSelect01.wav" volume="0.8500"></sound>
+		<sound filename="AncientDryadSelect02.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="AncientDryadAcknowledge" volume="1.0000" maxnum="2">
+		<sound filename="AncientDryadAcknowledge01.wav" volume="0.8500"></sound>
+		<sound filename="AncientDryadAcknowledge02.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="AncientDryadHit" volume="0.8500" maxnum="1">
+		<sound filename="AncientDryadHit01.wav" volume="1.0000"></sound>
+		<sound filename="AncientDryadHit02.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="AncientDryadAttack" volume="1.0000" maxnum="2">
+		<sound filename="AncientDryadAttack01.wav" volume="1.0000"></sound>
+		<sound filename="AncientDryadAttack02.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="AncientDryadDeath" volume="1.0000" maxnum="1">
+		<sound filename="AncientDryadDeath01.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="AncientDryadBirth" volume="1.0000">
+		<sound filename="AncientDryadBirth01.wav" volume="1.0000"></sound>
+	</soundset>	
+	<soundset name="AncientDryadSkill" volume="1.0000">
+		<sound filename="AncientDryadSkill01.wav" volume="1.0000"></sound>
+	</soundset>	
+	<soundset name="AncientDryadSteps" volume="0.7000" maxnum="2">
+		<sound filename="AncientDryadMove01.wav" volume="0.7000"></sound>
+		<sound filename="AncientDryadMove02.wav" volume="0.7000"></sound>
+		<sound filename="AncientDryadMove03.wav" volume="0.7000"></sound>
+	</soundset>
+	
+	<soundset name="sworddrop" volume="1.0000">
+		<sound filename="sworddrop.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="Swordswipe" volume="0.7000" maxnum="3">
+		<sound filename="swordswipe01.wav" volume="1.0000"></sound>
+		<sound filename="swordswipe02.wav" volume="1.0000"></sound>
+		<sound filename="swordswipe03.wav" volume="1.0000"></sound>
+	</soundset>
+	
+	<soundset name="OrthusAttack" volume="1.0000" maxnum="2">
+		<sound filename="OrthusAttack1.wav" volume="1.0000"></sound>
+		<sound filename="OrthusAttack2.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="OrthusGrunt" volume="0.8500" maxnum="1">
+		<sound filename="OrthusGrunt.wav" volume="0.9500"></sound>
+	</soundset>
+	<soundset name="OrthusSelect" volume="0.7000" maxnum="2">
+		<sound filename="OrthusSelect1.wav" volume="0.7000"></sound>
+		<sound filename="OrthusSelect2.wav" volume="0.7000"></sound>
+	</soundset>
+	<soundset name="OrthusMove" volume="0.9500" maxnum="2">
+		<sound filename="OrthusMove1.wav" volume="0.9500"></sound>
+		<sound filename="OrthusMove2.wav" volume="0.9500"></sound>
+	</soundset>
+	<soundset name="OrthusDeath" volume="0.9500" maxnum="1">
+		<sound filename="OrthusDeath.wav" volume="0.9500"></sound>
+	</soundset>	
+	
+	<soundset name="Bite" volume="0.7000" maxnum="2">
+		<sound filename="Bite1.wav" volume="1.0000"></sound>
+		<sound filename="Bite2.wav" volume="1.0000"></sound>
+	</soundset>	
+
+	
+	<soundset name="HarpyAttack" volume="1.0000" maxnum="2">
+		<sound filename="HarpyAttack01.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="HarpyGrunt" volume="0.8500" maxnum="1">
+		<sound filename="HarpyHurt01.wav" volume="0.9500"></sound>
+	</soundset>
+	<soundset name="HarpySelect" volume="0.7000" maxnum="2">
+		<sound filename="HarpySelect01.wav" volume="0.7000"></sound>
+	</soundset>
+	<soundset name="HarpyMove" volume="0.9500" maxnum="2">
+		<sound filename="HarpyMove01.wav" volume="0.9500"></sound>
+		<sound filename="HarpyMove02.wav" volume="0.9500"></sound>
+	</soundset>
+	<soundset name="HarpySpecial" volume="0.9500" maxnum="1">
+		<sound filename="HarpySpecial01.wav" volume="0.9500"></sound>
+	</soundset>	
+	<soundset name="HarpyDeath" volume="0.9500" maxnum="1">
+		<sound filename="HarpyDeath01.wav" volume="0.9500"></sound>
+	</soundset>		
+
+	<soundset name="NaiadsGrunt" volume="0.9000" maxnum="1">
+		<sound filename="NaiadsGrunt01.mp3" volume="0.9500"></sound>
+	</soundset>
+	<soundset name="NaiadsSelect" volume="0.7500" maxnum="2">
+		<sound filename="NaiadsSelect01.mp3" volume="0.7500"></sound>
+	</soundset>
+	<soundset name="NaiadsMove" volume="0.9500" maxnum="2">
+		<sound filename="NaiadsMove01.mp3" volume="0.9500"></sound>
+		<sound filename="NaiadsMove01.mp3" volume="0.9500"></sound>
+	</soundset>
+	<soundset name="NaiadsSpecial" volume="0.9500" maxnum="1">
+		<sound filename="NaiadsSpecial.mp3" volume="0.9500"></sound>
+	</soundset>	
+	<soundset name="NaiadsDeath" volume="0.9500" maxnum="1">
+		<sound filename="NaiadsDeath01.mp3" volume="0.9500"></sound>
+	</soundset>	
+	<soundset name="CastAttack" volume="0.5000" maxnum="3">
+		<sound filename="CastAttack.wav" volume="0.5000"></sound>
+	</soundset>	
+	
+	<soundset name="RockJotunnGrunt" volume="0.9000" maxnum="2">
+		<sound filename="RockJotunn_Grunt.mp3" volume="0.9500"></sound>
+	</soundset>
+	<soundset name="RockJotunnSelect" volume="0.7500" maxnum="3">
+		<sound filename="RockJotunn_Select.mp3" volume="0.7500"></sound>
+	</soundset>
+	<soundset name="RockJotunnMove" volume="0.9500" maxnum="4">
+		<sound filename="RockJotunn_Move.mp3" volume="0.9500"></sound>
+	</soundset>
+	<soundset name="RockJotunnAttack" volume="0.9500" maxnum="2">
+		<sound filename="RockJotunn_Attack.mp3" volume="0.9500"></sound>
+	</soundset>	
+	<soundset name="RockJotunnDeath" volume="0.7500" maxnum="1">
+		<sound filename="RockJotunn_Death.mp3" volume="0.7500"></sound>
+	</soundset>	
+	<soundset name="RockFell" volume="0.6000" maxnum="3">
+		<sound filename="Rock1.mp3" volume="0.8000"></sound>
+		<sound filename="Rock2.mp3" volume="0.8000"></sound>
+	</soundset>	
+	<soundset name="RockSmash" volume="1.0000" maxnum="3">
+		<sound filename="Rock1.mp3" volume="1.0000"></sound>
+		<sound filename="Rock2.mp3" volume="1.0000"></sound>
+	</soundset>		
+	
+	<soundset name="FireTwister" volume="0.9000" maxnum="1">
+		<sound filename="BlazeTempestStart.wav" volume="0.9000"></sound>
+	</soundset>		
+	
+	<soundset name="EmpusaAttack" volume="0.9000" maxnum="2">
+		<sound filename="EmpusaAttack.wav" volume="0.9500"></sound>
+	</soundset>
+	<soundset name="EmpusaDeath" volume="0.7500" maxnum="3">
+		<sound filename="EmpusaDeath.wav" volume="0.7500"></sound>
+	</soundset>
+	<soundset name="EmpusaMove" volume="0.9500" maxnum="1">
+		<sound filename="EmpusaMove1.wav" volume="0.9500"></sound>
+		<sound filename="EmpusaMove2.wav" volume="0.9500"></sound>
+	</soundset>
+	<soundset name="EmpusaGrunt" volume="0.7500" maxnum="1">
+		<sound filename="EmpusaGrunt.wav" volume="0.7500"></sound>
+	</soundset>		
+	
+	<soundset name="Bloodthirst" volume="1.0000">
+		<sound filename="Bloodthirst.mp3" volume="1.0000"></sound>
+	</soundset>
+	
+	<soundset name="WildHunt" volume="1.0000">
+		<sound filename="WildHunt.mp3" volume="1.0000"></sound>
+	</soundset>
+	
+	<soundset name="ReapepGrunt" volume="0.9000" maxnum="1">
+		<sound filename="ReapepGrunt.wav" volume="0.9500"></sound>
+	</soundset>
+	<soundset name="ReapepSelect" volume="0.7500" maxnum="2">
+		<sound filename="ReapepSelect01.wav" volume="0.7500"></sound>
+	</soundset>
+	<soundset name="ReapepMove" volume="0.9500" maxnum="2">
+		<sound filename="ReapepMove01.wav" volume="0.9500"></sound>
+		<sound filename="ReapepMove02.wav" volume="0.9500"></sound>
+	</soundset>
+	<soundset name="ReapepSpecial" volume="0.9500" maxnum="1">
+		<sound filename="ReapepSpecial.wav" volume="0.9500"></sound>
+	</soundset>	
+	<soundset name="ReapepAttack" volume="0.9500" maxnum="1">
+		<sound filename="ReapepAttack01.wav" volume="0.9500"></sound>
+		<sound filename="ReapepAttack02.wav" volume="1.0000"></sound>
+	</soundset>	
+	<soundset name="ReapepDeath" volume="0.9500" maxnum="1">
+		<sound filename="ReapepDeath.wav" volume="0.9500"></sound>
+	</soundset>	
+
+	<soundset name="ColchianAttack" volume="1.0000" maxnum="2">
+		<sound filename="ColchianAttack.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="ColchianGrunt" volume="0.8500" maxnum="1">
+		<sound filename="ColchianGrunt.mp3" volume="0.9500"></sound>
+	</soundset>
+	<soundset name="ColchianSelect" volume="0.7000" maxnum="2">
+		<sound filename="ColchianSelect.mp3" volume="0.7000"></sound>
+	</soundset>
+	<soundset name="ColchianMove" volume="0.9500" maxnum="2">
+		<sound filename="ColchianMove.mp3" volume="0.9500"></sound>
+	</soundset>
+	<soundset name="ColchianDeath" volume="0.9500" maxnum="1">
+		<sound filename="ColchianDeath.mp3" volume="0.9500"></sound>
+	</soundset>	
+	<soundset name="ColchianFire" volume="0.9500" maxnum="2">
+		<sound filename="ColchianFire.mp3" volume="0.9500"></sound>
+	</soundset>	
+	
+  <!-- Physis Dream -->
+
+	<soundset name="CTrollSelect" volume="0.7000" maxnum="3">
+		<sound filename="TrollSelect.mp3" volume="1.0000"></sound>
+		<sound filename="TrollSelect.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="CTrollHurt" volume="0.6000" maxnum="1">
+		<sound filename="TrollHurt1.wav" volume="1.0000"></sound>
+		<sound filename="TrollHurt2.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="CTrollGrunt" volume="0.6000" maxnum="1">
+		<sound filename="TrollGrunt1.wav" volume="1.0000"></sound>
+		<sound filename="TrollGrunt2.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="CTrollDeath" volume="0.7000">
+		<sound filename="TrollDeath.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="CTrollMove" volume="0.7000" maxnum="3">
+		<sound filename="TrollMove1.mp3" volume="1.0000"></sound>
+		<sound filename="TrollMove2.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="CTrollAttack" volume="0.6000" maxnum="3">
+		<sound filename="TrollAttack1.mp3" volume="1.0000"></sound>
+		<sound filename="TrollAttack2.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="CTrollSnore" volume="0.5000" maxnum="1">
+		<sound filename="TrollSnore.mp3" volume="1.0000"></sound>
+	</soundset>
+
+	<soundset name="DeermanSelect" volume="0.7000" maxnum="3">
+		<sound filename="DeermanSelect.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="DeermanSpecial" volume="0.6000" maxnum="1">
+		<sound filename="DeermanSpecial.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="DeermanGrunt" volume="0.6000" maxnum="1">
+		<sound filename="DeermanGrunt.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="DeermanDeath" volume="0.7000">
+		<sound filename="DeermanDeath.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="DeermanMove" volume="0.7000" maxnum="3">
+		<sound filename="DeermanMove1.mp3" volume="1.0000"></sound>
+		<sound filename="DeermanMove2.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="DeermanAttack" volume="0.6000" maxnum="3">
+		<sound filename="DeermanAttack1.mp3" volume="1.0000"></sound>
+		<sound filename="DeermanAttack2.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="DeermanHowl" volume="0.7200" maxnum="1">
+		<sound filename="DeermanHowl.mp3" volume="1.0000"></sound>
+	</soundset>
+
+		<soundset name="HardFallM" volume="0.5000" maxnum="2">
+		<sound filename="HardFall.wav" volume="1.0000"></sound>
+	</soundset>	
+	
+	<soundset name="ClawSwing" volume="0.5000" maxnum="3">
+		<sound filename="ClawSwing1.wav" volume="1.0000"></sound>
+		<sound filename="ClawSwing2.wav" volume="1.0000"></sound>
+		<sound filename="ClawSwing3.wav" volume="1.0000"></sound>
+	</soundset>
+	
+	<soundset name="ThunderStrike" volume="1.0000" maxnum="4">
+		<sound filename="ThunderStrike1.mp3" volume="1.0000"></sound>
+		<sound filename="ThunderStrike2.mp3" volume="1.0000"></sound>
+		<sound filename="ThunderStrike3.mp3" volume="1.0000"></sound>
+		<sound filename="ThunderStrike4.mp3" volume="1.0000"></sound>
+	</soundset>	
+
+		<soundset name="SeagullSounds" volume="0.3500" maxnum="1">
+		<sound filename="SeagullSounds.mp3" volume="0.7500"></sound>
+	</soundset>	
+
+		<soundset name="MonsterTent" volume="1.0000" maxnum="1">
+		<sound filename="MonsterTent1.wav" volume="1.0000"></sound>
+	</soundset>		
+	
+	<soundset name="TholosSelect" volume="1.0000">
+		<sound filename="tholosselect.wav" volume="1.0000"></sound>
+	</soundset>	
+	
+	<soundset name="RoyalPalace" volume="1.0000">
+		<sound filename="RoyalPalace.mp3" volume="1.0000"></sound>
+	</soundset>	
+	
+	<soundset name="ghostloop" volume="0.4000" maxnum="1">
+		<sound filename="ghostloop.wav" volume="0.8000"></sound>
+	</soundset>	
+	
+	<soundset name="MudGiantSelect" volume="0.7000" maxnum="3">
+	<sound filename="MudGiantSelect.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="MudGiantGrunt" volume="0.6000" maxnum="1">
+		<sound filename="MudGiantGrunt.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="MudGiantDeath" volume="0.7000">
+		<sound filename="MudGiantDeath.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="MudGiantMove" volume="0.7000" maxnum="3">
+		<sound filename="MudGiantMove.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="MudGiantAttack" volume="0.6000" maxnum="3">
+		<sound filename="MudGiantAttack.wav" volume="1.0000"></sound>
+	</soundset>
+	
+	<soundset name="MagicLoop" volume="0.8000" maxnum="1">
+		<sound filename="MagicLoop.mp3" volume="1.000"></sound>
+	</soundset>		
+	
+	<soundset name="CretanSelect" volume="0.7000" maxnum="1">
+	<sound filename="CretanSelect.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="CretanGrunt" volume="0.6000" maxnum="1">
+		<sound filename="CretanGrunt.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="CretanDead" volume="0.7000">
+		<sound filename="CretanDead.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="CretanMove" volume="0.7000" maxnum="1">
+		<sound filename="CretanMove.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="CretanAttack" volume="0.6000" maxnum="1">
+		<sound filename="CretanAttack.mp3" volume="1.0000"></sound>
+	</soundset>	
+	
+	<soundset name="Loopcrypt" volume="0.2200" maxnum="1">
+		<sound filename="Loopcrypt.mp3" volume="1.0000"></sound>
+	</soundset>
+	
+		<soundset name="LDragonSelect" volume="0.7000" maxnum="1">
+	<sound filename="LDragonSelect.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LDragonDeath" volume="0.6000" maxnum="1">
+		<sound filename="LDragonDeath.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LDragonGrunt" volume="0.2000" maxnum="1">
+		<sound filename="LDragonDeath.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LDragonMove" volume="0.7000" maxnum="1">
+		<sound filename="LDragonMove.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LDragonAttack" volume="0.6000" maxnum="4">
+		<sound filename="LDragonAttack.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LDragon_Breath" volume="0.6000" maxnum="4">
+		<sound filename="LDragon_Breath.mp3" volume="1.0000"></sound>
+	</soundset>		
+	
+	<soundset name="SheepSelect" volume="0.5000">
+		<sound filename="SheepSelect.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="SheepAcknowledge" volume="0.4500">
+		<sound filename="SheepMove.wav" volume="1.0000"></sound>
+	</soundset>	
+	<soundset name="SheepDeath" volume="0.4500">
+		<sound filename="SheepDie.wav" volume="1.0000"></sound>
+	</soundset>	
+	<soundset name="HandofDeath" volume="0.7500">
+		<sound filename="HandofDeath.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="WildRushHorn" volume="0.6500">
+		<sound filename="WildRushHorn.mp3" volume="1.0000"></sound>
+	</soundset>			
+	<soundset name="AmbientBee" volume="0.8200" maxnum="1">
+		<sound filename="AmbientBee.mp3" volume="1.0000"></sound>
+	</soundset>	
+	<soundset name="Seidr" volume="0.8500" maxnum="1">
+		<sound filename="Seidr.mp3" volume="1.0000"></sound>
+	</soundset>	
+	
+	  <!-- Age of Wrath: WOTD -->
+	  
+	<soundset name="SeaShells" volume="0.5500" maxnum="1">
+		<sound filename="SeaShells.Wav" volume="0.5500"></sound>
+	</soundset>	
+	
+	  <!-- Zeus Forge -->
+	  
+	<soundset name="TarantulaAcknowledge" volume="1.0000" maxnum="1">
+		<sound filename="tarantulamove.wav" volume="1.0000"></sound>
+		<sound filename="tarantulamove2.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="TarantulaSelect" volume="1.0000">
+		<sound filename="tarantulaselect.wav" volume="1.0000"></sound>
+		<sound filename="tarantulaselect2.wav" volume="0.9000"></sound>
+	</soundset>
+	<soundset name="TarantulaDeath" volume="1.0000">
+		<sound filename="tarantuladeath.wav" volume="1.0000"></sound>
+	</soundset>
+        <soundset name="TarantulaAttack" volume="0.8700">
+		<sound filename="MedusaMove1.wav" volume="1.0000"></sound>
+	</soundset>
+        <soundset name="TarantulaGore" volume="1.0000">
+		<sound filename="MedusaMove2.wav" volume="1.0000"></sound>
+	</soundset> 
+	<soundset name="WarSpidrAcknowledge" volume="1.0000">
+		<sound filename="wsack1.wav" volume="1.0000"></sound>
+		<sound filename="wsack2.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="WarSpidrSelect" volume="1.0000">
+		<sound filename="wssel1.wav" volume="1.0000"></sound>
+		<sound filename="wssel2.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="WarSpidrGrunt" volume="1.0000">
+		<sound filename="wsgrunt1.wav" volume="1.0000"></sound>
+		<sound filename="wsgrunt2.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="WarSpidrBirth" volume="1.0000">
+		<sound filename="wsbirth.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="WarSpidrDeath" volume="1.0000">
+		<sound filename="wsdeath.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="WarSpidrPoison" volume="1.0000">
+		<sound filename="wspoison.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="QueenWarSpidrSelect" volume="1.0000">
+		<sound filename="qwssel1.wav" volume="1.0000"></sound>
+		<sound filename="qwssel2.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="QueenWarSpidrAcknowledge" volume="1.0000">
+		<sound filename="qwsack1.wav" volume="1.0000"></sound>
+		<sound filename="qwsack2.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="QueenWarSpidrGrunt" volume="1.0000">
+		<sound filename="qwsgrunt1.wav" volume="1.0000"></sound>
+		<sound filename="qwsgrunt2.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="QueenWarSpidrBirth" volume="1.0000">
+		<sound filename="qwsbirth.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="QueenWarSpidrDeath" volume="1.0000">
+		<sound filename="qwsdeath.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="QueenWarSpidrBoost" volume="1.0000">
+		<sound filename="qwsboost.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="QueenWarSpidrBuild" volume="1.0000">
+		<sound filename="qwsbuild.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="WarSpiderEggDeath" volume="1.0000">
+		<sound filename="wseggdeath.wav" volume="1.0000"></sound>
+	</soundset>
+	
+	 <!-- // BETA CONTENT by AL // -->	
+
+	<soundset name="SheepAmbient" volume="1.0000">
+		<sound filename="SheepAmbient1.wav" volume="1.0000"></sound>
+		<sound filename="SheepAmbient2.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="SheepDeath" volume="1.0000">
+		<sound filename="SheepDie.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="SheepMove" volume="1.0000">
+		<sound filename="SheepMove.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="SheepSelect" volume="1.0000">
+		<sound filename="SheepSelect.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="SheepSelect" volume="1.0000">
+		<sound filename="SheepSelect.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="GolemAttack" volume="1.0000">
+		<sound filename="GolemAttack1.wav" volume="1.0000"></sound>
+		<sound filename="GolemAttack2.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="GolemMove" volume="1.0000">
+		<sound filename="Golemmove1.wav" volume="1.0000"></sound>
+		<sound filename="Golemmove2.wav" volume="1.0000"></sound>
+		</soundset>
+	<soundset name="GolemSelect" volume="1.0000">
+		<sound filename="Golemselect1.wav" volume="1.0000"></sound>
+		<sound filename="Golemselect2.wav" volume="1.0000"></sound>
+		</soundset>
+	<soundset name="GolemDeath" volume="1.0000">
+		<sound filename="GolemDeath.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="AnubiteAttack" volume="1.0000">
+		<sound filename="anubitegrunt.wav" volume="1.0000"></sound>
+		<sound filename="anubitejump.wav" volume="1.0000"></sound>
+		<sound filename="anubiteland.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="NavalShipGreekAttack" volume="1.0000">
+		<sound filename="NavalShipGreekAttack1.mp3" volume="1.0000"></sound>
+		<sound filename="NavalShipGreekAttack2.mp3" volume="1.0000"></sound>
+		<sound filename="NavalShipGreekAttack3.mp3" volume="1.0000"></sound>
+		<sound filename="NavalShipGreekAttack4.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="NavalShipGreekMove" volume="1.0000">
+		<sound filename="NavalShipGreekMove1.mp3" volume="1.0000"></sound>
+		<sound filename="NavalShipGreekMove2.mp3" volume="1.0000"></sound>
+		<sound filename="NavalShipGreekMove3.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="NavalShipGreekSelect" volume="1.0000">
+		<sound filename="NavalShipGreekSelect1.mp3" volume="1.0000"></sound>
+		<sound filename="NavalShipGreekSelect2.mp3" volume="1.0000"></sound>
+		<sound filename="NavalShipGreekSelect3.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="MisenusSelect" volume="1.0000" maxnum="1">
+		<sound filename="misenussel1.mp3" volume="1.0000"></sound>
+		<sound filename="misenussel2.mp3" volume="1.0000"></sound>
+		<sound filename="misenussel3.mp3" volume="1.0000"></sound>
+		<sound filename="misenussel4.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="MisenusAcknowledge" volume="1.0000">
+		<sound filename="misenusack1.mp3" volume="1.0000"></sound>
+		<sound filename="misenusack2.mp3" volume="1.0000"></sound>
+		<sound filename="misenusack3.mp3" volume="1.0000"></sound>
+		<sound filename="misenusack4.mp3" volume="1.0000"></sound>
+		<sound filename="misenusack5.mp3" volume="1.0000"></sound>
+		<sound filename="misenusack6.mp3" volume="1.0000"></sound>
+		<sound filename="misenusack7.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="MisenusAttack" volume="1.0000">
+		<sound filename="misenusata1.mp3" volume="1.0000"></sound>
+		<sound filename="misenusata2.mp3" volume="1.0000"></sound>
+		<sound filename="misenusata3.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="MisenusSpecial" volume="0.6000" maxnum="1">
+		<sound filename="arkantosspecialword1.wav" volume="1.0000"></sound>
+		<sound filename="arkantosspecialword2.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LibrarySelection" volume="1.0000">
+		<sound filename="LibrarySelection.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="UniversitySelection" volume="1.0000">
+		<sound filename="UniversitySelection.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="HorseSelect" volume="1.0000">
+		<sound filename="HorseGrunt1.wav" volume="1.0000"></sound>
+		<sound filename="HorseGrunt2.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="HorseGrunt" volume="1.0000">
+		<sound filename="HorseGrunt1.wav" volume="1.0000"></sound>
+		<sound filename="HorseGrunt2.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="HorseDeath" volume="1.0000">
+		<sound filename="HorseGrunt3.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="HorseBirth" volume="1.0000">
+		<sound filename="HorseGrunt3.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="HorseAcknowledge" volume="1.0000">
+		<sound filename="HorseGrunt1.wav" volume="1.0000"></sound>
+		<sound filename="HorseGrunt2.wav" volume="1.0000"></sound>
+		<sound filename="HorseGrunt3.wav" volume="1.0000"></sound>
+	</soundset>	 
+	
+	
+	<!-- AZTEC SOUNDS -->
 	
 
 	<soundset name="AztecArrowKnightAttack" volume="1.0000" maxnum="1">

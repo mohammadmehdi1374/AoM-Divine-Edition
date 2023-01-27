@@ -124,14 +124,6 @@
 		<to>Form of the Deep</to>
 	</transform>
 	<transform>
-		<from>Town Hall</from>
-		<to>Town Hall Ready</to>
-	</transform>
-	<transform>
-		<from>Town Hall Cleansed</from>
-		<to>Town Hall Ready</to>
-	</transform>
-	<transform>
 		<from>Faceless One</from>
 		<to>Faceless One Flesh</to>
 	</transform>

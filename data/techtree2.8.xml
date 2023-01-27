@@ -3122,7 +3122,7 @@
 				<civname>Hades</civname>
 			</civilization>
 			<specificage>Archaic Age</specificage>
-			<techstatus status="Active">Normal Greek Gods</techstatus>
+			<techstatus status="Active">Can Do Athena</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11362</effect>
@@ -3134,6 +3134,7 @@
 			<effect type="TechStatus" status="active">Age 2</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Ares</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Hermes</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Nike</effect>
 			<effect tech="Restoration" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
 				<target type="Player"></target>
 			</effect>
@@ -3182,6 +3183,7 @@
 		</effects>
 		<exclude>Age 2 Ares</exclude>
 		<exclude>Age 2 Hermes</exclude>
+		<exclude>Age 2 Nike</exclude>
 	</tech>
 	<tech name="Age 2 Ares" type="Normal">
 		<dbid>354</dbid>
@@ -3202,6 +3204,7 @@
 			</civilization>
 			<specificage>Archaic Age</specificage>
 			<typecount unit="Temple" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<techstatus status="Active">Can Do Ares</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11360</effect>
@@ -3213,6 +3216,7 @@
 			<effect type="TechStatus" status="active">Age 2</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Athena</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Hermes</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Nike</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Hoplite</target>
 			</effect>
@@ -3261,6 +3265,7 @@
 		</effects>
 		<exclude>Age 2 Athena</exclude>
 		<exclude>Age 2 Hermes</exclude>
+		<exclude>Age 2 Nike</exclude>
 	</tech>
 	<tech name="Age 2 Hermes" type="Normal">
 		<dbid>355</dbid>
@@ -3281,7 +3286,7 @@
 				<civname>Poseidon</civname>
 				<civname>Zeus</civname>
 			</civilization>
-			<techstatus status="Active">Normal Greek Gods</techstatus>
+			<techstatus status="Active">Can Do Hermes</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11364</effect>
@@ -3293,6 +3298,7 @@
 			<effect type="TechStatus" status="active">Age 2</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Ares</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Athena</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Nike</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Hoplite</target>
 			</effect>
@@ -3341,6 +3347,7 @@
 		</effects>
 		<exclude>Age 2 Ares</exclude>
 		<exclude>Age 2 Athena</exclude>
+		<exclude>Age 2 Nike</exclude>
 	</tech>
 	<tech name="Age 3 Dionysos" type="Normal">
 		<dbid>356</dbid>
@@ -3361,8 +3368,8 @@
 				<civname>Poseidon</civname>
 				<civname>Zeus</civname>
 			</civilization>
-			<techstatus status="Active">Normal Greek Gods</techstatus>
 			<typecount unit="Armory" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<techstatus status="Active">Can Do Dionysus</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11371</effect>
@@ -3374,6 +3381,7 @@
 			<effect type="TechStatus" status="active">Age 3</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Aphrodite</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Apollo</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Persephone</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Scylla</target>
 			</effect>
@@ -3420,6 +3428,7 @@
 			<effect type="TextOutput">23447</effect>
 		</effects>
 		<exclude>Age 3 Aphrodite</exclude>
+		<exclude>Age 3 Persephone</exclude>
 		<exclude>Age 3 Apollo</exclude>
 	</tech>
 	<tech name="Age 3 Apollo" type="Normal">
@@ -3442,7 +3451,7 @@
 				<civname>Hades</civname>
 				<civname>Zeus</civname>
 			</civilization>
-			<techstatus status="Active">Normal Greek Gods</techstatus>
+			<techstatus status="Active">Can Do Apollo 1</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11369</effect>
@@ -3454,6 +3463,7 @@
 			<effect type="TechStatus" status="active">Age 3</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Dionysos</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Aphrodite</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Persephone</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Fortress</target>
 			</effect>
@@ -3493,6 +3503,7 @@
 		</effects>
 		<exclude>Age 3 Aphrodite</exclude>
 		<exclude>Age 3 Dionysos</exclude>
+		<exclude>Age 3 Persephone</exclude>
 	</tech>
 	<tech name="Age 3 Aphrodite" type="Normal">
 		<dbid>358</dbid>
@@ -3514,6 +3525,7 @@
 				<civname>Poseidon</civname>
 			</civilization>
 			<typecount unit="Armory" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<techstatus status="Active">Can Do Aphrodite</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11367</effect>
@@ -3522,6 +3534,7 @@
 			<effect type="TechStatus" status="active">Age 3</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Apollo</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Dionysos</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Persephone</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Fortress</target>
 			</effect>
@@ -3564,6 +3577,7 @@
 		</effects>
 		<exclude>Age 3 Apollo</exclude>
 		<exclude>Age 3 Dionysos</exclude>
+		<exclude>Age 3 Persephone</exclude>
 	</tech>
 	<tech name="Age 4 Hera" type="Normal">
 		<dbid>359</dbid>
@@ -3584,7 +3598,7 @@
 			<civilization>
 				<civname>Zeus</civname>
 			</civilization>
-			<techstatus status="Active">Normal Greek Gods</techstatus>
+			<techstatus status="Active">Can Do Hera</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11377</effect>
@@ -3596,6 +3610,7 @@
 			<effect type="TechStatus" status="active">Age 4</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Artemis</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Hephaestus</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Hestia</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Helepolis</target>
 			</effect>
@@ -3618,6 +3633,7 @@
 			<effect type="TextOutput">23463</effect>
 		</effects>
 		<exclude>Age 4 Hephaestus</exclude>
+		<exclude>Age 4 Hestia</exclude>
 		<exclude>Age 4 Artemis</exclude>
 	</tech>
 	<tech name="Age 4 Artemis" type="Normal">
@@ -3638,8 +3654,10 @@
 			<civilization>
 				<civname>Poseidon</civname>
 				<civname>Hades</civname>
+				<civname>Zeus</civname>
 			</civilization>
 			<typecount unit="Market" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<techstatus status="Active">Can Do Artemis</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11373</effect>
@@ -3651,6 +3669,7 @@
 			<effect type="TechStatus" status="active">Age 4</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Hera</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Hephaestus</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Hestia</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Helepolis</target>
 			</effect>
@@ -3666,6 +3685,7 @@
 		</effects>
 		<exclude>Age 4 Hephaestus</exclude>
 		<exclude>Age 4 Hera</exclude>
+		<exclude>Age 4 Hestia</exclude>
 	</tech>
 	<tech name="Age 4 Hephaestus" type="Normal">
 		<dbid>361</dbid>
@@ -3686,7 +3706,7 @@
 			<culture>
 				<culturename>Greek</culturename>
 			</culture>
-			<techstatus status="Active">Normal Greek Gods</techstatus>
+			<techstatus status="Active">Can Do Hephaestus</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11379</effect>
@@ -3698,6 +3718,7 @@
 			<effect type="TechStatus" status="active">Age 4</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Artemis</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Hera</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Hestia</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Helepolis</target>
 			</effect>
@@ -3713,6 +3734,7 @@
 		</effects>
 		<exclude>Age 4 Hera</exclude>
 		<exclude>Age 4 Artemis</exclude>
+		<exclude>Age 4 Hestia</exclude>
 	</tech>
 	<tech name="Hunting Dogs" type="Normal">
 		<dbid>362</dbid>
@@ -9955,6 +9977,9 @@
 			</effect>
 			<effect type="Data" action="HandAttack" amount="0.50" subtype="Damage" damagetype="Hack" relativity="BasePercent">
 				<target type="ProtoUnit">Hero Greek Jason</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="0.50" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">Hero Greek Ixion</target>
 			</effect>
 			<effect type="Data" action="HandAttack" amount="0.50" subtype="Damage" damagetype="Hack" relativity="BasePercent">
 				<target type="ProtoUnit">Hero Greek Ajax</target>
@@ -18028,7 +18053,8 @@
 		<icon>Improvement ebony gate Icon</icon>
 		<rollovertextid>99132</rollovertextid>
 		<prereqs>
-			<specificage>Classical Age</specificage>
+			<!--<specificage>Classical Age</specificage>-->
+			<specificage>Mythic Age</specificage>
 			<techstatus status="Active">Age 1 Yog-Sothoth</techstatus>
 		</prereqs>
 		<effects>
@@ -18114,7 +18140,8 @@
 		<icon>Improvement lunar calendar Icon</icon>
 		<rollovertextid>99162</rollovertextid>
 		<prereqs>
-			<specificage>Heroic Age</specificage>
+			<!--<specificage>Heroic Age</specificage>-->
+			<specificage>Mythic Age</specificage>
 			<techstatus status="Active">Age 1 Shub-Niggurath</techstatus>
 		</prereqs>
 		<effects>
@@ -20505,7 +20532,7 @@
 		<cost resourcetype="Gold">350.0000</cost>
 		<cost resourcetype="Favor">20.0000</cost>
 		<researchpoints>50.0000</researchpoints>
-		<status>OBTAINABLE</status>
+		<status>UNOBTAINABLE</status>
 		<icon>improvement tidal walls icon</icon>
 		<rollovertextid>99460</rollovertextid>
 		<prereqs>
@@ -23892,6 +23919,14 @@
 			<effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="Temple" relativity="BasePercent">
 				<target type="ProtoUnit">Villager Greek</target>
 			</effect>
+
+
+			<effect type="TechStatus" status="ACTIVE">Can Do Athena</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Hermes</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Apollo 1</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Dionysus</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Hera</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Hephaestus</effect>
 			
 			<Effect type="Sound">GreekThemeMusic</Effect>
 		</effects>
@@ -23973,6 +24008,14 @@
 			</effect>
 
 			<Effect type="Sound">GreekThemeMusic</Effect>
+
+
+			<effect type="TechStatus" status="ACTIVE">Can Do Athena</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Ares</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Apollo 1</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Aphrodite</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Artemis</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Hephaestus</effect>
 		</effects>
 	</tech>
 	<tech name="Poseidon Triggered" type="Normal">
@@ -24060,6 +24103,12 @@
 			</effect>
 
 			<Effect type="Sound">GreekThemeMusic</Effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Hermes</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Ares</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Dionysus</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Aphrodite</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Artemis</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Hephaestus</effect>
 		</effects>
 	</tech>
 
@@ -32818,6 +32867,9 @@
 				<target type="ProtoUnit">Market</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Scorpio</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Caravan Roman</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -33658,7 +33710,13 @@
 			<techstatus status="Active">Age 2 Neptune</techstatus>
 		</prereqs>
 		<effects>
-			<effect type="Data" amount="0.75" subtype="TrainPoints" relativity="BasePercent">
+			<effect type="Data" amount="0.5" subtype="TrainPoints" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
 				<target type="ProtoUnit">AbstractCavalry</target>
 			</effect>
 		</effects>
@@ -33668,7 +33726,7 @@
 	<tech name="Apollinares" type="Normal">
 		<dbid></dbid>
 		<displaynameid>120244</displaynameid>
-		<cost resourcetype="Food">175.0000</cost>
+		<cost resourcetype="Food">75.0000</cost>
 		<cost resourcetype="Gold">220.0000</cost>
 		<researchpoints>30.0000</researchpoints>
 		<status>OBTAINABLE</status>
@@ -35425,7 +35483,7 @@
 				<civname>Zeus</civname>
 			</civilization>
 		</prereqs>
-		<icon>God Power Bolt icon</icon>
+		<icon>improvement demeter icon</icon>
 		<effects>
 			<effect type="TextOutput">120349</effect>
 			<effect all="true" type="TextOutput">120350</effect>
@@ -35514,7 +35572,14 @@
 				<target type="ProtoUnit">Helepolis</target>
 			</effect>
 
-			
+
+
+			<effect type="TechStatus" status="ACTIVE">Can Do Nike</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Hermes</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Persephone</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Dionysus</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Artemis</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Hestia</effect>
 
 			<Effect type="Sound">GreekThemeMusic</Effect>
 		</effects>
@@ -35561,7 +35626,7 @@
 		<displaynameid>120351</displaynameid>
 		<researchpoints>0.1000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>God Power Bolt icon</icon>
+		<icon>improvement blight icon</icon>
 		<rollovertextid>120352</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Demeter Triggered</techstatus>
@@ -35575,7 +35640,7 @@
 		<status>UNOBTAINABLE</status>
 		<delay>2.0000</delay>
 		<flag>Volatile</flag>
-		<icon>God Power Bolt icon</icon>
+		<icon>improvement blight icon</icon>
 		<rollovertextid>120352</rollovertextid>
 		<buttonpos row="0" column="1"></buttonpos>
 		<prereqs>
@@ -35586,6 +35651,480 @@
 			</effect>
 		</effects>
 	</tech>
+
+	<tech name="Can Do Athena" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Ares" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Hermes" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Nike" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Apollo 1" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Dionysus" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Aphrodite" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Persephone" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Hera" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Hephaestus" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Artemis" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Hestia" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+
+	<tech name="Age 2 Nike" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120363</displaynameid>
+		<cost resourcetype="Food">400.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nike icon</icon>
+		<rollovertextid>120364</rollovertextid>
+		<prereqsnotmetrollovertextid>10837</prereqsnotmetrollovertextid>
+		<buttonpos row="1" column="1"></buttonpos>
+		<flag>AlwaysShowButton</flag>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<typecount unit="Temple" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<civilization>
+				<civname>Zeus</civname>
+			</civilization>
+			<specificage>Archaic Age</specificage>
+			<techstatus status="Active">Can Do Nike</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">120396</effect>
+			<effect all="true" type="TextOutput">120397</effect>
+			<effect type="Sound">researchcomplete1.wav</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Caucasian Eagle</target>
+			</effect>
+			<effect type="TechStatus" status="active">Age 2</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Ares</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Hermes</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Athena</effect>
+			<effect tech="Tholos" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hoplite</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Toxotes</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hippikon</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Armory</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Academy</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Archery Range</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Stable</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Tower</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Farm</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Transport Ship Greek</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Trireme</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Physician</target>
+			</effect>
+			<effect type="CreateUnit" unit="Caucasian Eagle" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="0.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TextOutput">120402</effect>
+		</effects>
+		<exclude>Age 2 Ares</exclude>
+		<exclude>Age 2 Hermes</exclude>
+		<exclude>Age 2 Athena</exclude>
+	</tech>
+	<tech name="Age 3 Persephone" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120365</displaynameid>
+		<cost resourcetype="Food">800.0000</cost>
+		<cost resourcetype="Gold">500.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement persephone icon</icon>
+		<rollovertextid>120366</rollovertextid>
+		<prereqsnotmetrollovertextid>17967</prereqsnotmetrollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<flag>AlwaysShowButton</flag>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<specificage>Classical Age</specificage>
+			<civilization>
+				<civname>Zeus</civname>
+			</civilization>
+			<typecount unit="Armory" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<techstatus status="Active">Can Do Persephone</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">120398</effect>
+			<effect all="true" type="TextOutput">120399</effect>
+			<effect type="Sound">researchcomplete1.wav</effect>
+			<effect type="TechStatus" status="active">Age 3</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Apollo</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Dionysos</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Aphrodite</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Fortress</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Petrobolos</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Market</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Caravan Greek</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hypaspist</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Peltast</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Prodromos</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Harpy MU</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Ramming Ship Greek</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Siege Ship Greek</target>
+			</effect>
+			<effect tech="Springtime Radiance" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="CreateUnit" unit="Harpy MU" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TextOutput">120403</effect>
+		</effects>
+		<exclude>Age 3 Apollo</exclude>
+		<exclude>Age 3 Dionysos</exclude>
+		<exclude>Age 3 Aphrodite</exclude>
+	</tech>
+	<tech name="Age 4 Hestia" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120367</displaynameid>
+		<cost resourcetype="Food">1000.0000</cost>
+		<cost resourcetype="Gold">1000.0000</cost>
+		<researchpoints>90.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement hestia icon</icon>
+		<rollovertextid>120368</rollovertextid>
+		<prereqsnotmetrollovertextid>17980</prereqsnotmetrollovertextid>
+		<buttonpos row="1" column="2"></buttonpos>
+		<flag>AlwaysShowButton</flag>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<typecount unit="Market" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<specificage>Heroic Age</specificage>
+			<civilization>
+				<civname>Zeus</civname>
+			</civilization>
+			<techstatus status="Active">Can Do Hestia</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">120400</effect>
+			<effect all="true" type="TextOutput">120401</effect>
+			<effect type="Sound">researchcomplete1.wav</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Gryphon</target>
+			</effect>
+			<effect type="TechStatus" status="active">Age 4</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Artemis</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Hephaestus</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Hera</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Helepolis</target>
+			</effect>
+			<effect tech="Burning Hearths" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="CreateUnit" unit="Gryphon" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TextOutput">120404</effect>
+		</effects>
+		<exclude>Age 4 Hephaestus</exclude>
+		<exclude>Age 4 Hera</exclude>
+		<exclude>Age 4 Artemis</exclude>
+	</tech>
+
+	<tech name="Nourishing Oats" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120353</displaynameid>
+		<cost resourcetype="Wood">120.0000</cost>
+		<cost resourcetype="Favor">5.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>120354</rollovertextid>
+		<buttonpos row="2" column="0"></buttonpos>
+		<prereqs>
+			<civilization>
+				<civname>Zeus</civname>
+			</civilization>
+			<techstatus status="Active">Demeter Triggered</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="0.75" subtype="ResourceTrickleRate" resource="Food" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="100.00" subtype="MaximumResourceTrickleRate" resource="Food" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			
+			<effect type="Data" action="AutoGather" amount="5.00" subtype="WorkRate" unittype="Food" relativity="BasePercent">
+				<target type="ProtoUnit">Herdable</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Tholos" type="Power">
+		<dbid></dbid>
+		<displaynameid>120369</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement blight icon</icon>
+		<rollovertextid>120370</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 2 Nike</techstatus>
+		</prereqs>
+	</tech>
+	
+	<tech name="Springtime Radiance" type="Power">
+		<dbid></dbid>
+		<displaynameid>120377</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement blight icon</icon>
+		<rollovertextid>120378</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 3 Persephone</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Burning Hearths" type="Power">
+		<dbid></dbid>
+		<displaynameid>120385</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement blight icon</icon>
+		<rollovertextid>120386</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 4 Hestia</techstatus>
+		</prereqs>
+	</tech>
+
+
+	<tech name="Heroes Demeter Age 1" type="Normal">
+		<dbid>548</dbid>
+		<displaynameid>17770</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>HideFromDetailHelp</flag>
+		<prereqs>
+			<civilization>
+				<civname>Zeus</civname>
+			</civilization>
+			<techstatus status="Active">demeter triggered</techstatus>
+			<typecount unit="Temple" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Greek Ixion</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Greek Ixion Spirit</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Heroes Demeter Age 2" type="Normal">
+		<dbid></dbid>
+		<displaynameid>11143</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>HideFromDetailHelp</flag>
+		<prereqs>
+			<specificage>Classical Age</specificage>
+			<civilization>
+				<civname>Zeus</civname>
+			</civilization>
+			<techstatus status="Active">demeter triggered</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Greek Circe</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Greek Circe Spirit</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Heroes Demeter Age 3" type="Normal">
+		<dbid></dbid>
+		<displaynameid>11143</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>HideFromDetailHelp</flag>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+			<civilization>
+				<civname>Zeus</civname>
+			</civilization>
+			<techstatus status="Active">demeter triggered</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Greek Hector</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Greek Hector Spirit</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Heroes Demeter Age 4" type="Normal">
+		<dbid></dbid>
+		<displaynameid>11143</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>HideFromDetailHelp</flag>
+		<prereqs>
+			<specificage>Mythic Age</specificage>
+			<civilization>
+				<civname>Zeus</civname>
+			</civilization>
+			<techstatus status="Active">demeter triggered</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Greek Leonidas</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Greek Leonidas Spirit</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Phantom Ships" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120407</displaynameid>
+		<cost resourcetype="Gold">350.0000</cost>
+		<cost resourcetype="Favor">20.0000</cost>
+		<researchpoints>50.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement tidal walls icon</icon>
+		<rollovertextid>120408</rollovertextid>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+			<techstatus status="Active">Eldritch Civ</techstatus>
+			<techstatus status="Active">Age 3 Dagon</techstatus>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Phantom Ship Dagon</target>
+			</effect>
+		</effects>
+	</tech>
+
+	
+	
+	
 
 
 

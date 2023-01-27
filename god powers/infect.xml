@@ -2,7 +2,7 @@
 
 <power name="Infect" type="swapunit" techname="Infect">
 	<activetime>-1</activetime>
-	<radius>10.0</radius>
+	<radius>3</radius>
 	<rangeindicatorprotoid radius="3.0" indicatorcount="8" speed="0.2">UI Range Indicator Greek SFX</rangeindicatorprotoid>
 	<placement forceonmap="1">skip</placement>
 	<convertusingminmax minswapamount="1" maxswapamount="1"></convertusingminmax>
@@ -19,8 +19,8 @@
 		<maxhpdamagevillager>1900</maxhpdamagevillager>
 		<maxhpdamagebuilding>0</maxhpdamagebuilding>
 	</gpdamagemodel>
-	<abstracttype swapto="Plague Mushroom Temp">AbstractVillager</abstracttype>
-	<abstracttype swapto="Plague Mushroom Temp">HumanSoldier</abstracttype>
+	<abstracttype swapto="Zombie Temp">AbstractVillager</abstracttype>
+	<abstracttype swapto="Zombie Temp">HumanSoldier</abstracttype>
 	<illegalabstracttype>Hero</illegalabstracttype>
 	<swapdelay>1.5</swapdelay>
 	<messagealertplayerrelation>ally</messagealertplayerrelation>

@@ -1130,28 +1130,28 @@
 				<gadget name="Selected-God-Name-XX16" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="696 63 972 93" z="12" textcenterhoriz="">Jupiter</gadget>
 				<gadget name="MinorGodText-XX16" textcentervert="" textcolor="255 255 255" textfontsize="16" textfont="GodPickerTitles" type="formatText" size1024="696 93 972 118" z="12" textcenterhoriz="">$$19963$$Minor Gods and God Powers</gadget>
 				<gadget name="FirstAge-Text-XX16" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 118 972 143" z="12" textcenterhoriz="">$$18966$$Archaic Age</gadget>
-				<gadget outlinecolor="255 208 0" name="FirstAge-GodPower-XX16" type="gadget" size1024="782 147 814 179" background="icons\roman icon fulmin virtutus" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FirstAge-GodPower-XX16" type="gadget" size1024="782 147 814 179" background="icons\roman icon fulmin virtutus" z="12" mouseovertext="$$120193$$"></gadget>
 			</gadget>
 			<gadget name="SecondAge-Section-XX16" type="gadget" size1024="695 187 972 319" z="11" background="ui\ui background opaque 2">
 				<gadget name="SecondAge-Text-XX16" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 186 972 211" z="11" textcenterhoriz="">$$18967$$Classical Age</gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-Icon-XX16" type="gadget" size1024="746 216 810 280" background="icons\improvement neptune icon" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-GodPower-XX16" type="gadget" size1024="744 285 776 317" background="icons\roman icon commotio terrae" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-Icon-XX16" type="gadget" size1024="858 216 922 280" background="icons\improvement apollo2 icon" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-GodPower-XX16" type="gadget" size1024="856 285 888 317" background="icons\roman icon febris divina" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-Icon-XX16" type="gadget" size1024="746 216 810 280" background="icons\improvement neptune icon" z="12" mouseovertext="$$120013$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-GodPower-XX16" type="gadget" size1024="744 285 776 317" background="icons\roman icon commotio terrae" z="12" mouseovertext="$$120199$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-Icon-XX16" type="gadget" size1024="858 216 922 280" background="icons\improvement apollo2 icon" z="12" mouseovertext="$$120017$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-GodPower-XX16" type="gadget" size1024="856 285 888 317" background="icons\roman icon febris divina" z="12" mouseovertext="$$120201$$"></gadget>
 			</gadget>
 			<gadget name="ThirdAge-Section-XX16" type="gadget" size1024="695 324 972 456" z="12" background="ui\ui background opaque 2">
 				<gadget name="ThirdAge-Text-XX16" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 323 972 348" z="11" textcenterhoriz="">$$18968$$Heroic Age</gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-Icon-XX16" type="gadget" size1024="747 352 811 416" background="icons\improvement vulcan icon" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-GodPower-XX16" type="gadget" size1024="745 421 777 453" background="icons\roman icon incaendium" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-Icon-XX16" type="gadget" size1024="859 352 923 416" background="icons\improvement mercury icon" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-GodPower-XX16" type="gadget" size1024="857 421 889 453" background="icons\roman icon bona mercatura" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-Icon-XX16" type="gadget" size1024="747 352 811 416" background="icons\improvement vulcan icon" z="12" mouseovertext="$$120029$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-GodPower-XX16" type="gadget" size1024="745 421 777 453" background="icons\roman icon incaendium" z="12" mouseovertext="$$120207$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-Icon-XX16" type="gadget" size1024="859 352 923 416" background="icons\improvement mercury icon" z="12" mouseovertext="$$120033$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-GodPower-XX16" type="gadget" size1024="857 421 889 453" background="icons\roman icon bona mercatura" z="12" mouseovertext="$$120209$$"></gadget>
 			</gadget>
 			<gadget name="FourthAge-Section-XX16" type="gadget" size1024="695 461 972 593" z="13" background="ui\ui background opaque 2">
 				<gadget name="FourthAge-Text-XX16" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 460 972 485" z="11" textcenterhoriz="">$$18969$$Mythic Age</gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-Icon-XX16" type="gadget" size1024="746 489 810 553" background="icons\improvement vesta icon" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-GodPower-XX16" type="gadget" size1024="744 558 776 590" background="icons\roman icon focis flamma" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-Icon-XX16" type="gadget" size1024="858 489 922 553" background="icons\improvement mars icon" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-GodPower-XX16" type="gadget" size1024="856 558 888 590" background="icons\roman icon dies belli" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-Icon-XX16" type="gadget" size1024="746 489 810 553" background="icons\improvement vesta icon" z="12" mouseovertext="$$120037$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-GodPower-XX16" type="gadget" size1024="744 558 776 590" background="icons\roman icon focis flamma" z="12" mouseovertext="$$120211$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-Icon-XX16" type="gadget" size1024="858 489 922 553" background="icons\improvement mars icon" z="12" mouseovertext="$$120045$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-GodPower-XX16" type="gadget" size1024="856 558 888 590" background="icons\roman icon dies belli" z="12" mouseovertext="$$120215$$"></gadget>
 			</gadget>
 		</gadget>
 		<gadget name="Selected-God-Area-XX17" type="gadget"  hidden="" size1024="695 55 972 493" z="5">
@@ -1159,28 +1159,28 @@
 				<gadget name="Selected-God-Name-XX17" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="696 63 972 93" z="12" textcenterhoriz="">Juno</gadget>
 				<gadget name="MinorGodText-XX17" textcentervert="" textcolor="255 255 255" textfontsize="16" textfont="GodPickerTitles" type="formatText" size1024="696 93 972 118" z="12" textcenterhoriz="">$$19963$$Minor Gods and God Powers</gadget>
 				<gadget name="FirstAge-Text-XX17" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 118 972 143" z="12" textcenterhoriz="">$$18966$$Archaic Age</gadget>
-				<gadget outlinecolor="255 208 0" name="FirstAge-GodPower-XX17" type="gadget" size1024="782 147 814 179" background="icons\roman icon juno moneta" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FirstAge-GodPower-XX17" type="gadget" size1024="782 147 814 179" background="icons\roman icon juno moneta" z="12" mouseovertext="$$120195$$"></gadget>
 			</gadget>
 			<gadget name="SecondAge-Section-XX17" type="gadget" size1024="695 187 972 319" z="11" background="ui\ui background opaque 2">
 				<gadget name="SecondAge-Text-XX17" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 186 972 211" z="11" textcenterhoriz="">$$18967$$Classical Age</gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-Icon-XX17" type="gadget" size1024="746 216 810 280" background="icons\improvement neptune icon" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-GodPower-XX17" type="gadget" size1024="744 285 776 317" background="icons\roman icon commotio terrae" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-Icon-XX17" type="gadget" size1024="858 216 922 280" background="icons\improvement diana icon" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-GodPower-XX17" type="gadget" size1024="856 285 888 317" background="icons\roman icon cervi impetum" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-Icon-XX17" type="gadget" size1024="746 216 810 280" background="icons\improvement neptune icon" z="12" mouseovertext="$$120013$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-GodPower-XX17" type="gadget" size1024="744 285 776 317" background="icons\roman icon commotio terrae" z="12" mouseovertext="$$120199$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-Icon-XX17" type="gadget" size1024="858 216 922 280" background="icons\improvement diana icon" z="12" mouseovertext="$$120020$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-GodPower-XX17" type="gadget" size1024="856 285 888 317" background="icons\roman icon cervi impetum" z="12" mouseovertext="$$120203$$"></gadget>
 			</gadget>
 			<gadget name="ThirdAge-Section-XX17" type="gadget" size1024="695 324 972 456" z="12" background="ui\ui background opaque 2">
 				<gadget name="ThirdAge-Text-XX17" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 323 972 348" z="11" textcenterhoriz="">$$18968$$Heroic Age</gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-Icon-XX17" type="gadget" size1024="747 352 811 416" background="icons\improvement venus icon" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-GodPower-XX17" type="gadget" size1024="745 421 777 453" background="icons\roman icon magna fecunditas" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-Icon-XX17" type="gadget" size1024="859 352 923 416" background="icons\improvement mercury icon" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-GodPower-XX17" type="gadget" size1024="857 421 889 453" background="icons\roman icon bona mercatura" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-Icon-XX17" type="gadget" size1024="747 352 811 416" background="icons\improvement venus icon" z="12" mouseovertext="$$120025$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-GodPower-XX17" type="gadget" size1024="745 421 777 453" background="icons\roman icon magna fecunditas" z="12" mouseovertext="$$120205$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-Icon-XX17" type="gadget" size1024="859 352 923 416" background="icons\improvement mercury icon" z="12" mouseovertext="$$120033$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-GodPower-XX17" type="gadget" size1024="857 421 889 453" background="icons\roman icon bona mercatura" z="12" mouseovertext="$$120209$$"></gadget>
 			</gadget>
 			<gadget name="FourthAge-Section-XX17" type="gadget" size1024="695 461 972 593" z="13" background="ui\ui background opaque 2">
 				<gadget name="FourthAge-Text-XX17" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 460 972 485" z="11" textcenterhoriz="">$$18969$$Mythic Age</gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-Icon-XX17" type="gadget" size1024="746 489 810 553" background="icons\improvement ceres icon" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-GodPower-XX17" type="gadget" size1024="744 558 776 590" background="icons\roman icon rura florentia" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-Icon-XX17" type="gadget" size1024="858 489 922 553" background="icons\improvement mars icon" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-GodPower-XX17" type="gadget" size1024="856 558 888 590" background="icons\roman icon dies belli" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-Icon-XX17" type="gadget" size1024="746 489 810 553" background="icons\improvement ceres icon" z="12" mouseovertext="$$120041$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-GodPower-XX17" type="gadget" size1024="744 558 776 590" background="icons\roman icon rura florentia" z="12" mouseovertext="$$120213$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-Icon-XX17" type="gadget" size1024="858 489 922 553" background="icons\improvement mars icon" z="12" mouseovertext="$$120045$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-GodPower-XX17" type="gadget" size1024="856 558 888 590" background="icons\roman icon dies belli" z="12" mouseovertext="$$120215$$"></gadget>
 			</gadget>
 		</gadget>
 <gadget name="Selected-God-Area-XX18" type="gadget"  hidden="" size1024="695 55 972 493" z="5">
@@ -1188,28 +1188,28 @@
 				<gadget name="Selected-God-Name-XX18" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="696 63 972 93" z="12" textcenterhoriz="">Minerva</gadget>
 				<gadget name="MinorGodText-XX18" textcentervert="" textcolor="255 255 255" textfontsize="16" textfont="GodPickerTitles" type="formatText" size1024="696 93 972 118" z="12" textcenterhoriz="">$$19963$$Minor Gods and God Powers</gadget>
 				<gadget name="FirstAge-Text-XX18" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 118 972 143" z="12" textcenterhoriz="">$$18966$$Archaic Age</gadget>
-				<gadget outlinecolor="255 208 0" name="FirstAge-GodPower-XX18" type="gadget" size1024="782 147 814 179" background="icons\roman icon celeri artis" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FirstAge-GodPower-XX18" type="gadget" size1024="782 147 814 179" background="icons\roman icon celeri artis" z="12" mouseovertext="$$120197$$"></gadget>
 			</gadget>
 			<gadget name="SecondAge-Section-XX18" type="gadget" size1024="695 187 972 319" z="11" background="ui\ui background opaque 2">
 				<gadget name="SecondAge-Text-XX18" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 186 972 211" z="11" textcenterhoriz="">$$18967$$Classical Age</gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-Icon-XX18" type="gadget" size1024="746 216 810 280" background="icons\improvement apollo2 icon" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-GodPower-XX18" type="gadget" size1024="744 285 776 317" background="icons\roman icon febris divina" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-Icon-XX18" type="gadget" size1024="858 216 922 280" background="icons\improvement diana icon" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-GodPower-XX18" type="gadget" size1024="856 285 888 317" background="icons\roman icon cervi impetum" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-Icon-XX18" type="gadget" size1024="746 216 810 280" background="icons\improvement apollo2 icon" z="12" mouseovertext="$$120017$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-GodPower-XX18" type="gadget" size1024="744 285 776 317" background="icons\roman icon febris divina" z="12" mouseovertext="$$120201$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-Icon-XX18" type="gadget" size1024="858 216 922 280" background="icons\improvement diana icon" z="12" mouseovertext="$$120021$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-GodPower-XX18" type="gadget" size1024="856 285 888 317" background="icons\roman icon cervi impetum" z="12" mouseovertext="$$120203$$"></gadget>
 			</gadget>
 			<gadget name="ThirdAge-Section-XX18" type="gadget" size1024="695 324 972 456" z="12" background="ui\ui background opaque 2">
 				<gadget name="ThirdAge-Text-XX18" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 323 972 348" z="11" textcenterhoriz="">$$18968$$Heroic Age</gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-Icon-XX18" type="gadget" size1024="747 352 811 416" background="icons\improvement venus icon" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-GodPower-XX18" type="gadget" size1024="745 421 777 453" background="icons\roman icon magna fecunditas" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-Icon-XX18" type="gadget" size1024="859 352 923 416" background="icons\improvement vulcan icon" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-GodPower-XX18" type="gadget" size1024="857 421 889 453" background="icons\roman icon incaendium" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-Icon-XX18" type="gadget" size1024="747 352 811 416" background="icons\improvement venus icon" z="12" mouseovertext="$$120025$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-GodPower-XX18" type="gadget" size1024="745 421 777 453" background="icons\roman icon magna fecunditas" z="12" mouseovertext="$$120205$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-Icon-XX18" type="gadget" size1024="859 352 923 416" background="icons\improvement vulcan icon" z="12" mouseovertext="$$120029$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-GodPower-XX18" type="gadget" size1024="857 421 889 453" background="icons\roman icon incaendium" z="12" mouseovertext="$$120207$$"></gadget>
 			</gadget>
 			<gadget name="FourthAge-Section-XX18" type="gadget" size1024="695 461 972 593" z="13" background="ui\ui background opaque 2">
 				<gadget name="FourthAge-Text-XX18" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 460 972 485" z="11" textcenterhoriz="">$$18969$$Mythic Age</gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-Icon-XX18" type="gadget" size1024="746 489 810 553" background="icons\improvement vesta icon" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-GodPower-XX18" type="gadget" size1024="744 558 776 590" background="icons\roman icon focis flamma" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-Icon-XX18" type="gadget" size1024="858 489 922 553" background="icons\improvement ceres icon" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-GodPower-XX18" type="gadget" size1024="856 558 888 590" background="icons\roman icon rura florentia" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-Icon-XX18" type="gadget" size1024="746 489 810 553" background="icons\improvement vesta icon" z="12" mouseovertext="$$120037$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-GodPower-XX18" type="gadget" size1024="744 558 776 590" background="icons\roman icon focis flamma" z="12" mouseovertext="$$120211$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-Icon-XX18" type="gadget" size1024="858 489 922 553" background="icons\improvement ceres icon" z="12" mouseovertext="$$120041$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-GodPower-XX18" type="gadget" size1024="856 558 888 590" background="icons\roman icon rura florentia" z="12" mouseovertext="$$120213$$"></gadget>
 			</gadget>
 		</gadget>
 <gadget name="Selected-God-Area-XX19" type="gadget"  hidden="" size1024="695 55 972 493" z="5">
