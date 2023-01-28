@@ -33246,6 +33246,28 @@
 			<effect type="Data" amount="1.15" subtype="Market" component="SellFactor" relativity="Percent">
 				<target type="Player"></target>
 			</effect>
+
+			<effect type="Data" amount="1.30" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Caravan Norse</target>
+			</effect>
+			<effect type="Data" amount="1.30" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Caravan Greek</target>
+			</effect>
+			<effect type="Data" amount="1.30" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Caravan Egyptian</target>
+			</effect>
+			<effect type="Data" amount="1.30" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Caravan Atlantean</target>
+			</effect>
+			<effect type="Data" amount="1.30" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Caravan Chinese</target>
+			</effect>
+			<effect type="Data" amount="1.30" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Caravan Roman</target>
+			</effect>
+			<effect type="Data" amount="1.30" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Aztec Caravan</target>
+			</effect>
 		</effects>
 	</tech>
 

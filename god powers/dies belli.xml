@@ -4,7 +4,6 @@
 	<activetime>60.0</activetime>
 	<builduptime>3.0</builduptime>
 	<shutdowntime>3.0</shutdowntime>
-	<powerblocker>-1</powerblocker>
 	<tech>Mars Belli</tech>
 	<cricketsound>ArkantosSpecial</cricketsound>
 	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>

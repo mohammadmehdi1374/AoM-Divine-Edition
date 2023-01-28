@@ -3,7 +3,7 @@
 <power name="JunoMoneta" type="ShowUnit" techname="Juno Moneta">
 	<ActiveTime>25.0</ActiveTime>
 	<placement forceonmap="1" matchtype="Settlement Level 1" ally="">unit</placement>
-	<UnitType>HumanSoldier</UnitType>
+	<UnitType>Unit</UnitType>
 	<ShowProto>Revealer to Player</ShowProto>
 	<StartSoundSet>GodPowerStart</StartSoundSet>
 	<EndSoundSet>GodPowerEnd</EndSoundSet>

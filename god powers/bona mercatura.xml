@@ -2,7 +2,7 @@
 
 <power name="BonaMercatura" type="flamingweapons" techname="Bona Mercatura">
 	<placement>skip</placement>
-	<activetime>60</activetime>
+	<activetime>180</activetime>
 	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
 	<soundset type="StartSound" listenertype="IfOnScreenAll">ExaminationBirth</soundset>
 	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
