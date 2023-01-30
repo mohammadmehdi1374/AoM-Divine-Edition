@@ -14,6 +14,8 @@ This is the largest and most ambitious mod for Age of Mythology in the history o
   - Jupiter
   - Juno
   - Minerva
+- Extended Pantheons
+  - Demeter (Greek) <-- Currently available through Khaos
   
 
 As the mod is very large, hosting it on Steam Workshop is not practical. As such, users of this mod will need to keep it up-to-date by either pulling changes using git or re-downloading it after every patch. For patch notifications and general discussions, join our discord! https://discord.gg/ZuZKfWzV2Z
@@ -34,8 +36,7 @@ As the mod is very large, hosting it on Steam Workshop is not practical. As such
 
 ### Known Issues/Unfinished Portions/Rough Edges
 
-- Eldritch 2.0 coming soon! It won't change too much, but many things will be made far more streamlined and less needlessly complex.
-- The sudden death and nomad maps will not work seamlessly. This is due to how they are set up with the random map generation.
+- The sudden death and nomad maps will not work seamlessly. This is due to how they are set up with the random map generation. They are still playable, however.
 - Lightning and Deathmatch modes are not currently supported. This is partially due to balance reasons, as we have not yet determined how to properly balance the Eldritch in particular. If you decide to try those modes out anyway, I recommend not having headphones on. It gets loud. 
 - Playing in online games against AI opponents may cause desyncs. This is a rare but well-documented issue and affects many mods. 
 - The AI cannot play any of the new gods and, if somehow given a new god, will default to an old one. Moreover, the AI will not react properly to many strategies, such as ignoring Eldritch rituals, not properly quarantining during the use of Plague, and massing counter-infantry against Roman legion units. 

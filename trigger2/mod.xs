@@ -32,6 +32,7 @@ active
 	//trchatsend(0, kbGetTechName(1145)  ); // Age 2 Apollo
 	trChatSend(0, kbGetTechName(1236)  ); // Demeter Triggered
 	trChatSend(0, kbGetTechName(304)  ); // Omniscience
+	trChatSend(0, kbGetTechName(1267)  ); // Springtime Radiance
 
 
 	trTechSetStatus(0, 304, cTechStatusActive);
@@ -2772,22 +2773,61 @@ priority 100
 	for(pid=0;<cNumberPlayers)
 	{
 		xsSetContextPlayer(pid);
-		int Qid = kbUnitQueryCreate("Temple Venus");
-		kbUnitQuerySetPlayerID(Qid, pid);
-		kbUnitQuerySetUnitType(Qid,kbGetProtoUnitID("Temple Venus"));
-		kbUnitQuerySetState(Qid,2);
-		
-		int num = kbUnitQueryExecute(Qid);
-		for(i=0;<num)
-		{
-			trUnitSelectClear();
-			trUnitSelectByID(kbUnitQueryGetResult(Qid,i));
-			//trDamageUnitsInArea(pid,"AbstractVillager",30,-1.0);
 
-			for(pid2=1;<cNumberPlayers)
-			{		
-				if (kbIsPlayerAlly(pid2)) {
-					trDamageUnitsInArea(pid2,"AbstractVillager",30,-1.0);
+		
+
+			int Qid = kbUnitQueryCreate("Temple Venus");
+			kbUnitQuerySetPlayerID(Qid, pid);
+			kbUnitQuerySetUnitType(Qid,kbGetProtoUnitID("Temple Venus"));
+			kbUnitQuerySetState(Qid,2);
+		
+			int num = kbUnitQueryExecute(Qid);
+			for(i=0;<num)
+			{
+				trUnitSelectClear();
+				trUnitSelectByID(kbUnitQueryGetResult(Qid,i));
+				//trDamageUnitsInArea(pid,"AbstractVillager",30,-1.0);
+
+				for(pid2=1;<cNumberPlayers)
+				{		
+					if (kbIsPlayerAlly(pid2)) {
+						trDamageUnitsInArea(pid2,"AbstractVillager",30,-1.0);
+					}
+				}
+			}
+		
+	}
+	xsSetContextPlayer(prevPlayer);
+}
+
+rule PersephoneGP
+active
+minInterval 1
+maxInterval 1
+priority 100
+{
+	int prevPlayer = xsGetContextPlayer();
+	for(pid=0;<cNumberPlayers)
+	{
+		xsSetContextPlayer(pid);
+
+		if (kbGetTechStatus(1267) == cTechStatusActive) {
+			int Qid = kbUnitQueryCreate("Farm");
+			kbUnitQuerySetPlayerID(Qid, pid);
+			kbUnitQuerySetUnitType(Qid,kbGetProtoUnitID("Farm"));
+			kbUnitQuerySetState(Qid,2);
+		
+			int num = kbUnitQueryExecute(Qid);
+			for(i=0;<num)
+			{
+				trUnitSelectClear();
+				trUnitSelectByID(kbUnitQueryGetResult(Qid,i));
+
+				for(pid2=1;<cNumberPlayers)
+				{		
+					if (kbIsPlayerAlly(pid2)) {
+						trDamageUnitsInArea(pid,"LogicalTypeCanBeHealed",10,-100.0);
+					}
 				}
 			}
 		}

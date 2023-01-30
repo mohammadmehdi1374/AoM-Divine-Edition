@@ -142,7 +142,7 @@ anim Idle
 				version
 				{
 					Visual Infantry G Hoplite_IdleA
-					ReplaceTexture Infantry G Hoplite Standard/infantry r legionario standard
+					ReplaceTexture Infantry G Hoplite Standard/infantry r legionario standard medium
 					connect Righthand Gladius Hotspot
 					connect LeftForearm Shield hotspot
 					Connect TopOfHead Head hotspot

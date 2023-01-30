@@ -213,7 +213,7 @@
 			
 			
 			<gadget name="Col1Row4HighlightE" type="gadget" size1024="225 450 325 550" z="12" hidden="" background="ui\ui god boarder highlight 128x128" transparent=""></gadget>
-			<gadget sound="UI_thunder" mouseovertext="$$100214$$" name="Col1Row4ButtonE" type="stateButton" size1024="225 450 325 550" z="11" background="ui\ui god kronos 128x128" statebuttonuseinternalstates="" hidden="" donthighlight="">
+			<gadget sound="UI_thunder" mouseovertext="$$120348$$" name="Col1Row4ButtonE" type="stateButton" size1024="225 450 325 550" z="11" background="ui\ui god kronos 128x128" statebuttonuseinternalstates="" hidden="" donthighlight="">
 				<stateentry background="ui\ui god khaos 256x256"></stateentry>
 			</gadget>
 			<gadget name="Col1Row4NameE" textcentervert="" textcolor="255 255 255" textfontsize="22" textfont="PregameHeadersSmall" type="formatText" size1024="225 550 325 572" z="12" hidden="" textcenterhoriz="" transparent="">$$100213$$</gadget>

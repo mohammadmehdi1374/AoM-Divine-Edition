@@ -3174,6 +3174,18 @@
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Physician</target>
 			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Greek Circe Spirit</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Greek Ixion Spirit</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Greek Hector Spirit</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Greek Leonidas Spirit</target>
+			</effect>
 			<effect type="CreateUnit" unit="Minotaur" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
@@ -35963,42 +35975,12 @@
 		<exclude>Age 4 Artemis</exclude>
 	</tech>
 
-	<tech name="Nourishing Oats" type="Normal">
-		<dbid></dbid>
-		<displaynameid>120353</displaynameid>
-		<cost resourcetype="Wood">120.0000</cost>
-		<cost resourcetype="Favor">5.0000</cost>
-		<researchpoints>30.0000</researchpoints>
-		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
-		<rollovertextid>120354</rollovertextid>
-		<buttonpos row="2" column="0"></buttonpos>
-		<prereqs>
-			<civilization>
-				<civname>Zeus</civname>
-			</civilization>
-			<techstatus status="Active">Demeter Triggered</techstatus>
-		</prereqs>
-		<effects>
-			<effect type="Data" amount="0.75" subtype="ResourceTrickleRate" resource="Food" relativity="Absolute">
-				<target type="Player"></target>
-			</effect>
-			<effect type="Data" amount="100.00" subtype="MaximumResourceTrickleRate" resource="Food" relativity="Absolute">
-				<target type="Player"></target>
-			</effect>
-			
-			<effect type="Data" action="AutoGather" amount="5.00" subtype="WorkRate" unittype="Food" relativity="BasePercent">
-				<target type="ProtoUnit">Herdable</target>
-			</effect>
-		</effects>
-	</tech>
-
 	<tech name="Tholos" type="Power">
 		<dbid></dbid>
 		<displaynameid>120369</displaynameid>
 		<researchpoints>0.1000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement blight icon</icon>
+		<icon>improvement tholos icon</icon>
 		<rollovertextid>120370</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 2 Nike</techstatus>
@@ -36010,7 +35992,7 @@
 		<displaynameid>120377</displaynameid>
 		<researchpoints>0.1000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement blight icon</icon>
+		<icon>improvement springtime radiance icon</icon>
 		<rollovertextid>120378</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 3 Persephone</techstatus>
@@ -36022,7 +36004,7 @@
 		<displaynameid>120385</displaynameid>
 		<researchpoints>0.1000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement blight icon</icon>
+		<icon>improvement burning hearths icon</icon>
 		<rollovertextid>120386</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 4 Hestia</techstatus>
@@ -36144,11 +36126,202 @@
 		</effects>
 	</tech>
 
+	<tech name="Nourishing Oats" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120353</displaynameid>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">5.0000</cost>
+		<researchpoints>25.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>120354</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Archaic Age</specificage>
+			<techstatus status="Active">Demeter Triggered</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="AutoGather" amount="2.75" subtype="WorkRate" unittype="Food" relativity="BasePercent">
+				<target type="ProtoUnit">Herdable</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Spirit of Victory" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120371</displaynameid>
+		<cost resourcetype="Gold">200.0000</cost>
+		<cost resourcetype="Favor">15.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement spirit of victory icon</icon>
+		<rollovertextid>120372</rollovertextid>
+		<buttonpos row="2" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 2 Nike</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">-1</effect>
+			<effect type="Data" amount="30.00" subtype="Lifespan" relativity="Absolute">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Wings of Wrath" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120373</displaynameid>
+		<cost resourcetype="Food">250.0000</cost>
+		<cost resourcetype="Favor">20.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement wings of wrath icon</icon>
+		<rollovertextid>120374</rollovertextid>
+		<buttonpos row="2" column="2"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 2 Nike</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="0.75" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="ProtoUnit">Caucasian Eagle</target>
+			</effect>
+			<effect type="SetName" proto="Caucasian Eagle" culture="Greek" newname="120411"></effect>
+			<effect type="Data" amount="1.15" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Caucasian Eagle</target>
+			</effect>
+			<effect type="TextOutput">-1</effect>
+		</effects>
+	</tech>
 	
 	
-	
+	<tech name="Springtime Radiance Active" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120377</displaynameid>
+		<rollovertextid>120378</rollovertextid>
+		<researchpoints>0.1000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>Improvement Springtime Radiance Icon</icon>
+		<effects>
+		</effects>
+	</tech>
 
 
+
+	<tech name="Springtime Plenty" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120379</displaynameid>
+		<cost resourcetype="Gold">100.0000</cost>
+		<cost resourcetype="Favor">20.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement springtime plenty icon</icon>
+		<rollovertextid>120380</rollovertextid>
+		<buttonpos row="2" column="2"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 3 Persephone</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="Gather" amount="100.0" subtype="WorkRate" unittype="WildCrops" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="TextOutput">-1</effect>
+		</effects>
+	</tech>
+	
+	<tech name="Brimming Life" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120381</displaynameid>
+		<cost resourcetype="Food">300.0000</cost>
+		<cost resourcetype="Favor">25.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement brimming life icon</icon>
+		<rollovertextid>120382</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 3 Persephone</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">-1</effect>
+			<effect type="Data" action="Regenerate" amount="1.00" subtype="WorkRate" unittype="All" relativity="Absolute">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+		</effects>
+	</tech>
+	
+	
+	<tech name="Burning Hearths Active" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120385</displaynameid>
+		<rollovertextid>120386</rollovertextid>
+		<researchpoints>0.1000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>Improvement Burning Hearths Icon</icon>
+		<effects>
+
+			<effect type="Data" amount="10.00" subtype="PopulationCapAddition" relativity="Absolute">
+				<target type="ProtoUnit">House</target>
+			</effect>
+
+			<effect type="Data" amount="20.00" subtype="PopulationCapAddition" relativity="Absolute">
+				<target type="ProtoUnit">SettlementsThatTrainVillagers</target>
+			</effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Homeland Fortification" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120387</displaynameid>
+		<cost resourcetype="Wood">250.0000</cost>
+		<cost resourcetype="Favor">32.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Homeland Fortification Icon</icon>
+		<rollovertextid>120388</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 4 Hestia</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">-1</effect>
+			<effect type="Data" action="Heal" amount="5.00" subtype="WorkRate" unittype="LogicalTypeCanBeHealed" relativity="Absolute">
+				<target type="ProtoUnit">SettlementsThatTrainVillagers</target>
+			</effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Hearts of Flame" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120389</displaynameid>
+		<cost resourcetype="Food">400.0000</cost>
+		<cost resourcetype="Favor">30.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Hearts of Flame Icon</icon>
+		<rollovertextid>120390</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 4 Hestia</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">-1</effect>
+			<effect type="Data" amount="-0.50" subtype="ArmorVulnerability" damagetype="Hack" relativity="Percent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" amount="-0.50" subtype="ArmorVulnerability" damagetype="Pierce" relativity="Percent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="2.0" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+
+			<effect type="Data" action="HandAttack" amount="3.00" subtype="DamageBonus" unittype="Building" relativity="Absolute">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+		</effects>
+	</tech>
+	
+	
+			
 
 
 
