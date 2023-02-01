@@ -32169,10 +32169,10 @@
 				<target type="ProtoUnit">Resource Depot</target>
 			</effect>
 
-			<effect type="Data" amount="0.0" subtype="Cost" resource="Food" relativity="Percent">
+			<effect type="Data" amount="0.0" subtype="Cost" resource="Wood" relativity="Percent">
 				<target type="ProtoUnit">House</target>
 			</effect>
-			<effect type="Data" amount="0.0" subtype="Cost" resource="Food" relativity="Percent">
+			<effect type="Data" amount="0.0" subtype="Cost" resource="Wood" relativity="Percent">
 				<target type="ProtoUnit">Resource Depot</target>
 			</effect>
 
@@ -33653,11 +33653,11 @@
 			<effect type="Data" amount="0.75" subtype="TrainPoints" relativity="BasePercent">
 				<target type="ProtoUnit">Hero</target>
 			</effect>
-			<effect type="Data" amount="0.85" subtype="Cost" resource="Food" relativity="Percent">
-				<target type="ProtoUnit">Minotaur</target>
+			<effect type="Data" amount="0.9" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="ProtoUnit">Hero</target>
 			</effect>
-			<effect type="Data" amount="0.85" subtype="Cost" resource="Gold" relativity="Percent">
-				<target type="ProtoUnit">Minotaur</target>
+			<effect type="Data" amount="0.9" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="ProtoUnit">Hero</target>
 			</effect>
 		</effects>
 	</tech>

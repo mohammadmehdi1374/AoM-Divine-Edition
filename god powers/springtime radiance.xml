@@ -2,7 +2,7 @@
 
 <power name="SpringtimeRadiance" type="flamingweapons" techname="Springtime Radiance">
 	<placement>skip</placement>
-	<activetime>15</activetime>
+	<activetime>30</activetime>
 	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
 	<soundset type="StartSound" listenertype="IfOnScreenAll">ExaminationBirth</soundset>
 	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
