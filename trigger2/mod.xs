@@ -6,6 +6,21 @@ int plagueMod = 5;
 
 // <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< If you've seen the RotG vc scripts, I apologize for the mess lmao >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
+
+rule RecordedHack
+minInterval 0
+maxInterval 0
+inactive 
+{
+	trTechSetStatus(1, 1097, cTechStatusUnobtainable);
+	trTechSetStatus(2, 1097, cTechStatusUnobtainable);
+	trTechSetStatus(1, 1102, cTechStatusActive);
+	trTechSetStatus(2, 1098, cTechStatusActive);
+	xsDisableSelf();
+}
+
+
+
 rule Debug
 minInterval 0
 maxInterval 0
@@ -30,22 +45,172 @@ active
 	//trchatsend(0, kbGetTechName(1033)  ); // Fushimi Pilgrimage
 	//trchatsend(0, kbGetTechName(1096)  ); // God Picked
 	//trchatsend(0, kbGetTechName(1145)  ); // Age 2 Apollo
-	trChatSend(0, kbGetTechName(1236)  ); // Demeter Triggered
-	trChatSend(0, kbGetTechName(304)  ); // Omniscience
-	trChatSend(0, kbGetTechName(1267)  ); // Springtime Radiance
+	//trChatSend(0, kbGetTechName(1236)  ); // Demeter Triggered
+	//trChatSend(0, kbGetTechName(1273)  ); // Age 1 Aten
+	//trChatSend(0, kbGetTechName(304)  ); // Omniscience
+	//trChatSend(0, kbGetTechName(1267)  ); // Springtime Radiance
+	//trChatSend(0, kbGetTechName(1312)  ); // Rays of Life
 
 
-	trTechSetStatus(0, 304, cTechStatusActive);
-	trTechSetStatus(0, 1238, cTechStatusActive);
+	//trTechSetStatus(0, 304, cTechStatusActive);
+	//trTechSetStatus(0, 1238, cTechStatusActive);
 
 		
     xsDisableSelf();
 }
 
 
+rule romeLimits
+minInterval 0
+maxInterval 0
+active 
+{
+	for (i=1; < cNumberPlayers)
+    {			
+	xsSetContextPlayer(i);
+		if (kbGetTechStatus(1134) == cTechStatusActive) {
+			int q_id = kbUnitQueryCreate("Legionary");
+			kbUnitQuerySetPlayerID(q_id, i);
+			kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Legionary"));
+			kbUnitQuerySetState(q_id,2);
+			int q_len = kbUnitQueryExecute(q_id);
+			trModifyProtounit( "optio", i, 10, (q_len / 2) - kbGetBuildLimit(i, kbGetProtoUnitID("Optio") ));
+
+			
+
+			q_id = kbUnitQueryCreate("Optio");
+			kbUnitQuerySetPlayerID(q_id, i);
+			kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Optio"));
+			kbUnitQuerySetState(q_id,2);
+			q_len = kbUnitQueryExecute(q_id);
+			trModifyProtounit( "Centurion", i, 10, (q_len / 2) - kbGetBuildLimit(i, kbGetProtoUnitID("Centurion") ));
+
+			
+			q_id = kbUnitQueryCreate("Imperator");
+			kbUnitQuerySetPlayerID(q_id, i);
+			kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Imperator"));
+			kbUnitQuerySetState(q_id,2);
+			q_len = kbUnitQueryExecute(q_id);
+			trModifyProtounit( "Legate", i, 10, (q_len / 2) - kbGetBuildLimit(i, kbGetProtoUnitID("Legate") ));
+			
+			q_id = kbUnitQueryCreate("Equite");
+			kbUnitQuerySetPlayerID(q_id, i);
+			kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Equite"));
+			kbUnitQuerySetState(q_id,2);
+			q_len = kbUnitQueryExecute(q_id);
+			trModifyProtounit( "Decurion", i, 10, (q_len / 2) - kbGetBuildLimit(i, kbGetProtoUnitID("Decurion") ));
+			
+			q_id = kbUnitQueryCreate("Praetorian");
+			kbUnitQuerySetPlayerID(q_id, i);
+			kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Praetorian"));
+			kbUnitQuerySetState(q_id,2);
+			q_len = kbUnitQueryExecute(q_id);
+			if (q_len >= 5) {
+				trModifyProtounit( "Praetorian Prefect", i, 10, 1 - kbGetBuildLimit(i, kbGetProtoUnitID("Praetorian Prefect") ));
+			} else {
+				trModifyProtounit( "Praetorian Prefect", i, 10, 0 - kbGetBuildLimit(i, kbGetProtoUnitID("Praetorian Prefect") ));
+			}
 
 
+		}
+	}
+}
 
+int portalIndex = 0;
+
+rule portalTest
+minInterval 0
+maxInterval 0
+active 
+{
+    
+	xsSetContextPlayer(0);
+	int q_id = kbUnitQueryCreate("Well of Urd");
+	kbUnitQuerySetPlayerID(q_id, 0);
+	kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Well of Urd"));
+	kbUnitQuerySetState(q_id,2);
+	int q_len = kbUnitQueryExecute(q_id);
+
+	if (q_len == 1) {
+		trUnitSelectClear();
+		trUnitSelectByID(kbUnitQueryGetResult(q_id,0));
+		trUnitChangeInArea(0, 0, "Well of Urd", "Revealer to Player", 1.5);
+		for (i=1; < cNumberPlayers)
+			{
+			trPlayerSetDiplomacy(0, i, "ally");
+			trPlayerSetDiplomacy(i, 0, "ally");
+			}
+		xsDisableSelf();
+	} else if (portalIndex > 0) {
+		if (q_len >= 2) {
+			//trChatSend(0, "found " + q_len );
+		
+			if (q_len > (3 * cNumberPlayers) + portalIndex) {
+				vector center1 = kbUnitGetPosition(kbUnitQueryGetResult(q_id,0));
+				vector center2 = kbUnitGetPosition(kbUnitQueryGetResult(q_id,(3 * cNumberPlayers) + portalIndex ));
+
+					trUnitSelectClear();
+					trUnitSelectByID(kbUnitQueryGetResult(q_id,0));
+					trUnitChangeInArea(0, 0, "Well of Urd", "Revealer to Player", 1.5);
+					//trUnitDelete(false);
+					trUnitSelectClear();
+					trUnitSelectByID(kbUnitQueryGetResult(q_id,(3 * cNumberPlayers) + portalIndex ));
+					trUnitChangeInArea(0, 0, "Well of Urd", "Revealer to Player", 1.5);
+					//trUnitDelete(false);
+
+		
+				trTechInvokeGodPower(0, "Void Portal", center1, center2);
+
+				portalIndex = portalIndex + 2;
+			}  else {
+				 center1 = kbUnitGetPosition(kbUnitQueryGetResult(q_id,0));
+				 center2 = kbUnitGetPosition(kbUnitQueryGetResult(q_id,q_len-1));
+
+					trUnitSelectClear();
+					trUnitSelectByID(kbUnitQueryGetResult(q_id,0));
+					trUnitChangeInArea(0, 0, "Well of Urd", "Revealer to Player", 1.5);
+					trUnitSelectClear();
+					trUnitSelectByID(kbUnitQueryGetResult(q_id,q_len-1));
+					trUnitChangeInArea(0, 0, "Well of Urd", "Revealer to Player", 1.5);
+				
+
+		
+				trTechInvokeGodPower(0, "Void Portal", center1, center2);
+			}
+		} else {
+			for (i=1; < cNumberPlayers)
+			{
+			trPlayerSetDiplomacy(0, i, "ally");
+			trPlayerSetDiplomacy(i, 0, "ally");
+			}
+			xsDisableSelf();
+		}
+
+	} else if(q_len > 0){
+		for (j=0;<cNumberPlayers - 1) {
+			center1 = kbUnitGetPosition(kbUnitQueryGetResult(q_id,j));
+			center2 = kbUnitGetPosition(kbUnitQueryGetResult(q_id,j + cNumberPlayers - 1 ));
+
+			trUnitSelectClear();
+			trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
+			trUnitChangeInArea(0, 0, "Well of Urd", "Revealer to Player", 1.5);
+			trUnitSelectClear();
+			trUnitSelectByID(kbUnitQueryGetResult(q_id,j + cNumberPlayers - 1 ));
+			trUnitChangeInArea(0, 0, "Well of Urd", "Revealer to Player", 1.5);
+			trTechInvokeGodPower(0, "Void Portal", center1, center2);
+
+		}
+
+
+		portalIndex = 2;
+
+
+	} else {
+		xsDisableSelf();
+	}
+		
+	
+}
 
 
 
@@ -238,10 +403,10 @@ priority 100
 		xsSetContextPlayer(i);
 		
 		if(kbGetTechStatus(873) == cTechStatusActive) {
-			//trEchoStatValue(1, 2); // units killed
-			//trEchoStatValue(1, 6); // Units lost
+			trEchoStatValue(1, 2); // units killed
+			trEchoStatValue(1, 6); // Units lost
 			if (trGetStatValue(i, 2) > trGetStatValue(i, 6)) {
-				trTechGodPowerAtPosition(i, "Solar Beam", 1, 1);
+				trTechGodPowerAtPosition(i, "Solar Beam", 1 + kbGetAgeForPlayer(i), 1);
 			}
 		}
 	}
@@ -262,10 +427,10 @@ priority 100
 		if(kbGetTechStatus(873) == cTechStatusActive) {
 			//trChatSend(0, kbGetTechName(1091)  ); // Huitzilopochtli Strength 1
 			//trChatSend(0, "" );
-			//trEchoStatValue(1, 4); // units killed cost
-			//trEchoStatValue(1, 5); // buildings killed cost 
-			//trEchoStatValue(1, 8); // units lost cost
-			//trEchoStatValue(1, 9); // buildings lost cost
+			trEchoStatValue(1, 4); // units killed cost
+			trEchoStatValue(1, 5); // buildings killed cost 
+			trEchoStatValue(1, 8); // units lost cost
+			trEchoStatValue(1, 9); // buildings lost cost
 
 			int kill_cost = trGetStatValue(i, 4) + trGetStatValue(i, 5);
 			int lost_cost = trGetStatValue(i, 8) + trGetStatValue(i, 9);
@@ -296,26 +461,26 @@ priority 100
 								trTechSetStatus(i, 1094, cTechStatusActive);
 							}
 							if (kill_cost - 1000 > lost_cost * 2) {
-								//trChatSend(0, "Strength level 5");
+								trChatSend(0, "Strength level 5");
 								if (trTechStatusActive(i, 1095)) {
 								} else {
 									trTechSetStatus(i, 1095, cTechStatusActive);
 								}
 							} else {
 								trTechSetStatus(i, 1095, cTechStatusUnobtainable);
-								//trChatSend(0, "Strength level 4");
+								trChatSend(0, "Strength level 4");
 							}
 						} else {
 							trTechSetStatus(i, 1095, cTechStatusUnobtainable);
 							trTechSetStatus(i, 1094, cTechStatusUnobtainable);
-							//trChatSend(0, "Strength level 3");
+							trChatSend(0, "Strength level 3");
 						}
 
 					} else {
 						trTechSetStatus(i, 1095, cTechStatusUnobtainable);
 						trTechSetStatus(i, 1094, cTechStatusUnobtainable);
 						trTechSetStatus(i, 1093, cTechStatusUnobtainable);
-						//trChatSend(0, "Strength level 2");
+						trChatSend(0, "Strength level 2");
 					}
 
 				} else {
@@ -323,7 +488,7 @@ priority 100
 					trTechSetStatus(i, 1094, cTechStatusUnobtainable);
 					trTechSetStatus(i, 1093, cTechStatusUnobtainable);
 					trTechSetStatus(i, 1092, cTechStatusUnobtainable);
-					//trChatSend(0, "Strength level 1");
+					trChatSend(0, "Strength level 1");
 				}
 
 			} else {
@@ -332,7 +497,7 @@ priority 100
 				trTechSetStatus(i, 1093, cTechStatusUnobtainable);
 				trTechSetStatus(i, 1092, cTechStatusUnobtainable);
 				trTechSetStatus(i, 1091, cTechStatusUnobtainable);
-				//trChatSend(0, "Strength level 0");
+				trChatSend(0, "Strength level 0");
 			}
 		}
 	}
@@ -431,6 +596,9 @@ priority 100
 
 int allDone = 0;
 
+
+
+
 rule SetGodTest
 minInterval 0
 maxInterval 0
@@ -528,6 +696,11 @@ active
 			trTechSetStatus(i, 1236, cTechStatusActive);
 		} else if(kbGetTechStatus(1108) == cTechStatusActive) {
 			trChatSend(i, "I picked chronos!");
+			trChatSend(i, "lol jk it's aten!");
+			trPlayerKillAllGodPowers(i);
+			trSetCivAndCulture(i, 4, 1);
+			trPlayerKillAllGodPowers(i);
+			trTechSetStatus(i, 1273, cTechStatusActive);
 		} else if(kbGetTechStatus(1109) == cTechStatusActive) {
 			trChatSend(i, "I picked ananke!");
 		} else if(kbGetTechStatus(1110) == cTechStatusActive) {
@@ -794,6 +967,10 @@ priority 100
 				//trPlayerKillAllGodPowers(i);
 				//trTechSetStatus(i, 1133, cTechStatusActive);
 				trSetCivilizationNameOverride(i, "Demeter");
+			} else if (kbGetTechStatus(1273) == cTechStatusActive) { // Aten
+				trPlayerKillAllGodPowers(i);
+				trSetCivilizationNameOverride(i, "Aten");
+				
 			}   else {													// Nothing selected
 				trChatSend(i, "This god was unimplemented -- I am playing as Zeus.");
 				//trSetCivAndCulture(i, 0, 0);
@@ -1764,10 +1941,27 @@ active
 		trUnitSelectClear();
 		trUnitSelectByID(kbUnitQueryGetResult(q_id2,k));
 	
-		trUnitConvert(i);
+		//trUnitConvert(i);
 	}
 
 	xsSetContextPlayer(i);
+
+	q_id = kbUnitQueryCreate("Invoker of Voormis");
+	kbUnitQuerySetPlayerID(q_id, i);
+	kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Invoker of Voormis"));
+	kbUnitQuerySetState(q_id,2);
+	q_len = kbUnitQueryExecute(q_id);
+        for(j=0;<q_len)
+	{
+		trUnitSelectClear();
+		trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
+
+
+		
+		trUnitChangeInArea(0, i, "Voormis 4", "Voormis 4", 30.0);
+
+		trUnitDelete(false);
+	}
 
 	q_id = kbUnitQueryCreate("Ritual of the Voormi");
 	kbUnitQuerySetPlayerID(q_id, i);
@@ -1786,6 +1980,8 @@ active
 
 		trUnitDelete(false);
 	}
+
+	
 
 	
 
@@ -2939,9 +3135,57 @@ priority 100
 				if (kbIsPlayerEnemy(pid2)) {
 					trDamageUnitsInArea(pid2,"HumanSoldier",20,2.0);
 				} else if (kbIsPlayerAlly(pid2)) {
-					trDamageUnitsInArea(pid,"HumanSoldier",15,-1.0);
+					trDamageUnitsInArea(pid2,"HumanSoldier",15,-1.0);
 				}
 			}
+		}
+	}
+	xsSetContextPlayer(prevPlayer);
+}
+
+rule AtenPharaoh
+active
+minInterval 1
+maxInterval 1
+priority 100
+{
+	int prevPlayer = xsGetContextPlayer();
+	for(pid=0;<cNumberPlayers)
+	{
+		xsSetContextPlayer(pid);
+
+		if (kbGetTechStatus(1273) == cTechStatusActive) {
+
+			int Qid = kbUnitQueryCreate("Pharaoh");
+			kbUnitQuerySetPlayerID(Qid, pid);
+			kbUnitQuerySetUnitType(Qid,kbGetProtoUnitID("Pharaoh"));
+			kbUnitQuerySetState(Qid,2);
+
+			int age = kbGetAgeForPlayer(pid);
+
+			int factor = 1;
+
+			if (kbGetTechStatus(1312) == cTechStatusActive) {
+				factor = 2;
+			}
+		
+			int num = kbUnitQueryExecute(Qid);
+			for(i=0;<num)
+			{
+				trUnitSelectClear();
+				trUnitSelectByID(kbUnitQueryGetResult(Qid,i));
+
+				for(pid2=1;<cNumberPlayers)
+				{		
+					if (kbIsPlayerEnemy(pid2)) {
+						trDamageUnitsInArea(pid2,"All",7, (1.0 + age) * factor );
+						trDamageUnitsInArea(pid2,"Military",7, (1.0 + 3 * age) * factor);
+					} else if (kbIsPlayerAlly(pid2)) {
+						trDamageUnitsInArea(pid2,"LogicalTypeCanBeHealed",10,(-2.0 - 3 * age) * factor);
+					}
+				}
+			}
+
 		}
 	}
 	xsSetContextPlayer(prevPlayer);
@@ -3109,7 +3353,13 @@ active
 				civChosen = 0;
 			} else if (kbGetTechStatus(1133) == cTechStatusActive) { // minerva
 				civChosen = 0;
+			} else if (kbGetTechStatus(1236) == cTechStatusActive) { // demeter
+				civChosen = 22;
+			} else if (kbGetTechStatus(1273) == cTechStatusActive) { // aten
+				civChosen = 23;
 			}
+
+			
 			}
 
 
@@ -3230,6 +3480,16 @@ active
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Roc Capture", 0.01);
 				} else {
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Arrow", 0.01);
+				} }
+				case 22: { if (j2 < 2) {													// Demeter
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Caucasian Eagle", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Arrow", 0.01);
+				} }
+				case 23: { if (j2 < 2) {													// Aten
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Scavenger Roc", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Giant Scorpion", 0.01);
 				} }
 				default: { if (j2 < 1) {												// Roman/else
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Manes", 0.01);
@@ -3356,6 +3616,16 @@ active
 				} else {
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
 				} }
+				case 22: { if (j2 < 2) {													// Demeter
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Harpy MU", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} }
+				case 23: { if (j2 < 2) {													// Aten
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "ReApep", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} }
 				default: { if (j2 < 2) {												// Roman/else
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Manes", 0.01);
 				} else {
@@ -3476,6 +3746,16 @@ active
 				} }
 				case 21: { if (j2 < 2) {													// Huitzilopochtli
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Xochitonal", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
+				} }
+				case 22: { if (j2 < 2) {													// Demeter
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Gryphon", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
+				} }
+				case 23: { if (j2 < 2) {													// Aten
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Sand Monster", 0.01);
 				} else {
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
 				} }

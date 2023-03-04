@@ -57,6 +57,7 @@
 	<abstracttype swapto="Pine Snow Burning" blendtexture="World N Pine Burnt">Pine Snow</abstracttype>
 	<abstracttype swapto="Pine Dead Burning" blendtexture="World N Pine Burnt">Pine Dead</abstracttype>
 	<abstracttype swapto="Pine Dead Burning" blendtexture="World N Pine Burnt">Ironwood</abstracttype>
+	<abstracttype swapto="Pine Dead Burning" blendtexture="World N Pine Burnt">Void Tree</abstracttype>
 	<abstracttype swapto="Savannah Tree Burning" blendtexture="World E Savannah burnt map">Savannah Tree</abstracttype>
 	<abstracttype swapto="Tundra Tree Burning" blendtexture="World T Tundra burnt map">Tundra Tree</abstracttype>
 	<abstracttype swapto="Marsh Tree Burning" blendtexture="World M Marsh Tree burnt map">Marsh Tree</abstracttype>

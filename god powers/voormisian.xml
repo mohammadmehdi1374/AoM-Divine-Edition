@@ -15,12 +15,22 @@
 
 	<abstracttype>
 		<type>House</type>
-		<spawntype>Voormis 2</spawntype>
+		<spawntype>Voormis 3</spawntype>
+	</abstracttype>
+	<abstracttype>
+		<type>Jap House</type>
+		<spawntype>Voormis 3</spawntype>
 	</abstracttype>
 
 	<abstracttype>
 		<type>Manor</type>
-		<spawntype>Voormis 1</spawntype>
+		<spawntype>Voormis 2</spawntype>
+	</abstracttype>
+
+
+	<abstracttype>
+		<type>Aztec Manor</type>
+		<spawntype>Voormis 2</spawntype>
 	</abstracttype>
 
 	<icon>god power uproot icon</icon>

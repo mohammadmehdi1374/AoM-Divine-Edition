@@ -18,6 +18,7 @@
 	<abstracttype swapto="Walking Woods Pine Snow">Pine Snow</abstracttype>
 	<abstracttype swapto="Walking Woods Pine">Pine Dead</abstracttype>
 	<abstracttype swapto="Walking Woods Pine">Ironwood</abstracttype>
+	<abstracttype swapto="Walking Woods Birch">Void Tree</abstracttype>
 	<abstracttype swapto="Walking Woods Savannah">Savannah Tree</abstracttype>
 	<abstracttype swapto="Walking Woods Marsh">Marsh Tree</abstracttype>
 	<abstracttype swapto="Walking Woods Tundra">Tundra Tree</abstracttype>

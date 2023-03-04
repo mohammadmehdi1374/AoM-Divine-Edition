@@ -64,14 +64,14 @@
 	<abstractattacktargettype>LogicalTypeImplodeAttack</abstractattacktargettype>
 	<gpdamagemodel>
 		<playerrelation>enemy</playerrelation>
-		<maxhpdamageunit>60000 </maxhpdamageunit>
-		<maxhpdamagevillager>7000 </maxhpdamagevillager>
+		<maxhpdamageunit>60000000 </maxhpdamageunit>
+		<maxhpdamagevillager>7000000 </maxhpdamagevillager>
 		<maxhpdamagebuilding>50 </maxhpdamagebuilding>
 	</gpdamagemodel>
 	<gpdamagemodel>
 		<playerrelation>ally</playerrelation>
-		<maxhpdamageunit>60000 </maxhpdamageunit>
-		<maxhpdamagevillager>7000 </maxhpdamagevillager>
+		<maxhpdamageunit>60000000 </maxhpdamageunit>
+		<maxhpdamagevillager>7000000 </maxhpdamagevillager>
 		<maxhpdamagebuilding>80 </maxhpdamagebuilding>
 	</gpdamagemodel>
 	<powerblocker>30 </powerblocker>

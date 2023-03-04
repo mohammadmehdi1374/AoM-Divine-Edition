@@ -7,12 +7,12 @@
 	<god dbid="3" nameid="17153" techname="Age 3 Dionysos" portrait="god minor portrait greek Dionysus" position="3" age="3"></god>
 	<god dbid="4" nameid="17155" techname="Age 3 Apollo" portrait="god minor portrait greek Apollo" position="2" age="3"></god>
 	<god dbid="5" nameid="17156" techname="Age 3 Aphrodite" portrait="god minor portrait greek Aphrodite" position="1" age="3"></god>
-	<god dbid="6" nameid="17157" techname="Age 4 Hera" portrait="god minor portrait greek Hera" position="3" age="4"></god>
-	<god dbid="7" nameid="17158" techname="Age 4 Artemis" portrait="god minor portrait greek Artemis" position="1" age="4"></god>
+	<god dbid="6" nameid="17157" techname="Age 4 Hera" portrait="god minor portrait greek Hera" position="1" age="4"></god>
+	<god dbid="7" nameid="17158" techname="Age 4 Artemis" portrait="god minor portrait greek Artemis" position="3" age="4"></god>
 	<god dbid="8" nameid="17159" techname="Age 4 Hephaestus" portrait="god minor portrait greek Hephaestus" position="2" age="4"></god>
-	<god dbid="9" nameid="17160" techname="Age 2 Anubis" portrait="god minor portrait egypt Anubis" position="1" age="2"></god>
+	<god dbid="9" nameid="17160" techname="Age 2 Anubis" portrait="god minor portrait egypt Anubis" position="3" age="2"></god>
 	<god dbid="10" nameid="17161" techname="Age 2 Bast" portrait="god minor portrait egypt Bast" position="2" age="2"></god>
-	<god dbid="11" nameid="17162" techname="Age 2 Ptah" portrait="god minor portrait egypt Ptah" position="3" age="2"></god>
+	<god dbid="11" nameid="17162" techname="Age 2 Ptah" portrait="god minor portrait egypt Ptah" position="1" age="2"></god>
 	<god dbid="12" nameid="17163" techname="Age 3 Hathor" portrait="god minor portrait egypt Hathor" position="1" age="3"></god>
 	<god dbid="13" nameid="17164" techname="Age 3 Nephthys" portrait="god minor portrait egypt Nephthys" position="2" age="3"></god>
 	<god dbid="14" nameid="17165" techname="Age 3 Sekhmet" portrait="god minor portrait egypt Sekhmet" position="3" age="3"></god>
@@ -94,6 +94,9 @@
 	<god dbid="80" nameid="120393" techname="Age 2 Nike" portrait="god minor portrait greek nike" position="4" age="2"></god>
 	<god dbid="81" nameid="120394" techname="Age 3 Persephone" portrait="god minor portrait greek persephone" position="4" age="3"></god>
 	<god dbid="82" nameid="120395" techname="Age 4 Hestia" portrait="god minor portrait greek hestia" position="4" age="4"></god>
+	<god dbid="83" nameid="120456" techname="Age 2 Maahes" portrait="god minor portrait eggy maahes" position="4" age="2"></god>
+	<god dbid="84" nameid="120457" techname="Age 3 Sobek" portrait="god minor portrait eggy sobek" position="4" age="3"></god>
+	<god dbid="85" nameid="120458" techname="Age 4 Nut" portrait="god minor portrait eggy nut" position="4" age="4"></god>
 	
 
 

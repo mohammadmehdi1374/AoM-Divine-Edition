@@ -28,8 +28,8 @@
 			<listitem>Izanagi</listitem>
 			<listitem>Izanami</listitem>
 			<listitem>Kagu-Tsuchi</listitem>
-			<listitem>Khaos</listitem>
-			<listitem>Chronos</listitem>
+			<listitem>Demeter</listitem> <!-- Khaos-->
+			<listitem>Aten</listitem> <!-- Chronos-->
 			<listitem>Ananke</listitem>
 			<listitem>Nyx</listitem>
 			<listitem>Tartarus</listitem>
@@ -787,6 +787,353 @@
 					<gadget name="ChineseLegend-God Power" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 699 153 719" z="17">$$19163$$God Power</gadget>
 					<gadget name="ChineseLegend-Myth Unit" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 729 153 749" z="17">$$19164$$Myth Unit</gadget>
 				</gadget>
+			</div>
+			<div name="FakeTechTree-New10"  hidden="" size1024="0 0 1024 768">
+				
+		
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Zeus" type="button" size1024="175 22 232 79">Demeter Triggered</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Bolt GP" type="button" size1024="242 34 274 66">Blight</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Pegasus" type="button" size1024="285 34 317 66">Pegasus</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Olympic Parentage" type="button" size1024="327 34 359 66">Nourishing Oats</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Athena" type="button" size1024="407 23 463 79">Age 2 Nike</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Restoration GP" type="button" size1024="474 22 506 54">Tholos</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Minotaur" type="button" size1024="515 22 547 54">Caucasian Eagle</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Labyrinth" type="button" size1024="555 22 587 54">Wings of Wrath</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Aegis Shield" type="button" size1024="475 64 507 96">Spirit of Victory</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Sarissa" type="button" size1024="515 65 547 97">Legendary Pace</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Hermes" type="button" size1024="407 113 463 169">Age 2 Hermes</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Centaur" type="button" size1024="515 113 547 145">Centaur</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Ceasefire" type="button" size1024="475 113 507 145">Cease fire</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Spirited Charge" type="button" size1024="476 153 508 185">Spirited Charge</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Winged Messenger" type="button" size1024="515 153 547 185">Winged Messenger</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Sylvan Lore" type="button" size1024="555 113 587 145">Sylvan Lore</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Apollo" type="button" size1024="614 23 670 79">Age 3 Persephone</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Manticore" type="button" size1024="721 22 753 54">Harpy MU</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Tunnel" type="button" size1024="681 23 713 55">Springtime Radiance</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Sun Ray" type="button" size1024="720 63 752 95">Springtime Plenty</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Temple of Healing" type="button" size1024="681 63 713 95">Brimming Life</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Oracle" type="button" size1024="760 22 792 54">Blood of Orphnaeus</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Dionysus" type="button" size1024="614 113 670 169">Age 3 Dionysos</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Hydra" type="button" size1024="721 113 753 145">Hydra</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Scylla" type="button" size1024="759 113 791 145">Scylla</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Bronze" type="button" size1024="679 113 711 145">Bronze</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Bacchanalia" type="button" size1024="681 153 713 185">Bacchanalia</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Anastrophe" type="button" size1024="760 153 792 185">Anastrophe</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Tracian Horses" type="button" size1024="720 154 752 186">Thracian Horses</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Hephaestus" type="button" size1024="821 23 877 79">Age 4 Hestia</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Colossus" type="button" size1024="928 21 960 53">Gryphon</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Plenty" type="button" size1024="887 22 919 54">Burning Hearths</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Forge of Olympus" type="button" size1024="928 63 960 95">Homeland Fortification</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Weapon of the Titans" type="button" size1024="967 64 999 96">Hearts of Flame</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Hand of Talos" type="button" size1024="967 22 999 54">Ashes to Embers</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Hera" type="button" size1024="821 113 877 169">Age 4 Artemis</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Medusa" type="button" size1024="927 113 959 145">Chimera</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Lightning Storm" type="button" size1024="888 113 920 145">Earthquake</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Athenian Wall" type="button" size1024="887 154 919 186">Flames of Typhon</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Face of the Gorgon" type="button" size1024="927 153 959 185">Shafts of Plague</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Monstrous Rage" type="button" size1024="967 153 999 185">Trierarch</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Storehouse" type="button" size1024="21 296 53 328">Storehouse</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Pickaxe" type="button" size1024="100 295 132 327">Pickaxe</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Hand Axe" type="button" size1024="60 296 92 328">Hand Axe</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Shaft Mine" type="button" size1024="356 295 388 327">Shaft Mine</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Bow Saw" type="button" size1024="316 295 348 327">Bow Saw</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Quarry" type="button" size1024="564 296 596 328">Quarry</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Carpenters" type="button" size1024="525 296 557 328">Carpenters</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Granary" type="button" size1024="20 338 52 370">Granary</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Husbandry" type="button" size1024="60 337 92 369">Husbandry</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Hunting Dogs" type="button" size1024="100 338 132 370">Hunting Dogs</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Plow" type="button" size1024="316 338 348 370">Plow</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Irrigation" type="button" size1024="524 338 556 370">Irrigation</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Flood Control" type="button" size1024="823 339 855 371">Flood Control</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-TC" type="button" size1024="20 255 52 287">Settlement Level 1</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Villager" type="button" size1024="60 255 92 287">Villager Greek</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Jason" type="button" size1024="100 255 132 287">Hero Greek Ixion</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Odysseus" type="button" size1024="317 255 349 287">Hero Greek Circe</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Heracles" type="button" size1024="524 255 556 287">Hero Greek Hector</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Bellerophon" type="button" size1024="823 254 855 286">Hero Greek Leonidas</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Physician" type="button" size1024="357 254 389 286">Physician</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Masons" type="button" size1024="397 254 429 286">Masons</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Architecture" type="button" size1024="564 255 596 287">Architects</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Fortify TC" type="button" size1024="605 254 637 286">Fortify Town Center</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Dock" type="button" size1024="20 380 52 412">Dock</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Fishing Ship" type="button" size1024="59 379 91 411">Fishing Ship Greek</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Transport" type="button" size1024="356 381 388 413">Transport Ship Greek</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Trireme" type="button" size1024="316 379 348 411">Trireme</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Hammmer Ship" type="button" size1024="525 381 557 413">Ramming Ship Greek</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Siege Ship" type="button" size1024="564 380 596 412">Siege Ship Greek</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Purse Seine" type="button" size1024="396 381 428 413">Purse Seine</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Salt Amphora" type="button" size1024="604 380 636 412">Salt Amphora</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Enclosed Deck" type="button" size1024="436 380 468 412">Enclosed Deck</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Heroic Fleet" type="button" size1024="476 380 508 412">Heroic Fleet</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Cladding" type="button" size1024="644 380 676 412">Cladding</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Naval Oxybeles" type="button" size1024="823 380 856 412">Naval Oxybeles</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Conscript Sailors" type="button" size1024="903 381 935 413">Conscript Sailors</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Reinforced Hull" type="button" size1024="863 379 895 411">Reinforced Hull</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-House" type="button" size1024="20 464 52 496">House</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Farm" type="button" size1024="276 674 308 706">Farm</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Wall" type="button" size1024="20 423 52 455">Wall Connector</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Stone Wall" type="button" size1024="316 423 348 455">Stone Wall</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Fortified Wall" type="button" size1024="524 422 556 454">Fortified Wall</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Tower" type="button" size1024="276 464 308 496">Tower</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Watch Tower" type="button" size1024="317 464 349 496">Watch Tower</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Signal Fires" type="button" size1024="356 464 388 496">Signal Fires</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Crenellations" type="button" size1024="396 464 428 496">Crenellations</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Guard Tower" type="button" size1024="524 464 556 496">Guard Tower</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Carrier Pigeons" type="button" size1024="565 464 597 496">Carrier Pigeons</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Boiling Oil" type="button" size1024="604 464 636 496">Boiling Oil</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Market" type="button" size1024="524 674 556 706">Market</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Caravan Greek" type="button" size1024="564 675 596 707">Caravan Greek</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Ambassadors" type="button" size1024="605 675 637 707">Ambassadors</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Coinage" type="button" size1024="824 674 856 706">Coinage</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Tax Collectors" type="button" size1024="643 674 675 706">Tax Collectors</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Fortress" type="button" size1024="524 715 556 747">Fortress</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Petrobolos" type="button" size1024="564 715 596 746">Petrobolos</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Helepolis" type="button" size1024="863 717 895 749">Helepolis</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Draft Horses" type="button" size1024="604 716 636 748">Draft Horses</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Engineers" type="button" size1024="903 716 935 748">Engineers</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Temple" type="button" size1024="20 507 52 539">Temple</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Temple" type="button" size1024="824 464 856 496">Temple</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Omniscience" type="button" size1024="863 464 895 496">Omniscience</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Archery Range" type="button" size1024="277 547 309 579">Archery Range</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Toxotes" type="button" size1024="316 548 348 580">Toxotes</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Peltast" type="button" size1024="525 548 557 580">Peltast</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Medium Archers" type="button" size1024="356 549 388 581">Medium Archers</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Heavy Arhcers" type="button" size1024="564 548 596 580">Heavy Archers</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Champion Archers" type="button" size1024="824 548 856 580">Champion Archers</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Levy Archers" type="button" size1024="603 548 635 580">Levy Archers</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Conscript Archers" type="button" size1024="864 548 896 580">Conscript Archers</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Academy" type="button" size1024="277 506 309 538">Academy</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Hoplite" type="button" size1024="316 507 348 539">Hoplite</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Hypaspist" type="button" size1024="525 506 557 538">Hypaspist</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Med Inf" type="button" size1024="356 506 388 538">Medium Infantry</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Hvy Inf" type="button" size1024="564 505 596 537">Heavy Infantry</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Champ Inf" type="button" size1024="824 506 856 538">Champion Infantry</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Levy Inf" type="button" size1024="604 505 636 537">Levy Infantry</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Cons Inf" type="button" size1024="863 507 895 539">Conscript Infantry</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Stable" type="button" size1024="276 591 308 623">Stable</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Hippikon" type="button" size1024="315 591 347 623">Hippikon</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Prodromos" type="button" size1024="525 591 557 623">Prodromos</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Med Cav" type="button" size1024="355 590 387 622">Medium Cavalry</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Hvy Cav" type="button" size1024="564 590 596 622">Heavy Cavalry</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Champ Cav" type="button" size1024="824 591 856 623">Champion Cavalry</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Levy Cav" type="button" size1024="604 590 636 622">Levy Cavalry</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Conscript Cav" type="button" size1024="863 590 895 622">Conscript Cavalry</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Armory" type="button" size1024="277 632 309 664">Armory</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Copper Wpn" type="button" size1024="316 632 348 664">Copper Weapons</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Bronze Wpn" type="button" size1024="524 632 556 664">Bronze Weapons</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Iron Wpn" type="button" size1024="824 632 856 663">Iron Weapons</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Copper Mail" type="button" size1024="357 632 389 664">Copper Mail</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Bronze Mail" type="button" size1024="565 633 597 665">Bronze Mail</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Iron Mail" type="button" size1024="863 632 895 664">Iron Mail</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Copper Shields" type="button" size1024="395 632 427 664">Copper Shields</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Bronze Shields" type="button" size1024="604 633 636 665">Bronze Shields</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Iron Shields" type="button" size1024="902 633 934 665">Iron Shields</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Burning Pitch" type="button" size1024="943 633 975 665">Burning Pitch</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Wonder" type="button" size1024="823 421 855 453">Wonder</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-TechNode-Titan" type="button" size1024="864 421 896 453">Secrets of the Titans</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-ZeusBackground" type="gadget" size1024="0 0 1024 768" z="1">
+					<gadget name="ZeusBackground1" type="gadget" size1024="0 0 256 256" background="UI\techTreeZeus1" clampbackground=""></gadget>
+					<gadget name="ZeusBackground2" type="gadget" size1024="256 0 512 256" background="UI\techTreeZeus2" clampbackground=""></gadget>
+					<gadget name="ZeusBackground3" type="gadget" size1024="512 0 768 256" background="UI\techTreeZeus3" clampbackground=""></gadget>
+					<gadget name="ZeusBackground4" type="gadget" size1024="768 0 1024 256" background="UI\techTreeZeus4" clampbackground=""></gadget>
+					<gadget name="ZeusBackground5" type="gadget" size1024="0 256 256 512" background="UI\techTreeZeus5" clampbackground=""></gadget>
+					<gadget name="ZeusBackground6" type="gadget" size1024="256 256 512 512" background="UI\techTreeZeus6" clampbackground=""></gadget>
+					<gadget name="ZeusBackground7" type="gadget" size1024="512 256 768 512" background="UI\techTreeZeus7" clampbackground=""></gadget>
+					<gadget name="ZeusBackground8" type="gadget" size1024="768 256 1024 512" background="UI\techTreeZeus8" clampbackground=""></gadget>
+					<gadget name="ZeusBackground9" type="gadget" size1024="0 512 256 768" background="UI\techTreeZeus9" clampbackground=""></gadget>
+					<gadget name="ZeusBackground10" type="gadget" size1024="256 512 512 768" background="UI\techTreeZeus10" clampbackground=""></gadget>
+					<gadget name="ZeusBackground11" type="gadget" size1024="512 512 768 768" background="UI\techTreeZeus11" clampbackground="" clampforeground=""></gadget>
+					<gadget name="ZeusBackground12" type="gadget" size1024="768 512 1024 768" background="UI\techTreeZeus12" clampbackground=""></gadget>
+				</gadget>
+				<gadget hidden="" name="FakeTechTree-New10-GreekLegendZeus" type="gadget" z="20">
+					<gadget name="GreekLegend-Building" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 669 258 689" z="17">$$19159$$Building</gadget>
+					<gadget name="GreekLegend-Unit" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 699 258 719" z="17">$$19160$$Unit</gadget>
+					<gadget name="GreekLegend-Improvement" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 729 258 749" z="17">$$19161$$Improvement</gadget>
+					<gadget name="GreekLegend-God" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 669 153 689" z="17">$$19162$$God</gadget>
+					<gadget name="GreekLegend-God Power" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 699 153 719" z="17">$$19163$$God Power</gadget>
+					<gadget name="GreekLegend-Myth Unit" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 729 153 749" z="17">$$19164$$Myth Unit</gadget>
+				</gadget>
+		
+			</div>
+			<div name="FakeTechTree-New11"  hidden="" size1024="0 0 1024 768">
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Isis" type="button" size1024="174 23 232 81">Age 1 Aten</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Prosperity GP" type="button" size1024="240 34 272 66">Solar Flare</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Flood of the Nile" type="button" size1024="284 34 316 66">Rays of Life</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Anubis" type="button" size1024="407 23 463 79">Age 2 Anubis</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Serpents GP" type="button" size1024="474 23 506 55">Serpents</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Anubite" type="button" size1024="515 23 547 55">Anubite</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Feet of the Jackal" type="button" size1024="554 23 586 55">Feet of the Jackal</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Serpent Spear" type="button" size1024="475 63 507 95">Serpent Spear</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Necropolis" type="button" size1024="514 64 546 96">Necropolis</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Bast" type="button" size1024="407 113 463 169">Age 2 Maahes</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Sphinx" type="button" size1024="515 113 547 145">Scavenger Roc</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Eclipse" type="button" size1024="474 113 506 145">Desert Storm</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Sacred Cats" type="button" size1024="474 152 506 184">Hateful Spirit</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Criosphinx" type="button" size1024="515 153 547 185">Vultures Feast</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Hieracosphinx" type="button" size1024="554 153 586 185">Ravagers of the Sand</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Adze of Wepwawet" type="button" size1024="555 112 587 144">Giant Scorpion</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-HATHOR" type="button" size1024="614 23 670 79">Age 3 Sobek</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Petsuchos" type="button" size1024="719 22 751 54">ReApep</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Locust Swarm GP" type="button" size1024="680 22 712 54">Son of Sobek</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Medjay" type="button" size1024="760 63 792 95">Bite of the Crocodile</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Crocodopolis" type="button" size1024="720 64 752 96">Tooth Shards</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Sundried Brick" type="button" size1024="680 63 712 95">Blood in the Water</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-NEPHTHYS" type="button" size1024="614 113 670 169">Age 3 Nephthys</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Leviathan" type="button" size1024="720 113 752 145">Leviathan</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Scorpion Man" type="button" size1024="760 112 792 144">Scorpion Man</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Ancestors GP" type="button" size1024="680 113 712 145">Skeleton Power</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Spirit of Maat" type="button" size1024="679 154 711 186">Spirit of Maat</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-City of the Dead" type="button" size1024="759 153 791 185">City of the Dead</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Funeral Rites" type="button" size1024="720 154 752 186">Funeral Rites</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-OSIRIS" type="button" size1024="821 23 877 79">Age 4 Nut</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Mummy" type="button" size1024="927 21 959 53">Sand Monster</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Son of Osiris GP" type="button" size1024="887 22 919 54">Defenders of Maat</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Atef Crown" type="button" size1024="966 23 998 55">Cloak of Night</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Desert Wind" type="button" size1024="967 65 999 97">Embrace of Geb</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-New Kingdom" type="button" size1024="928 65 960 97">Shus Blessing</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Funeral Barge" type="button" size1024="888 65 920 97">Monument Giant</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-THOTH" type="button" size1024="821 113 877 169">Age 4 Thoth</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Phoenix" type="button" size1024="927 113 959 145">Phoenix</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Sea Turtle" type="button" size1024="966 112 998 144">Sea Turtle</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Meteor GP" type="button" size1024="886 111 918 143">Meteor</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Book of Thoth" type="button" size1024="887 155 919 187">Book of Thoth</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Valley of the Kings" type="button" size1024="966 154 998 186">Valley of the Kings</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Apedemaks Tusks" type="button" size1024="927 154 959 186">Tusks of Apedemak</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Lumber Camp" type="button" size1024="19 294 51 326">Lumber Camp</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Hand Axe" type="button" size1024="59 294 91 326">Hand Axe</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Bow Saw" type="button" size1024="231 293 263 325">Bow Saw</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Carpenters" type="button" size1024="522 294 554 326">Carpenters</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Mining Camp" type="button" size1024="20 337 52 369">Mining Camp</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Pickaxe" type="button" size1024="59 335 91 367">Pickaxe</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Shaft Mine" type="button" size1024="231 335 263 367">Shaft Mine</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Quarry" type="button" size1024="521 335 553 367">Quarry</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Granary" type="button" size1024="20 378 52 410">Granary</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Husbandry" type="button" size1024="59 377 91 409">Husbandry</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Hunting Dogs" type="button" size1024="99 378 131 410">Hunting Dogs</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Plow" type="button" size1024="231 376 263 408">Plow</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Irrigation" type="button" size1024="521 377 553 409">Irrigation</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Flood Control" type="button" size1024="852 376 884 408">Flood Control</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-TC" type="button" size1024="20 250 52 282">Settlement Level 1</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Villager" type="button" size1024="58 250 90 282">Villager Egyptian</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Priest" type="button" size1024="58 629 90 661">Priest</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Mercenary" type="button" size1024="179 250 211 282">Mercenary</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Mercenary Cav" type="button" size1024="521 251 553 283">Mercenary Cavalry</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Pharaoh" type="button" size1024="99 252 131 284">Pharaoh</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Masons" type="button" size1024="231 252 263 284">Masons</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Architecture" type="button" size1024="562 251 594 283">Architects</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Fortify TC" type="button" size1024="601 251 633 283">Fortify Town Center</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Dock" type="button" size1024="20 420 52 452">Dock</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Fishing Ship" type="button" size1024="58 418 90 450">Fishing Ship Egyptian</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Transport" type="button" size1024="270 420 302 452">Transport Ship Egyptian</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Kebenit" type="button" size1024="230 420 262 452">Kebenit</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Hammmer Ship" type="button" size1024="522 419 554 451">Ramming Ship Egyptian</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Siege Ship" type="button" size1024="562 419 594 451">Siege Ship Egyptian</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Purse Seine" type="button" size1024="312 420 344 452">Purse Seine</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Salt Amphora" type="button" size1024="601 419 633 451">Salt Amphora</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Enclosed Deck" type="button" size1024="351 419 383 451">Enclosed Deck</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Heroic Fleet" type="button" size1024="391 419 423 451">Heroic Fleet</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Cladding" type="button" size1024="641 419 673 451">Cladding</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Naval Oxybeles" type="button" size1024="932 418 965 450">Naval Oxybeles</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Conscript Sailors" type="button" size1024="892 419 924 451">Conscript Sailors</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Reinforced Hull" type="button" size1024="852 418 884 450">Reinforced Hull</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-House" type="button" size1024="20 545 52 577">House</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Outpost" type="button" size1024="21 588 53 620">Outpost</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Farm" type="button" size1024="19 503 51 535">Farm</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Wall" type="button" size1024="20 462 52 494">Wall Connector</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Stone Wall" type="button" size1024="231 461 263 493">Stone Wall</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Fortified Wall" type="button" size1024="522 462 554 494">Fortified Wall</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Citadel Wall" type="button" size1024="852 461 884 493">Citadel Wall</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Tower" type="button" size1024="232 503 264 535">Tower</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Ballista Tower" type="button" size1024="853 502 885 534">Ballista Tower</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Signal Fires" type="button" size1024="271 504 303 536">Signal Fires</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Crenellations" type="button" size1024="311 504 343 536">Crenellations</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Guard Tower" type="button" size1024="523 504 555 536">Guard Tower</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Carrier Pigeons" type="button" size1024="562 504 594 536">Carrier Pigeons</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Boiling Oil" type="button" size1024="602 504 634 536">Boiling Oil</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Market" type="button" size1024="522 670 554 702">Market</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Caravan Egyptian" type="button" size1024="563 670 595 702">Caravan Egyptian</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Ambassadors" type="button" size1024="602 669 634 701">Ambassadors</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Coinage" type="button" size1024="853 669 885 701">Coinage</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Tax Collectors" type="button" size1024="641 670 673 702">Tax Collectors</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Siege Works" type="button" size1024="522 712 554 744">Siege Camp</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Siege Tower" type="button" size1024="562 711 594 742">Siege Tower</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Catapult" type="button" size1024="852 710 884 742">Catapult</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Draft Horses" type="button" size1024="602 712 634 744">Draft Horses</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Engineers" type="button" size1024="892 711 924 743">Engineers</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Temple" type="button" size1024="20 628 52 660">Temple</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Priest" type="button" size1024="138 251 170 283">Priest</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-HandsPharaoh" type="button" size1024="272 252 304 284">Hands of the Pharaoh</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Monument" type="button" size1024="19 670 51 702">Monument</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Temple" type="button" size1024="853 251 885 283">Temple</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Omniscience" type="button" size1024="892 251 924 283">Omniscience</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Migdol Stronghold" type="button" size1024="522 628 554 660">Migdol Stronghold</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Chariot Archer" type="button" size1024="561 626 593 658">Chariot Archer</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Camelry" type="button" size1024="602 627 634 659">Camelry</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-War Elephant" type="button" size1024="642 628 674 660">War Elephant</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Heavy Chariots" type="button" size1024="681 629 713 661">Heavy Chariots</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Champion Chariots" type="button" size1024="852 627 884 659">Champion Chariots</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Levy Migdol" type="button" size1024="802 629 834 661">Levy Migdol Soldiers</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Conscript Migdol" type="button" size1024="972 627 1004 659">Conscript Migdol Soldiers</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Heavy Camels" type="button" size1024="722 628 754 660">Heavy Camelry</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Champion Camels" type="button" size1024="892 625 924 657">Champion Camelry</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Heavy Elephants" type="button" size1024="762 628 794 660">Heavy Elephants</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Champion Elephants" type="button" size1024="932 627 964 659">Champion Elephants</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Barracks" type="button" size1024="152 546 184 578">Barracks</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Spearman" type="button" size1024="192 546 224 578">Spearman</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Axeman" type="button" size1024="232 546 264 578">Axeman</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Slinger" type="button" size1024="272 546 304 578">Slinger</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Khopesh" type="button" size1024="312 546 344 578">Khopesh</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Med Spear" type="button" size1024="352 546 384 578">Medium Spearmen</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Med Axeman" type="button" size1024="392 546 424 578">Medium Axemen</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Med Slinger" type="button" size1024="432 546 464 578">Medium Slingers</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Med Khopesh" type="button" size1024="472 546 504 578">Medium Khopesh</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Hvy Spear" type="button" size1024="522 546 554 578">Heavy Spearmen</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Hvy Axeman" type="button" size1024="562 546 594 578">Heavy Axemen</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Hvy Slinger" type="button" size1024="602 546 634 578">Heavy Slingers</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Hvy Khopesh" type="button" size1024="642 546 674 578">Heavy Khopesh</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Levy Barracks" type="button" size1024="682 546 714 578">Levy Barracks Soldiers</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Champ Spear" type="button" size1024="812 546 844 578">Champion Spearmen</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Champ Axeman" type="button" size1024="852 546 884 578">Champion Axemen</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Champ Slinger" type="button" size1024="892 546 924 578">Champion Slingers</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Champ Khopesh" type="button" size1024="932 546 964 578">Champion Khopesh</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Cons Barracks" type="button" size1024="972 546 1004 578">Conscript Barracks Soldiers</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Armory" type="button" size1024="231 584 263 616">Armory</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Copper Wpn" type="button" size1024="272 584 304 616">Copper Weapons</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Bronze Wpn" type="button" size1024="524 587 556 619">Bronze Weapons</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Iron Wpn" type="button" size1024="852 586 884 617">Iron Weapons</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Copper Mail" type="button" size1024="312 585 344 617">Copper Mail</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Bronze Mail" type="button" size1024="563 586 595 618">Bronze Mail</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Iron Mail" type="button" size1024="892 586 924 618">Iron Mail</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Copper Shields" type="button" size1024="350 586 382 618">Copper Shields</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Bronze Shields" type="button" size1024="603 586 635 618">Bronze Shields</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Iron Shields" type="button" size1024="931 585 963 617">Iron Shields</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Burning Pitch" type="button" size1024="971 585 1003 617">Burning Pitch</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Wonder" type="button" size1024="853 293 885 325">Wonder</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Titan" type="button" size1024="892 293 924 325">Secrets of the Titans</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-TechNode-Lighthouse" type="button" size1024="853 334 885 366">Lighthouse</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-IsisBackground" type="gadget" size1024="0 0 1024 768" z="1">
+					<gadget name="IsisBackground1" type="gadget" size1024="0 0 256 256" background="UI\techTreeIsis1" clampbackground=""></gadget>
+					<gadget name="IsisBackground2" type="gadget" size1024="256 0 512 256" background="UI\techTreeIsis2" clampbackground=""></gadget>
+					<gadget name="IsisBackground3" type="gadget" size1024="512 0 768 256" background="UI\techTreeIsis3" clampbackground=""></gadget>
+					<gadget name="IsisBackground4" type="gadget" size1024="768 0 1024 256" background="UI\techTreeIsis4" clampbackground=""></gadget>
+					<gadget name="IsisBackground5" type="gadget" size1024="0 256 256 512" background="UI\techTreeIsis5" clampbackground=""></gadget>
+					<gadget name="IsisBackground6" type="gadget" size1024="256 256 512 512" background="UI\techTreeIsis6" clampbackground=""></gadget>
+					<gadget name="IsisBackground7" type="gadget" size1024="512 256 768 512" background="UI\techTreeIsis7" clampbackground=""></gadget>
+					<gadget name="IsisBackground8" type="gadget" size1024="768 256 1024 512" background="UI\techTreeIsis8" clampbackground=""></gadget>
+					<gadget name="IsisBackground9" type="gadget" size1024="0 512 256 768" background="UI\techTreeIsis9" clampbackground=""></gadget>
+					<gadget name="IsisBackground10" type="gadget" size1024="256 512 512 768" background="UI\techTreeIsis10" clampbackground=""></gadget>
+					<gadget name="IsisBackground11" type="gadget" size1024="512 512 768 768" background="UI\techTreeIsis11" clampbackground="" clampforeground=""></gadget>
+					<gadget name="IsisBackground12" type="gadget" size1024="768 512 1024 768" background="UI\techTreeIsis12" clampbackground=""></gadget>
+				</gadget>
+				<gadget  hidden="" name="FakeTechTree-New11-EgyptianLegendIsis" type="gadget" z="20" size1024="0 0 30 30">
+					<gadget name="EgyptianLegend-Building" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="289 665 391 685" z="17">$$19159$$Building</gadget>
+					<gadget name="EgyptianLegend-Unit" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="289 696 391 716" z="17">$$19160$$Unit</gadget>
+					<gadget name="EgyptianLegend-Improvement" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="289 726 391 746" z="17">$$19161$$Improvement</gadget>
+					<gadget name="EgyptianLegend-God" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="173 665 286 685" z="17">$$19162$$God</gadget>
+					<gadget name="EgyptianLegend-God Power" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="173 696 286 716" z="17">$$19163$$God Power</gadget>
+					<gadget name="EgyptianLegend-Myth Unit" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="173 726 286 746" z="17">$$19164$$Myth Unit</gadget>
+				</gadget>
+		
 			</div>
 		</gadget>
 		<gadget name="FakeTechTree-Poseidon" type="gadget" hidden="" size1024="0 0 1024 768">

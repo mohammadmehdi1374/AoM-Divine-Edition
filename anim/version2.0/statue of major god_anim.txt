@@ -197,7 +197,7 @@ anim Idle
 {
 	SetSelector 
 	{
-	TechLogic none/Aztec Civ/Eldritch Civ/Roman Civ/Demeter Triggered
+	TechLogic none/Aztec Civ/Eldritch Civ/Roman Civ/Demeter Triggered/Age 1 Aten
     SetSelector
     {
 		CivilizationLogic isis/ra/set/hades/poseidon/zeus/loki/odin/thor/Kronos/Gaia/Ouranos/Fuxi/Nuwa/Shennong
@@ -454,6 +454,19 @@ anim Idle
 				version
 				{
 					Visual FountainStatue
+				}
+			}
+		}
+	}
+	SetSelector
+	{
+		SetSelector
+		{
+			Set Hotspot
+			{
+				version
+				{
+					Visual Building E Statue A
 				}
 			}
 		}
@@ -736,6 +749,18 @@ anim Death
 				{
 					connect hotspot Dust Hotspot
 					Visual FountainStatue
+				}
+			}
+		}
+	}
+	SetSelector
+		{
+			set hotspot
+			{
+				version
+				{
+					 Visual Building E Statue A_Death
+				connect smoke1 dust hotspot
 				}
 			}
 		}

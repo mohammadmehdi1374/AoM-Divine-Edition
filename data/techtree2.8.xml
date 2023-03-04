@@ -1428,6 +1428,9 @@
 				<target type="ProtoUnit">Tower</target>
 			</effect>
 			<effect type="Data" action="RangedAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+				<target type="ProtoUnit">Tower DS</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
 				<target type="ProtoUnit">Twisted Spire</target>
 			</effect>
 			<effect type="SetName" proto="Tower" culture="none" newname="11210"></effect>
@@ -3852,6 +3855,156 @@
 			</effect>
 		</effects>
 	</tech>
+	<tech name="Age 2 Bast" type="Normal">
+		<dbid>368</dbid>
+		<displaynameid>10879</displaynameid>
+		<cost resourcetype="Food">400.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement bast icon</icon>
+		<rollovertextid>17652</rollovertextid>
+		<prereqsnotmetrollovertextid>10838</prereqsnotmetrollovertextid>
+		<buttonpos row="1" column="1"></buttonpos>
+		<flag>AlwaysShowButton</flag>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<techstatus status="Active">Starting Units Egyptian</techstatus>
+			<typecount unit="Temple" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<civilization>
+				<civname>Isis</civname>
+				<civname>Ra</civname>
+			</civilization>
+			<specificage operator="e">Archaic Age</specificage>
+			<techstatus status="Active">Can Do Bast</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11345</effect>
+			<effect all="true" type="TextOutput">11346</effect>
+			<effect type="Sound">researchcomplete1.wav</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Sphinx</target>
+			</effect>
+			<effect type="TechStatus" status="active">Age 2</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Anubis</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Ptah</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Maahes</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Armory</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Spearman</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Khopesh</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Axeman</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Slinger</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Tower</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Barracks</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Transport Ship Egyptian</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Kebenit</target>
+			</effect>
+			<effect type="TechStatus" status="active">Watch Tower</effect>
+			<effect tech="Eclipse" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="CreateUnit" unit="Sphinx" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TextOutput">23437</effect>
+		</effects>
+		<exclude>Age 2 Ptah</exclude>
+		<exclude>Age 2 Anubis</exclude>
+		<exclude>Age 2 Maahes</exclude>
+	</tech>
+	<tech name="Age 2 Ptah" type="Normal">
+		<dbid>369</dbid>
+		<displaynameid>10895</displaynameid>
+		<cost resourcetype="Food">400.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement ptah icon</icon>
+		<rollovertextid>17646</rollovertextid>
+		<prereqsnotmetrollovertextid>10835</prereqsnotmetrollovertextid>
+		<buttonpos row="1" column="2"></buttonpos>
+		<flag>AlwaysShowButton</flag>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<techstatus status="Active">Starting Units Egyptian</techstatus>
+			<civilization>
+				<civname>Ra</civname>
+				<civname>Set</civname>
+			</civilization>
+			<specificage>Archaic Age</specificage>
+			<typecount unit="Temple" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<techstatus status="Active">Can Do Ptah</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11347</effect>
+			<effect all="true" type="TextOutput">11348</effect>
+			<effect type="Sound">researchcomplete1.wav</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Wadjet</target>
+			</effect>
+			<effect type="TechStatus" status="active">Age 2</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Anubis</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Bast</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Maahes</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Armory</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Axeman</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Slinger</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Tower</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Barracks</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Spearman</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Khopesh</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Transport Ship Egyptian</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Kebenit</target>
+			</effect>
+			<effect type="TechStatus" status="active">Watch Tower</effect>
+			<effect tech="Sandstorm" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="CreateUnit" unit="Wadjet" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TextOutput">23443</effect>
+		</effects>
+		<exclude>Age 2 Bast</exclude>
+		<exclude>Age 2 Anubis</exclude>
+		<exclude>Age 2 Maahes</exclude>
+	</tech>
 	<tech name="Age 2 Anubis" type="Normal">
 		<dbid>367</dbid>
 		<displaynameid>10872</displaynameid>
@@ -3867,11 +4020,13 @@
 		<prereqs>
 			<techstatus status="Active">Starting Units Egyptian</techstatus>
 			<civilization>
+				<civname>Ra</civname>
 				<civname>Isis</civname>
 				<civname>Set</civname>
 			</civilization>
 			<specificage>Archaic Age</specificage>
 			<typecount unit="Temple" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<techstatus status="Active">Can Do Anubis</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11343</effect>
@@ -3880,6 +4035,7 @@
 			<effect type="TechStatus" status="active">Age 2</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Bast</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Ptah</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Maahes</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Anubite</target>
 			</effect>
@@ -3923,150 +4079,7 @@
 		</effects>
 		<exclude>Age 2 Bast</exclude>
 		<exclude>Age 2 Ptah</exclude>
-	</tech>
-	<tech name="Age 2 Bast" type="Normal">
-		<dbid>368</dbid>
-		<displaynameid>10879</displaynameid>
-		<cost resourcetype="Food">400.0000</cost>
-		<researchpoints>60.0000</researchpoints>
-		<status>OBTAINABLE</status>
-		<icon>improvement bast icon</icon>
-		<rollovertextid>17652</rollovertextid>
-		<prereqsnotmetrollovertextid>10838</prereqsnotmetrollovertextid>
-		<buttonpos row="1" column="1"></buttonpos>
-		<flag>AlwaysShowButton</flag>
-		<flag>AgeUpgrade</flag>
-		<prereqs>
-			<techstatus status="Active">Starting Units Egyptian</techstatus>
-			<typecount unit="Temple" count="1.00" state="noneState aliveState " operator="gte"></typecount>
-			<civilization>
-				<civname>Isis</civname>
-				<civname>Ra</civname>
-			</civilization>
-			<specificage operator="e">Archaic Age</specificage>
-		</prereqs>
-		<effects>
-			<effect type="TextOutput">11345</effect>
-			<effect all="true" type="TextOutput">11346</effect>
-			<effect type="Sound">researchcomplete1.wav</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Sphinx</target>
-			</effect>
-			<effect type="TechStatus" status="active">Age 2</effect>
-			<effect type="TechStatus" status="unobtainable">Age 2 Anubis</effect>
-			<effect type="TechStatus" status="unobtainable">Age 2 Ptah</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Armory</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Spearman</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Khopesh</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Axeman</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Slinger</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Tower</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Barracks</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Transport Ship Egyptian</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Kebenit</target>
-			</effect>
-			<effect type="TechStatus" status="active">Watch Tower</effect>
-			<effect tech="Eclipse" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
-				<target type="Player"></target>
-			</effect>
-			<effect type="CreateUnit" unit="Sphinx" delay="2000.00" generator="Temple">
-				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
-					<offset x="-5.00" y="0.00" z="0.00"></offset>
-				</pattern>
-			</effect>
-			<effect type="TextOutput">23437</effect>
-		</effects>
-		<exclude>Age 2 Ptah</exclude>
-		<exclude>Age 2 Anubis</exclude>
-	</tech>
-	<tech name="Age 2 Ptah" type="Normal">
-		<dbid>369</dbid>
-		<displaynameid>10895</displaynameid>
-		<cost resourcetype="Food">400.0000</cost>
-		<researchpoints>60.0000</researchpoints>
-		<status>OBTAINABLE</status>
-		<icon>improvement ptah icon</icon>
-		<rollovertextid>17646</rollovertextid>
-		<prereqsnotmetrollovertextid>10835</prereqsnotmetrollovertextid>
-		<buttonpos row="1" column="2"></buttonpos>
-		<flag>AlwaysShowButton</flag>
-		<flag>AgeUpgrade</flag>
-		<prereqs>
-			<techstatus status="Active">Starting Units Egyptian</techstatus>
-			<civilization>
-				<civname>Ra</civname>
-				<civname>Set</civname>
-			</civilization>
-			<specificage>Archaic Age</specificage>
-			<typecount unit="Temple" count="1.00" state="noneState aliveState " operator="gte"></typecount>
-		</prereqs>
-		<effects>
-			<effect type="TextOutput">11347</effect>
-			<effect all="true" type="TextOutput">11348</effect>
-			<effect type="Sound">researchcomplete1.wav</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Wadjet</target>
-			</effect>
-			<effect type="TechStatus" status="active">Age 2</effect>
-			<effect type="TechStatus" status="unobtainable">Age 2 Anubis</effect>
-			<effect type="TechStatus" status="unobtainable">Age 2 Bast</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Armory</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Axeman</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Slinger</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Tower</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Barracks</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Spearman</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Khopesh</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Transport Ship Egyptian</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Kebenit</target>
-			</effect>
-			<effect type="TechStatus" status="active">Watch Tower</effect>
-			<effect tech="Sandstorm" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
-				<target type="Player"></target>
-			</effect>
-			<effect type="CreateUnit" unit="Wadjet" delay="2000.00" generator="Temple">
-				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
-					<offset x="-5.00" y="0.00" z="0.00"></offset>
-				</pattern>
-			</effect>
-			<effect type="TextOutput">23443</effect>
-		</effects>
-		<exclude>Age 2 Bast</exclude>
-		<exclude>Age 2 Anubis</exclude>
+		<exclude>Age 2 Maahes</exclude>
 	</tech>
 	<tech name="Age 3 Hathor" type="Normal">
 		<dbid>370</dbid>
@@ -4089,6 +4102,7 @@
 				<civname>Ra</civname>
 			</civilization>
 			<specificage>Classical Age</specificage>
+			<techstatus status="Active">Can Do Hathor</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11349</effect>
@@ -4097,6 +4111,7 @@
 			<effect type="TechStatus" status="active">Age 3</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Nephthys</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Sekhmet</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Sobek</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Roc</target>
 			</effect>
@@ -4153,6 +4168,7 @@
 		</effects>
 		<exclude>Age 3 Sekhmet</exclude>
 		<exclude>Age 3 Nephthys</exclude>
+		<exclude>Age 3 Sobek</exclude>
 	</tech>
 	<tech name="Age 3 Nephthys" type="Normal">
 		<dbid>371</dbid>
@@ -4175,6 +4191,7 @@
 				<civname>Isis</civname>
 				<civname>Set</civname>
 			</civilization>
+			<techstatus status="Active">Can Do Nephthys</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11351</effect>
@@ -4185,6 +4202,7 @@
 			</effect>
 			<effect type="TechStatus" status="active">Age 3</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Hathor</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Sobek</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Sekhmet</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Migdol Stronghold</target>
@@ -4239,6 +4257,7 @@
 		</effects>
 		<exclude>Age 3 Hathor</exclude>
 		<exclude>Age 3 Sekhmet</exclude>
+		<exclude>Age 3 Sobek</exclude>
 	</tech>
 	<tech name="Age 3 Sekhmet" type="Normal">
 		<dbid>372</dbid>
@@ -4261,6 +4280,7 @@
 				<civname>Ra</civname>
 				<civname>Set</civname>
 			</civilization>
+			<techstatus status="Active">Can Do Sekhmet</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11353</effect>
@@ -4271,6 +4291,7 @@
 			</effect>
 			<effect type="TechStatus" status="active">Age 3</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Hathor</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Sobek</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Nephthys</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Migdol Stronghold</target>
@@ -4317,6 +4338,7 @@
 		</effects>
 		<exclude>Age 3 Hathor</exclude>
 		<exclude>Age 3 Nephthys</exclude>
+		<exclude>Age 3 Sobek</exclude>
 	</tech>
 	<tech name="Age 4 Thoth" type="Normal">
 		<dbid>373</dbid>
@@ -4337,8 +4359,10 @@
 			<civilization>
 				<civname>Isis</civname>
 				<civname>Set</civname>
+				<civname>Ra</civname>
 			</civilization>
 		<techstatus status="Active">Starting Units Egyptian</techstatus>
+			<techstatus status="Active">Can Do Thoth</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11453</effect>
@@ -4350,6 +4374,7 @@
 			<effect type="TechStatus" status="active">Age 4</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Horus</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Osiris</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Nut</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Lighthouse</target>
 			</effect>
@@ -4376,6 +4401,7 @@
 			<effect type="TextOutput">23466</effect>
 		</effects>
 		<exclude>Age 4 Osiris</exclude>
+		<exclude>Age 4 Nut</exclude>
 		<exclude>Age 4 Horus</exclude>
 	</tech>
 	<tech name="Age 4 Osiris" type="Normal">
@@ -4399,6 +4425,7 @@
 				<civname>Ra</civname>
 			</civilization>
 			<typecount unit="Market" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<techstatus status="Active">Can Do Osiris</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11357</effect>
@@ -4410,6 +4437,7 @@
 			<effect type="TechStatus" status="active">Age 4</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Horus</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Thoth</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Nut</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Lighthouse</target>
 			</effect>
@@ -4428,6 +4456,7 @@
 		</effects>
 		<exclude>Age 4 Thoth</exclude>
 		<exclude>Age 4 Horus</exclude>
+		<exclude>Age 4 Nut</exclude>
 	</tech>
 	<tech name="Age 4 Horus" type="Normal">
 		<dbid>375</dbid>
@@ -4450,6 +4479,7 @@
 				<civname>Ra</civname>
 			</civilization>
 		<techstatus status="Active">Starting Units Egyptian</techstatus>
+			<techstatus status="Active">Can Do Horus</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11355</effect>
@@ -4461,6 +4491,7 @@
 			<effect type="TechStatus" status="active">Age 4</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Osiris</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Thoth</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Nut</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Lighthouse</target>
 			</effect>
@@ -4479,6 +4510,7 @@
 		</effects>
 		<exclude>Age 4 Osiris</exclude>
 		<exclude>Age 4 Thoth</exclude>
+		<exclude>Age 4 Nut</exclude>
 	</tech>
 	<tech name="Feet of the Jackal" type="Normal">
 		<dbid>376</dbid>
@@ -5652,6 +5684,7 @@
 		<flag>HideFromDetailHelp</flag>
 		<prereqs>
 			<typecount unit="Monument 2" count="1.00" state="noneState aliveState " operator="lt"></typecount>
+			<typecount unit="Monument Giant" count="1.00" state="noneState aliveState " operator="lt"></typecount>
 			<culture>
 				<culturename>Egyptian</culturename>
 			</culture>
@@ -5676,6 +5709,7 @@
 				<culturename>Egyptian</culturename>
 			</culture>
 			<typecount unit="Monument 3" count="1.00" state="noneState aliveState " operator="lt"></typecount>
+			<typecount unit="Monument Giant Priest" count="1.00" state="noneState aliveState " operator="lt"></typecount>
 			<typecount unit="Monument" count="0.00" state="noneState aliveState " operator="gt"></typecount>
 		</prereqs>
 		<effects>
@@ -5695,6 +5729,7 @@
 			<typecount unit="Monument 2" count="0.00" state="noneState aliveState " operator="gt"></typecount>
 			<typecount unit="Monument" count="0.00" state="noneState aliveState " operator="gt"></typecount>
 			<typecount unit="Monument 4" count="1.00" state="noneState aliveState " operator="lt"></typecount>
+			<typecount unit="Monument Giant Isis" count="1.00" state="noneState aliveState " operator="lt"></typecount>
 			<culture>
 				<culturename>Egyptian</culturename>
 			</culture>
@@ -5721,6 +5756,8 @@
 			<typecount unit="Monument 3" count="0.00" state="noneState aliveState " operator="gt"></typecount>
 			<typecount unit="Monument 2" count="0.00" state="noneState aliveState " operator="gt"></typecount>
 			<typecount unit="Monument" count="0.00" state="noneState aliveState " operator="gt"></typecount>
+			<typecount unit="Monument Giant Ra" count="1.00" state="noneState aliveState " operator="lt"></typecount>
+
 		</prereqs>
 		<effects>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -6635,6 +6672,7 @@
 				<culturename>Egyptian</culturename>
 			</culture>
 			<typecount unit="Monument" count="1.00" state="noneState aliveState " operator="lt"></typecount>
+			<typecount unit="Monument Giant Villager" count="1.00" state="noneState aliveState " operator="lt"></typecount>
 		</prereqs>
 		<effects>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -7668,6 +7706,9 @@
 			</effect>
 			<effect type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="Deep Pool" relativity="BasePercent">
 				<target type="ProtoUnit">Cultist of Dagon</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="Deep Pool" relativity="BasePercent">
+				<target type="ProtoUnit">Form of the Deep</target>
 			</effect>
 		</effects>
 	</tech>
@@ -10073,6 +10114,9 @@
 			<effect type="Data" action="Gather" amount="1.40" subtype="WorkRate" unittype="Deep Pool" relativity="BasePercent">
 				<target type="ProtoUnit">Cultist of Dagon</target>
 			</effect>
+			<effect type="Data" action="Gather" amount="1.40" subtype="WorkRate" unittype="Deep Pool" relativity="BasePercent">
+				<target type="ProtoUnit">Form of the Deep</target>
+			</effect>
 		</effects>
 	</tech>
 	<tech name="Medium Migdol Shadow" type="Normal">
@@ -10170,6 +10214,9 @@
 				<target type="ProtoUnit">Spearman</target>
 			</effect>
 			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="Lancer Hero" relativity="Absolute">
+				<target type="ProtoUnit">Spearman</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="Cavalry Auxilia" relativity="Absolute">
 				<target type="ProtoUnit">Spearman</target>
 			</effect>
 		</effects>
@@ -24317,6 +24364,7 @@
 		<status>UNOBTAINABLE</status>
 		<icon>God Major Zeus Icon 64</icon>
 		<rollovertextid>17911</rollovertextid>
+		<flag>HideFromDetailHelp</flag>
 		<effects>
 			<Effect type="Sound">Aztec1ThemeMusic</Effect>
 
@@ -27175,6 +27223,13 @@
 				<target type="ProtoUnit">Pharaoh</target>
 			</effect>
 			<effect type="TechStatus" status="active">Starting Units Egyptian</effect>
+
+			<effect type="TechStatus" status="ACTIVE">Can Do Bast</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Ptah</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Hathor</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Sekhmet</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Osiris</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Horus</effect>
 		</effects>
 	</tech>
 	<tech name="Age 1 Isis Real" type="Normal">
@@ -27308,6 +27363,12 @@
 				<target type="Tech">Age 4 Fake</target>
 			</effect>
 			<effect type="TechStatus" status="active">Starting Units Egyptian</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Bast</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Anubis</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Hathor</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Nephthys</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Osiris</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Thoth</effect>
 		</effects>
 	</tech>
 	<tech name="Age 1 Set Real" type="Normal">
@@ -27451,6 +27512,12 @@
 				<target type="ProtoUnit">Pharaoh</target>
 			</effect>
 			<effect type="TechStatus" status="active">Starting Units Egyptian</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Anubis</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Ptah</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Nephthys</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Sekhmet</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Thoth</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Horus</effect>
 		</effects>
 	</tech>
 	<tech name="Age 1 Odin Real" type="Normal">
@@ -32373,6 +32440,44 @@
 			<effect type="Data" amount="1.5" subtype="Cost" resource="Gold" relativity="BasePercent">
 				<target type="ProtoUnit">Wonder</target>
 			</effect>
+
+
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Food" relativity="BasePercent">
+				<target type="Tech">Medium Infantry</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="Tech">Medium Infantry</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Food" relativity="BasePercent">
+				<target type="Tech">Heavy Infantry</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="Tech">Heavy Infantry</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Food" relativity="BasePercent">
+				<target type="Tech">Champion Infantry</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="Tech">Champion Infantry</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Food" relativity="BasePercent">
+				<target type="Tech">Medium Infantry Minerva</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="Tech">Medium Infantry Minerva</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Food" relativity="BasePercent">
+				<target type="Tech">Heavy Infantry Minerva</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="Tech">Heavy Infantry Minerva</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Food" relativity="BasePercent">
+				<target type="Tech">Champion Infantry Minerva</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="Tech">Champion Infantry Minerva</target>
+			</effect>
 		</effects>
 	</tech>
 
@@ -33293,10 +33398,10 @@
 			<effect type="Data" action="AutoGather" amount="2.0" subtype="WorkRate" unittype="Food" relativity="Absolute">
 				<target type="ProtoUnit">Farm</target>
 			</effect>
-			<effect type="Data" action="AutoGather" amount="1.5" subtype="WorkRate" unittype="Wood" relativity="Absolute">
+			<effect type="Data" action="AutoGather" amount="1.25" subtype="WorkRate" unittype="Wood" relativity="Absolute">
 				<target type="ProtoUnit">Farm</target>
 			</effect>
-			<effect type="Data" action="AutoGather" amount="1.0" subtype="WorkRate" unittype="Gold" relativity="Absolute">
+			<effect type="Data" action="AutoGather" amount="0.5" subtype="WorkRate" unittype="Gold" relativity="Absolute">
 				<target type="ProtoUnit">Farm</target>
 			</effect>
 		</effects>
@@ -33305,7 +33410,7 @@
 	<tech name="Levy Legion Units" type="Normal">
 		<dbid></dbid>
 		<displaynameid>120216</displaynameid>
-		<cost resourcetype="Food">500.0000</cost>
+		<cost resourcetype="Food">600.0000</cost>
 		<researchpoints>20.0000</researchpoints>
 		<status>OBTAINABLE</status>
 		<icon>improvement levy barracks icon</icon>
@@ -33402,7 +33507,7 @@
 	<tech name="Conscript Legion Units" type="Normal">
 		<dbid></dbid>
 		<displaynameid>120222</displaynameid>
-		<cost resourcetype="Food">800.0000</cost>
+		<cost resourcetype="Food">1000.0000</cost>
 		<researchpoints>30.0000</researchpoints>
 		<status>OBTAINABLE</status>
 		<icon>improvement conscript barracks icon</icon>
@@ -33606,10 +33711,10 @@
 			<specificage>Heroic Age</specificage>
 		</prereqs>
 		<effects>
-			<effect type="Data" action="RangedAttack" amount="2.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+			<effect type="Data" action="RangedAttack" amount="4.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
 				<target type="ProtoUnit">Scorpio</target>
 			</effect>
-			<effect type="Data" action="RangedAttack" amount="3.00" subtype="DamageBonus" unittype="FlyingUnit" relativity="Absolute">
+			<effect type="Data" action="RangedAttack" amount="5.00" subtype="DamageBonus" unittype="FlyingUnit" relativity="Absolute">
 				<target type="ProtoUnit">Scorpio</target>
 			</effect>
 		</effects>
@@ -35526,6 +35631,7 @@
 			<effect type="TechStatus" status="unobtainable">Zeus Real</effect>
 			<effect type="TechStatus" status="unobtainable">Hades Real</effect>
 			<effect type="TechStatus" status="unobtainable">Poseidon Real</effect>
+			<effect type="TechStatus" status="unobtainable">Beast Slayer</effect>
 			<effect mute="true" type="CreateUnit" unit="Villager Greek" generator="SettlementsThatTrainVillagers">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="-3.00" y="0.00" z="-4.00"></offset>
@@ -36163,7 +36269,10 @@
 		<effects>
 			<effect type="TextOutput">-1</effect>
 			<effect type="Data" amount="30.00" subtype="Lifespan" relativity="Absolute">
-				<target type="ProtoUnit">Hero</target>
+				<target type="ProtoUnit">Hero Greek Ixion Spirit</target>
+				<target type="ProtoUnit">Hero Greek Circe Spirit</target>
+				<target type="ProtoUnit">Hero Greek Hector Spirit</target>
+				<target type="ProtoUnit">Hero Greek Leonidas Spirit</target>
 			</effect>
 		</effects>
 	</tech>
@@ -36319,9 +36428,967 @@
 			</effect>
 		</effects>
 	</tech>
-	
-	
-			
+
+	<tech name="Age 1 Aten" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120412</displaynameid>
+		<researchpoints>0.0100</researchpoints>
+		<status>AVAILABLE</status>
+		<icon>Improvement Aten Icon</icon>
+		<rollovertextid>120413</rollovertextid>
+		<delay>0.0100</delay>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<civilization>
+				<civname>Ra</civname>
+			</civilization>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">99878</effect>
+			<effect all="true" type="TextOutput">99879</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Isis Real</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Set Real</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Isis Fake</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Ra Fake</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Set Fake</effect>
+			<effect type="TechStatus" status="unobtainable">Skin of the Rhino</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Granary</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Lumber Camp</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Villager Egyptian</target>
+			</effect>
+			<effect tech="Solar Flare" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Pharaoh</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">E Royal Guard</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">RoyalPalace</target>
+			</effect>
+			<effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Barracks</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Mining Camp</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Mercenary</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Fishing Ship Egyptian</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">House</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
+				<target type="ProtoUnit">Farm</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="0.50" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Pharaoh</target>
+			</effect>
+			<effect type="TechStatus" status="active">Starting Units Egyptian</effect>
+
+
+			<effect type="TechStatus" status="ACTIVE">Can Do Anubis</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Maahes</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Sobek</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Sekhmet</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Thoth</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Nut</effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Can Do Anubis" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Bast" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Ptah" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Maahes" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Sehkmet" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Hathor" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Nephthys" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Sobek" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Osiris" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Thoth" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Horus" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Nut" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+
+	<tech name="Medium Royal Guard" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120472</displaynameid>
+		<cost resourcetype="Food">100.0000</cost>
+		<cost resourcetype="Gold">100.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>elite royalguard icon</icon>
+		<rollovertextid>120475</rollovertextid>
+		<prereqs>
+			<culture>
+				<culturename>Egyptian</culturename>
+			</culture>
+			<specificage>Classical Age</specificage>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">E Royal Guard</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.10" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">E Royal Guard</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">E Royal Guard</target>
+			</effect>
+			<effect type="SetName" proto="E Royal Guard" culture="none" newname="120478"></effect>
+		</effects>
+	</tech>
+	<tech name="Heavy Royal Guard" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120473</displaynameid>
+		<cost resourcetype="Food">300.0000</cost>
+		<cost resourcetype="Gold">200.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>elite royalguard icon</icon>
+		<rollovertextid>120476</rollovertextid>
+		<prereqs>
+			<culture>
+				<culturename>Egyptian</culturename>
+			</culture>
+			<techstatus status="Active">Medium Royal Guard</techstatus>
+			<specificage>Heroic Age</specificage>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">E Royal Guard</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.10" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">E Royal Guard</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">E Royal Guard</target>
+			</effect>
+			<effect type="SetName" proto="E Royal Guard" culture="none" newname="120479"></effect>
+		</effects>
+	</tech>
+	<tech name="Champion Royal Guard" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120474</displaynameid>
+		<cost resourcetype="Food">400.0000</cost>
+		<cost resourcetype="Gold">300.0000</cost>
+		<researchpoints>40.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>elite royalguard icon</icon>
+		<rollovertextid>120477</rollovertextid>
+		<prereqs>
+			<culture>
+				<culturename>Egyptian</culturename>
+			</culture>
+			<techstatus status="Active">Heavy Royal Guard</techstatus>
+			<specificage>Mythic Age</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">18368</effect>
+			<effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">E Royal Guard</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.10" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">E Royal Guard</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">E Royal Guard</target>
+			</effect>
+			<effect type="SetName" proto="E Royal Guard" culture="none" newname="120480"></effect>
+		</effects>
+	</tech>
+
+	<tech name="Age 2 Maahes" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120422</displaynameid>
+		<cost resourcetype="Food">400.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement maahes icon</icon>
+		<rollovertextid>120423</rollovertextid>
+		<prereqsnotmetrollovertextid>10835</prereqsnotmetrollovertextid>
+		<buttonpos row="1" column="2"></buttonpos>
+		<flag>AlwaysShowButton</flag>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<techstatus status="Active">Starting Units Egyptian</techstatus>
+			<civilization>
+				<civname>Ra</civname>
+			</civilization>
+			<specificage>Archaic Age</specificage>
+			<typecount unit="Temple" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<techstatus status="Active">Can Do Maahes</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">120459</effect>
+			<effect all="true" type="TextOutput">120460</effect>
+			<effect type="Sound">researchcomplete1.wav</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Scavenger Roc</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Giant Scorpion</target>
+			</effect>
+			<effect type="TechStatus" status="active">Age 2</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Anubis</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Bast</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Ptah</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Armory</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Axeman</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Slinger</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Tower</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Barracks</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Spearman</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Khopesh</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Transport Ship Egyptian</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Kebenit</target>
+			</effect>
+			<effect type="TechStatus" status="active">Watch Tower</effect>
+			<effect tech="Desert Storm" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="CreateUnit" unit="Scavenger Roc" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Giant Scorpion" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="2.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TextOutput">120465</effect>
+		</effects>
+		<exclude>Age 2 Bast</exclude>
+		<exclude>Age 2 Anubis</exclude>
+		<exclude>Age 2 Ptah</exclude>
+	</tech>
+	<tech name="Age 3 Sobek" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120424</displaynameid>
+		<cost resourcetype="Food">800.0000</cost>
+		<cost resourcetype="Gold">500.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement sobek icon</icon>
+		<rollovertextid>120425</rollovertextid>
+		<prereqsnotmetrollovertextid>17971</prereqsnotmetrollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<flag>AlwaysShowButton</flag>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<typecount unit="Armory" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<techstatus status="Active">Starting Units Egyptian</techstatus>
+			<civilization>
+				<civname>Ra</civname>
+			</civilization>
+			<specificage>Classical Age</specificage>
+			<techstatus status="Active">Can Do Sobek</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">120461</effect>
+			<effect all="true" type="TextOutput">120462</effect>
+			<effect type="Sound">researchcomplete1.wav</effect>
+			<effect type="TechStatus" status="active">Age 3</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Nephthys</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Sekhmet</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Hathor</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">ReApep</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Migdol Stronghold</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Camelry</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Chariot Archer</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Siege Tower</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Mercenary Cavalry</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Market</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Caravan Egyptian</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Siege Camp</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Ramming Ship Egyptian</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Siege Ship Egyptian</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">War Elephant</target>
+			</effect>
+			<effect tech="Son of Sobek" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="CreateUnit" unit="ReApep" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TextOutput">120466</effect>
+		</effects>
+		<exclude>Age 3 Sekhmet</exclude>
+		<exclude>Age 3 Nephthys</exclude>
+		<exclude>Age 3 Hathor</exclude>
+	</tech>
+
+	<tech name="Age 4 Nut" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120426</displaynameid>
+		<cost resourcetype="Food">1000.0000</cost>
+		<cost resourcetype="Gold">1000.0000</cost>
+		<researchpoints>90.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nut icon</icon>
+		<rollovertextid>120427</rollovertextid>
+		<prereqsnotmetrollovertextid>17981</prereqsnotmetrollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<flag>AlwaysShowButton</flag>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<typecount unit="Market" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<specificage>Heroic Age</specificage>
+			<civilization>
+				<civname>Ra</civname>
+			</civilization>
+			<techstatus status="Active">Starting Units Egyptian</techstatus>
+			<techstatus status="Active">Can Do Nut</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">120463</effect>
+			<effect all="true" type="TextOutput">120464</effect>
+			<effect type="Sound">researchcomplete1.wav</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Sand Monster</target>
+			</effect>
+			<effect type="TechStatus" status="active">Age 4</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Osiris</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Thoth</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Horus</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Lighthouse</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Catapult</target>
+			</effect>
+			<effect tech="Defenders of Maat" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="CreateUnit" unit="Sand Monster" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TextOutput">120467</effect>
+		</effects>
+		<exclude>Age 4 Osiris</exclude>
+		<exclude>Age 4 Thoth</exclude>
+		<exclude>Age 4 Horus</exclude>
+	</tech>
+
+	<tech name="Solar Flare" type="Power">
+		<dbid></dbid>
+		<displaynameid>120416</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement solar flare icon</icon>
+		<rollovertextid>120417</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Aten</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Desert Storm" type="Power">
+		<dbid></dbid>
+		<displaynameid>120428</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement desert storm icon</icon>
+		<rollovertextid>120429</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 2 Maahes</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Son of Sobek" type="Power">
+		<dbid></dbid>
+		<displaynameid>120430</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement son of sobek icon</icon>
+		<rollovertextid>120431</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 3 Sobek</techstatus>
+		</prereqs>
+	</tech>
+
+
+	<tech name="Legendary Pace" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120485</displaynameid>
+		<cost resourcetype="Food">150.0000</cost>
+		<cost resourcetype="Favor">15.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement legendary pace icon</icon>
+		<rollovertextid>120486</rollovertextid>
+		<buttonpos row="2" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 2 Nike</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">-1</effect>
+
+			<effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Blood of Orphnaeus" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120487</displaynameid>
+		<cost resourcetype="Gold">300.0000</cost>
+		<cost resourcetype="Favor">25.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement blood of orphnaeus icon</icon>
+		<rollovertextid>120488</rollovertextid>
+		<buttonpos row="2" column="2"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 3 Persephone</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">-1</effect>
+			<effect type="Data" amount="1.15" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Prodromos</target>
+			</effect>
+			<effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Prodromos</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Ashes to Embers" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120489</displaynameid>
+		<cost resourcetype="Wood">400.0000</cost>
+		<cost resourcetype="Favor">25.0000</cost>
+		<researchpoints>40.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement ashes to embers icon</icon>
+		<rollovertextid>120490</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 4 Hestia</techstatus>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" amount="0.0" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="ProtoUnit">Settlement Level 1</target>
+			</effect>
+			<effect type="Data" amount="0.0" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="ProtoUnit">Settlement Level 1</target>
+			</effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Defenders of Maat" type="Power">
+		<dbid></dbid>
+		<displaynameid>120432</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement defenders of maat icon</icon>
+		<rollovertextid>120433</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 4 Maat</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Monument 1 M" type="Normal">
+		<dbid>427</dbid>
+		<displaynameid>11175</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>Volatile</flag>
+		<flag>HideFromDetailHelp</flag>
+		<prereqs>
+			<typecount unit="Monument 2" count="1.00" state="noneState aliveState " operator="lt"></typecount>
+			<typecount unit="Monument Giant" count="1.00" state="noneState aliveState " operator="lt"></typecount>
+			<culture>
+				<culturename>Egyptian</culturename>
+			</culture>
+			<typecount unit="Monument Giant Villager" count="0.00" state="noneState aliveState " operator="gt"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Monument 2</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Monument 2 M" type="Normal">
+		<dbid>428</dbid>
+		<displaynameid>11176</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>Volatile</flag>
+		<flag>HideFromDetailHelp</flag>
+		<prereqs>
+			<culture>
+				<culturename>Egyptian</culturename>
+			</culture>
+			<typecount unit="Monument 3" count="1.00" state="noneState aliveState " operator="lt"></typecount>
+			<typecount unit="Monument Giant Priest" count="1.00" state="noneState aliveState " operator="lt"></typecount>
+			<typecount unit="Monument Giant" count="0.00" state="noneState aliveState " operator="gt"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Monument 3</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Monument 3 M" type="Normal">
+		<dbid>429</dbid>
+		<displaynameid>11177</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>Volatile</flag>
+		<flag>HideFromDetailHelp</flag>
+		<prereqs>
+			<typecount unit="Monument Giant Priest" count="0.00" state="noneState aliveState " operator="gt"></typecount>
+			<typecount unit="Monument 4" count="1.00" state="noneState aliveState " operator="lt"></typecount>
+			<typecount unit="Monument Giant Isis" count="1.00" state="noneState aliveState " operator="lt"></typecount>
+			<culture>
+				<culturename>Egyptian</culturename>
+			</culture>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Monument 4</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Monument 4 M" type="Normal">
+		<dbid>430</dbid>
+		<displaynameid>11178</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>Volatile</flag>
+		<flag>HideFromDetailHelp</flag>
+		<prereqs>
+			<typecount unit="Monument Giant Isis" count="0.00" state="noneState aliveState " operator="gt"></typecount>
+			<culture>
+				<culturename>Egyptian</culturename>
+			</culture>
+			<typecount unit="Monument Giant Ra" count="1.00" state="noneState aliveState " operator="lt"></typecount>
+
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Monument 5</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Hateful Spirit" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120444</displaynameid>
+		<cost resourcetype="Food">200.0000</cost>
+		<cost resourcetype="Favor">12.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement hateful spirit Icon</icon>
+		<rollovertextid>120445</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 2 Maahes</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">-1</effect>
+			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractCavalry" relativity="Absolute">
+				<target type="ProtoUnit">Spearman</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="Lancer Hero" relativity="Absolute">
+				<target type="ProtoUnit">Spearman</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="Cavalry Auxilia" relativity="Absolute">
+				<target type="ProtoUnit">Spearman</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractInfantry" relativity="Absolute">
+				<target type="ProtoUnit">Axeman</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="Hero Norse" relativity="Absolute">
+				<target type="ProtoUnit">Axeman</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="Hero Ragnorok" relativity="Absolute">
+				<target type="ProtoUnit">Axeman</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="Swordsman Hero" relativity="Absolute">
+				<target type="ProtoUnit">Axeman</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="Maceman Hero" relativity="Absolute">
+				<target type="ProtoUnit">Axeman</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="Royal Guard Hero" relativity="Absolute">
+				<target type="ProtoUnit">Axeman</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="Trident Soldier Hero" relativity="Absolute">
+				<target type="ProtoUnit">Axeman</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="DamageBonus" unittype="Throwing Axeman" relativity="Absolute">
+				<target type="ProtoUnit">Slinger</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="DamageBonus" unittype="Hypaspist" relativity="Absolute">
+				<target type="ProtoUnit">Slinger</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="DamageBonus" unittype="Axeman" relativity="Absolute">
+				<target type="ProtoUnit">Slinger</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractArcher" relativity="Absolute">
+				<target type="ProtoUnit">Slinger</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="DamageBonus" unittype="Archer Atlantean Hero" relativity="Absolute">
+				<target type="ProtoUnit">Slinger</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="DamageBonus" unittype="Javelin Cavalry Hero" relativity="Absolute">
+				<target type="ProtoUnit">Slinger</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="Building" relativity="Absolute">
+				<target type="ProtoUnit">E Royal Guard</target>
+			</effect>
+
+
+		</effects>
+	</tech>
+	<tech name="Vultures Feast" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120446</displaynameid>
+		<cost resourcetype="Food">150.0000</cost>
+		<cost resourcetype="Favor">15.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement vultures feast icon</icon>
+		<rollovertextid>120447</rollovertextid>
+		<buttonpos row="0" column="1"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 2 Maahes</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="BuckAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+				<target type="ProtoUnit">Scavenger Roc</target>
+			</effect>
+			<effect type="SetName" proto="Scavenger Roc" culture="none" newname="120500"></effect>
+		</effects>
+	</tech>
+	<tech name="Ravagers of the Sand" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120491</displaynameid>
+		<cost resourcetype="Gold">300.0000</cost>
+		<cost resourcetype="Favor">8.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement ravagers of the sand icon</icon>
+		<rollovertextid>120492</rollovertextid>
+		<buttonpos row="0" column="1"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 2 Maahes</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="SetName" proto="Giant Scorpion" culture="none" newname="120497"></effect>
+
+			<effect type="Data" amount="10.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Giant Scorpion</target>
+			</effect>
+
+			<effect type="Data" amount="1.80" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Giant Scorpion</target>
+			</effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Bite of the Crocodile" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120448</displaynameid>
+		<cost resourcetype="Food">300.0000</cost>
+		<cost resourcetype="Favor">15.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement bite of the crocodile Icon</icon>
+		<rollovertextid>120449</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 3 Sobek</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="HandAttack" amount="1.20" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">Ramming Ship Egyptian</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="5.0" subtype="Damage" damagetype="Crush" relativity="Absolute">
+				<target type="ProtoUnit">Ramming Ship Egyptian</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Tooth Shards" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120450</displaynameid>
+		<cost resourcetype="Gold">250.0000</cost>
+		<cost resourcetype="Favor">18.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement tooth shards Icon</icon>
+		<rollovertextid>120451</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 3 Sobek</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="RangedAttack" amount="3.0" subtype="Damage" damagetype="Hack" relativity="Absolute">
+				<target type="ProtoUnit">Slinger</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Blood in the Water" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120493</displaynameid>
+		<cost resourcetype="Food">200.0000</cost>
+		<cost resourcetype="Favor">15.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement blood in the water Icon</icon>
+		<rollovertextid>120494</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 3 Sobek</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="HandAttack" amount="1.10" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">E Royal Guard</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.10" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+				<target type="ProtoUnit">E Royal Guard</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">E Royal Guard</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Cloak of Night" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120452</displaynameid>
+		<cost resourcetype="Gold">200.0000</cost>
+		<cost resourcetype="Favor">30.0000</cost>
+		<researchpoints>50.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement cloak of night icon</icon>
+		<rollovertextid>120453</rollovertextid>
+		<buttonpos row="0" column="2"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 4 Nut</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">-1</effect>
+			<effect type="Data" amount="-0.20" subtype="ArmorVulnerability" damagetype="Pierce" relativity="Percent">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Embrace of Geb" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120454</displaynameid>
+		<cost resourcetype="Wood">300.0000</cost>
+		<cost resourcetype="Favor">25.0000</cost>
+		<researchpoints>50.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement embrace of geb Icon</icon>
+		<rollovertextid>120455</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 4 Nut</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">-1</effect>
+			<effect type="Data" amount="1.075" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">LogicalTypeBuildingNotTitanGate</target>
+			</effect>
+			<effect type="Data" action="Build" amount="1.3" subtype="WorkRate" unittype="Building" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" amount="1.30" action="repair" subtype="workrate" unittype="Building" relativity="basepercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Shus Blessing" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120495</displaynameid>
+		<cost resourcetype="Gold">200.0000</cost>
+		<cost resourcetype="Favor">45.0000</cost>
+		<researchpoints>40.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement shus blessing icon</icon>
+		<rollovertextid>120496</rollovertextid>
+		<buttonpos row="0" column="3"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 4 Nut</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">-1</effect>
+			<effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Caravan Egyptian</target>
+			</effect>
+			<effect type="Data" amount="0.75" subtype="TrainPoints" relativity="BasePercent">
+				<target type="ProtoUnit">Caravan Egyptian</target>
+			</effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Rays of Life" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120418</displaynameid>
+		<cost resourcetype="Gold">150.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement rays of life icon</icon>
+		<rollovertextid>120419</rollovertextid>
+		<buttonpos row="2" column="0"></buttonpos>
+		<prereqs>
+			<civilization>
+				<civname>Ra</civname>
+			</civilization>
+			<techstatus status="Active">Age 1 Aten</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">-1</effect>
+			<effect type="Data" action="Heal" amount="1.25" subtype="WorkRate" unittype="LogicalTypeCanBeHealed" relativity="BasePercent">
+				<target type="ProtoUnit">Pharaoh</target>
+			</effect>
+		
+			<effect type="Data" action="Empower" amount="1.04" subtype="WorkRate" unittype="ActionGather" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractPharaoh</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Void Portal" type="Power">
+		<dbid></dbid>
+		<displaynameid>120501</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>god power underworld passage icon</icon>
+		<rollovertextid>120502</rollovertextid>
+	</tech>
+
+
 
 
 

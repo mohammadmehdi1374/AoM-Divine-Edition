@@ -103,4 +103,8 @@
 		<protounit>Bamboo Tree</protounit>
 		<protounit>Jungle Tree</protounit>
 	</forest>
+
+	<forest name="Void Forest" iconname="ui\mixed plain forest 64" floor="OlympusB">
+		<protounit>Void Tree</protounit>
+	</forest>
 </foresttypes>

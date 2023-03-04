@@ -5808,7 +5808,7 @@
 	<soundset name="ManesRomanAcknowledge" volume="1.0000">
 		<sound filename="civ_muma_march_1.wav" volume="1.000"></sound>
 		<sound filename="civ_muma_retreat_1.wav" volume="1.0000"></sound>
-		<sound filename="civ_muma_work_land_1.wav" volume="1.0000"></sound>
+		<sound filename="civ_muma_walk_1.wav" volume="1.0000"></sound>
 	</soundset>
 	<soundset name="ManesRomanSelect" volume="1.0000">
 		<sound filename="civ_muma_hello_1.wav" volume="1.0000"></sound>

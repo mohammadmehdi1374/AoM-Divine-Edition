@@ -285,7 +285,16 @@ BlendOrder
    CityTileWaterCornerA
    CityTileWaterCornerB
    CityTileWaterCornerC
-   CityTileWaterCornerD
+   CityTileWaterCornerD 
+   CoralZ
+   GreekTileA
+   RockyZ
+   SandZ
+   SandZY
+   ZeusTile
+   GreekTileB
+   WaterZ
+   Aomterrain1
    WhiteBeach0
    WhiteBeach
    WhiteBeachII
@@ -294,8 +303,17 @@ BlendOrder
    WhiteBeachV
    NewEnglandCliff
    NewEnglandCliffa
+   SnowRockies
    Saguenay
+   SaguenayII
    SaguenayIII
+   Amazon1
+   AztecFloor
+   AztecFloorB
+   AztecFloorCenter
+   Astro Tile
+   Astro TileB
+   waterterra
 
 //=============================================================================
 // This section defines what blend sets to use when blending together two

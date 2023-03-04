@@ -258,6 +258,7 @@ anim JumpLand
                tag SpecificSoundSet 0.36 false wingflaps checkVisible
                tag SpecificSoundSet 0.85 false BigstepsW checkVisible
                tag SpecificSoundSet 0.95 false BigstepsW checkVisible
+			   tag Attack 0.37 true
 //-- end auto generated section
 			}
 		}

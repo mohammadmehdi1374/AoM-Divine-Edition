@@ -9,7 +9,7 @@
 	<createunit quantity="20" minradius="6" maxradius="6" pattern="symmetric" norotate="" delay="23.0">The End Splash</createunit>
 <createunit quantity="40" minradius="12" maxradius="12" pattern="symmetric" norotate="" delay="24.0">The End Splash</createunit>
 <createunit quantity="60" minradius="18" maxradius="18" pattern="symmetric" norotate="" delay="25.0">The End Splash</createunit>
-	<!--<createunit quantity="80" minradius="24" maxradius="24" pattern="symmetric" norotate="" delay="26.0">The End Splash</createunit>-->
+	<createunit quantity="80" minradius="24" maxradius="24" pattern="symmetric" norotate="" delay="26.0">The End Splash</createunit>
 <!--<createunit quantity="100" minradius="30" maxradius="30" pattern="symmetric" norotate="" delay="27.0">The End Splash</createunit>-->
 <!--
 	<createunit quantity="1" radius="0" delay="5">The End 1</createunit>

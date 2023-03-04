@@ -432,7 +432,7 @@ anim Walk
 //==============================================================================
 anim Bored
 {
-	SetSelector
+	SetSelector 
 	{
 		CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
 		SetSelector 

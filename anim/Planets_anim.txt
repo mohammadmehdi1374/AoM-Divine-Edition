@@ -45,16 +45,14 @@ anim Idle
 
   SetSelector
    {
-      VariationLogic 
-      set hotspot
-      {
-         version
-         {
-				Visual NeptuneGreen
-				
-			
-         }
-      }
+      //VariationLogic 
+      //set hotspot
+      //{
+      //   version
+      //   {
+	//			Visual NeptuneGreen		
+      //   }
+      //}
 	  set hotspot
       {
          version

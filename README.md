@@ -16,6 +16,7 @@ This is the largest and most ambitious mod for Age of Mythology in the history o
   - Minerva
 - Extended Pantheons
   - Demeter (Greek) <-- Currently available through Khaos
+  - Aten (Egyptian) <-- Currently available through Chronos
   
 
 As the mod is very large, hosting it on Steam Workshop is not practical. As such, users of this mod will need to keep it up-to-date by either pulling changes using git or re-downloading it after every patch. For patch notifications and general discussions, join our discord! https://discord.gg/ZuZKfWzV2Z
@@ -39,20 +40,21 @@ As the mod is very large, hosting it on Steam Workshop is not practical. As such
 - The sudden death and nomad maps will not work seamlessly. This is due to how they are set up with the random map generation. They are still playable, however.
 - Lightning and Deathmatch modes are not currently supported. This is partially due to balance reasons, as we have not yet determined how to properly balance the Eldritch in particular. If you decide to try those modes out anyway, I recommend not having headphones on. It gets loud. 
 - Playing in online games against AI opponents may cause desyncs. This is a rare but well-documented issue and affects many mods. 
+- With spectators in an online game, the gods picked will be shifted up by one for each player under a spectator. As an example, if P1 is a spectator who prior to selecting spectator picked Yog-Sothoth, if P2 is an active player, P2 will be assigned to Yog-Sothoth. As such it is strongly recommended for all spectators to be at the bottom of the player list.
 - The AI cannot play any of the new gods and, if somehow given a new god, will default to an old one. Moreover, the AI will not react properly to many strategies, such as ignoring Eldritch rituals, not properly quarantining during the use of Plague, and massing counter-infantry against Roman legion units. 
 - The AI for Zeus is currently offended by some unknown change. As such, the game will lag significantly when an AI playing as Zeus advances to the mythic age, advances to the titan age, or researches omniscience.
-- The menu background and menu music are from Age of Wrath, and will soon be changed to Divine Edition-exclusive backgrounds and music.
+- The menu music is from Age of Wrath, and will soon be changed to Divine Edition-exclusive music.
 - Many assets, particularly for the Eldritch, are placeholders. As the Eldritch are visually distinct and very much playable, making their assets is considered a low-priority. 
 - Picking an unfinished god will default you to Zeus.
-- Picking a random god will pick a random god from the first thirty. As nine out of the second fifteen are unfinished, they will default to Zeus. 
-- The major god summary pages are incomplete for the Aztecs and Eldritch, and there are issues with the rollover text. We are still trying to find an elegant solution for this.
+- Picking a random god will pick a random god from the first thirty. As several out of the second fifteen are unfinished, they will default to Zeus. 
+- The major god summary pages are incomplete for the Aztecs, and there are issues with the rollover text. We are still trying to find an elegant solution for this.
 - The fake techtrees visible in the in-game techtree viewer are unfinished for the Eldritch and Roman gods. This is because making fake techtrees is agonizing and nobody has wanted to do it yet. 
-- Many icons, particularly the Aztec icons, are placeholders and are not owned by the Divine Edition modding team.
+- Many icons, particularly the Aztec and Eldritch icons, are placeholders and are not owned by the Divine Edition modding team.
 - Many histories are not yet written.
 - The culture-specific music that plays at the start of matches is considered a sound and so is unaffected by adjusting the music volume.
 - The UI is almost completely untouched.
 - The Roman titan is the Greek titan.
-- Some units buildings lack player color.
+- Some units and buildings lack player color.
 - For some relatively low-specs systems, there may be a moment of lag when clicking on "Random Map" or "Multiplayer" after playing several successive matches.
 - Balance. There _will_ be severe, glaring balance issues. Please inform us of any you identify in the above discord! 
 - Broken interactions. Despite our best efforts, there are almost certainly dozens of cross-civilization interactions which either do not work properly or are flagrantly overpowered. Once again, please inform us of any you identify in the above discord.
@@ -68,7 +70,9 @@ As the mod is very large, hosting it on Steam Workshop is not practical. As such
 - Your favorite unit/favorite myth unit may be incorrect. I thought I got all of the tags correct, but it's possible I missed some.
 - Some relics may not properly benefit new units, or may benefit them unfairly. 
 - Some buildings have unusual clickboxes, making them slightly annoying to highlight in a pinch.
+- Some units have unusual hp bar locations, which can make the hp bars rapidly move during certain animations.
 - Missing, sub-par, or inaccurate unit line and armory upgrade visual changes.
+- Drastic difference in quality between assets. 
 - Overall jank that you will almost certainly experience.
 - You will have to run the injector each and every time you want to play the mod. 
 
@@ -86,6 +90,8 @@ AProperGentleman (Project Lead) (Eldritch|Japanese|Roman Main Designer)
 BookWyrm 
 
 Kaoru 
+
+Nick3069 (Created the human soldier and myth unit upgraded textures and models from the Myth Unit Upgrade Pack and Human Units Visible Upgrades) (Never part of Divine Edition)
 
 Soully 
 
