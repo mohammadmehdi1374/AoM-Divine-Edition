@@ -63,7 +63,17 @@ define firebigbowl
       }
    }
 }
-
+//==============================================================================
+define XXXX
+{
+   set hotspot
+   {
+      version
+      {
+         Visualparticle SFX A Generic Fire Medium
+      }
+   }
+}
 
 //==============================================================================
 define firebig
@@ -72,7 +82,7 @@ define firebig
    {
       version
       {
-         Visualparticle SFX A Generic Fire Medium
+         Visualparticle sfx a generic fire color
       }
    }
 }
@@ -148,6 +158,8 @@ anim idle
 				Connect LEFTLEG firebowl hotspot
 				Connect ATTACHPOINT fin hotspot
 				Connect ATTACHPOINT fin hotspot
+				Connect ATTACHPOINT firebowl hotspot
+				Connect ATTACHPOINT firebig hotspot
 				Connect ATTACHPOINT firebig hotspot
 				Connect TOPOFHEAD Smokehuge hotspot
 					}

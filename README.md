@@ -95,6 +95,8 @@ Nick3069 (Created the human soldier and myth unit upgraded textures and models f
 
 Soully 
 
+Tiger Baron (Never part of Divine Edition, but created the original Roman mod)
+
 Nox118 (Protogenoi Main Designer)
 
 Zeus (AKA Cannibalh) (Jotunn Main Designer) 

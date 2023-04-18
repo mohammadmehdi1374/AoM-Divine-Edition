@@ -97,6 +97,9 @@
 	<god dbid="83" nameid="120456" techname="Age 2 Maahes" portrait="god minor portrait eggy maahes" position="4" age="2"></god>
 	<god dbid="84" nameid="120457" techname="Age 3 Sobek" portrait="god minor portrait eggy sobek" position="4" age="3"></god>
 	<god dbid="85" nameid="120458" techname="Age 4 Nut" portrait="god minor portrait eggy nut" position="4" age="4"></god>
+	<god dbid="86" nameid="120551" techname="Age 2 Ullr" portrait="god minor portrait ullr" position="4" age="2"></god>
+	<god dbid="87" nameid="120552" techname="Age 3 Vali" portrait="god minor portrait vali" position="4" age="3"></god>
+	<god dbid="88" nameid="120553" techname="Age 4 Vidar" portrait="god minor portrait vidar" position="4" age="4"></god>
 	
 
 

@@ -198,7 +198,7 @@ void main(void)
    int fishLand = rmCreateTerrainDistanceConstraint("fish land", "land", true, 8.0);
 
    int playerFishID=rmCreateObjectDef("owned fish");
-   rmAddObjectDefItem(playerFishID, "fish - mahi", 3, 10.0);
+   rmAddObjectDefItem(playerFishID, "fish - tropical", 3, 10.0);
    rmSetObjectDefMinDistance(playerFishID, 0.0);
    rmSetObjectDefMaxDistance(playerFishID, 100.0);
    rmAddObjectDefConstraint(playerFishID, fishVsFishID);
@@ -434,7 +434,7 @@ void main(void)
    rmPlaceObjectDefAtLoc(randomTreeID, 0, 0.5, 0.5, 10*cNumberNonGaiaPlayers);
 
    int fishID=rmCreateObjectDef("fish");
-   rmAddObjectDefItem(fishID, "fish - mahi", 3, 9.0);
+   rmAddObjectDefItem(fishID, "fish - tropical", 3, 9.0);
    rmSetObjectDefMinDistance(fishID, 0.0);
    rmSetObjectDefMaxDistance(fishID, rmXFractionToMeters(0.5));
    rmAddObjectDefConstraint(fishID, fishVsFishID);

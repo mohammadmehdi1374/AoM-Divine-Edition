@@ -5662,9 +5662,42 @@
 	<soundset name="andagain" volume="0.8000" maxnum="1">
 		<sound filename="andagain.mp3" volume="0.8000"></sound>
 	</soundset>
+	
 	<soundset name="Aztec thunk" volume="0.1000" maxnum="1">
 		<sound filename="cinematics\35_out\thunk.mp3" volume="0.1000"></sound>
 	</soundset>
+	<soundset name="hintpointsmax" volume="1.0000" maxnum="1">
+		<sound filename="hitpointsmax.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="favordump" volume="1.0000" maxnum="1">
+		<sound filename="favordump.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="tornadobreath" volume="1.0000" maxnum="1">
+		<sound filename="TornadoBreath.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="FavorPray" volume="2.5000" maxnum="1">
+		<sound filename="Favor Chant.mp3" volume="3.0000"></sound>
+	</soundset>
+	<soundset name="QuetzalcoatlAttack" volume="1.0000">
+		<sound filename="QuetzalcoatlAttack.mp3" volume="1.0000"></sound>
+	</soundset>	
+	<soundset name="QuetzalcoatlMove" volume="1.0000">
+		<sound filename="QuetzalcoatlMove1.mp3" volume="1.0000"></sound>
+		<sound filename="QuetzalcoatlMove2.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="QuetzalcoatlGrunt" volume="0.7000">
+		<sound filename="QuetzalcoatlGrunt.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="QuetzalcoatlDeath" volume="1.0000">
+		<sound filename="QuetzalcoatlDeath.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="QuetzalcoatlSelect" volume="1.0000">
+		<sound filename="QuetzalcoatlSelect1.mp3" volume="1.0000"></sound>
+		<sound filename="QuetzalcoatlSelect2.mp3" volume="1.0000"></sound>
+	</soundset>	
+	
+	
+	
 	<soundset name="IaIaCthulhuFhtagn" volume="2.0000" maxnum="1">
 		<sound filename="IaIaCthulhuFhtagn.wav" volume="1.0000"></sound>
 	</soundset>

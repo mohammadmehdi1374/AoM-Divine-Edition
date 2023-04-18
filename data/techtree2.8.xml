@@ -4623,6 +4623,8 @@
 			</civilization>
 			<specificage>Archaic Age</specificage>
 			<typecount unit="Temple" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<techstatus status="Active">Can Do Forseti</techstatus>
+
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11249</effect>
@@ -4634,6 +4636,7 @@
 			<effect type="TechStatus" status="active">Age 2</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Freyja</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Heimdall</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Ullr</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Throwing Axeman</target>
 			</effect>
@@ -4661,6 +4664,7 @@
 		</effects>
 		<exclude>Age 2 Freyja</exclude>
 		<exclude>Age 2 Heimdall</exclude>
+		<exclude>Age 2 Ullr</exclude>
 	</tech>
 	<tech name="Age 2 Heimdall" type="Normal">
 		<dbid>379</dbid>
@@ -4681,6 +4685,8 @@
 				<civname>Loki</civname>
 			</civilization>
 			<typecount unit="Temple" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<techstatus status="Active">Can Do Heimdall</techstatus>
+
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11329</effect>
@@ -4691,6 +4697,7 @@
 			</effect>
 			<effect type="TechStatus" status="active">Age 2</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Forseti</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Ullr</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Freyja</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Throwing Axeman</target>
@@ -4719,6 +4726,7 @@
 		</effects>
 		<exclude>Age 2 Freyja</exclude>
 		<exclude>Age 2 Forseti</exclude>
+		<exclude>Age 2 Ullr</exclude>
 	</tech>
 	<tech name="Age 2 Freyja" type="Normal">
 		<dbid>380</dbid>
@@ -4739,6 +4747,7 @@
 			</civilization>
 			<typecount unit="Temple" count="1.00" state="noneState aliveState " operator="gte"></typecount>
 			<specificage>Archaic Age</specificage>
+			<techstatus status="Active">Can Do Freyja</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11327</effect>
@@ -4749,6 +4758,7 @@
 			</effect>
 			<effect type="TechStatus" status="active">Age 2</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Forseti</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Ullr</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Heimdall</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Throwing Axeman</target>
@@ -4777,6 +4787,7 @@
 		</effects>
 		<exclude>Age 2 Forseti</exclude>
 		<exclude>Age 2 Heimdall</exclude>
+		<exclude>Age 2 Ullr</exclude>
 	</tech>
 	<tech name="Age 3 Skadi" type="Normal">
 		<dbid>381</dbid>
@@ -4798,6 +4809,8 @@
 				<civname>Thor</civname>
 			</civilization>
 			<typecount unit="AbstractArmory" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<techstatus status="Active">Can Do Skadi</techstatus>
+
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11333</effect>
@@ -4808,6 +4821,7 @@
 			</effect>
 			<effect type="TechStatus" status="active">Age 3</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Bragi</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Vali</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Njord</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Hill Fort</target>
@@ -4851,6 +4865,7 @@
 		</effects>
 		<exclude>Age 3 Bragi</exclude>
 		<exclude>Age 3 Njord</exclude>
+		<exclude>Age 3 Vali</exclude>
 	</tech>
 	<tech name="Age 3 Bragi" type="Normal">
 		<dbid>382</dbid>
@@ -4872,6 +4887,8 @@
 				<civname>Thor</civname>
 			</civilization>
 			<specificage>Classical Age</specificage>
+			<techstatus status="Active">Can Do Bragi</techstatus>
+
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11331</effect>
@@ -4882,6 +4899,7 @@
 			</effect>
 			<effect type="TechStatus" status="active">Age 3</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Skadi</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Vali</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Njord</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Hill Fort</target>
@@ -4921,6 +4939,7 @@
 			<effect type="TextOutput">23448</effect>
 		</effects>
 		<exclude>Age 3 Njord</exclude>
+		<exclude>Age 3 Vali</exclude>
 		<exclude>Age 3 Skadi</exclude>
 	</tech>
 	<tech name="Age 3 Njord" type="Normal">
@@ -4943,6 +4962,8 @@
 				<civname>Odin</civname>
 			</civilization>
 			<typecount unit="AbstractArmory" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<techstatus status="Active">Can Do Njord</techstatus>
+
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11335</effect>
@@ -4953,6 +4974,7 @@
 			</effect>
 			<effect type="TechStatus" status="active">Age 3</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Bragi</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Vali</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Skadi</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Hill Fort</target>
@@ -5003,6 +5025,7 @@
 			<effect type="TextOutput">23449</effect>
 		</effects>
 		<exclude>Age 3 Bragi</exclude>
+		<exclude>Age 3 Vali</exclude>
 		<exclude>Age 3 Skadi</exclude>
 	</tech>
 	<tech name="Age 4 Hel" type="Normal">
@@ -5024,6 +5047,8 @@
 			<civilization>
 				<civname>Loki</civname>
 			</civilization>
+			<techstatus status="Active">Can Do Hel</techstatus>
+
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11339</effect>
@@ -5037,6 +5062,7 @@
 			</effect>
 			<effect type="TechStatus" status="active">Age 4</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Baldr</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Vidar</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Tyr</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Frost Giant</target>
@@ -5055,6 +5081,7 @@
 			<effect type="TextOutput">23461</effect>
 		</effects>
 		<exclude>Age 4 Baldr</exclude>
+		<exclude>Age 4 Vidar</exclude>
 		<exclude>Age 4 Tyr</exclude>
 	</tech>
 	<tech name="Age 4 Baldr" type="Normal">
@@ -5077,6 +5104,8 @@
 				<civname>Odin</civname>
 				<civname>Thor</civname>
 			</civilization>
+			<techstatus status="Active">Can Do Baldr</techstatus>
+
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11337</effect>
@@ -5087,6 +5116,7 @@
 			</effect>
 			<effect type="TechStatus" status="active">Age 4</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Hel</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Vidar</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Tyr</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Ballista</target>
@@ -5103,6 +5133,7 @@
 		</effects>
 		<exclude>Age 4 Tyr</exclude>
 		<exclude>Age 4 Hel</exclude>
+		<exclude>Age 4 Vidar</exclude>
 	</tech>
 	<tech name="Age 4 Tyr" type="Normal">
 		<dbid>386</dbid>
@@ -5123,6 +5154,8 @@
 			<culture>
 				<culturename>Norse</culturename>
 			</culture>
+			<techstatus status="Active">Can Do Tyr</techstatus>
+
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11341</effect>
@@ -5133,6 +5166,7 @@
 			</effect>
 			<effect type="TechStatus" status="active">Age 4</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Baldr</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Vidar</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Hel</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Jormund Elver</target>
@@ -5157,6 +5191,7 @@
 		</effects>
 		<exclude>Age 4 Baldr</exclude>
 		<exclude>Age 4 Hel</exclude>
+		<exclude>Age 4 Vidar</exclude>
 	</tech>
 	<tech name="Signal Fires" type="Normal">
 		<dbid>387</dbid>
@@ -8556,6 +8591,8 @@
 				<civname>Thor</civname>
 			</civilization>
 			<specificage>Classical Age</specificage>
+			<techstatus status="Active">Age 1 Thor Real</techstatus>
+
 		</prereqs>
 		<effects>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -11108,6 +11145,7 @@
 			<culture>
 				<culturename>Greek</culturename>
 			</culture>
+			<techstatus status="Active">Starting Units Greek</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="Data" amount="-45.00" subtype="Resource" resource="Wood" relativity="Absolute">
@@ -11125,6 +11163,7 @@
 			<culture>
 				<culturename>Norse</culturename>
 			</culture>
+			<techstatus status="Active">Starting Units Norse</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="Data" amount="50.00" subtype="Resource" resource="Gold" relativity="Absolute">
@@ -17513,8 +17552,8 @@
 			</effect>
 			<effect type="TechStatus" status="ACTIVE">Eldritch Civ</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Ithaqua</effect>
-			<effect type="TechStatus" status="ACTIVE">Can Do Tsathoggua</effect>
-			<effect type="TechStatus" status="ACTIVE">Can Do Nug and Yeb</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Atlach-Nacha</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Yig</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Dagon</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Hastur</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Cthulhu</effect>
@@ -17614,9 +17653,9 @@
 			</effect>
 			<effect type="TechStatus" status="ACTIVE">Eldritch Civ</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Ithaqua</effect>
-			<effect type="TechStatus" status="ACTIVE">Can Do Atlach-Nacha</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Tsathoggua</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Dagon</effect>
-			<effect type="TechStatus" status="ACTIVE">Can Do Yig</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Nug and Yeb</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Hastur</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Cthulhu</effect>
 			<effect type="TechStatus" status="Available">Mother's Milk</effect>
@@ -26018,6 +26057,10 @@
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Cihuateteo</target>
 			</effect>
+			
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Xiuhcoatl</target>
+			</effect>
 			<effect type="CreateUnit" unit="Cihuateteo" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
@@ -26661,7 +26704,6 @@
 			<techstatus status="Active">Age 2 Xochiquetzal</techstatus>
 		</prereqs>
 		<effects>
-			<effect all="true" type="TextOutput">18651</effect>
 			<effect type="TextOutput">90109</effect>
 			<effect type="Data" action="Build" amount="2.40" subtype="WorkRate" unittype="Building" relativity="BasePercent">
 				<target type="ProtoUnit">AbstractVillager</target>
@@ -26684,7 +26726,6 @@
 			<techstatus status="Active">Age 2 Xochiquetzal</techstatus>
 		</prereqs>
 		<effects>
-			<effect all="true" type="TextOutput">90111</effect>
 			<effect type="TextOutput">90111</effect>
 			<effect type="Data" amount="0.45" subtype="TrainPoints" relativity="Percent">
 				<target type="ProtoUnit">AbstractVillager</target>
@@ -26704,7 +26745,6 @@
 			<techstatus status="Active">Age 2 Xochiquetzal</techstatus>
 		</prereqs>
 		<effects>
-			<effect all="true" type="TextOutput">18651</effect>
 			<effect type="TextOutput">90113</effect>
 			<effect type="Data" amount="5.00" subtype="CarryCapacity" resource="Food" relativity="Absolute">
 				<target type="ProtoUnit">AbstractVillager</target>
@@ -27609,6 +27649,14 @@
 			<effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
 				<target type="Tech">Champion Archers</target>
 			</effect>
+
+
+			<effect type="TechStatus" status="ACTIVE">Can Do Freyja</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Heimdall</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Skadi</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Njord</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Baldr</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Tyr</effect>
 		</effects>
 	</tech>
 	<tech name="Age 1 Thor Real" type="Normal">
@@ -27707,6 +27755,14 @@
 				<target type="Tech">Champion Archers</target>
 			</effect>
 			<Effect type="Sound">NorseThemeMusic</Effect>
+
+
+			<effect type="TechStatus" status="ACTIVE">Can Do Freyja</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Forseti</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Skadi</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Bragi</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Baldr</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Tyr</effect>
 		</effects>
 	</tech>
 	<tech name="Age 1 Loki Real" type="Normal">
@@ -27807,6 +27863,14 @@
 			<effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
 				<target type="Tech">Champion Archers</target>
 			</effect>
+
+
+			<effect type="TechStatus" status="ACTIVE">Can Do Forseti</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Heimdall</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Bragi</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Njord</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Tyr</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Hel</effect>
 		</effects>
 	</tech>
 	<tech name="Age 1 Kronos Real" type="Normal">
@@ -37387,6 +37451,683 @@
 		<icon>god power underworld passage icon</icon>
 		<rollovertextid>120502</rollovertextid>
 	</tech>
+	
+	<tech name="Can Do Forseti" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Freyja" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Heimdall" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Ullr" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Bragi" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Skadi" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Njord" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Vali" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Baldr" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Tyr" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Hel" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Vidar" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+
+	<tech name="Age 1 Freyr Real" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120506</displaynameid>
+		<researchpoints>0.0010</researchpoints>
+		<status>AVAILABLE</status>
+		<icon>Improvement Freyr Icon</icon>
+		<rollovertextid>120507</rollovertextid>
+		<delay>0.0100</delay>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<civilization>
+				<civname>Thor</civname>
+			</civilization>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">120508</effect>
+			<effect all="true" type="TextOutput">120509</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Dwarf</target>
+			</effect>
+			<effect type="TechStatus" status="active">Starting Units Norse</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Loki Real</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Odin Real</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Loki Fake</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Thor Fake</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Odin Fake</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Ox Cart</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Villager Norse</target>
+			</effect>
+			<effect tech="Day of Glory" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Ulfsark</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Fishing Ship Norse</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">House</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Ulfsark</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Norse</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Armory</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Longhouse</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Tower</target>
+			</effect>
+
+
+			<effect type="Data" amount="0.9" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" amount="0.9" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" amount="0.85" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Jarl</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Jarl</target>
+			</effect>
+
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+				<target type="ProtoUnit">MythUnit</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="2.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+				<target type="ProtoUnit">MythUnit</target>
+			</effect>
+			<effect type="Data" action="WhirlwindAttack" amount="2.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+				<target type="ProtoUnit">MythUnit</target>
+			</effect>
+			<effect type="Data" action="ChargedRangedAttack" amount="2.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+				<target type="ProtoUnit">MythUnit</target>
+			</effect>
+			
+
+
+			<effect type="TechStatus" status="ACTIVE">Can Do Freyja</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Ullr</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Vali</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Bragi</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Baldr</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Vidar</effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Day of Glory" type="Power">
+		<dbid></dbid>
+		<displaynameid>120510</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Day of Glory Icon</icon>
+		<rollovertextid>120511</rollovertextid>
+		<buttonpos row="0" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 1 Freyr</techstatus>
+		</prereqs>
+	</tech>
+	<tech name="Swirling Snows" type="Power">
+		<dbid></dbid>
+		<displaynameid>120512</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Swirling Snows Icon</icon>
+		<rollovertextid>120513</rollovertextid>
+		<buttonpos row="0" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 2 Ullr</techstatus>
+		</prereqs>
+	</tech>
+	<tech name="Baldrs Remembrance" type="Power">
+		<dbid></dbid>
+		<displaynameid>120514</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Baldrs Remembrance Icon</icon>
+		<rollovertextid>120515</rollovertextid>
+		<buttonpos row="0" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 3 Vali</techstatus>
+		</prereqs>
+	</tech>
+	<tech name="Vengeance" type="Power">
+		<dbid></dbid>
+		<displaynameid>120516</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Vengeance gp Icon</icon>
+		<rollovertextid>120517</rollovertextid>
+		<buttonpos row="0" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 4 Vidar</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Age 2 Ullr" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120518</displaynameid>
+		<cost resourcetype="Food">400.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement ullr icon</icon>
+		<rollovertextid>120519</rollovertextid>
+		<prereqsnotmetrollovertextid>10840</prereqsnotmetrollovertextid>
+		<buttonpos row="1" column="1"></buttonpos>
+		<flag>AlwaysShowButton</flag>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<civilization>
+				<civname>Odin</civname>
+				<civname>Thor</civname>
+			</civilization>
+			<typecount unit="Temple" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<specificage>Archaic Age</specificage>
+			<techstatus status="Active">Can Do Ullr</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">120520</effect>
+			<effect all="true" type="TextOutput">120521</effect>
+			<effect type="Sound">researchComplete1.wav</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Trollkarien</target>
+			</effect>
+			<effect type="TechStatus" status="active">Age 2</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Forseti</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Freyja</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Heimdall</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Throwing Axeman</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Raiding Cavalry</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Farm</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Transport Ship Norse</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Longboat</target>
+			</effect>
+			<effect tech="Swirling Snows" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="CreateUnit" unit="Trollkarien" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TextOutput">120560</effect>
+		</effects>
+		<exclude>Age 2 Forseti</exclude>
+		<exclude>Age 2 Heimdall</exclude>
+		<exclude>Age 2 Freyja</exclude>
+	</tech>
+	<tech name="Age 3 Vali" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120522</displaynameid>
+		<cost resourcetype="Food">800.0000</cost>
+		<cost resourcetype="Gold">500.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement vali icon</icon>
+		<rollovertextid>120523</rollovertextid>
+		<prereqsnotmetrollovertextid>17975</prereqsnotmetrollovertextid>
+		<buttonpos row="1" column="1"></buttonpos>
+		<flag>AlwaysShowButton</flag>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<specificage>Classical Age</specificage>
+			<civilization>
+				<civname>Thor</civname>
+			</civilization>
+			<typecount unit="AbstractArmory" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<techstatus status="Active">Can Do Vali</techstatus>
+
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">120524</effect>
+			<effect all="true" type="TextOutput">120525</effect>
+			<effect type="Sound">researchComplete1.wav</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Draugr</target>
+			</effect>
+			<effect type="TechStatus" status="active">Age 3</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Bragi</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Skadi</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Njord</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hill Fort</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Portable Ram</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Huskarl</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Jarl</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Bogsveigir</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Market</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Caravan Norse</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Ramming Ship Norse</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Siege Ship Norse</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
+				<target type="ProtoUnit">Draugr</target>
+			</effect>
+			<effect tech="Baldrs Remembrance" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="CreateUnit" unit="Draugr" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TextOutput">120621</effect>
+		</effects>
+		<exclude>Age 3 Bragi</exclude>
+		<exclude>Age 3 Njord</exclude>
+		<exclude>Age 3 Skadi</exclude>
+	</tech>
+
+	<tech name="Age 4 Vidar" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120526</displaynameid>
+		<cost resourcetype="Food">1000.0000</cost>
+		<cost resourcetype="Gold">1000.0000</cost>
+		<researchpoints>90.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement vidar icon</icon>
+		<rollovertextid>120527</rollovertextid>
+		<prereqsnotmetrollovertextid>17977</prereqsnotmetrollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<flag>AlwaysShowButton</flag>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+			<typecount unit="Market" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<civilization>
+				<civname>Thor</civname>
+			</civilization>
+			<techstatus status="Active">Can Do Vidar</techstatus>
+
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">120528</effect>
+			<effect all="true" type="TextOutput">120529</effect>
+			<effect type="Sound">researchComplete1.wav</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Heidrun</target>
+			</effect>
+			<effect type="TechStatus" status="active">Age 4</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Hel</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Bsldr</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Tyr</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Ballista</target>
+			</effect>
+			<effect tech="Vengeance" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="CreateUnit" unit="Heidrun" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TextOutput">120562</effect>
+		</effects>
+		<exclude>Age 4 Tyr</exclude>
+		<exclude>Age 4 Hel</exclude>
+		<exclude>Age 4 Baldr</exclude>
+	</tech>
+
+	<tech name="Gift of Gold" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120563</displaynameid>
+		<cost resourcetype="Gold">100.0000</cost>
+		<cost resourcetype="Favor">5.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement gift of gold icon</icon>
+		<rollovertextid>120564</rollovertextid>
+		<buttonpos row="2" column="1"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 1 Freyr Real</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="0.875" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Dwarf</target>
+			</effect>
+
+			<effect type="Data" amount="0.7142857" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="ProtoUnit">Dwarf</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Toxic Arrows" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120565</displaynameid>
+		<cost resourcetype="Wood">200.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement toxic arrows icon</icon>
+		<rollovertextid>120566</rollovertextid>
+		<buttonpos row="0" column="1"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 2 Ullr</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="ChargedRangedAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+				<target type="ProtoUnit">Trollkarien</target>
+			</effect>
+			<effect type="SetName" proto="Trollkarien" culture="none" newname="120544"></effect>
+		</effects>
+	</tech>
+
+	<tech name="Yew Groves" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120567</displaynameid>
+		<cost resourcetype="Wood">150.0000</cost>
+		<cost resourcetype="Favor">15.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement yew groves icon</icon>
+		<rollovertextid>120568</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 2 Ullr</techstatus>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Tower</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">SettlementsThatTrainVillagers</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Hill Fort</target>
+			</effect>
+
+			<effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Tower</target>
+			</effect>
+			<effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">SettlementsThatTrainVillagers</target>
+			</effect>
+			<effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Hill Fort</target>
+			</effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Forest Reserves" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120569</displaynameid>
+		<cost resourcetype="Wood">50.0000</cost>
+		<cost resourcetype="Favor">20.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement forest reserves Icon</icon>
+		<rollovertextid>120530</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 2 Ullr</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Bogsveigir" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="5.00" minradius="0.00">
+					<offset x="-10.00" y="0.00" z="00.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Blades of Fury" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120531</displaynameid>
+		<cost resourcetype="Food">250.0000</cost>
+		<cost resourcetype="Favor">15.0000</cost>
+		<researchpoints>35.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement blades of fury Icon</icon>
+		<rollovertextid>120532</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 3 Vali</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="HandAttack" amount="3.0" subtype="Damage" damagetype="Crush" relativity="Absolute">
+				<target type="ProtoUnit">Ulfsark</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="3.0" subtype="Damage" damagetype="Crush" relativity="Absolute">
+				<target type="ProtoUnit">Ulfsark Starting</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Swift Childhood" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120533</displaynameid>
+		<cost resourcetype="Wood">200.0000</cost>
+		<cost resourcetype="Favor">20.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement swift childhood icon</icon>
+		<rollovertextid>120534</rollovertextid>
+		<buttonpos row="2" column="1"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 3 Vali</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="0.75" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">HumanSoldier</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Blind Justice" type="Normal">
+		<displaynameid>120535</displaynameid>
+		<cost resourcetype="Gold">200.0000</cost>
+		<cost resourcetype="Favor">30.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement blind justice icon</icon>
+		<rollovertextid>120536</rollovertextid>
+		<buttonpos row="2" column="2"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 3 Vali</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="100.00" subtype="Hitpoints" relativity="Absolute">
+				<target type="ProtoUnit">Draugr</target>
+			</effect>
+			<effect type="SetName" proto="Draugr" culture="none" newname="120547"></effect>
+
+			<effect type="Data" action="HandAttack" amount="1.25" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">Draugr</target>
+			</effect>
+			<effect type="Data" action="WhirlwindAttack" amount="2.0" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">Draugr</target>
+			</effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Glowing Spirit" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120537</displaynameid>
+		<cost resourcetype="Gold">300.0000</cost>
+		<cost resourcetype="Favor">30.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement glowing spirit icon</icon>
+		<rollovertextid>120538</rollovertextid>
+		<buttonpos row="2" column="1"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 4 Vidar</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="0.25" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Hero Norse</target>
+			</effect>
+			<effect type="Data" amount="0.75" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="ProtoUnit">Hero Norse</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name= "Sunrise" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120539</displaynameid>
+		<cost resourcetype="Food">300.0000</cost>
+		<cost resourcetype="Favor">30.0000</cost>
+		<researchpoints>40.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement sunrise icon</icon>
+		<rollovertextid>120540</rollovertextid>
+		<buttonpos row="2" column="1"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 4 Vidar</techstatus>
+		</prereqs>
+		<effects>	
+			<effect type="Data" action="Build" amount="1.30" subtype="WorkRate" unittype="Building" relativity="BasePercent">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+			<effect type="Data" action="Build" amount="1.60" subtype="WorkRate" unittype="Settlement" relativity="BasePercent">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Silence" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120541</displaynameid>
+		<cost resourcetype="Wood">500.0000</cost>
+		<cost resourcetype="Favor">20.0000</cost>
+		<researchpoints>40.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement silence icon</icon>
+		<rollovertextid>120542</rollovertextid>
+		<buttonpos row="2" column="1"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 4 Vidar</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Ship</target>
+			</effect>
+		</effects>
+	</tech>
+
+
+
+	<tech name="Day of Glory Active" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120510</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>improvement day of glory icon</icon>
+		<effects>
+		</effects>
+	</tech>
+
+
+
 
 
 

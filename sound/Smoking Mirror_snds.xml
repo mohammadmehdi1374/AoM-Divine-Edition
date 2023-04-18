@@ -3,7 +3,7 @@
 <protounitsounddef>
 	<protounit name="Smoking Mirror">
 		<soundtype name="Select">
-			<soundset name="SmokingMirror"></soundset>
+			<soundset name="favordump"></soundset>
 		</soundtype>
 		<soundtype name="Grunt">
 			<soundset name="CinematicTridentThunk"></soundset>
@@ -31,7 +31,7 @@
 			<soundset name="andagain"></soundset>
 		</soundtype>
 		<soundtype name="Acknowledge">
-			<soundset name="Aztec chimes"></soundset>
+			<soundset name="favordump"></soundset>
 		</soundtype>
 	</protounit>
 </protounitsounddef>

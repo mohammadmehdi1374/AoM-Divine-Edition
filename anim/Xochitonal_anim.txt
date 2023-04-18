@@ -3,7 +3,40 @@
 //==============================================================================
 
 
+//==============================================================================
+define SmokePelvis
+{
+   set hotspot
+   {
+      version
+      {
+        Visualparticle Special N Fire Giant SmokePelvis
+      }
+   }
+}
+//==============================================================================
+define deathsmoke
+{
+   set hotspot
+   {
+      version
+      {
+        Visualparticle special n fire giant death smoke
+      }
+   }
+}
 
+//==============================================================================
+define deathash
+{
+   set hotspot
+   {
+      version
+      {
+        Visualparticle special n fire giant death ash
+      }
+   }
+}
 //==============================================================================
 define FireTrail
 {
@@ -29,37 +62,13 @@ define Lizard
 }
 
 //==============================================================================
-define Acidbreath
+define firebreath
 {
    set hotspot
    {
       version
       {
-         Visualparticle Xoc breath
-      }
-   }
-}
-
-//==============================================================================
-define Acidbreath1
-{
-   set hotspot
-   {
-      version
-      {
-         Visualparticle Xoc breath1
-      }
-   }
-}
-
-//==============================================================================
-define Acidbreath2
-{
-   set hotspot
-   {
-      version
-      {
-         Visualparticle Xoc breath2
+         Visualparticle Special G Chimera Fire Breath
       }
    }
 }
@@ -163,12 +172,11 @@ anim FreezeAttack
             tag Attack 0.60 true   
             tag SpecificSoundSet 0.27 false ArgusFeezeAttack checkVisible 
 //-- end auto generated section
-				connect attachpoint acidbreath1 hotspot
-				connect attachpoint acidbreath2 hotspot
-				connect attachpoint acidbreath1 hotspot
-				connect attachpoint acidbreath2 hotspot
+				connect attachpoint firebreath hotspot
 				connect attachpoint firetrail hotspot
-				connect attachpoint acidbreath hotspot
+				connect attachpoint SmokePelvis hotspot
+				connect attachpoint deathsmoke hotspot
+				connect attachpoint deathash hotspot
          }
       }
    }

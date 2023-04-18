@@ -25,7 +25,7 @@ void main(void)
 	rmSetMapSize(size, size);
 	
 	rmSetSeaLevel(1.0);
-	rmSetSeaType("Aztec Sea");
+	rmSetSeaType("Yucatan Water");
 	rmSetLightingSet("Fimbulwinter");
 
 	// Init map.
@@ -67,13 +67,13 @@ void main(void)
 	int AvoidStartingSettleTiny	= rmCreateClassDistanceConstraint ("C1", classStartingSettle, 20.0);
 	int AvoidPlayer				= rmCreateClassDistanceConstraint ("C2", classPlayer, 10.0);
 	int AvoidPlayerCore			= rmCreateClassDistanceConstraint ("C3", classPlayerCore, 60.0);
-	int AvoidBonusIsland		= rmCreateClassDistanceConstraint ("C4", classBonusIsland, 15.0);
+	int AvoidBonusIsland		= rmCreateClassDistanceConstraint ("C4", classBonusIsland, 30.0);
 	int AvoidBonusIslandFar		= rmCreateClassDistanceConstraint ("C5", classBonusIsland, 25.0);
-	int AvoidIsland				= rmCreateClassDistanceConstraint ("C6", classIsland, 20.0);
-	int AvoidCenter				= rmCreateClassDistanceConstraint ("C7", classCenter, 60.0);
+	int AvoidIsland				= rmCreateClassDistanceConstraint ("C6", classIsland, 5.0);
+	int AvoidCenter				= rmCreateClassDistanceConstraint ("C7", classCenter, 20.0);
 	int AvoidCenterShort		= rmCreateClassDistanceConstraint ("C8", classCenter, 5.0);
-	int AvoidForest				= rmCreateClassDistanceConstraint ("C9", classForest, 24.0);
-	int AvoidForestFar			= rmCreateClassDistanceConstraint ("C10", classForest, 30.0);
+	int AvoidForest				= rmCreateClassDistanceConstraint ("C9", classForest, 8.0);
+	int AvoidForestFar			= rmCreateClassDistanceConstraint ("C10", classForest, 7.0);
 	int AvoidCornerShort		= rmCreateClassDistanceConstraint ("C11", classCorner, 1.0);
 	int AvoidCorner				= rmCreateClassDistanceConstraint ("C12", classCorner, 15.0);
 	int inCorner				= rmCreateClassDistanceConstraint ("C13", classAvoidCorner, 1.0);
@@ -82,7 +82,7 @@ void main(void)
 	int AvoidImpassableLandShort	= rmCreateTerrainDistanceConstraint ("TR0", "land", false, 6.0);
 	int AvoidImpassableLand			= rmCreateTerrainDistanceConstraint ("TR1", "land", false, 8.0);
 	int AvoidImpassableLandFar		= rmCreateTerrainDistanceConstraint ("TR2", "land", false, 18.0);
-	int nearShore					= rmCreateTerrainMaxDistanceConstraint ("TR3", "water", true, 6.0);
+	int nearShore					= rmCreateTerrainMaxDistanceConstraint ("TR3", "water", true, 20.0);
 	
 	rmSetStatusText("",0.25);
 	///OBJECT DEFINITION
@@ -118,7 +118,7 @@ void main(void)
 	rmAddObjectDefConstraint  	(IDStartingGoldLarge, AvoidImpassableLand);
 	
 	int IDStartingHerd			= rmCreateObjectDef("close herdable");
-	rmAddObjectDefItem			(IDStartingHerd, "pig", 4, 3.0);
+	rmAddObjectDefItem			(IDStartingHerd, "Turkey", 4, 3.0);
 	rmSetObjectDefMinDistance	(IDStartingHerd, 25.0);
 	rmSetObjectDefMaxDistance	(IDStartingHerd, 30.0);
 	rmAddObjectDefConstraint	(IDStartingHerd, AvoidAll);
@@ -126,7 +126,7 @@ void main(void)
 	rmAddObjectDefConstraint	(IDStartingHerd, AvoidImpassableLand);
 	
 	int IDStartingHunt			= rmCreateObjectDef("close hunt");
-	rmAddObjectDefItem			(IDStartingHunt, "deer", rmRandInt(6,8), 3.0);
+	rmAddObjectDefItem			(IDStartingHunt, "Moose", rmRandInt(6,8), 3.0);
 	rmSetObjectDefMinDistance	(IDStartingHunt, 25.0);
 	rmSetObjectDefMaxDistance	(IDStartingHunt, 30.0);
 	rmAddObjectDefConstraint	(IDStartingHunt, AvoidAll);
@@ -134,13 +134,13 @@ void main(void)
 	rmAddObjectDefConstraint	(IDStartingHunt, AvoidImpassableLand);
 	
 	int IDStragglerTree			= rmCreateObjectDef("straggler tree");
-	rmAddObjectDefItem			(IDStragglerTree, "oak tree", 1, 0.0);
+	rmAddObjectDefItem			(IDStragglerTree, "tree kapok", 1, 0.0);
 	rmSetObjectDefMinDistance	(IDStragglerTree, 12.0);
 	rmSetObjectDefMaxDistance	(IDStragglerTree, 15.0);
 	rmAddObjectDefConstraint	(IDStragglerTree, AvoidBonusIsland);
 	
 	int IDStraggler2			= rmCreateObjectDef("straggler tree2");
-	rmAddObjectDefItem			(IDStraggler2, "Zpalm", 1, 0.0);
+	rmAddObjectDefItem			(IDStraggler2, "Tree Kapok", 1, 0.0);
 	rmSetObjectDefMinDistance	(IDStraggler2, 11.0);
 	rmSetObjectDefMaxDistance	(IDStraggler2, 17.0);
 	rmAddObjectDefConstraint	(IDStraggler2, AvoidAll);
@@ -165,7 +165,7 @@ void main(void)
 	}
 	
 	int IDMediumHerd			= rmCreateObjectDef("medium pig");
-	rmAddObjectDefItem			(IDMediumHerd, "pig", rmRandFloat(2,3), 4.0);
+	rmAddObjectDefItem			(IDMediumHerd, "Turkey", rmRandFloat(2,3), 4.0);
 	rmSetObjectDefMinDistance	(IDMediumHerd, 50.0);
 	rmSetObjectDefMaxDistance	(IDMediumHerd, 70.0);
 	rmAddObjectDefConstraint	(IDMediumHerd, AvoidImpassableLand);
@@ -200,7 +200,7 @@ void main(void)
 	rmAddObjectDefConstraint	(IDCenterGold, AvoidCenterShort);
 	
 	int IDFarHerd				= rmCreateObjectDef("far pigs");
-	rmAddObjectDefItem			(IDFarHerd, "pig", rmRandInt(2,3), 4.0);
+	rmAddObjectDefItem			(IDFarHerd, "Turkey", rmRandInt(2,3), 4.0);
 	rmSetObjectDefMinDistance	(IDFarHerd, 70.0);
 	rmSetObjectDefMaxDistance	(IDFarHerd, 150.0);
 	rmAddObjectDefConstraint	(IDFarHerd, AvoidHerdable);
@@ -211,9 +211,9 @@ void main(void)
 	int IDFarPred				= rmCreateObjectDef("far predator");
 	float predatorSpecies=rmRandFloat(0, 1);
 	if(predatorSpecies<0.5)   
-		rmAddObjectDefItem		(IDFarPred, "crocodile", 1, 4.0);
+		rmAddObjectDefItem		(IDFarPred, "Black Panther", 1, 4.0);
 	else
-		rmAddObjectDefItem		(IDFarPred, "crocodile", 2, 2.0);
+		rmAddObjectDefItem		(IDFarPred, "Black Panther", 2, 2.0);
 	rmSetObjectDefMinDistance	(IDFarPred, 50.0);
 	rmSetObjectDefMaxDistance	(IDFarPred, 100.0);
 	rmAddObjectDefConstraint	(IDFarPred, AvoidPredator);
@@ -223,7 +223,7 @@ void main(void)
 	rmAddObjectDefConstraint	(IDFarPred, AvoidPlayer);
 	
 	int IDFarCrocodile			= rmCreateObjectDef("far Crocs");
-	rmAddObjectDefItem			(IDFarCrocodile, "crocodile", rmRandInt(1,2), 0.0);
+	rmAddObjectDefItem			(IDFarCrocodile, "Black Panther", rmRandInt(1,2), 0.0);
 	rmSetObjectDefMinDistance	(IDFarCrocodile, 50.0);
 	rmSetObjectDefMaxDistance	(IDFarCrocodile, 100.0);
 	rmAddObjectDefConstraint	(IDFarCrocodile, AvoidStartingSettle);
@@ -231,7 +231,7 @@ void main(void)
 	rmAddObjectDefConstraint	(IDFarCrocodile, AvoidPredator);
 	
 	int IDFarCrane				= rmCreateObjectDef("far Crane");
-	rmAddObjectDefItem			(IDFarCrane, "crowned crane", rmRandInt(6,8), 3.0);
+	rmAddObjectDefItem			(IDFarCrane, "Monkey", rmRandInt(6,8), 3.0);
 	rmSetObjectDefMinDistance	(IDFarCrane, 50.0);
 	rmSetObjectDefMaxDistance	(IDFarCrane, 150.0);
 	rmAddObjectDefConstraint	(IDFarCrane, nearShore);
@@ -240,11 +240,11 @@ void main(void)
 	
 	int IDBonusHuntable1		= rmCreateObjectDef("bonus huntable1");
 	if(bonusChance<0.5)   
-		rmAddObjectDefItem		(IDBonusHuntable1, "water buffalo", rmRandInt(2,3), 2.0);
+		rmAddObjectDefItem		(IDBonusHuntable1, "Jaguar", rmRandInt(2,3), 2.0);
 	else if(bonusChance<0.75)
-		rmAddObjectDefItem		(IDBonusHuntable1, "deer", rmRandInt(5,6), 3.0);
+		rmAddObjectDefItem		(IDBonusHuntable1, "Moose", rmRandInt(5,6), 3.0);
 	else
-		rmAddObjectDefItem		(IDBonusHuntable1, "hippo", rmRandInt(3,5), 3.0);
+		rmAddObjectDefItem		(IDBonusHuntable1, "bear black", rmRandInt(3,5), 3.0);
 	rmSetObjectDefMinDistance	(IDBonusHuntable1, 60.0);
 	rmSetObjectDefMaxDistance	(IDBonusHuntable1, 100.0);
 	rmAddObjectDefConstraint	(IDBonusHuntable1, AvoidSettlementSlightly);
@@ -257,15 +257,15 @@ void main(void)
 	int IDBonusHuntable2		= rmCreateObjectDef("bonus huntable2");
 	
 	if(bonusChance<0.5)
-		rmAddObjectDefItem		(IDBonusHuntable2, "hippo", 2, 2.0);
+		rmAddObjectDefItem		(IDBonusHuntable2, "bear black", 2, 2.0);
 	else if(bonusChance<0.75)
 		{
-			rmAddObjectDefItem	(IDBonusHuntable2, "water buffalo", rmRandInt(3,4), 3.0);
+			rmAddObjectDefItem	(IDBonusHuntable2, "Jaguar", rmRandInt(3,4), 3.0);
 				if(rmRandFloat(0,1)<0.5) 
-					rmAddObjectDefItem(IDBonusHuntable2, "deer", rmRandInt(2,4), 3.0);
+					rmAddObjectDefItem(IDBonusHuntable2, "Moose", rmRandInt(2,4), 3.0);
 		}
 	else
-		rmAddObjectDefItem		(IDBonusHuntable2, "deer", rmRandInt(6,9), 4.0);
+		rmAddObjectDefItem		(IDBonusHuntable2, "Moose", rmRandInt(6,9), 4.0);
 	
 	rmSetObjectDefMinDistance	(IDBonusHuntable2, 50.0);
 	rmSetObjectDefMaxDistance	(IDBonusHuntable2, 80.0);
@@ -280,13 +280,13 @@ void main(void)
 	
 	int IDBonusHuntable3		= rmCreateObjectDef("bonus huntable3");
 	if(bonusChance<0.5)   
-		rmAddObjectDefItem		(IDBonusHuntable3, "boar", 4, 2.0);
+		rmAddObjectDefItem		(IDBonusHuntable3, "Guanaco", 4, 2.0);
 	else if(bonusChance<0.75) {
-		rmAddObjectDefItem		(IDBonusHuntable3, "boar", 6, 3.0);
+		rmAddObjectDefItem		(IDBonusHuntable3, "Guanaco", 6, 3.0);
 		if(rmRandFloat(0,1)<0.5)      
-			rmAddObjectDefItem	(IDBonusHuntable3, "crowned crane", rmRandInt(4,6), 4.0);
+			rmAddObjectDefItem	(IDBonusHuntable3, "Monkey", rmRandInt(4,6), 4.0);
 	} else
-		rmAddObjectDefItem		(IDBonusHuntable3, "water buffalo", rmRandInt(4,5), 3.0);
+		rmAddObjectDefItem		(IDBonusHuntable3, "Jaguar", rmRandInt(4,5), 3.0);
 	rmSetObjectDefMinDistance	(IDBonusHuntable3, 55.0);
 	rmSetObjectDefMaxDistance	(IDBonusHuntable3, 100.0);
 	rmAddObjectDefConstraint	(IDBonusHuntable3, AvoidSettlementSlightly);
@@ -299,13 +299,13 @@ void main(void)
 	
 	int IDBonusHuntable4		= rmCreateObjectDef("bonus huntable4");
 	if(bonusChance<0.5)   
-		rmAddObjectDefItem		(IDBonusHuntable4, "boar", 4, 2.0);
+		rmAddObjectDefItem		(IDBonusHuntable4, "Guanaco", 4, 2.0);
 	else if(bonusChance<0.75) {
-		rmAddObjectDefItem	(IDBonusHuntable4, "boar", 6, 3.0);
+		rmAddObjectDefItem	(IDBonusHuntable4, "Guanaco", 6, 3.0);
 		if(rmRandFloat(0,1)<0.5)      
-			rmAddObjectDefItem(IDBonusHuntable4, "crowned crane", rmRandInt(4,6), 4.0);
+			rmAddObjectDefItem(IDBonusHuntable4, "Monkey", rmRandInt(4,6), 4.0);
 	} else
-		rmAddObjectDefItem		(IDBonusHuntable4, "water buffalo", rmRandInt(2,3), 3.0);
+		rmAddObjectDefItem		(IDBonusHuntable4, "Jaguar", rmRandInt(2,3), 3.0);
 	rmSetObjectDefMinDistance	(IDBonusHuntable4, 0.0);
 	rmSetObjectDefMaxDistance	(IDBonusHuntable4, rmXFractionToMeters(0.5));
 	rmAddObjectDefConstraint	(IDBonusHuntable4, AvoidSettlementSlightly);
@@ -315,7 +315,7 @@ void main(void)
 	rmAddObjectDefConstraint	(IDBonusHuntable4, AvoidImpassableLand);
 	
 	int IDBirds					= rmCreateObjectDef("far hawks");
-	rmAddObjectDefItem			(IDBirds, "hawk", 1, 0.0);
+	rmAddObjectDefItem			(IDBirds, "Macaw", 1, 0.0);
 	rmSetObjectDefMinDistance	(IDBirds, 0.0);
 	rmSetObjectDefMaxDistance	(IDBirds, rmXFractionToMeters(0.5));
 
@@ -331,7 +331,7 @@ void main(void)
 	rmAddObjectDefConstraint	(IDRelic, AvoidAll);
 	
 	int IDRandomTree			= rmCreateObjectDef("random tree");
-	rmAddObjectDefItem			(IDRandomTree, "oak tree", 1, 0.0);
+	rmAddObjectDefItem			(IDRandomTree, "tree kapok", 1, 0.0);
 	rmSetObjectDefMinDistance	(IDRandomTree, 0.0);
 	rmSetObjectDefMaxDistance	(IDRandomTree, rmXFractionToMeters(0.5));
 	rmAddObjectDefConstraint	(IDRandomTree, rmCreateTypeDistanceConstraint("random tree", "all", 4.0));
@@ -340,7 +340,7 @@ void main(void)
 	rmAddObjectDefConstraint	(IDRandomTree, AvoidBonusIsland);
 	
 	int IDRandomTree2			= rmCreateObjectDef("random tree 2");
-	rmAddObjectDefItem			(IDRandomTree2, "Zpalm", 1, 0.0);
+	rmAddObjectDefItem			(IDRandomTree2, "Tree Kapok", 1, 0.0);
 	rmSetObjectDefMinDistance	(IDRandomTree2, 0.0);
 	rmSetObjectDefMaxDistance	(IDRandomTree2, rmXFractionToMeters(0.5));
 	rmAddObjectDefConstraint	(IDRandomTree2, rmCreateTypeDistanceConstraint("random tree two", "all", 4.0));
@@ -361,7 +361,7 @@ void main(void)
 		rmAddObjectDefConstraint(giantGoldID, AvoidImpassableLand);
 
 		int giantHuntableID=rmCreateObjectDef("giant huntable");
-		rmAddObjectDefItem(giantHuntableID, "boar", 5, 3.0);
+		rmAddObjectDefItem(giantHuntableID, "Guanaco", 5, 3.0);
 		rmSetObjectDefMaxDistance(giantHuntableID, rmXFractionToMeters(0.3));
 		rmSetObjectDefMaxDistance(giantHuntableID, rmXFractionToMeters(0.4));
 		rmAddObjectDefConstraint(giantHuntableID, AvoidSettlementAbit);
@@ -372,7 +372,7 @@ void main(void)
 		rmAddObjectDefConstraint(giantHuntableID, AvoidImpassableLand);
 
 		int giantHuntable2ID=rmCreateObjectDef("giant huntable 2");
-		rmAddObjectDefItem(giantHuntable2ID, "water buffalo", 2, 2.0);
+		rmAddObjectDefItem(giantHuntable2ID, "Jaguar", 2, 2.0);
 		rmSetObjectDefMaxDistance(giantHuntable2ID, rmXFractionToMeters(0.35));
 		rmSetObjectDefMaxDistance(giantHuntable2ID, rmXFractionToMeters(0.45));
 		rmAddObjectDefConstraint(giantHuntable2ID, AvoidHuntable);
@@ -383,7 +383,7 @@ void main(void)
 		rmAddObjectDefConstraint(giantHuntable2ID, AvoidImpassableLand);
 
 		int giantHuntable3ID=rmCreateObjectDef("giant huntable 3");
-		rmAddObjectDefItem(giantHuntable3ID, "hippo", rmRandInt(4,5), 4.0);
+		rmAddObjectDefItem(giantHuntable3ID, "bear black", rmRandInt(4,5), 4.0);
 		rmSetObjectDefMaxDistance(giantHuntable3ID, rmXFractionToMeters(0.33));
 		rmSetObjectDefMaxDistance(giantHuntable3ID, rmXFractionToMeters(0.4));
 		rmAddObjectDefConstraint(giantHuntable3ID, AvoidHuntable);
@@ -394,7 +394,7 @@ void main(void)
 		rmAddObjectDefConstraint(giantHuntable3ID, AvoidImpassableLand);
 
 		int giantHuntable4ID=rmCreateObjectDef("giant huntable 4");
-		rmAddObjectDefItem(giantHuntable4ID, "crowned crane", rmRandInt(6,7), 4.0);
+		rmAddObjectDefItem(giantHuntable4ID, "Monkey", rmRandInt(6,7), 4.0);
 		rmSetObjectDefMaxDistance(giantHuntable4ID, rmXFractionToMeters(0.35));
 		rmSetObjectDefMaxDistance(giantHuntable4ID, rmXFractionToMeters(0.45));
 		rmAddObjectDefConstraint(giantHuntable4ID, AvoidHuntable);
@@ -405,7 +405,7 @@ void main(void)
 		rmAddObjectDefConstraint(giantHuntable4ID, AvoidImpassableLand);
 
 		int giantHerdableID=rmCreateObjectDef("giant herdable");
-		rmAddObjectDefItem(giantHerdableID, "pig", rmRandInt(2,4), 5.0);
+		rmAddObjectDefItem(giantHerdableID, "Turkey", rmRandInt(2,4), 5.0);
 		rmSetObjectDefMaxDistance(giantHerdableID, 100.0);
 		rmSetObjectDefMaxDistance(giantHerdableID, rmXFractionToMeters(0.5));
 		rmAddObjectDefConstraint(giantHerdableID, AvoidHerdable);
@@ -457,7 +457,7 @@ void main(void)
 	rmSetConnectionBaseHeight			(IDShallows, 2.0);
 	rmSetConnectionHeightBlend			(IDShallows, 2.0);
 	rmSetConnectionSmoothDistance		(IDShallows, 3.0);
-	rmAddConnectionTerrainReplacement	(IDShallows, "WhiteBeachI", "WhiteBeachII");
+	rmAddConnectionTerrainReplacement	(IDShallows, "WhiteBeachV", "WhiteBeachV");
 	
 	int IDExtraShallows					= rmCreateConnection("extra shallows");
 	if(cNumberPlayers < 5)
@@ -470,7 +470,7 @@ void main(void)
 	rmSetConnectionHeightBlend			(IDExtraShallows, 2.0);
 	rmSetConnectionSmoothDistance		(IDExtraShallows, 3.0);
 	rmSetConnectionPositionVariance		(IDExtraShallows, -1.0); 
-	rmAddConnectionTerrainReplacement	(IDExtraShallows, "WhiteBeachI", "WhiteBeachII"); 
+	rmAddConnectionTerrainReplacement	(IDExtraShallows, "WhiteBeachV", "WhiteBeachV"); 
 	rmAddConnectionStartConstraint		(IDExtraShallows, AvoidPlayerCore);
 	rmAddConnectionEndConstraint		(IDExtraShallows, AvoidPlayerCore);
 	
@@ -481,7 +481,7 @@ void main(void)
 	rmSetConnectionBaseHeight			(IDTeamShallows, 6.0);
 	rmSetConnectionHeightBlend			(IDTeamShallows, 2.0);
 	rmSetConnectionSmoothDistance		(IDTeamShallows, 3.0);
-	rmAddConnectionTerrainReplacement	(IDTeamShallows, "WhiteBeachI", "WhiteBeachII");
+	rmAddConnectionTerrainReplacement	(IDTeamShallows, "WhiteBeachV", "WhiteBeachV");
 	
 	int bonusCount = rmRandInt(5*mapSizeMultiplier, 6*mapSizeMultiplier);
 	int bonusIsleSize = 3800*mapSizeMultiplier;
@@ -490,8 +490,8 @@ void main(void)
 	{
 		int IDBonusIsland		= rmCreateArea("bonus island"+i);
 		rmSetAreaSize			(IDBonusIsland, rmAreaTilesToFraction(bonusIsleSize*5.1), rmAreaTilesToFraction(bonusIsleSize*0.1));
-		rmSetAreaTerrainType	(IDBonusIsland, "WhiteBeachIV");
-		rmAddAreaTerrainLayer	(IDBonusIsland, "WhiteBeachIV", 0, 6);  
+		rmSetAreaTerrainType	(IDBonusIsland, "GrassB");
+		rmAddAreaTerrainLayer	(IDBonusIsland, "GrassB", 0, 6);  
 		rmSetAreaWarnFailure	(IDBonusIsland, false);
 		
 		if (rmRandFloat(0.0, 1.0) < 0.75)
@@ -533,10 +533,10 @@ void main(void)
 		rmSetAreaLocPlayer		(AreaPlayerCore, i);
 		rmAddConnectionArea		(IDExtraShallows, AreaPlayerCore);
 		rmAddConnectionArea		(IDShallows, AreaPlayerCore);
-		rmSetAreaTerrainType	(AreaPlayerCore, "WhiteBeachII");
-		rmAddAreaTerrainLayer	(AreaPlayerCore, "WhiteBeachII", 4, 7);
-		rmAddAreaTerrainLayer	(AreaPlayerCore, "WhiteBeachII", 2, 4);
-		rmAddAreaTerrainLayer	(AreaPlayerCore, "WhiteBeachI", 0, 2);
+		rmSetAreaTerrainType	(AreaPlayerCore, "MarshF");
+		rmAddAreaTerrainLayer	(AreaPlayerCore, "GrassB", 4, 7);
+		rmAddAreaTerrainLayer	(AreaPlayerCore, "WhiteBeachV", 2, 4);
+		rmAddAreaTerrainLayer	(AreaPlayerCore, "WhiteBeachV", 0, 2);
 	}
 	
 	rmBuildAllAreas();
@@ -554,7 +554,7 @@ void main(void)
 	{
 		int AreaMarsh			= rmCreateArea("marsh patch"+i);
 		rmSetAreaSize			(AreaMarsh, rmAreaTilesToFraction(10*mapSizeMultiplier), rmAreaTilesToFraction(50*mapSizeMultiplier));
-		rmSetAreaTerrainType	(AreaMarsh, "WhiteBeachIV");
+		rmSetAreaTerrainType	(AreaMarsh, "WhiteBeachV");
 		rmSetAreaMinBlobs		(AreaMarsh, 1);
 		rmSetAreaMaxBlobs		(AreaMarsh, 5);
 		rmSetAreaMinBlobDistance(AreaMarsh, 16.0);
@@ -569,7 +569,7 @@ void main(void)
 	{
 		int AreaGrass				= rmCreateArea("grass patch"+i);
 		rmSetAreaSize			(AreaGrass, rmAreaTilesToFraction(10*mapSizeMultiplier), rmAreaTilesToFraction(40*mapSizeMultiplier));
-		rmSetAreaTerrainType	(AreaGrass, "WhiteBeachV");
+		rmSetAreaTerrainType	(AreaGrass, "MarshF");
 		rmSetAreaMinBlobs		(AreaGrass, 1);
 		rmSetAreaMaxBlobs		(AreaGrass, 5);
 		rmSetAreaMinBlobDistance(AreaGrass, 16.0);
@@ -584,8 +584,8 @@ void main(void)
 	{
 		int AreaDirt			= rmCreateArea("dirt patch"+i);
 		rmSetAreaSize			(AreaDirt, rmAreaTilesToFraction(10*mapSizeMultiplier), rmAreaTilesToFraction(50*mapSizeMultiplier));
-		rmSetAreaTerrainType	(AreaDirt, "WhiteBeachIV");
-		rmAddAreaTerrainLayer	(AreaDirt, "WhiteBeachIV", 0, 2); 
+		rmSetAreaTerrainType	(AreaDirt, "GrassB");
+		rmAddAreaTerrainLayer	(AreaDirt, "GrassB", 0, 2); 
 		rmSetAreaMinBlobs		(AreaDirt, 1);
 		rmSetAreaMaxBlobs		(AreaDirt, 5);
 		rmSetAreaMinBlobDistance(AreaDirt, 16.0);
@@ -747,16 +747,16 @@ void main(void)
 	for(i = 0; < forestCount)
 	{
 		int IDForest			= rmCreateArea("forest"+i);
-		rmSetAreaSize			(IDForest, rmAreaTilesToFraction(60*mapSizeMultiplier), rmAreaTilesToFraction(100*mapSizeMultiplier));
+		rmSetAreaSize			(IDForest, rmAreaTilesToFraction(90*mapSizeMultiplier), rmAreaTilesToFraction(150*mapSizeMultiplier));
 		rmSetAreaWarnFailure	(IDForest, false);
-		rmSetAreaForestType		(IDForest, "AOE III Forest");
+		rmSetAreaForestType		(IDForest, "AOE Kapok");
 		rmAddAreaConstraint		(IDForest, AvoidAll);
 		rmAddAreaConstraint		(IDForest, AvoidForest);
 		rmAddAreaConstraint		(IDForest, AvoidPlayer);
 		rmAddAreaConstraint		(IDForest, AvoidImpassableLand);
 		rmAddAreaToClass		(IDForest, classForest);
-		rmSetAreaTerrainType	(IDForest, "WhiteBeachIV");
-		rmAddAreaTerrainLayer	(IDForest, "WhiteBeachIV", 0, 2); 
+		rmSetAreaTerrainType	(IDForest, "WhiteBeachV");
+		rmAddAreaTerrainLayer	(IDForest, "WhiteBeachV", 0, 2); 
 		rmSetAreaMinBlobs		(IDForest, 2*mapSizeMultiplier);
 		rmSetAreaMaxBlobs		(IDForest, 4*mapSizeMultiplier);
 		rmSetAreaMinBlobDistance(IDForest, 16.0*mapSizeMultiplier);
@@ -782,7 +782,7 @@ void main(void)
 		int IDPlayerForest			= rmCreateArea("playerForest"+i, rmAreaID("player"+i));
 		rmSetAreaSize				(IDPlayerForest, rmAreaTilesToFraction(80*mapSizeMultiplier), rmAreaTilesToFraction(140*mapSizeMultiplier));
 		rmSetAreaWarnFailure		(IDPlayerForest, false);
-		rmSetAreaForestType			(IDPlayerForest, "AOE III Forest");
+		rmSetAreaForestType			(IDPlayerForest, "AOE Kapok");
 		rmAddAreaConstraint			(IDPlayerForest, AvoidStartingSettleTiny);
 		rmAddAreaConstraint			(IDPlayerForest, AvoidForestFar);
 		rmAddAreaConstraint			(IDPlayerForest, AvoidBonusIsland);
@@ -825,8 +825,8 @@ void main(void)
 	rmPlaceObjectDefAtLoc		(IDLog, 0, 0.5, 0.5, 3*cNumberNonGaiaPlayers*mapSizeMultiplier);
 	
 	int IDGrass					= rmCreateObjectDef("grasses");
-	rmAddObjectDefItem			(IDGrass, "bush", rmRandInt(1,3), 2.0);
-	rmAddObjectDefItem			(IDGrass, "grass", rmRandInt(3,5), 5.0);
+	rmAddObjectDefItem			(IDGrass, "Zbush", rmRandInt(1,3), 2.0);
+	rmAddObjectDefItem			(IDGrass, "ZSauguney", rmRandInt(3,5), 5.0);
 	rmAddObjectDefItem			(IDGrass, "rock limestone sprite", rmRandInt(2,4), 10.0);
 	rmSetObjectDefMinDistance	(IDGrass, 0.0);
 	rmSetObjectDefMaxDistance	(IDGrass, rmXFractionToMeters(0.5));
@@ -836,20 +836,14 @@ void main(void)
 	rmPlaceObjectDefAtLoc		(IDGrass, 0, 0.5, 0.5, 10*cNumberNonGaiaPlayers*mapSizeMultiplier);
 	
 	int IDReeds					= rmCreateObjectDef("reeds");
-	rmAddObjectDefItem			(IDReeds, "water reeds", rmRandInt(4,6), 2.0);
-	rmAddObjectDefItem			(IDReeds, "rock granite big", rmRandInt(1,3), 3.0);
+	rmAddObjectDefItem			(IDReeds, "zflowers", rmRandInt(4,6), 2.0);
+	rmAddObjectDefItem			(IDReeds, "Moss Rocks", rmRandInt(1,3), 3.0);
 	rmSetObjectDefMinDistance	(IDReeds, 0.0);
 	rmSetObjectDefMaxDistance	(IDReeds, rmXFractionToMeters(0.5));
 	rmAddObjectDefConstraint	(IDReeds, AvoidAll);
 	rmAddObjectDefConstraint	(IDReeds, nearShore);
 	rmPlaceObjectDefAtLoc		(IDReeds, 0, 0.5, 0.5, 5*cNumberNonGaiaPlayers*mapSizeMultiplier);
 	
-	int IDLily					= rmCreateObjectDef("pads");
-	rmAddObjectDefItem			(IDLily, "water lilly", rmRandInt(3,5), 4.0);
-	rmSetObjectDefMinDistance	(IDLily, 0.0);
-	rmSetObjectDefMaxDistance	(IDLily, rmXFractionToMeters(0.5));
-	rmAddObjectDefConstraint	(IDLily, AvoidAll);
-	rmPlaceObjectDefAtLoc		(IDLily, 0, 0.5, 0.5, 4*cNumberNonGaiaPlayers*mapSizeMultiplier);
 
 	rmSetStatusText("",1.00);
 }

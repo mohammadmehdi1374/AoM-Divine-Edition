@@ -24,10 +24,5 @@
 		<soundtype name="Creation">
 			<soundset name="TurkeyDeath"></soundset>
 		</soundtype>
-		<soundtype name="Acknowledge">
-			<choice name="default">
-				<soundset name="TurkeyDeath"></soundset>
-			</choice>
-		</soundtype>
 	</protounit>
 </protounitsounddef>

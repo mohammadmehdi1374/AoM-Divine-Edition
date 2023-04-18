@@ -50,10 +50,11 @@ active
 	//trChatSend(0, kbGetTechName(304)  ); // Omniscience
 	//trChatSend(0, kbGetTechName(1267)  ); // Springtime Radiance
 	//trChatSend(0, kbGetTechName(1312)  ); // Rays of Life
+	trChatSend(0, kbGetTechName(1326)  ); // Age 1 Freyr
 
 
-	//trTechSetStatus(0, 304, cTechStatusActive);
-	//trTechSetStatus(0, 1238, cTechStatusActive);
+	trTechSetStatus(0, 304, cTechStatusActive);
+	trTechSetStatus(0, 1238, cTechStatusActive);
 
 		
     xsDisableSelf();
@@ -370,6 +371,80 @@ active
 					trUnitChangeProtoUnit("Twisted Spire Skull");
 				}
 			}
+
+		}
+	}
+}
+
+rule Vengeance
+active
+minInterval 1
+maxInterval 1
+priority 100
+{
+	for (i=1; < cNumberPlayers)
+    {
+		xsSetContextPlayer(i);
+		if(kbGetTechStatus(1326) == cTechStatusActive)
+		{
+
+
+			int q_id = kbUnitQueryCreate("Vengeance Active");
+			kbUnitQuerySetPlayerID(q_id, i);
+			kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Vengeance Active"));
+			kbUnitQuerySetState(q_id,2);
+			int q_len = kbUnitQueryExecute(q_id);
+			for(j=0;<q_len)
+			{
+				trUnitSelectClear();
+				trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
+
+				for(pid2=1;<cNumberPlayers)
+				{		
+					if (kbIsPlayerEnemy(pid2)) {
+						trDamageUnitsInArea(pid2,"All",30.00,1000.00);
+					}
+				}
+				trUnitDelete(false);
+			}
+
+		}
+	}
+
+}
+
+rule FreyrValue
+active
+minInterval 5
+maxInterval 5
+priority 100
+{
+
+	for (i=1; < cNumberPlayers)
+    {
+		xsSetContextPlayer(i);
+
+		
+		
+		if(kbGetTechStatus(1326) == cTechStatusActive) {
+
+			int totalFavor = kbTotalResourceGet(3);
+			int priorFavor = kbGetBuildLimit(i, kbGetProtoUnitID("Rock Snow"));
+
+			int newFavor = totalFavor - priorFavor;
+
+			trPlayerGrantResources(i, "Food", 8*newFavor);
+			trPlayerGrantResources(i, "Wood", 6*newFavor);
+			trPlayerGrantResources(i, "Gold", 4*newFavor);
+
+			trModifyProtounit( "Rock Snow", i, 10, newFavor );
+
+			if(kbGetTechStatus(1344) == cTechStatusActive) {
+				trPlayerGrantResources(i, "Food", 4*8*newFavor);
+				trPlayerGrantResources(i, "Wood", 4*6*newFavor);
+				trPlayerGrantResources(i, "Gold", 4*4*newFavor);
+			}
+			
 
 		}
 	}
@@ -703,6 +778,13 @@ active
 			trTechSetStatus(i, 1273, cTechStatusActive);
 		} else if(kbGetTechStatus(1109) == cTechStatusActive) {
 			trChatSend(i, "I picked ananke!");
+
+			trChatSend(i, "lol jk it's freyr!");
+			trPlayerKillAllGodPowers(i);
+			trSetCivAndCulture(i, 7, 2);
+			trPlayerKillAllGodPowers(i);
+			trTechSetStatus(i, 1326, cTechStatusActive);
+			
 		} else if(kbGetTechStatus(1110) == cTechStatusActive) {
 			trChatSend(i, "I picked nyx!");
 		} else if(kbGetTechStatus(1111) == cTechStatusActive) {
@@ -970,6 +1052,10 @@ priority 100
 			} else if (kbGetTechStatus(1273) == cTechStatusActive) { // Aten
 				trPlayerKillAllGodPowers(i);
 				trSetCivilizationNameOverride(i, "Aten");
+				
+			} else if (kbGetTechStatus(1326) == cTechStatusActive) { // Freyr
+				trPlayerKillAllGodPowers(i);
+				trSetCivilizationNameOverride(i, "Freyr");
 				
 			}   else {													// Nothing selected
 				trChatSend(i, "This god was unimplemented -- I am playing as Zeus.");
@@ -2626,7 +2712,7 @@ active
 
 			if (trUnitGetIsContained("Town Hall")) {
 				trUnitChangeProtoUnit("Heavenlight");
-				trPlayerGrantResources(i, "Favor", 7.5);
+				trPlayerGrantResources(i, "Favor", 5.0);
 			}
 
 		}
@@ -2645,8 +2731,11 @@ active
         xsSetContextPlayer(i);
 
 
+
 	if(kbGetTechStatus(1236) == cTechStatusActive)
 	{
+
+
 		
 		int q_id = kbUnitQueryCreate("Settlement Level 1");
 		kbUnitQuerySetPlayerID(q_id, i);
@@ -3357,6 +3446,8 @@ active
 				civChosen = 22;
 			} else if (kbGetTechStatus(1273) == cTechStatusActive) { // aten
 				civChosen = 23;
+			} else if (kbGetTechStatus(1326) == cTechStatusActive) { // freyr
+				civChosen = 23;
 			}
 
 			
@@ -3490,6 +3581,11 @@ active
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Scavenger Roc", 0.01);
 				} else {
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Giant Scorpion", 0.01);
+				} }
+				case 24: { if (j2 < 2) {													// Freyr
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Trollkarien", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Trollkarien", 0.01);
 				} }
 				default: { if (j2 < 1) {												// Roman/else
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Manes", 0.01);
@@ -3626,6 +3722,11 @@ active
 				} else {
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
 				} }
+				case 24: { if (j2 < 2) {													// Freyr
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Draugr", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} }
 				default: { if (j2 < 2) {												// Roman/else
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Manes", 0.01);
 				} else {
@@ -3756,6 +3857,11 @@ active
 				} }
 				case 23: { if (j2 < 2) {													// Aten
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Sand Monster", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
+				} }
+				case 24: { if (j2 < 2) {													// Freyr
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Heidrun", 0.01);
 				} else {
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
 				} }

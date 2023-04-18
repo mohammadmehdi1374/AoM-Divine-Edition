@@ -225,7 +225,7 @@
 			<gadget name="Col2Row4NameE" textcentervert="" textcolor="255 255 255" textfontsize="22" textfont="PregameHeadersSmall" type="formatText" size1024="375 550 475 572" z="12" hidden="" textcenterhoriz="" transparent="">$$100215$$</gadget>
 			
 			<gadget name="Col3Row4HighlightE" type="gadget" size1024="525 450 625 550" z="12" hidden="" background="ui\ui god boarder highlight 128x128" transparent=""></gadget>
-			<gadget sound="UI_thunder" mouseovertext="$$100218$$" name="Col3Row4ButtonE" type="stateButton" size1024="525 450 625 550" z="11" background="ui\ui god gaia 128x128" statebuttonuseinternalstates="" hidden="" donthighlight="">
+			<gadget sound="UI_thunder" mouseovertext="$$120507$$" name="Col3Row4ButtonE" type="stateButton" size1024="525 450 625 550" z="11" background="ui\ui god gaia 128x128" statebuttonuseinternalstates="" hidden="" donthighlight="">
 				<stateentry background="ui\ui god ananke 256x256"></stateentry>
 			</gadget>
 			<gadget name="Col3Row4NameE" textcentervert="" textcolor="255 255 255" textfontsize="22" textfont="PregameHeadersSmall" type="formatText" size1024="525 550 625 572" z="12" hidden="" textcenterhoriz="" transparent="">$$100217$$</gadget>

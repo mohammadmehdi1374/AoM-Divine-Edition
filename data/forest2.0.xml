@@ -103,6 +103,24 @@
 		<protounit>Bamboo Tree</protounit>
 		<protounit>Jungle Tree</protounit>
 	</forest>
+	<forest name="AOE Kapok" iconname="ui\jungle forest 64" floor="ForestFloorJungle">
+		<protounit>Tree Kapok</protounit>
+		<protounit>Zborneo</protounit>
+	</forest>
+	<forest name="AOE Snow Forest" iconname="ui\NForest64" floor="ForestFloorPineSnow">
+		<protounit>ZYukon</protounit>
+	</forest>
+	<forest name="AOE Snow Mixed" iconname="ui\NForest64" floor="ForestFloorPineSnow">
+		<protounit>ZYukon</protounit>
+		<protounit>ZMaple Snow</protounit>
+	</forest>
+	<forest name="AOE Fir Forest" iconname="ui\NForest64" floor="ForestFloorOak">
+		<protounit>Fir Tree</protounit>
+	</forest>
+	<forest name="AOE Tall" iconname="ui\NForest64" floor="ForestFloorOak">
+		<protounit>Fir Tree</protounit>
+		<protounit>ZCalifornia</protounit>
+	</forest>
 
 	<forest name="Void Forest" iconname="ui\mixed plain forest 64" floor="OlympusB">
 		<protounit>Void Tree</protounit>

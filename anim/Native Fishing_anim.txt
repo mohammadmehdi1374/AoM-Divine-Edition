@@ -3,6 +3,17 @@
 //==============================================================================
 
 Import FishFlag_anim.txt
+//==============================================================================
+define Net
+{
+   set hotspot
+   {
+      version
+      {
+         Visual FishingNet
+      }
+   }
+}
 
 //==============================================================================
 define wakewalk
@@ -118,6 +129,7 @@ anim GatherFish
             Visual Native Fishing idle
 				Connect ATTACHPOINT rippleidle hotspot
 				Connect Chin Fishflag hotspot
+				Connect Chin Net hotspot
          }
       }
    }
