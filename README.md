@@ -51,6 +51,7 @@ As the mod is very large, hosting it on Steam Workshop is not practical. As such
 - The AI cannot play any of the new gods and, if somehow given a new god, will default to an old one. Moreover, the AI will not react properly to many strategies, such as ignoring Eldritch rituals, not properly quarantining during the use of Plague, and massing counter-infantry against Roman legion units. 
 - The AI for Zeus is currently offended by some unknown change. As such, the game will lag significantly when an AI playing as Zeus advances to the mythic age, advances to the titan age, or researches omniscience.
 - The menu music is from Age of Wrath, and will soon be changed to Divine Edition-exclusive music.
+- Some units cannot be autocued. Specifically, cultists, fire siphons, and most chinese units. This is due to a hardcoded bug which we ourselves discovered.
 - Many assets, particularly for the Eldritch, are placeholders. As the Eldritch are visually distinct and very much playable, making their assets is considered a low-priority. 
 - Picking an unfinished god will default you to Zeus.
 - Picking a random god will pick a random god from the first thirty. As several out of the second fifteen are unfinished, they will default to Zeus. 
