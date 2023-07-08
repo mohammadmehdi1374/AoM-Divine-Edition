@@ -64,6 +64,9 @@
 			<effect type="Data" action="RangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
 				<target type="ProtoUnit">Hero Chinese Immortal</target>
 			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese Immortal Fixed</target>
+			</effect>
 			<effect type="Data" action="RangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">	
 				<target type="ProtoUnit">Aztec Priest</target>	
 			</effect>
@@ -127,6 +130,9 @@
 			<effect type="Sound">AgeAdvance</effect>
 			<effect type="Data" action="RangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
 				<target type="ProtoUnit">Hero Chinese Immortal</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese Immortal Fixed</target>
 			</effect>
 			<effect type="Data" action="RangedAttack" amount="7.00" subtype="MaximumRange" relativity="Absolute">
 				<target type="ProtoUnit">Priest</target>
@@ -3177,18 +3183,6 @@
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Physician</target>
 			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Hero Greek Circe Spirit</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Hero Greek Ixion Spirit</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Hero Greek Hector Spirit</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Hero Greek Leonidas Spirit</target>
-			</effect>
 			<effect type="CreateUnit" unit="Minotaur" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
@@ -4550,6 +4544,9 @@
 			<effect type="SetAge">Mythic Age</effect>
 			<effect type="Data" action="RangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
 				<target type="ProtoUnit">Hero Chinese Immortal</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese Immortal Fixed</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Wonder</target>
@@ -6027,6 +6024,8 @@
 			<civilization>
 				<civname>Thor</civname>
 			</civilization>
+			<techstatus status="Active">Age 1 Thor Real</techstatus>
+
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">11506</effect>
@@ -6859,6 +6858,9 @@
 			</effect>
 			<effect type="Data" action="HandAttack" amount="1.05" subtype="Damage" damagetype="Hack" relativity="BasePercent">
 				<target type="ProtoUnit">Halberdier</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.05" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">Halberdier Reborn</target>
 			</effect>
 			
 			<effect type="Data" action="HandAttack" amount="1.05" subtype="Damage" damagetype="Hack" relativity="BasePercent">
@@ -7745,6 +7747,9 @@
 			<effect type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="Deep Pool" relativity="BasePercent">
 				<target type="ProtoUnit">Form of the Deep</target>
 			</effect>
+			<effect type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="Fish" relativity="BasePercent">
+				<target type="ProtoUnit">Form of the Deep</target>
+			</effect>
 		</effects>
 	</tech>
 	<tech name="Reinforced Hull" type="Normal">
@@ -7842,6 +7847,18 @@
 			</effect>
 			<effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
 				<target type="ProtoUnit">Fire Lance Shennong</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Fire Lance Reborn</target>
+			</effect>
+			<effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Fire Lance Reborn</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Fire Lance Shennong Reborn</target>
+			</effect>
+			<effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Fire Lance Shennong Reborn</target>
 			</effect>
 			<effect type="Data" action="RangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
 				<target type="ProtoUnit">Ballista</target>
@@ -8189,6 +8206,9 @@
 			</effect>
 			<effect type="Data" action="HandAttack" amount="1.05" subtype="Damage" damagetype="Hack" relativity="BasePercent">
 				<target type="ProtoUnit">Cataphract Chinese</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.05" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">Cataphract Chinese Reborn</target>
 			</effect>
 			<effect type="Data" action="RangedAttack" amount="1.05" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
 				<target type="ProtoUnit">Chieroballista</target>
@@ -10119,6 +10139,12 @@
 			<effect type="Data" action="RangedAttack" amount="0.25" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
 				<target type="ProtoUnit">Hero Chinese Immortal</target>
 			</effect>
+			<effect type="Data" action="HandAttack" amount="0.25" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">Hero Chinese Immortal Fixed</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="0.25" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Hero Chinese Immortal Fixed</target>
+			</effect>
 			<effect type="Data" action="HandAttack" amount="0.30" subtype="Damage" damagetype="Hack" relativity="BasePercent">
 				<target type="ProtoUnit">Aztec Warchief</target>
 			</effect>
@@ -10152,6 +10178,9 @@
 				<target type="ProtoUnit">Cultist of Dagon</target>
 			</effect>
 			<effect type="Data" action="Gather" amount="1.40" subtype="WorkRate" unittype="Deep Pool" relativity="BasePercent">
+				<target type="ProtoUnit">Form of the Deep</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.40" subtype="WorkRate" unittype="Fish" relativity="BasePercent">
 				<target type="ProtoUnit">Form of the Deep</target>
 			</effect>
 		</effects>
@@ -10454,6 +10483,9 @@
 			</effect>
 			<effect type="Data" amount="1.05" subtype="Hitpoints" relativity="BasePercent">
 				<target type="ProtoUnit">Chu Ko Nu</target>
+			</effect>
+			<effect type="Data" amount="1.05" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Chu Ko Nu Reborn</target>
 			</effect>
 			<effect type="Data" amount="1.05" subtype="Hitpoints" relativity="BasePercent">
 				<target type="ProtoUnit">Huntsman</target>
@@ -10815,6 +10847,12 @@
 			</effect>
 			<effect type="Data" action="RangedAttack" amount="0.50" subtype="DamageBonus" unittype="Building" relativity="Absolute">
 				<target type="ProtoUnit">Fire Lance Shennong</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="0.50" subtype="DamageBonus" unittype="Building" relativity="Absolute">
+				<target type="ProtoUnit">Fire Lance Reborn</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="0.50" subtype="DamageBonus" unittype="Building" relativity="Absolute">
+				<target type="ProtoUnit">Fire Lance Shennong Reborn</target>
 			</effect>
 		</effects>
 	</tech>
@@ -11247,6 +11285,9 @@
 			<effect type="Data" action="Build" amount="4.00" subtype="WorkRate" unittype="Settlement" relativity="BasePercent">
 				<target type="ProtoUnit">Villager Chinese</target>
 			</effect>
+			<effect type="Data" action="Build" amount="4.00" subtype="WorkRate" unittype="Settlement" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Chinese Reborn</target>
+			</effect>
 		</effects>
 	</tech>
 	<tech name="Increase Regeneration" type="Normal">
@@ -11449,6 +11490,7 @@
 			<typecount unit="AbstractTemple" count="1.00" state="noneState aliveState " operator="gte"></typecount>
 			<specificage>Archaic Age</specificage>
 			<techstatus status="Active">Atlantean Civ</techstatus>
+			<techstatus status="Active">Can Do Oceanus</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">22795</effect>
@@ -11456,6 +11498,7 @@
 			<effect type="Sound">researchcomplete1.wav</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Leto</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Prometheus</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Astraeus</effect>
 			<effect type="TechStatus" status="active">Age 2</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Armory</target>
@@ -11515,6 +11558,7 @@
 		</effects>
 		<exclude>Age 2 Leto</exclude>
 		<exclude>Age 2 Prometheus</exclude>
+		<exclude>Age 2 Astraeus</exclude>
 	</tech>
 	<tech name="Age 2 Prometheus" type="Normal">
 		<dbid>713</dbid>
@@ -11536,6 +11580,7 @@
 				<civname>Ouranos</civname>
 			</civilization>
 			<techstatus status="Active">Atlantean Civ</techstatus>
+			<techstatus status="Active">Can Do Prometheus</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">22793</effect>
@@ -11543,6 +11588,7 @@
 			<effect type="Sound">researchcomplete1.wav</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Leto</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Okeanus</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Astraeus</effect>
 			<effect type="TechStatus" status="active">Age 2</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Armory</target>
@@ -11594,6 +11640,7 @@
 		</effects>
 		<exclude>Age 2 Leto</exclude>
 		<exclude>Age 2 Okeanus</exclude>
+		<exclude>Age 2 Astraeus</exclude>
 	</tech>
 	<tech name="Age 2 Leto" type="Normal">
 		<dbid>714</dbid>
@@ -11615,12 +11662,14 @@
 				<civname>Kronos</civname>
 			</civilization>
 			<techstatus status="Active">Atlantean Civ</techstatus>
+			<techstatus status="Active">Can Do Leto</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">22802</effect>
 			<effect all="true" type="TextOutput">22803</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Okeanus</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Prometheus</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Astraeus</effect>
 			<effect type="TechStatus" status="active">Age 2</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Armory</target>
@@ -11673,6 +11722,7 @@
 		</effects>
 		<exclude>Age 2 Prometheus</exclude>
 		<exclude>Age 2 Okeanus</exclude>
+		<exclude>Age 2 Astraeus</exclude>
 	</tech>
 	<tech name="Age 3 Hyperion" type="Normal">
 		<dbid>715</dbid>
@@ -11695,6 +11745,7 @@
 			<typecount unit="Armory" count="1.00" state="noneState aliveState " operator="gte"></typecount>
 			<specificage>Classical Age</specificage>
 			<techstatus status="Active">Atlantean Civ</techstatus>
+			<techstatus status="Active">Can Do Hyperion</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">22813</effect>
@@ -11702,6 +11753,7 @@
 			<effect type="Sound">researchcomplete1.wav</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Rheia</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Theia</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Pallas</effect>
 			<effect type="TechStatus" status="active">Age 3</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Market</target>
@@ -11751,6 +11803,7 @@
 		</effects>
 		<exclude>Age 3 Rheia</exclude>
 		<exclude>Age 3 Theia</exclude>
+		<exclude>Age 3 Pallas</exclude>
 	</tech>
 	<tech name="Age 3 Rheia" type="Normal">
 		<dbid>716</dbid>
@@ -11773,6 +11826,7 @@
 				<civname>Gaia</civname>
 			</civilization>
 			<techstatus status="Active">Atlantean Civ</techstatus>
+			<techstatus status="Active">Can Do Rheia</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">22815</effect>
@@ -11780,6 +11834,7 @@
 			<effect type="Sound">researchcomplete1.wav</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Hyperion</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Theia</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Pallas</effect>
 			<effect type="TechStatus" status="active">Age 3</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Market</target>
@@ -11820,6 +11875,7 @@
 			<effect type="TextOutput">23455</effect>
 		</effects>
 		<exclude>Age 3 Hyperion</exclude>
+		<exclude>Age 3 Pallas</exclude>
 		<exclude>Age 3 Theia</exclude>
 	</tech>
 	<tech name="Age 3 Theia" type="Normal">
@@ -11843,6 +11899,7 @@
 				<civname>Gaia</civname>
 			</civilization>
 			<techstatus status="Active">Atlantean Civ</techstatus>
+			<techstatus status="Active">Can Do Theia</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">22817</effect>
@@ -11850,6 +11907,7 @@
 			<effect type="Sound">researchcomplete1.wav</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Hyperion</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Rheia</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Pallas</effect>
 			<effect type="TechStatus" status="active">Age 3</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Market</target>
@@ -11894,6 +11952,7 @@
 		</effects>
 		<exclude>Age 3 Rheia</exclude>
 		<exclude>Age 3 Hyperion</exclude>
+		<exclude>Age 3 Pallas</exclude>
 	</tech>
 	<tech name="Age 4 Helios" type="Normal">
 		<dbid>718</dbid>
@@ -11916,6 +11975,7 @@
 				<civname>Kronos</civname>
 			</civilization>
 			<techstatus status="Active">Atlantean Civ</techstatus>
+			<techstatus status="Active">Can Do Helios</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">22845</effect>
@@ -11923,6 +11983,7 @@
 			<effect type="Sound">researchcomplete1.wav</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Atlas</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Hekate</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Perses</effect>
 			<effect type="TechStatus" status="active">Age 4</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Fire Siphon</target>
@@ -11960,6 +12021,7 @@
 		</effects>
 		<exclude>Age 4 Atlas</exclude>
 		<exclude>Age 4 Hekate</exclude>
+		<exclude>Age 4 Perses</exclude>
 	</tech>
 	<tech name="Age 4 Hekate" type="Normal">
 		<dbid>719</dbid>
@@ -11982,13 +12044,15 @@
 				<civname>Ouranos</civname>
 			</civilization>
 			<techstatus status="Active">Atlantean Civ</techstatus>
+			<techstatus status="Active">Can Do Hecate</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">22843</effect>
 			<effect all="true" type="TextOutput">22844</effect>
 			<effect type="Sound">researchcomplete1.wav</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Atlas</effect>
-			<effect type="TechStatus" status="unobtainable">Age 4 Atlas</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Pallas</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Helios</effect>
 			<effect type="TechStatus" status="active">Age 4</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Fire Siphon</target>
@@ -12015,6 +12079,7 @@
 		</effects>
 		<exclude>Age 4 Helios</exclude>
 		<exclude>Age 4 Atlas</exclude>
+		<exclude>Age 4 Perses</exclude>
 	</tech>
 	<tech name="Age 4 Atlas" type="Normal">
 		<dbid>720</dbid>
@@ -12035,8 +12100,10 @@
 			<civilization>
 				<civname>Kronos</civname>
 				<civname>Gaia</civname>
+				<civname>Ouranos</civname>
 			</civilization>
 			<techstatus status="Active">Atlantean Civ</techstatus>
+			<techstatus status="Active">Can Do Atlas</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">22841</effect>
@@ -12044,6 +12111,7 @@
 			<effect type="Sound">researchcomplete1.wav</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Helios</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Hekate</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Perses</effect>
 			<effect type="TechStatus" status="active">Age 4</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Fire Siphon</target>
@@ -12070,6 +12138,7 @@
 		</effects>
 		<exclude>Age 4 Hekate</exclude>
 		<exclude>Age 4 Helios</exclude>
+		<exclude>Age 4 Perses</exclude>
 	</tech>
 	<tech name="Reverse Time" type="Power">
 		<dbid>721</dbid>
@@ -14101,6 +14170,9 @@
 			<effect type="Data" action="Build" amount="0.50" subtype="WorkRate" unittype="Settlement" relativity="BasePercent">
 				<target type="ProtoUnit">Villager Chinese</target>
 			</effect>
+			<effect type="Data" action="Build" amount="0.50" subtype="WorkRate" unittype="Settlement" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Chinese Reborn</target>
+			</effect>
 			<effect type="Data" action="Convert" amount="0.8" subtype="WorkRate" unittype="HumanSoldier" relativity="BasePercent">
 				<target type="ProtoUnit">Hero Chinese Monk</target>
 			</effect>
@@ -14208,6 +14280,9 @@
 			<effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<target type="ProtoUnit">Hero Chinese Immortal</target>
 			</effect>
+			<effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese Immortal Fixed</target>
+			</effect>
 		</effects>
 	</tech>
 	<tech name="Age 3 Chinese" type="Normal">
@@ -14255,6 +14330,9 @@
 			<effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<target type="ProtoUnit">Hero Chinese Immortal</target>
 			</effect>
+			<effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese Fixed</target>
+			</effect>
 		</effects>
 	</tech>
 	<tech name="Age 4 Chinese" type="Normal">
@@ -14277,6 +14355,9 @@
 			</effect>
 			<effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<target type="ProtoUnit">Hero Chinese Immortal</target>
+			</effect>
+			<effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese Fixed</target>
 			</effect>
 		</effects>
 	</tech>
@@ -15459,6 +15540,12 @@
 			<effect type="Data" action="Build" amount="1.40" subtype="WorkRate" unittype="Settlement" relativity="BasePercent">
 				<target type="ProtoUnit">Villager Chinese</target>
 			</effect>
+			<effect type="Data" action="Build" amount="1.40" subtype="WorkRate" unittype="Building" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Chinese Reborn</target>
+			</effect>
+			<effect type="Data" action="Build" amount="1.40" subtype="WorkRate" unittype="Settlement" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Chinese Reborn</target>
+			</effect>
 			<effect type="Data" amount="0.60" subtype="TrainPoints" relativity="Percent">
 				<target type="ProtoUnit">Unit</target>
 			</effect>
@@ -15636,6 +15723,9 @@
 			<effect type="Data" action="Regenerate" amount="0.50" subtype="WorkRate" unittype="All" relativity="Absolute">
 				<target type="ProtoUnit">Villager Chinese</target>
 			</effect>
+			<effect type="Data" action="Regenerate" amount="0.50" subtype="WorkRate" unittype="All" relativity="Absolute">
+				<target type="ProtoUnit">Villager Chinese Reborn</target>
+			</effect>
 		</effects>
 	</tech>
 	<tech name="Wheelbarrow" type="Normal">
@@ -15679,6 +15769,9 @@
 		<effects>
 			<effect type="Data" action="Regenerate" amount="2.0" subtype="WorkRate" unittype="All" relativity="Absolute">
 				<target type="ProtoUnit">Hero Chinese Immortal</target>
+			</effect>
+			<effect type="Data" action="Regenerate" amount="2.0" subtype="WorkRate" unittype="All" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese Immortal Fixed</target>
 			</effect>
 		</effects>
 	</tech>
@@ -16016,6 +16109,12 @@
 			<effect type="Data" action="HandAttack" amount="2.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
 				<target type="ProtoUnit">Hero Chinese Immortal</target>
 			</effect>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese Immortal Fixed</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="2.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese Immortal Fixed</target>
+			</effect>
 		</effects>
 	</tech>
 	<tech name="Life Drain" type="Normal">
@@ -16139,6 +16238,9 @@
 				<target type="ProtoUnit">Hero Chinese Immortal</target>
 			</effect>
 			<effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Hero Chinese Immortal Fixed</target>
+			</effect>
+			<effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
 				<target type="ProtoUnit">Hero Chinese General</target>
 			</effect>
 			<effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
@@ -16177,6 +16279,9 @@
 			</effect>
 			<effect type="Data" amount="0.80" subtype="TrainPoints" relativity="Percent">
 				<target type="ProtoUnit">Hero Chinese Immortal</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Hero Chinese Fixed</target>
 			</effect>
 			<effect type="Data" amount="0.80" subtype="TrainPoints" relativity="Percent">
 				<target type="ProtoUnit">War Chariot</target>
@@ -16534,7 +16639,8 @@
 		<researchpoints>0.0000</researchpoints>
 		<status>AVAILABLE</status>
 		<prereqs>
-		<techstatus status="Active">Age 1 Chinese</techstatus>
+			<techstatus status="Active">Age 1 Fuxi Real</techstatus>
+			<techstatus status="Active">Age 1 Chinese</techstatus>
 		<civilization>
 				<civname>Fuxi</civname>
 			</civilization>
@@ -16551,7 +16657,8 @@
 		<researchpoints>0.0000</researchpoints>
 		<status>AVAILABLE</status>
 		<prereqs>
-		<techstatus status="Active">Age 2 Chinese</techstatus>
+			<techstatus status="Active">Age 1 Fuxi Real</techstatus>
+			<techstatus status="Active">Age 2 Chinese</techstatus>
 			<civilization>
 				<civname>Fuxi</civname>
 			</civilization>
@@ -16568,6 +16675,7 @@
 		<researchpoints>0.0000</researchpoints>
 		<status>AVAILABLE</status>
 		<prereqs>
+				<techstatus status="Active">Age 1 Fuxi Real</techstatus>
 		<techstatus status="Active">Age 3</techstatus>
 			<civilization>
 				<civname>Fuxi</civname>
@@ -16585,6 +16693,7 @@
 		<researchpoints>0.0000</researchpoints>
 		<status>AVAILABLE</status>
 		<prereqs>
+			<techstatus status="Active">Age 1 Fuxi Real</techstatus>
 		<techstatus status="Active">Age 4</techstatus>
 			<civilization>
 				<civname>Fuxi</civname>
@@ -16769,11 +16878,11 @@
 		<techstatus status="Active">Age 1 Chinese</techstatus>
 		</prereqs>
 		<effects>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+			<effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
 				<target type="ProtoUnit">Hero Chinese Immortal</target>
 			</effect>
 			<effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
-				<target type="ProtoUnit">Hero Chinese Immortal</target>
+				<target type="ProtoUnit">Hero Chinese Immortal Fixed</target>
 			</effect>
 		</effects>
 	</tech>
@@ -17442,7 +17551,7 @@
 			<effect type="TechStatus" status="unobtainable">Age 1 Quetzalcoatl Fake</effect>
 			<effect type="TechStatus" status="unobtainable">Age 1 Huitzilopochtli Fake</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Cultist of Azathoth</target>
+				<target type="ProtoUnit">Dream of Plenty</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Invoker of Bazinga</target>
@@ -17536,7 +17645,7 @@
 			<effect type="TechStatus" status="unobtainable">Age 1 Quetzalcoatl Fake</effect>
 			<effect type="TechStatus" status="unobtainable">Age 1 Huitzilopochtli Fake</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Cultist of Yog-Sothoth</target>
+				<target type="ProtoUnit">Form of the Eye</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Invoker of Bazinga</target>
@@ -17553,10 +17662,10 @@
 			<effect type="TechStatus" status="ACTIVE">Eldritch Civ</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Ithaqua</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Atlach-Nacha</effect>
-			<effect type="TechStatus" status="ACTIVE">Can Do Yig</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Daoloth</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Dagon</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Hastur</effect>
-			<effect type="TechStatus" status="ACTIVE">Can Do Cthulhu</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Noth-Yidik</effect>
 			<effect type="TechStatus" status="Available">Eyes on the Inside</effect>
 			<effect type="TechStatus" status="Available">Eyes on the Outside</effect>
 			<effect type="TechStatus" status="Available">Gates of Wisdom</effect>
@@ -17633,7 +17742,7 @@
 			<effect type="TechStatus" status="unobtainable">Age 1 Quetzalcoatl Fake</effect>
 			<effect type="TechStatus" status="unobtainable">Age 1 Huitzilopochtli Fake</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Cultist of Shub-Niggurath</target>
+				<target type="ProtoUnit">Form of the Dark Young</target>
 			</effect>
 
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -17652,10 +17761,10 @@
 				<target type="ProtoUnit">Invoker of Grand Schism</target>
 			</effect>
 			<effect type="TechStatus" status="ACTIVE">Eldritch Civ</effect>
-			<effect type="TechStatus" status="ACTIVE">Can Do Ithaqua</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Ubbo-Sathla</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Tsathoggua</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Dagon</effect>
-			<effect type="TechStatus" status="ACTIVE">Can Do Nug and Yeb</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Yig</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Hastur</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Cthulhu</effect>
 			<effect type="TechStatus" status="Available">Mother's Milk</effect>
@@ -17666,7 +17775,7 @@
 			<effect type="Data" amount="1.50" subtype="CarryCapacity" resource="Food" relativity="BasePercent">
 				<target type="ProtoUnit">Herdable</target>
 			</effect>
-			<effect type="Data" action="AutoGather" amount="1.50" subtype="WorkRate" unittype="Food" relativity="BasePercent">
+			<effect type="Data" action="AutoGather" amount="1.8" subtype="WorkRate" unittype="Food" relativity="BasePercent">
 				<target type="ProtoUnit">Herdable</target>
 			</effect>
 			<effect type="Data" amount="4.00" subtype="LOS" relativity="BasePercent">
@@ -17680,6 +17789,11 @@
 			</effect>
 			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
 				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+
+
+			<effect type="Data" action="Gather" amount="0.55" subtype="WorkRate" unittype="Herdable" relativity="Absolute">
+				<target type="ProtoUnit">Cultist</target>
 			</effect>
 		</effects>
 	</tech>
@@ -17764,18 +17878,8 @@
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Huntsman</target>
 			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Elder Temple</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Elder Temple Of 1</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Elder Temple Of 2</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Elder Temple Of 3</target>
-			</effect>
+	
+			
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">House</target>
 			</effect>
@@ -17859,12 +17963,12 @@
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Ithaqua" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Ithaqua" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
@@ -17874,7 +17978,7 @@
 				<target type="ProtoUnit">Attainted Town Center</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Cultist of Ithaqua</target>
+				<target type="ProtoUnit">Form of the Hunter</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Invoker of Howling Gale</target>
@@ -17882,6 +17986,7 @@
 		</effects>
 		<exclude>Age 2 Atlach-Nacha</exclude>
 		<exclude>Age 2 Tsathoggua</exclude>
+		<exclude>Age 2 Ubbo-Sathla</exclude>
 	</tech>
 
 	<tech name="Age 2 Atlach-Nacha" type="Normal">
@@ -17952,12 +18057,12 @@
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Atlach-Nacha" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Atlach-Nacha" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
@@ -17967,13 +18072,14 @@
 				<target type="ProtoUnit">Attainted Town Center</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Cultist of Atlach-Nacha</target>
+				<target type="ProtoUnit">Form of the Spider</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Invoker of Spinners Call</target>
 			</effect>
 		</effects>
 		<exclude>Age 2 Ithaqua</exclude>
+		<exclude>Age 2 Ubbo-Sathla</exclude>
 		<exclude>Age 2 Tsathoggua</exclude>
 	</tech>
 
@@ -18045,12 +18151,12 @@
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Tsathoggua" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Tsathoggua" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
@@ -18060,7 +18166,7 @@
 				<target type="ProtoUnit">Attainted Town Center</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Cultist of Tsathoggua</target>
+				<target type="ProtoUnit">Form of Blood</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Voice of Tsathoggua</target>
@@ -18070,6 +18176,7 @@
 			</effect>
 		</effects>
 		<exclude>Age 2 Ithaqua</exclude>
+		<exclude>Age 2 Ubbo-Sathla</exclude>
 		<exclude>Age 2 Atlach-Nacha</exclude>
 	</tech>
 
@@ -18892,9 +18999,20 @@
 			<techstatus status="Active">Age 2 Tsathoggua</techstatus>
 		</prereqs>
 		<effects>
-	
+	<!--
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Ritual of the Voormi</target>
+			</effect>
+			-->
+
+			<effect type="Data" action="LightningAttack" amount="1.5" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Tower Mirror</target>
+			</effect>
+			<effect type="Data" action="LightningAttack" amount="1.5" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">Tower Mirror</target>
+			</effect>
+			<effect type="Data" action="LightningAttack" amount="1.5" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+				<target type="ProtoUnit">Tower Mirror</target>
 			</effect>
 		</effects>
 	</tech>
@@ -19080,12 +19198,13 @@
 			<effect type="TextOutput">99560</effect>
 
 			<effect type="Sound">researchcomplete1.wav</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+			<!--<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Unwraveler</target>
-			</effect>
+			</effect>-->
 			<effect type="TechStatus" status="active">Age 3</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Yig</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Dagon</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Daoloth</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Military Center</target>
 			</effect>
@@ -19093,7 +19212,10 @@
 				<target type="ProtoUnit">Voice of Nug and Yeb</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Cultist of Nug and Yeb</target>
+				<target type="ProtoUnit">Ghoul</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Ghoul Born</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Invoker of Pillars of Irem</target>
@@ -19131,7 +19253,7 @@
 			<effect tech="Pillars of Irem" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
 				<target type="Player"></target>
 			</effect>
-			<effect type="CreateUnit" unit="Unwraveler" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Ghoul" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="-5.00" y="0.00" z="0.00"></offset>
 				</pattern>
@@ -19146,12 +19268,12 @@
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Nug and Yeb" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Nug and Yeb" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
@@ -19160,6 +19282,7 @@
 		</effects>
 		<exclude>Age 3 Yig</exclude>
 		<exclude>Age 3 Dagon</exclude>
+		<exclude>Age 3 Daoloth</exclude>
 	</tech>
 
 	<tech name="Age 3 Yig" type="Normal">
@@ -19194,12 +19317,13 @@
 			</effect>
 			<effect type="TechStatus" status="active">Age 3</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Nug and Yeb</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Daoloth</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Dagon</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Voice of Yig</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Cultist of Yig</target>
+				<target type="ProtoUnit">Serpent Shed</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Invoker of Yigs Curse</target>
@@ -19252,18 +19376,19 @@
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Yig" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Yig" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
 		</effects>
 		<exclude>Age 3 Nug and Yeb</exclude>
+		<exclude>Age 3 Daoloth</exclude>
 		<exclude>Age 3 Dagon</exclude>
 	</tech>
 	<tech name="Age 3 Dagon" type="Normal">
@@ -19298,12 +19423,13 @@
 			</effect>
 			<effect type="TechStatus" status="active">Age 3</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Nug and Yeb</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Daoloth</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Yig</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Voice of Dagon</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Cultist of Dagon</target>
+				<target type="ProtoUnit">Form of the Deep</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Invoker of Pull of the Deep</target>
@@ -19357,12 +19483,12 @@
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Dagon" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Dagon" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
@@ -19370,6 +19496,7 @@
 
 		</effects>
 		<exclude>Age 3 Nug and Yeb</exclude>
+		<exclude>Age 3 Daoloth</exclude>
 		<exclude>Age 3 Yig</exclude>
 	</tech>
 
@@ -19405,6 +19532,7 @@
 			</effect>
 			<effect type="TechStatus" status="active">Age 4</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Hastur</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Noth-Yidik</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Nyarlathotep</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Helepolis</target>
@@ -19425,7 +19553,7 @@
 				<target type="ProtoUnit">Voice of Cthulhu</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Cultist of Cthulhu</target>
+				<target type="ProtoUnit">Endbringer</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Invoker of The End</target>
@@ -19448,12 +19576,12 @@
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Cthulhu" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Cthulhu" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
@@ -19462,6 +19590,7 @@
 		</effects>
 		<exclude>Age 4 Hastur</exclude>
 		<exclude>Age 4 Nyarlathotep</exclude>
+		<exclude>Age 4 Noth-Yidik</exclude>
 	</tech>
 
 	<tech name="Age 4 Hastur" type="Normal">
@@ -19496,12 +19625,13 @@
 			</effect>
 			<effect type="TechStatus" status="active">Age 4</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Cthulhu</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Noth-Yidik</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Nyarlathotep</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Voice of Hastur</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Cultist of Hastur</target>
+				<target type="ProtoUnit">Form of Healing</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Invoker of Plague</target>
@@ -19539,12 +19669,12 @@
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Hastur" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Hastur" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
@@ -19553,6 +19683,7 @@
 		</effects>
 		<exclude>Age 4 Cthulhu</exclude>
 		<exclude>Age 4 Nyarlathotep</exclude>
+		<exclude>Age 4 Noth-Yidik</exclude>
 	</tech>
 
 	<tech name="Age 4 Nyarlathotep" type="Normal">
@@ -19588,11 +19719,12 @@
 			<effect type="TechStatus" status="active">Age 4</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Hastur</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Cthulhu</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Noth-Yidik</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Voice of Nyarlathotep</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Cultist of Nyarlathotep</target>
+				<target type="ProtoUnit">Geometric Mage</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Helepolis</target>
@@ -19627,12 +19759,12 @@
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Nyarlathotep" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Nyarlathotep" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
@@ -19641,6 +19773,7 @@
 		</effects>
 		<exclude>Age 4 Hastur</exclude>
 		<exclude>Age 4 Cthulhu</exclude>
+		<exclude>Age 4 Noth-Yidik</exclude>
 	</tech>
 
 	<tech name="Can Do Nug and Yeb" type="Power">
@@ -21029,12 +21162,12 @@
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Azathoth" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Azathoth" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
@@ -21065,12 +21198,12 @@
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Yog-Sothoth" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Yog-Sothoth" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
@@ -21101,12 +21234,12 @@
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Shub-Niggurath" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Cultist of Shub-Niggurath" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="0.00" z="0.00"></offset>
 				</pattern>
@@ -21135,6 +21268,12 @@
 			</effect>
 			<effect type="Data" amount="10.000" subtype="LOS" relativity="Absolute">
 				<target type="ProtoUnit">Temple</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+				<target type="ProtoUnit">Grand Temple</target>
+			</effect>
+			<effect type="Data" amount="10.000" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Grand Temple</target>
 			</effect>
 		</effects>
 	</tech>
@@ -21181,6 +21320,10 @@
 
 			<effect type="Data" action="LightningAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
 				<target type="ProtoUnit">Temple</target>
+			</effect>
+
+			<effect type="Data" action="LightningAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+				<target type="ProtoUnit">Grand Temple</target>
 			</effect>
 		</effects>
 	</tech>
@@ -25207,6 +25350,10 @@
 					<offset x="-10.00" y="0.00" z="00.00"></offset>
 				</pattern>
 			</effect>
+
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese Immortal</target>
+			</effect>
 		</effects>
 	</tech>
 	<tech name="Age 1 Nuwa Real" type="Normal">
@@ -25286,6 +25433,10 @@
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="-10.00" y="0.00" z="00.00"></offset>
 				</pattern>
+			</effect>
+			
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese Immortal</target>
 			</effect>
 		</effects>
 	</tech>
@@ -25381,6 +25532,10 @@
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="-10.00" y="0.00" z="00.00"></offset>
 				</pattern>
+			</effect>
+
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese Immortal</target>
 			</effect>
 		</effects>
 	</tech>
@@ -28011,6 +28166,14 @@
 			<effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
 				<target type="Tech">Champion Cavalry</target>
 			</effect>
+
+			<effect type="TechStatus" status="active">Can Do Prometheus</effect>
+			<effect type="TechStatus" status="active">Can Do Leto</effect>
+			<effect type="TechStatus" status="active">Can Do Hyperion</effect>
+			<effect type="TechStatus" status="active">Can Do Rheia</effect>
+			<effect type="TechStatus" status="active">Can Do Helios</effect>
+			<effect type="TechStatus" status="active">Can Do Atlas</effect>
+
 		</effects>
 	</tech>
 	<tech name="Age 1 Gaia Real" type="Normal">
@@ -28121,6 +28284,13 @@
 			<effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
 				<target type="Tech">Champion Cavalry</target>
 			</effect>
+
+			<effect type="TechStatus" status="active">Can Do Oceanus</effect>
+			<effect type="TechStatus" status="active">Can Do Leto</effect>
+			<effect type="TechStatus" status="active">Can Do Theia</effect>
+			<effect type="TechStatus" status="active">Can Do Rheia</effect>
+			<effect type="TechStatus" status="active">Can Do Hecate</effect>
+			<effect type="TechStatus" status="active">Can Do Atlas</effect>
 		</effects>
 	</tech>
 	<tech name="Age 1 Ouranos Real" type="Normal">
@@ -28219,6 +28389,12 @@
 			<effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
 				<target type="Tech">Champion Cavalry</target>
 			</effect>
+			<effect type="TechStatus" status="active">Can Do Prometheus</effect>
+			<effect type="TechStatus" status="active">Can Do Oceanus</effect>
+			<effect type="TechStatus" status="active">Can Do Hyperion</effect>
+			<effect type="TechStatus" status="active">Can Do Theia</effect>
+			<effect type="TechStatus" status="active">Can Do Helios</effect>
+			<effect type="TechStatus" status="active">Can Do Hecate</effect>
 		</effects>
 	</tech>
 	
@@ -31567,7 +31743,7 @@
 			<effect type="Data" action="AreaAttack" amount="1.2" subtype="Damage" damagetype="Hack" relativity="BasePercent">
 				<target type="ProtoUnit">Unit</target>
 			</effect>
-			<effect type="Data" action="AreaAttack" amount="1.3" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+			<effect type="Data" action="AreaAttack" amount="1.2" subtype="Damage" damagetype="Crush" relativity="BasePercent">
 				<target type="ProtoUnit">Unit</target>
 			</effect>
 		</effects>
@@ -35784,6 +35960,7 @@
 			<effect type="TechStatus" status="ACTIVE">Can Do Dionysus</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Artemis</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Hestia</effect>
+			<effect type="TechStatus" status="AVAILABLE">Nourishing Oats</effect>
 
 			<Effect type="Sound">GreekThemeMusic</Effect>
 		</effects>
@@ -36332,7 +36509,7 @@
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">-1</effect>
-			<effect type="Data" amount="30.00" subtype="Lifespan" relativity="Absolute">
+			<effect type="Data" amount="15.00" subtype="Lifespan" relativity="Absolute">
 				<target type="ProtoUnit">Hero Greek Ixion Spirit</target>
 				<target type="ProtoUnit">Hero Greek Circe Spirit</target>
 				<target type="ProtoUnit">Hero Greek Hector Spirit</target>
@@ -36405,7 +36582,7 @@
 		<dbid></dbid>
 		<displaynameid>120381</displaynameid>
 		<cost resourcetype="Food">300.0000</cost>
-		<cost resourcetype="Favor">25.0000</cost>
+		<cost resourcetype="Favor">20.0000</cost>
 		<researchpoints>30.0000</researchpoints>
 		<status>OBTAINABLE</status>
 		<icon>improvement brimming life icon</icon>
@@ -36456,9 +36633,9 @@
 		</prereqs>
 		<effects>
 			<effect type="TextOutput">-1</effect>
-			<effect type="Data" action="Heal" amount="5.00" subtype="WorkRate" unittype="LogicalTypeCanBeHealed" relativity="Absolute">
+			<!--<effect type="Data" action="Heal" amount="5.00" subtype="WorkRate" unittype="LogicalTypeCanBeHealed" relativity="Absolute">
 				<target type="ProtoUnit">SettlementsThatTrainVillagers</target>
-			</effect>
+			</effect>-->
 		</effects>
 	</tech>
 
@@ -36536,9 +36713,6 @@
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">RoyalPalace</target>
-			</effect>
-			<effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Barracks</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Mining Camp</target>
@@ -37024,7 +37198,7 @@
 		<dbid></dbid>
 		<displaynameid>120487</displaynameid>
 		<cost resourcetype="Gold">300.0000</cost>
-		<cost resourcetype="Favor">25.0000</cost>
+		<cost resourcetype="Favor">20.0000</cost>
 		<researchpoints>30.0000</researchpoints>
 		<status>OBTAINABLE</status>
 		<icon>improvement blood of orphnaeus icon</icon>
@@ -37314,7 +37488,7 @@
 			<techstatus status="Active">Age 3 Sobek</techstatus>
 		</prereqs>
 		<effects>
-			<effect type="Data" action="RangedAttack" amount="3.0" subtype="Damage" damagetype="Hack" relativity="Absolute">
+			<effect type="Data" action="RangedAttack" amount="1.5" subtype="Damage" damagetype="Hack" relativity="Absolute">
 				<target type="ProtoUnit">Slinger</target>
 			</effect>
 		</effects>
@@ -37586,9 +37760,6 @@
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Hero Norse</target>
-			</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Armory</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Longhouse</target>
@@ -38068,6 +38239,9 @@
 			<effect type="Data" amount="0.75" subtype="Cost" resource="Gold" relativity="Percent">
 				<target type="ProtoUnit">Hero Norse</target>
 			</effect>
+			<effect type="Data" amount="0.75" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="ProtoUnit">Hero Norse</target>
+			</effect>
 		</effects>
 	</tech>
 
@@ -38126,8 +38300,2330 @@
 		</effects>
 	</tech>
 
+	<tech name="Norse Armory Freyr" type="Normal">
+		<dbid></dbid>
+		<displaynameid>23382</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<delay>0.0500</delay>
+		<flag>HideFromDetailHelp</flag>
+		<prereqs>
+			<specificage>Classical Age</specificage>
+			<civilization>
+				<civname>Thor</civname>
+			</civilization>
+			<techstatus status="Active">Age 1 Freyr Real</techstatus>
+			
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Armory</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Tower</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Longhouse</target>
+			</effect>
+		</effects>
+	</tech>
 
 
+	<tech name="Can Do Prometheus" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Oceanus" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Leto" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Theia" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Rheia" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Hyperion" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Helios" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Hecate" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Atlas" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Astraeus" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Pallas" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Perses" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	
+	<tech name="Age 1 Iapetus Real" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120586</displaynameid>
+		<researchpoints>0.0010</researchpoints>
+		<status>AVAILABLE</status>
+		<icon>improvement iapetus icon</icon>
+		<rollovertextid>120587</rollovertextid>
+		<delay>0.0100</delay>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<civilization>
+				<civname>Ouranos</civname>
+			</civilization>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">120594</effect>
+			<effect all="true" type="TextOutput">120595</effect>
+			<effect type="TechStatus" status="active">Atlantean Civ</effect>
+			<effect type="TechStatus" status="active">Starting Units Atlantean</effect>
+			<effect type="TechStatus" status="active">Burning Pitch</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Gaia Real</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Kronos Real</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Ouranos Real</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Ouranos Fake</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Gaia Fake</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Kronos Fake</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Villager Atlantean</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Manor</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Settlement Level 1</target>
+			</effect>
+			<effect type="Data" action="AutoGather" amount="0.09" subtype="WorkRate" unittype="Favor" relativity="Absolute">
+				<target type="ProtoUnit">SettlementsThatTrainVillagers</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Fishing Ship Atlantean</target>
+			</effect>
+			<effect type="Data" amount="-2.00" subtype="BuildLimit" relativity="Absolute">
+				<target type="ProtoUnit">Settlement Level 1</target>
+			</effect>
+			<effect type="Data" amount="-25.00" subtype="Cost" resource="Gold" relativity="Absolute">
+				<target type="ProtoUnit">Settlement Level 1</target>
+			</effect>
+			<effect type="Data" amount="-25.00" subtype="Cost" resource="Wood" relativity="Absolute">
+				<target type="ProtoUnit">Settlement Level 1</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Guild</target>
+			</effect>
+			<effect tech="Fervor" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Assign">
+				<target type="ProtoUnit">Oracle Hero</target>
+			</effect>
+			<effect type="Data" amount="2.00" subtype="PopulationCount" relativity="Assign">
+				<target type="ProtoUnit">Villager Atlantean Hero</target>
+			</effect>
+			<effect type="Data" amount="2.00" subtype="PopulationCount" relativity="Assign">
+				<target type="ProtoUnit">Trident Soldier Hero</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Assign">
+				<target type="ProtoUnit">Swordsman Hero</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Assign">
+				<target type="ProtoUnit">Archer Atlantean Hero</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Assign">
+				<target type="ProtoUnit">Maceman Hero</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Assign">
+				<target type="ProtoUnit">Javelin Cavalry Hero</target>
+			</effect>
+			<effect type="Data" amount="2.00" subtype="PopulationCount" relativity="Assign">
+				<target type="ProtoUnit">Lancer Hero</target>
+			</effect>
+			<effect type="Data" amount="2.00" subtype="PopulationCount" relativity="Assign">
+				<target type="ProtoUnit">Royal Guard Hero</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Oracle Scout</target>
+			</effect>
+			<effect type="Data" amount="125.00" subtype="Cost" resource="Wood" relativity="Absolute">
+				<target type="ProtoUnit">Farm</target>
+			</effect>
+			<effect type="Data" amount="-25.00" subtype="Cost" resource="Wood" relativity="Absolute">
+				<target type="ProtoUnit">Settlement</target>
+			</effect>
+			<effect type="Data" amount="-25.00" subtype="Cost" resource="Gold" relativity="Absolute">
+				<target type="ProtoUnit">Settlement</target>
+			</effect>
+			<effect type="Data" amount="200.00" subtype="Hitpoints" relativity="Absolute">
+				<target type="ProtoUnit">Farm</target>
+			</effect>
+			<effect type="Data" amount="1.05" subtype="Hitpoints" relativity="Percent">
+				<target type="ProtoUnit">Lancer</target>
+			</effect>
+			<effect type="Data" amount="1.05" subtype="Hitpoints" relativity="Percent">
+				<target type="ProtoUnit">Trident Soldier</target>
+			</effect>
+			<effect type="Data" amount="0.95" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="ProtoUnit">Lancer</target>
+			</effect>
+			<effect type="Data" amount="0.95" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="ProtoUnit">Lancer</target>
+			</effect>
+			<effect type="Data" amount="0.95" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="ProtoUnit">Trident Soldier</target>
+			</effect>
+			<effect type="Data" amount="0.95" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="ProtoUnit">Trident Soldier</target>
+			</effect>
+			<effect type="Data" amount="1.05" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Lancer</target>
+			</effect>
+			<effect type="Data" amount="1.05" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Trident Soldier</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="Tech">Medium Cavalry</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="Tech">Medium Cavalry</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="Tech">Heavy Cavalry</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="Tech">Heavy Cavalry</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="Tech">Champion Cavalry</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="Tech">Champion Cavalry</target>
+			</effect>
+			<effect type="TechStatus" status="active">Can Do Prometheus</effect>
+			<effect type="TechStatus" status="active">Can Do Astraeus</effect>
+			<effect type="TechStatus" status="active">Can Do Pallas</effect>
+			<effect type="TechStatus" status="active">Can Do Theia</effect>
+			<effect type="TechStatus" status="active">Can Do Perses</effect>
+			<effect type="TechStatus" status="active">Can Do Atlas</effect>
+		</effects>
+	</tech>
+
+	<tech name="Age 2 Astraeus" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120588</displaynameid>
+		<cost resourcetype="Food">400.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>god major prometheus icons 64</icon>
+		<rollovertextid>120589</rollovertextid>
+		<prereqsnotmetrollovertextid>22792</prereqsnotmetrollovertextid>
+		<buttonpos row="1" column="1"></buttonpos>
+		<flag>AlwaysShowButton</flag>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<typecount unit="AbstractTemple" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<specificage>Archaic Age</specificage>
+			<civilization>
+				<civname>Ouranos</civname>
+			</civilization>
+			<techstatus status="Active">Atlantean Civ</techstatus>
+			<techstatus status="Active">Can Do Astraeus</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">120596</effect>
+			<effect all="true" type="TextOutput">120597</effect>
+			<effect type="Sound">researchcomplete1.wav</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Leto</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Okeanus</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Prometheus</effect>
+			<effect type="TechStatus" status="active">Age 2</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Armory</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Farm</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Tower</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Barracks Atlantean</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Swordsman</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Bireme</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Transport Ship Atlantean</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Counter Building</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Javelin Cavalry</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Maceman</target>
+			</effect>
+			<effect tech="Stargate" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Aster</target>
+			</effect>
+			<effect type="TechStatus" status="unobtainable">Medium Cavalry</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Chieroballista</target>
+			</effect>
+			<effect type="CreateUnit" unit="Aster" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TextOutput">120602</effect>
+			<effect type="TechStatus" status="active">Age 2 Atlantean Heroes</effect>
+		</effects>
+		<exclude>Age 2 Leto</exclude>
+		<exclude>Age 2 Okeanus</exclude>
+		<exclude>Age 2 Prometheus</exclude>
+	</tech>
+	<tech name="Age 3 Pallas" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120590</displaynameid>
+		<cost resourcetype="Food">800.0000</cost>
+		<cost resourcetype="Gold">500.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement pallas icon</icon>
+		<rollovertextid>120591</rollovertextid>
+		<prereqsnotmetrollovertextid>22812</prereqsnotmetrollovertextid>
+		<buttonpos row="1" column="2"></buttonpos>
+		<flag>AlwaysShowButton</flag>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<typecount unit="Armory" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<specificage>Classical Age</specificage>
+			<civilization>
+				<civname>Ouranos</civname>
+			</civilization>
+			<techstatus status="Active">Atlantean Civ</techstatus>
+			<techstatus status="Active">Can Do Pallas</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">120598</effect>
+			<effect all="true" type="TextOutput">120599</effect>
+			<effect type="Sound">researchcomplete1.wav</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Hyperion</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Rheia</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Theia</effect>
+			<effect type="TechStatus" status="active">Age 3</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Market</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Trident Soldier</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Fire Ship Atlantean</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Siege Ship Atlantean</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Lancer</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Caravan Atlantean</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Palace</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Archer Atlantean</target>
+			</effect>
+			<effect type="TechStatus" status="available">Medium Cavalry</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Erymanthian Boar</target>
+			</effect>
+			<effect tech="Glory of War" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="CreateUnit" unit="Erymanthian Boar" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TextOutput">120603</effect>
+		</effects>
+		<exclude>Age 3 Rheia</exclude>
+		<exclude>Age 3 Hyperion</exclude>
+		<exclude>Age 3 Theia</exclude>
+	</tech>
+	<tech name="Age 4 Perses" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120592</displaynameid>
+		<cost resourcetype="Food">1000.0000</cost>
+		<cost resourcetype="Gold">1000.0000</cost>
+		<researchpoints>90.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement perses icon</icon>
+		<rollovertextid>120593</rollovertextid>
+		<prereqsnotmetrollovertextid>22840</prereqsnotmetrollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<flag>AlwaysShowButton</flag>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<typecount unit="Market" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<specificage>Heroic Age</specificage>
+			<civilization>
+				<civname>Ouranos</civname>
+			</civilization>
+			<techstatus status="Active">Atlantean Civ</techstatus>
+			<techstatus status="Active">Can Do Perses</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">120600</effect>
+			<effect all="true" type="TextOutput">120601</effect>
+			<effect type="Sound">researchcomplete1.wav</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Atlas</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Hekate</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Helios</effect>
+			<effect type="TechStatus" status="active">Age 4</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Fire Siphon</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Onager</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Royal Guard</target>
+			</effect>
+			<effect tech="Rampage GP" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Orthus</target>
+			</effect>
+			<effect type="CreateUnit" unit="Orthus" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TextOutput">120604</effect>
+			<effect type="TechStatus" status="active">Age 4 Atlantean Heroes</effect>
+		</effects>
+		<exclude>Age 4 Atlas</exclude>
+		<exclude>Age 4 Hekate</exclude>
+		<exclude>Age 4 Helios</exclude>
+	</tech>
+
+
+	<tech name="Fervor" type="Power">
+		<dbid></dbid>
+		<displaynameid>120605</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement fervor icon</icon>
+		<rollovertextid>120606</rollovertextid>
+	</tech>
+	<tech name="Stargate" type="Power">
+		<dbid></dbid>
+		<displaynameid>120607</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement stargate icon</icon>
+		<rollovertextid>120608</rollovertextid>
+	</tech>
+	<tech name="Glory of War" type="Power">
+		<dbid></dbid>
+		<displaynameid>120609</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement glory of war icon</icon>
+		<rollovertextid>120610</rollovertextid>
+	</tech>
+	<tech name="Rampage GP" type="Power">
+		<dbid></dbid>
+		<displaynameid>120611</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement rampage GP icon</icon>
+		<rollovertextid>120612</rollovertextid>
+	</tech>
+
+
+	<tech name="Glory of War Active" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120609</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>improvement glory of war icon</icon>
+		<effects>
+
+			<effect type="Data" amount="0.010" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" amount="0.010" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">AbstractInfantry</target>
+			</effect>
+			<effect type="Data" amount="0.010" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">AbstractArcher</target>
+			</effect>
+			<effect type="Data" amount="0.010" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">MythUnit</target>
+			</effect>
+			<effect type="Data" amount="0.010" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">AbstractSiegeWeapon</target>
+			</effect>
+			
+		</effects>
+	</tech>
+
+	<tech name="Impaling Charge" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120621</displaynameid>
+		<cost resourcetype="Gold">120.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Impaling Charge Icon</icon>
+		<rollovertextid>120622</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Iapetus Real</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="HandAttack" amount="0.25" subtype="DamageBonus" unittype="AbstractArcher" relativity="Absolute">
+				<target type="ProtoUnit">Lancer</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="0.25" subtype="DamageBonus" unittype="Archer Atlantean Hero" relativity="Absolute">
+				<target type="ProtoUnit">Lancer</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="0.25" subtype="DamageBonus" unittype="AbstractArcher" relativity="Absolute">
+				<target type="ProtoUnit">Lancer Hero</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="0.25" subtype="DamageBonus" unittype="Archer Atlantean Hero" relativity="Absolute">
+				<target type="ProtoUnit">Lancer Hero</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Astrology" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120623</displaynameid>
+		<cost resourcetype="Gold">150.0000</cost>
+		<cost resourcetype="Favor">9.0000</cost>
+		<researchpoints>10.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Astrology Icon</icon>
+		<rollovertextid>120624</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 2 Astraeus</techstatus>
+		</prereqs>
+		<effects>
+
+
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Favor" relativity="Percent">
+				<target type="ProtoUnit">MythUnit</target>
+			</effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Stellar Worship" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120625</displaynameid>
+		<cost resourcetype="Gold">180.0000</cost>
+		<cost resourcetype="Favor">5.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement stellar worship Icon</icon>
+		<rollovertextid>120626</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 2 Astraeus</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="AutoGather" amount="0.02" subtype="WorkRate" unittype="Favor" relativity="Assign">
+				<target type="ProtoUnit">Temple</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Cosmic Vortex" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120627</displaynameid>
+		<cost resourcetype="Gold">210.0000</cost>
+		<cost resourcetype="Favor">15.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement cosmic vortex Icon</icon>
+		<rollovertextid>120628</rollovertextid>
+		<buttonpos row="2" column="2"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 2 Astraeus</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="RangedAttack" amount="1.33" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Aster</target>
+			</effect>
+			<effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Aster</target>
+			</effect>
+			<effect type="SetName" proto="Aster" culture="Atlantean" newname="120629"></effect>
+		</effects>
+	</tech>
+
+
+
+	<tech name="Strength of Will" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120630</displaynameid>
+		<cost resourcetype="Food">150.0000</cost>
+		<cost resourcetype="Favor">18.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement strength of will Icon</icon>
+		<rollovertextid>120631</rollovertextid>
+		<buttonpos row="2" column="2"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 3 Pallas</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Strength of Body" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120632</displaynameid>
+		<cost resourcetype="Wood">180.0000</cost>
+		<cost resourcetype="Favor">18.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement strength of body Icon</icon>
+		<rollovertextid>120633</rollovertextid>
+		<buttonpos row="2" column="2"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 3 Pallas</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="Building" relativity="Absolute">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="DamageBonus" unittype="Building" relativity="Absolute">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Strength of Mind" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120634</displaynameid>
+		<cost resourcetype="Food">220.0000</cost>
+		<cost resourcetype="Favor">22.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement strength of mind Icon</icon>
+		<rollovertextid>120635</rollovertextid>
+		<buttonpos row="2" column="2"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 3 Pallas</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Atlantean Hero</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Atlantean Hero</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Atlantean Hero</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Atlantean Hero</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Atlantean Hero</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Flames of Destruction" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120636</displaynameid>
+		<cost resourcetype="Wood">250.0000</cost>
+		<cost resourcetype="Favor">25.0000</cost>
+		<researchpoints>45.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement flames of destruction Icon</icon>
+		<rollovertextid>120637</rollovertextid>
+		<buttonpos row="2" column="2"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 4 Perses</techstatus>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Perses Explosion</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Chicken Blood</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Thirst for Slaughter" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120638</displaynameid>
+		<cost resourcetype="Food">350.0000</cost>
+		<cost resourcetype="Favor">30.0000</cost>
+		<researchpoints>45.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement thirst for slaughter Icon</icon>
+		<rollovertextid>120639</rollovertextid>
+		<buttonpos row="2" column="2"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 4 Perses</techstatus>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" action="ChargedRangedAttack" amount="1.50" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">Orthus</target>
+			</effect>
+			<effect type="Data" action="ChargedRangedAttack" amount="1.50" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+				<target type="ProtoUnit">Orthus</target>
+			</effect>
+			<effect type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Orthus</target>
+			</effect>
+			<effect type="SetName" proto="Orthus" culture="Atlantean" newname="120640"></effect>
+		</effects>
+	</tech>
+
+	<tech name="Ruination" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120641</displaynameid>
+		<cost resourcetype="Gold">200.0000</cost>
+		<cost resourcetype="Favor">30.0000</cost>
+		<researchpoints>25.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement ruination Icon</icon>
+		<rollovertextid>120642</rollovertextid>
+		<buttonpos row="2" column="2"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 4 Perses</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="DamageBonus" unittype="Wonder" relativity="Absolute">
+				<target type="ProtoUnit">Onager</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="DamageBonus" unittype="SettlementsThatTrainVillagers" relativity="Absolute">
+				<target type="ProtoUnit">Onager</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="DamageBonus" unittype="Titan Gate" relativity="Absolute">
+				<target type="ProtoUnit">Onager</target>
+			</effect>
+		</effects>
+	</tech>
+
+
+
+	<tech name="Age 1 Fuxi Fixed Real" type="Normal">
+		<dbid></dbid>
+		<displaynameid>50005</displaynameid>
+		<researchpoints>0.0010</researchpoints>
+		<status>AVAILABLE</status>
+		<icon>god major fuxi icon 64</icon>
+		<rollovertextid>120649</rollovertextid>
+		<delay>0.0100</delay>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<civilization>
+				<civname>Fuxi</civname>
+			</civilization>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">99872</effect>
+			<effect all="true" type="TextOutput">99873</effect>
+			<effect type="TechStatus" status="Active">Chinese Balance Patch</effect>
+			
+			<effect type="TechStatus" status="unobtainable">Age 1 Nuwa Reak</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Shennong Real</effect>
+			<effect type="TechStatus" status="active">Age 1 Chinese</effect>
+			<effect type="TechStatus" status="active">Startng Resources Chinese</effect>
+			<effect type="TechStatus" status="active">Startng Units Chinese</effect>
+
+			<effect type="Data" amount="1.1" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+
+			<effect tech="Year of the Goat" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.25" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="ProtoUnit">Tower</target>
+			</effect>
+			<effect type="Data" amount="1.25" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="ProtoUnit">Tower</target>
+			</effect>
+			<effect type="Data" amount="1.25" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="ProtoUnit">Castle</target>
+			</effect>
+			<effect type="Data" amount="1.25" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="ProtoUnit">Castle</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="Tech">Medium Barracks</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="Tech">Medium Barracks</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="Tech">Heavy Barracks</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="Tech">Heavy Barracks</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="Tech">Champion Barracks</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="Tech">Champion Barracks</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="Tech">Medium Stable</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="Tech">Medium Stable</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="Tech">Heavy Stable</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="Tech">Heavy Stable</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="Tech">Champion Stable</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="Tech">Champion Stable</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="Tech">Medium Castle</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="Tech">Medium Castle</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="Tech">Heavy Castle</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="Tech">Heavy Castle</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="Tech">Champion Castle</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="Tech">Champion Castle</target>
+			</effect>
+
+
+			<effect mute="true" type="CreateUnit" unit="Villager Chinese" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-3.00" y="0.00" z="-4.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Villager Chinese" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="8.00">
+					<offset x="1.00" y="0.00" z="-4.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Villager Chinese" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-1.00" y="0.00" z="-4.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Villager Chinese" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="3.00" y="0.00" z="-4.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Scout Chinese" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Scout Chinese" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-10.00" y="0.00" z="00.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Age 1 Nuwa Fixed Real" type="Normal">
+		<dbid></dbid>
+		<displaynameid>50009</displaynameid>
+		<researchpoints>0.0010</researchpoints>
+		<status>AVAILABLE</status>
+		<icon>god major nuwa icon 64</icon>
+		<rollovertextid>120650</rollovertextid>
+		<delay>0.0100</delay>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<civilization>
+				<civname>Nuwa</civname>
+			</civilization>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">99874</effect>
+			<effect all="true" type="TextOutput">99875</effect>
+			<effect type="TechStatus" status="Active">Chinese Balance Patch</effect>
+			
+			<effect type="TechStatus" status="unobtainable">Age 1 Fuxi Real</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Shennong Real</effect>
+			<effect type="TechStatus" status="active">Age 1 Chinese</effect>
+			<effect type="TechStatus" status="active">Startng Resources Chinese</effect>
+			<effect type="TechStatus" status="active">Startng Units Chinese</effect>
+			<effect tech="Recreation" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="populationcapaddition" relativity="Assign">
+				<target type="ProtoUnit">Garden</target>
+			</effect>
+			<effect type="Data" action="AutoGather" amount="1.2" subtype="WorkRate" unittype="Favor" relativity="BasePercent">
+				<target type="ProtoUnit">Garden</target>
+			</effect>
+
+
+
+			<effect type="Data" amount="-1.00" subtype="Cost" resource="Favor" relativity="Absolute">
+				<target type="ProtoUnit">Villager Chinese Reborn</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="Cost" resource="Favor" relativity="Absolute">
+				<target type="ProtoUnit">Invoker of Immortal</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="Cost" resource="Favor" relativity="Absolute">
+				<target type="ProtoUnit">Scout Chinese Reborn</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="Cost" resource="Favor" relativity="Absolute">
+				<target type="ProtoUnit">Halberdier Reborn</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="Cost" resource="Favor" relativity="Absolute">
+				<target type="ProtoUnit">Chu Ko Nu Reborn</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="Cost" resource="Favor" relativity="Absolute">
+				<target type="ProtoUnit">Mounted Archer Reborn</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="Cost" resource="Favor" relativity="Absolute">
+				<target type="ProtoUnit">Chinese Hero Monk Reborn</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="Cost" resource="Favor" relativity="Absolute">
+				<target type="ProtoUnit">Chinese Hero General Reborn</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="Cost" resource="Favor" relativity="Absolute">
+				<target type="ProtoUnit">War Chariot Reborn</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="Cost" resource="Favor" relativity="Absolute">
+				<target type="ProtoUnit">Cataphract Chinese Reborn</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="Cost" resource="Favor" relativity="Absolute">
+				<target type="ProtoUnit">Fire Lance Reborn</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="Cost" resource="Favor" relativity="Absolute">
+				<target type="ProtoUnit">Qilin Reborn</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="Cost" resource="Favor" relativity="Absolute">
+				<target type="ProtoUnit">Terracotta Soldier Reborn</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="Cost" resource="Favor" relativity="Absolute">
+				<target type="ProtoUnit">Monkey King Reborn</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="Cost" resource="Favor" relativity="Absolute">
+				<target type="ProtoUnit">Pixiu Reborn</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="Cost" resource="Favor" relativity="Absolute">
+				<target type="ProtoUnit">Jiangshi Reborn</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="Cost" resource="Favor" relativity="Absolute">
+				<target type="ProtoUnit">Azure Dragon Reborn</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="Cost" resource="Favor" relativity="Absolute">
+				<target type="ProtoUnit">Vermilion Bird Reborn</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="Cost" resource="Favor" relativity="Absolute">
+				<target type="ProtoUnit">White Tiger Reborn</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="Cost" resource="Favor" relativity="Absolute">
+				<target type="ProtoUnit">Dragon Turtle Reborn</target>
+			</effect>
+
+
+			<effect mute="true" type="CreateUnit" unit="Villager Chinese" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-3.00" y="0.00" z="-4.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Villager Chinese" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="8.00">
+					<offset x="1.00" y="0.00" z="-4.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Villager Chinese" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-1.00" y="0.00" z="-4.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Villager Chinese" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="3.00" y="0.00" z="-4.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Scout Chinese" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Scout Chinese" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-10.00" y="0.00" z="00.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Age 1 Shennong Fixed Real" type="Normal">
+		<dbid></dbid>
+		<displaynameid>50007</displaynameid>
+		<researchpoints>0.0010</researchpoints>
+		<status>AVAILABLE</status>
+		<icon>god major shennong icon 64</icon>
+		<rollovertextid>120651</rollovertextid>
+		<delay>0.0100</delay>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<civilization>
+				<civname>Shennong</civname>
+			</civilization>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">99876</effect>
+			<effect all="true" type="TextOutput">99877</effect>
+			<effect type="TechStatus" status="Active">Chinese Balance Patch</effect>
+
+			<effect type="TechStatus" status="unobtainable">Age 1 Fuxi Real</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Nuwa Real</effect>
+			<effect type="TechStatus" status="active">Age 1 Chinese</effect>
+			<effect type="TechStatus" status="active">Startng Resources Chinese</effect>
+			<effect type="TechStatus" status="active">Startng Units Chinese</effect>
+			<effect tech="Timber Harvest" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" action="Heal" amount="2.00" subtype="WorkRate" unittype="LogicalTypeCanBeHealed" relativity="BasePercent">
+				<target type="ProtoUnit">Hero Chinese Monk</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="14.00" subtype="WorkRate" unittype="LogicalTypeMythUnitNotTitan" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese Monk</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="-14.00" subtype="WorkRate" unittype="Earth Dragon" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese Monk</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="-14.00" subtype="WorkRate" unittype="Nidhogg" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese Monk</target>
+			</effect>
+
+
+			<effect mute="true" type="CreateUnit" unit="Villager Chinese" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-3.00" y="0.00" z="-4.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Villager Chinese" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="8.00">
+					<offset x="1.00" y="0.00" z="-4.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Villager Chinese" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-1.00" y="0.00" z="-4.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Villager Chinese" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="3.00" y="0.00" z="-4.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Scout Chinese" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Scout Chinese" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-10.00" y="0.00" z="00.00"></offset>
+				</pattern>
+			</effect>
+
+
+
+
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Villager Chinese Reborn</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Invoker of Immortal</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Scout Chinese Reborn</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Halberdier Reborn</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Chu Ko Nu Reborn</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Mounted Archer Reborn</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Chinese Hero Monk Reborn</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Chinese Hero General Reborn</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">War Chariot Reborn</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Cataphract Chinese Reborn</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Fire Lance Reborn</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Qilin Reborn</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Terracotta Soldier Reborn</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Monkey King Reborn</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Pixiu Reborn</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Jiangshi Reborn</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Azure Dragon Reborn</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Vermilion Bird Reborn</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">White Tiger Reborn</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Dragon Turtle Reborn</target>
+			</effect>
+			
+			
+		</effects>
+	</tech>
+
+
+	<tech name="Chinese Balance Patch" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120652</displaynameid>
+		<researchpoints>0.0010</researchpoints>
+		<status>AVAILABLE</status>
+		<icon>god major fuxi icon 64</icon>
+		<rollovertextid>120653</rollovertextid>
+		<delay>0.0100</delay>
+		<prereqs>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Villager Chinese Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Scout Chinese Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Halberdier Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Chu Ko Nu Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Mounted Archer Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Cataphract Chinese Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">War Chariot Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Fire Lance Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Fire Lance Shennong Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese General Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese Immortal Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese Monk Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Qilin Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Terracotta Soldier Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Monkey King Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">War Salamander Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Pixiu Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Jiangshi Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Azure Dragon Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Vermilion Bird Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">White Tiger Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Dragon Turtle Reborn</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Invoker of Immortal</target>
+			</effect>
+
+			<effect type="Data" amount="0.9" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Unit</target>
+			</effect>
+
+
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese Immortal Fixed</target>
+			</effect>
+			<effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese Immortal</target>
+			</effect>
+
+			<effect type="Data" amount="50.00" subtype="BuildLimit" relativity="Assign">
+				<target type="ProtoUnit">Hero Chinese General</target>
+			</effect>
+
+
+			<effect type="Data" action="Empower" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese Monk</target>
+			</effect>
+			<effect type="Data" action="Empower" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+				<target type="ProtoUnit">Hero Chinese Monk Reborn</target>
+			</effect>
+
+
+			<effect type="Data" amount="2.00" subtype="PopulationCount" relativity="Assign">
+				<target type="ProtoUnit">Scout Chinese</target>
+			</effect>
+			<effect type="Data" amount="2.00" subtype="PopulationCount" relativity="Assign">
+				<target type="ProtoUnit">Scout Chinese Reborn</target>
+			</effect>
+
+			<effect type="Data" action="HandAttack" amount="1.15" subtype="DamageBonus" unittype="AbstractVillager" relativity="Assign">
+				<target type="ProtoUnit">Scout Chinese</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.6" subtype="DamageBonus" unittype="AbstractArcher" relativity="Assign">
+				<target type="ProtoUnit">Scout Chinese</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.6" subtype="DamageBonus" unittype="Archer Atlantean hero" relativity="Assign">
+				<target type="ProtoUnit">Scout Chinese</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.6" subtype="DamageBonus" unittype="Javelin Cavalry hero" relativity="Assign">
+				<target type="ProtoUnit">Scout Chinese</target>
+			</effect>
+
+			<effect type="Data" action="HandAttack" amount="1.15" subtype="DamageBonus" unittype="AbstractVillager" relativity="Assign">
+				<target type="ProtoUnit">Scout Chinese Reborn</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.6" subtype="DamageBonus" unittype="AbstractArcher" relativity="Assign">
+				<target type="ProtoUnit">Scout Chinese Reborn</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.6" subtype="DamageBonus" unittype="Archer Atlantean hero" relativity="Assign">
+				<target type="ProtoUnit">Scout Chinese Reborn</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.6" subtype="DamageBonus" unittype="Javelin Cavalry hero" relativity="Assign">
+				<target type="ProtoUnit">Scout Chinese Reborn</target>
+			</effect>
+
+			<effect type="Data" amount="1.5" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Scout Chinese</target>
+			</effect>
+			<effect type="Data" amount="1.5" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Scout Chinese Reborn</target>
+			</effect>
+
+
+
+
+			<effect type="Data" action="Gather" amount="0.925" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="0.925" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="0.925" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="0.925" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="0.925" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="0.925" subtype="WorkRate" unittype="Gaia Forest tree" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			
+
+		</effects>
+	</tech>
+
+
+	<tech name="Voidlance" type="Power">
+		<dbid></dbid>
+		<displaynameid>120703</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement void holes icon</icon>
+		<rollovertextid>120704</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Bubbling Flesh" type="Power">
+		<dbid></dbid>
+		<displaynameid>120705</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement flesh blob icon</icon>
+		<rollovertextid>120706</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Spacial Fracture" type="Power">
+		<dbid></dbid>
+		<displaynameid>120707</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement spacial fracture icon</icon>
+		<rollovertextid>120708</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Time Hunt" type="Power">
+		<dbid></dbid>
+		<displaynameid>120709</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement time hunt icon</icon>
+		<rollovertextid>120710</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+
+
+
+
+	<tech name="Age 1 Nameless Mist" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.010</researchpoints>
+		<status>AVAILABLE</status>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<rollovertextid>120685</rollovertextid>
+		<delay>0.0100</delay>
+		<prereqs>
+			<civilization>
+				<civname>Zeus</civname>
+			</civilization>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">120692</effect>
+			<effect all="true" type="TextOutput">120693</effect>
+			<effect type="TextOutput">120726</effect>
+
+
+
+
+			<effect type="TechStatus" status="unobtainable">Age 1 Yog-Sothoth Fake</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Azathoth Fake</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Shub-Niggurath Fake</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Izanagi Fake</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Izanami Fake</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Kagu Fake</effect>
+			<effect type="TechStatus" status="unobtainable">Zeus Real</effect>
+			<effect type="TechStatus" status="unobtainable">Hades Real</effect>
+			<effect type="TechStatus" status="unobtainable">Poseidon Real</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Tezcatlipoca Fake</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Quetzalcoatl Fake</effect>
+			<effect type="TechStatus" status="unobtainable">Age 1 Huitzilopochtli Fake</effect>
+			
+			
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Invoker of Voidlance</target>
+			</effect>
+			<effect type="TechStatus" status="ACTIVE">Eldritch Civ</effect>
+			
+			<effect type="TechStatus" status="ACTIVE">Can Do Ithaqua</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Ubbo-Sathla</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Nug and Yeb</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Daoloth</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Noth-Yidik</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Cthulhu</effect>
+			
+			<effect type="TechStatus" status="Available">Dreamland Village</effect>
+			<effect type="TechStatus" status="Available">The Black Man's Blessing</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Voidblob Creature Cultist</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Voidblob Creature Voice</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Voice of the Mist</target>
+			</effect>
+			
+			<effect tech="Voidlance" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+
+
+			<effect type="Data" amount="0.5" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="ProtoUnit">Grand Temple</target>
+			</effect>
+			<effect type="Data" amount="0.5" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="ProtoUnit">Grand Temple</target>
+			</effect>
+			<effect type="Data" amount="0.5" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="ProtoUnit">Grand Temple</target>
+			</effect>
+			<effect type="Data" amount="0.5" subtype="Cost" resource="Favor" relativity="Percent">
+				<target type="ProtoUnit">Grand Temple</target>
+			</effect>
+
+			<effect type="Data" amount="0.00" subtype="Cost" resource="Food" relativity="BasePercent">
+				<target type="Tech">Guardian Temples</target>
+			</effect>
+			<effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="Tech">Guardian Temples</target>
+			</effect>
+			<effect type="Data" amount="0.00" subtype="Cost" resource="Favor" relativity="BasePercent">
+				<target type="Tech">Guardian Temples</target>
+			</effect>
+
+
+			<effect type="Data" amount="0.90" subtype="TrainPoints" relativity="BasePercent">
+				<target type="ProtoUnit">MythUnit</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">MythUnit</target>
+			</effect>
+			
+			
+			
+		</effects>
+	</tech>
+
+
+	<tech name="Can Do Ubbo-Sathla" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Daoloth" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Noth-Yidik" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+
+
+	<tech name="Age 2 Ubbo-Sathla" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120686</displaynameid>
+		<cost resourcetype="Food">400.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement ubbo-sathla icon</icon>
+		<rollovertextid>120687</rollovertextid>
+		<prereqsnotmetrollovertextid>10837</prereqsnotmetrollovertextid>
+		<buttonpos row="1" column="1"></buttonpos>
+		<flag>AlwaysShowButton</flag>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<civilization>
+				<civname>Zeus</civname>
+			</civilization>
+			<specificage>Archaic Age</specificage>
+			<techstatus status="Active">Can Do Ubbo-Sathla</techstatus>
+			<typecount unit="Temple" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">120694</effect>
+			<effect all="true" type="TextOutput">120695</effect>
+			<effect type="TextOutput">120700</effect>
+
+
+			<effect type="Sound">researchcomplete1.wav</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Unwraveler</target>
+			</effect>
+			<effect type="TechStatus" status="active">Age 2</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Atlach-Nacha</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Tsathoggua</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Ithaqua</effect>
+			<effect tech="Bubbling Flesh" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Armory</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Tower</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Farm</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Transport Ship Greek</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Trireme</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Voice of Ubbo-Sathla</target>
+			</effect>
+			<effect type="CreateUnit" unit="Unwraveler" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="0.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="0.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="0.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="0.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="0.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Attainted Town Center</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Giant Flesh Blob Fake</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Invoker of Bubbling Flesh</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">FleshBlob Creature Voice</target>
+			</effect>
+		</effects>
+		<exclude>Age 2 Atlach-Nacha</exclude>
+		<exclude>Age 2 Tsathoggua</exclude>
+		<exclude>Age 2 Ithaqua</exclude>
+	</tech>
+
+
+	<tech name="Age 3 Daoloth" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120688</displaynameid>
+		<cost resourcetype="Food">800.0000</cost>
+		<cost resourcetype="Gold">500.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement daoloth icon</icon>
+		<rollovertextid>120689</rollovertextid>
+		<prereqsnotmetrollovertextid>17968</prereqsnotmetrollovertextid>
+		<buttonpos row="1" column="1"></buttonpos>
+		<flag>AlwaysShowButton</flag>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<typecount unit="Armory" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<specificage>Classical Age</specificage>
+			<civilization>
+				<civname>Zeus</civname>
+			</civilization>
+			<techstatus status="Active">Can Do Daoloth</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">120696</effect>
+			<effect all="true" type="TextOutput">120697</effect>
+			<effect type="TextOutput">120701</effect>
+
+			<effect type="Sound">researchcomplete1.wav</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Dimensional Shambler</target>
+			</effect>
+			<effect type="TechStatus" status="active">Age 3</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Nug and Yeb</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Dagon</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Yig</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Voice of Daoloth</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Flash of Inspiration</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Invoker of Spacial Fracture</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Military Center</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Brutal</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Stoneskin</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Shiner</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Starthrower</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Devourer</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Market</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Caravan Greek</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Ramming Ship Greek</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Siege Ship Greek</target>
+			</effect>
+			<effect tech="Spacial Fracture" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="CreateUnit" unit="Dimensional Shambler" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="0.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="0.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="0.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="0.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+		<exclude>Age 3 Nug and Yeb</exclude>
+		<exclude>Age 3 Yig</exclude>
+		<exclude>Age 3 Dagon</exclude>
+	</tech>
+
+
+	<tech name="Age 4 Noth-Yidik" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120690</displaynameid>
+		<cost resourcetype="Food">1000.0000</cost>
+		<cost resourcetype="Gold">1000.0000</cost>
+		<researchpoints>90.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement cthulhu icon</icon>
+		<rollovertextid>120691</rollovertextid>
+		<prereqsnotmetrollovertextid>17980</prereqsnotmetrollovertextid>
+		<buttonpos row="1" column="2"></buttonpos>
+		<flag>AlwaysShowButton</flag>
+		<flag>AgeUpgrade</flag>
+		<prereqs>
+			<typecount unit="Market" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<specificage>Heroic Age</specificage>
+			<civilization>
+				<civname>Zeus</civname>
+			</civilization>
+			<techstatus status="Active">Can Do Noth-Yidik</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">120698</effect>
+			<effect all="true" type="TextOutput">120699</effect>
+			<effect type="TextOutput">120702</effect>
+
+			<effect type="Sound">researchcomplete1.wav</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hound of Tindalos</target>
+			</effect>
+			<effect type="TechStatus" status="active">Age 4</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Hastur</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Nyarlathotep</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Cthulhu</effect>
+
+	
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Grand Temple</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Yith-Possessed</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Gaunt-Rider</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Penguin-Fletched</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Voice of Noth-Yidik</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Temporal Shade</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Invoker of Time Hunt</target>
+			</effect>
+			<effect tech="Time Hunt" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="CreateUnit" unit="Hound of Tindalos" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="0.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="0.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="0.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="0.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+
+		</effects>
+		<exclude>Age 4 Hastur</exclude>
+		<exclude>Age 4 Nyarlathotep</exclude>
+		<exclude>Age 4 Cthulhu</exclude>
+	</tech>
+
+
+	<tech name="Cultist Spawn Nameless" type="Normal">
+		<dbid></dbid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>HideFromDetailHelp</flag>
+		<prereqs>
+			<civilization>
+				<civname>Zeus</civname>
+			</civilization>
+			<techstatus status="Active">Age 1 Nameless Mist</techstatus>
+			<typecount unit="Temple" count="0.00" state="noneState aliveState " operator="gt"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="0.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="0.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="0.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Cultist" delay="2000.00" generator="Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="0.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Elder Tablets" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120733</displaynameid>
+		<cost resourcetype="Gold">300.0000</cost>
+		<cost resourcetype="Favor">15.0000</cost>
+		<researchpoints>25.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement elder tablets icon</icon>
+		<rollovertextid>120734</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 2 Ubbo-Sathla</techstatus>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Eruption</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Daoloth Formula" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120745</displaynameid>
+		<cost resourcetype="Favor">25.0000</cost>
+		<cost resourcetype="Gold">200.0000</cost>
+		<researchpoints>25.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement daoloth formula</icon>
+		<rollovertextid>120746</rollovertextid>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+			<techstatus status="Active">Age 3 Daoloth</techstatus>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Ritual of Farsight</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Shattered Reality" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120749</displaynameid>
+		<cost resourcetype="Favor">25.0000</cost>
+		<cost resourcetype="Gold">200.0000</cost>
+		<researchpoints>25.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement shattered reality Icon</icon>
+		<rollovertextid>120750</rollovertextid>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+			<techstatus status="Active">Age 4 Noth-Yidik</techstatus>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Splinter Threshold</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Primordial Awareness" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120753</displaynameid>
+		<cost resourcetype="Favor">50.0000</cost>
+		<researchpoints>25.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement primordial awareness Icon</icon>
+		<rollovertextid>120754</rollovertextid>
+		<prereqs>
+			<!--<specificage>Heroic Age</specificage>-->
+			<specificage>Mythic Age</specificage>
+			<techstatus status="Active">Age 1 Nameless Mist</techstatus>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Dark Awakening</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Endless Darkness" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120757</displaynameid>
+		<cost resourcetype="Favor">30.0000</cost>
+		<cost resourcetype="Gold">150.0000</cost>
+		<researchpoints>15.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement endless darkness Icon</icon>
+		<rollovertextid>120758</rollovertextid>
+		<prereqs>
+			<specificage>Classical Age</specificage>
+			<techstatus status="Active">Age 1 Nameless Mist</techstatus>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" action="LightningAttack" amount="1.30" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Temple</target>
+			</effect>
+			<effect type="Data" action="LightningAttack" amount="1.30" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Grand Temple</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.30" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Temple</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.30" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Grand Temple</target>
+			</effect>
+
+		</effects>
+	</tech>
+
+
+	<tech name="Oblivion Call" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120759</displaynameid>
+		<cost resourcetype="Favor">30.0000</cost>
+		<cost resourcetype="Gold">250.0000</cost>
+		<researchpoints>35.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement oblivion call Icon</icon>
+		<rollovertextid>120760</rollovertextid>
+		<prereqs>
+			<specificage>Classical Age</specificage>
+			<techstatus status="Active">Age 1 Nameless Mist</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="Throw" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Voidblob Creature</target>
+			</effect>
+			<effect type="Data" action="Throw" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Voidblob Creature Cultist</target>
+			</effect>
+			<effect type="Data" action="Throw" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Voidblob Creature Voice</target>
+			</effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Corrupted Muscle" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120761</displaynameid>
+		<cost resourcetype="Favor">15.0000</cost>
+		<cost resourcetype="Food">250.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement corrupted muscle Icon</icon>
+		<rollovertextid>120762</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 2 Ubbo-Sathla</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="-0.12" subtype="ArmorVulnerability" damagetype="Hack" relativity="Percent">
+				<target type="ProtoUnit">HumanSoldier</target>
+			</effect>
+			<effect type="Data" amount="-0.12" subtype="ArmorVulnerability" damagetype="Hack" relativity="Percent">
+				<target type="ProtoUnit">Cultist</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Sarkicist Timber" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120763</displaynameid>
+		<cost resourcetype="Favor">20.0000</cost>
+		<cost resourcetype="Food">200.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement sarkicist timber Icon</icon>
+		<rollovertextid>120764</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 2 Ubbo-Sathla</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="-0.15" subtype="ArmorVulnerability" damagetype="Hack" relativity="Percent">
+				<target type="ProtoUnit">Building</target>
+			</effect>
+			<effect type="Data" amount="-0.15" subtype="ArmorVulnerability" damagetype="Crush" relativity="Percent">
+				<target type="ProtoUnit">Building</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Fanged Grip" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120765</displaynameid>
+		<cost resourcetype="Favor">30.0000</cost>
+		<cost resourcetype="Food">150.0000</cost>
+		<researchpoints>40.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement fanged grip Icon</icon>
+		<rollovertextid>120766</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 2 Ubbo-Sathla</techstatus>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" amount="60.00" subtype="Lifespan" relativity="Absolute">
+				<target type="ProtoUnit">Fleshblob Creature</target>
+			</effect>
+			<effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Fleshblob Creature</target>
+			</effect>
+			<effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Giant Flesh Blob</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Pentacle of Planes" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120767</displaynameid>
+		<cost resourcetype="Favor">25.0000</cost>
+		<cost resourcetype="Wood">250.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement pentacle of planes Icon</icon>
+		<rollovertextid>120768</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 3 Daoloth</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="RangedAttack" amount="5.00" subtype="TrackRating" relativity="Assign">
+				<target type="ProtoUnit">Shiner</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="5.00" subtype="TrackRating" relativity="Assign">
+				<target type="ProtoUnit">Starthrower</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Shiner</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Shiner</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Starthrower</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Starthrower</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Futuristic Development" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120769</displaynameid>
+		<cost resourcetype="Favor">20.0000</cost>
+		<cost resourcetype="Gold">350.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement futuristic development Icon</icon>
+		<rollovertextid>120770</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 3 Daoloth</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="0.9" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="TechBuilding">Training Ground</target>
+			</effect>
+			<effect type="Data" amount="0.9" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="TechBuilding">Training Ground</target>
+			</effect>
+			<effect type="Data" amount="0.9" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="TechBuilding">Training Ground</target>
+			</effect>
+			<effect type="Data" amount="0.9" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="TechBuilding">Military Center</target>
+			</effect>
+			<effect type="Data" amount="0.9" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="TechBuilding">Military Center</target>
+			</effect>
+			<effect type="Data" amount="0.9" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="TechBuilding">Military Center</target>
+			</effect>
+			<effect type="Data" amount="0.9" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="TechBuilding">Grand Temple</target>
+			</effect>
+			<effect type="Data" amount="0.9" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="TechBuilding">Grand Temple</target>
+			</effect>
+			<effect type="Data" amount="0.9" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="TechBuilding">Grand Temple</target>
+			</effect>
+			<effect type="Data" amount="0.9" subtype="Cost" resource="Favor" relativity="Percent">
+				<target type="TechBuilding">Grand Temple</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Rent Veil" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120771</displaynameid>
+		<cost resourcetype="Favor">34.0000</cost>
+		<cost resourcetype="Wood">250.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement rent veil Icon</icon>
+		<rollovertextid>120772</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 3 Daoloth</techstatus>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" amount="5.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="BasePercent">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+		</effects>
+	</tech>
+
+
+
+
+	<tech name="Perfect Angle" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120773</displaynameid>
+		<cost resourcetype="Favor">25.0000</cost>
+		<cost resourcetype="Wood">200.0000</cost>
+		<researchpoints>45.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Perfect Angle Icon</icon>
+		<rollovertextid>120774</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 4 Noth-Yidik</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="0.50" subtype="BuildPoints" relativity="BasePercent">
+				<target type="ProtoUnit">Building</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Timeline Shift" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120775</displaynameid>
+		<cost resourcetype="Favor">35.0000</cost>
+		<cost resourcetype="Gold">300.0000</cost>
+		<researchpoints>45.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Timeline Shift Icon</icon>
+		<rollovertextid>120776</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 4 Noth-Yidik</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Yith-Possessed</target>
+			</effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Transgression" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120777</displaynameid>
+		<cost resourcetype="Favor">50.0000</cost>
+		<cost resourcetype="Gold">100.0000</cost>
+		<researchpoints>25.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Transgression Icon</icon>
+		<rollovertextid>120778</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 4 Noth-Yidik</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="BasePercent">
+				<target type="ProtoUnit">Hound of Tindalos</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="TrainPoints" relativity="BasePercent">
+				<target type="ProtoUnit">Invoker of Tine Hunt</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="BuildPoints" relativity="BasePercent">
+				<target type="ProtoUnit">Splinter Threshold</target>
+			</effect>
+
+			<effect type="Data" amount="0.5" subtype="Cost" resource="Favor" relativity="Percent">
+				<target type="TechBuilding">Splinter Threshold</target>
+			</effect>
+
+			<effect type="Data" amount="0.5" subtype="Cost" resource="Favor" relativity="Percent">
+				<target type="ProtoUnit">Invoker of Time Hunt</target>
+			</effect>
+			<effect type="Data" amount="0.5" subtype="Cost" resource="Favor" relativity="Percent">
+				<target type="ProtoUnit">Hound of Tindalos</target>
+			</effect>
+		</effects>
+	</tech>
+
+
+
+	<tech name="Nameless Mist 1" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Nameless Mist</techstatus>
+			<specificage>Classical Age</specificage>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="0.75" subtype="Cost" resource="Favor" relativity="BasePercent">
+				<target type="techAll"></target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Nameless Mist 2" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Nameless Mist</techstatus>
+			<specificage>Heroic Age</specificage>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="0.75" subtype="Cost" resource="Favor" relativity="BasePercent">
+				<target type="techAll"></target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Nameless Mist 3" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Nameless Mist</techstatus>
+			<specificage>Mythic Age</specificage>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="0.75" subtype="Cost" resource="Favor" relativity="BasePercent">
+				<target type="techAll"></target>
+			</effect>
+		</effects>
+	</tech>
 
 
 

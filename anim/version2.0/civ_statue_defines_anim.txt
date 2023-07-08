@@ -179,7 +179,7 @@ define ShennongStand
 define Statue
 {
 	
-    TechLogic none/Aztec Civ/Eldritch Civ/Roman Civ/Demeter Triggered/Age 1 Aten
+    TechLogic none/Aztec Civ/Eldritch Civ/Roman Civ/Demeter Triggered/Age 1 Aten/Age 1 Iapetus Real
 	SetSelector
     {
 		CivilizationLogic isis/ra/set/hades/poseidon/zeus/loki/odin/thor/kronos/gaia/ouranos/fuxi/nuwa/shennong
@@ -371,6 +371,21 @@ define Statue
 				Visual Building E Statue A
 			}
 		}
+
+	}
+
+	SetSelector
+	{
+		Set Hotspot
+		{
+			version
+			{
+				Visual world x statue
+				connect Hotspot KronosStand Hotspot
+			}
+		}
+
+	}
 	
 
 	

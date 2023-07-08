@@ -187,7 +187,6 @@ BlendOrder
    SandB 
    SandC 
    SandD
-   DryLand
    MarshF
    MarshE
    MarshD
@@ -286,7 +285,16 @@ BlendOrder
    CityTileWaterCornerA
    CityTileWaterCornerB
    CityTileWaterCornerC
-   CityTileWaterCornerD
+   CityTileWaterCornerD 
+   CoralZ
+   GreekTileA
+   RockyZ
+   SandZ
+   SandZY
+   ZeusTile
+   GreekTileB
+   WaterZ
+   Aomterrain1
    WhiteBeach0
    WhiteBeach
    WhiteBeachII
@@ -295,17 +303,17 @@ BlendOrder
    WhiteBeachV
    NewEnglandCliff
    NewEnglandCliffa
+   SnowRockies
    Saguenay
+   SaguenayII
    SaguenayIII
-   CoralSeafloor
-   ground1_pam
-   ground2_pam
-   ground3_pam
-   ground4_pam
-   ground5_pam
-   ground6_pam
-   groundforest_pam
-   riverPam
+   Amazon1
+   AztecFloor
+   AztecFloorB
+   AztecFloorCenter
+   Astro Tile
+   Astro TileB
+   waterterra
 
 //=============================================================================
 // This section defines what blend sets to use when blending together two

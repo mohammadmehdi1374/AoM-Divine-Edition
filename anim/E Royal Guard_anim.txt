@@ -94,7 +94,7 @@ define Head
 {
 	SetSelector
 	{
-		TechLogic none/Elite Royal Guard
+		TechLogic none/Champion Royal Guard
 		set hotspot
 		{
 			version
@@ -118,7 +118,7 @@ anim Idle
 {
 	SetSelector
 	{
-		TechLogic none/Elite Royal Guard
+		TechLogic none/Champion Royal Guard
 		set hotspot
 		{
 			version
@@ -149,7 +149,7 @@ anim Walk
 {
 	SetSelector
 	{
-		TechLogic none/Elite Royal Guard
+		TechLogic none/Champion Royal Guard
 		set hotspot
 		{
 			version
@@ -182,7 +182,7 @@ anim Attack
 {
 	SetSelector
 	{
-		TechLogic none/Elite Royal Guard
+		TechLogic none/Champion Royal Guard
 		set hotspot
 		{
 			version
@@ -223,7 +223,7 @@ anim Death
 {
 	SetSelector
 	{
-		TechLogic none/Elite Royal Guard
+		TechLogic none/Champion Royal Guard
 		set hotspot
 		{
 			version
@@ -254,7 +254,7 @@ anim Bored
 {
 	SetSelector
 	{
-		TechLogic none/Elite Royal Guard
+		TechLogic none/Champion Royal Guard
 		set hotspot
 		{
 			version
@@ -285,7 +285,7 @@ anim Flail
 {
 	SetSelector
 	{
-		TechLogic none/Elite Royal Guard
+		TechLogic none/Champion Royal Guard
 		set hotspot
 		{
 			version

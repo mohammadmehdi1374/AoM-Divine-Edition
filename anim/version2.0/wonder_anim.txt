@@ -261,7 +261,7 @@ anim idle
 {
 	SetSelector
 	{
-	TechLogic none/Aztec Civ
+	TechLogic none/Aztec Civ/Demeter Triggered
     SetSelector
     {
 		CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
@@ -970,6 +970,42 @@ anim idle
 				}
 			}
 		}
+
+
+		SetSelector
+			{	
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Demeter_Wonder
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Poisiden Wonder Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G HadesWonder Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G HadesWonder Con3
+					}
+				}
+			}
+
+
 	}
 }
 
@@ -978,7 +1014,7 @@ anim Death
 {
 	SetSelector
 	{
-	TechLogic none/Aztec Civ
+	TechLogic none/Aztec Civ/Demeter Triggered
     SetSelector
     {
 		CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
@@ -1842,5 +1878,39 @@ anim Death
 				}
 			}
 		}
+SetSelector
+			{	
+				ConstructionLogic 0 33 66
+				set hotspot
+				{
+					version
+					{
+						Visual Demeter_Wonder
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G Poisiden Wonder Con1
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G HadesWonder Con2
+					}
+				}
+				set hotspot
+				{
+					version
+					{
+						Visual Building G HadesWonder Con3
+					}
+				}
+			}
+
+
 	}
 }

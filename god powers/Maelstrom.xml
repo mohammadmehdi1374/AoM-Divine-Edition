@@ -17,10 +17,10 @@
 		<basedamagepercentvillager>0.30</basedamagepercentvillager>
 		<basedamagepercentbuilding>0.80</basedamagepercentbuilding>
 		<minhpdamageunit>650</minhpdamageunit>
-		<minhpdamagevillager>550</minhpdamagevillager>
+		<minhpdamagevillager>150</minhpdamagevillager>
 		<minhpdamagebuilding>500</minhpdamagebuilding>
 		<maxhpdamageunit>1000</maxhpdamageunit>
-		<maxhpdamagevillager>550</maxhpdamagevillager>
+		<maxhpdamagevillager>150</maxhpdamagevillager>
 		<maxhpdamagebuilding>500</maxhpdamagebuilding>
 	</gpdamagemodel>
 	<gpdamagemodel>
@@ -30,9 +30,9 @@
 		<basedamagepercentbuilding>0.5</basedamagepercentbuilding>
 		<minhpdamageunit>100</minhpdamageunit>
 		<minhpdamagevillager>70</minhpdamagevillager>
-		<minhpdamagebuilding>200</minhpdamagebuilding>
+		<minhpdamagebuilding>100</minhpdamagebuilding>
 		<maxhpdamageunit>500</maxhpdamageunit>
-		<maxhpdamagevillager>250</maxhpdamagevillager>
+		<maxhpdamagevillager>150</maxhpdamagevillager>
 		<maxhpdamagebuilding>500</maxhpdamagebuilding>
 	</gpdamagemodel>
 	<tornadosfx>Maelstrom3</tornadosfx>

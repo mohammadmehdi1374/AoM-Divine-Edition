@@ -43,7 +43,8 @@ define Aura
    {
       version
       {
-         Visualparticle sfx x monster gate glow
+         //Visualparticle sfx x monster gate glow
+		 Visualparticle sfx e pharaoh empower large
       }
    }
 }

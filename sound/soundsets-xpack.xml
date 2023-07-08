@@ -4555,22 +4555,22 @@
 		<sound filename="Bloodcurse.wav" volume="1.0000"></sound>
 	</soundset>
 
-	<soundset name="EBoarAttack" volume="0.9000" maxnum="2">
+	<soundset name="EBoarAttack" volume="3.0000" maxnum="2">
 		<sound filename="EBoarAttack1.mp3" volume="1.0000"></sound>
 		<sound filename="EBoarAttack2.mp3" volume="1.0000"></sound>
 	</soundset>
 	<soundset name="EBoarHit" volume="0.8500" maxnum="1">
 		<sound filename="EBoarHit.mp3" volume="0.9500"></sound>
 	</soundset>
-	<soundset name="EBoarSelect" volume="0.9000" maxnum="2">
+	<soundset name="EBoarSelect" volume="2.0000" maxnum="2">
 		<sound filename="EBoarSelect1.mp3" volume="1.0000"></sound>
 		<sound filename="EBoarSelect2.mp3" volume="1.0000"></sound>
 	</soundset>
-	<soundset name="EBoarMove" volume="0.9000" maxnum="2">
+	<soundset name="EBoarMove" volume="1.5000" maxnum="2">
 		<sound filename="EBoarMove1.mp3" volume="0.9000"></sound>
 		<sound filename="EBoarMove2.mp3" volume="0.9000"></sound>
 	</soundset>
-	<soundset name="EBoarDeath" volume="0.9500" maxnum="1">
+	<soundset name="EBoarDeath" volume="1.600" maxnum="1">
 		<sound filename="EBoarDeath1.mp3" volume="0.9500"></sound>
 	</soundset>
 	<soundset name="EBoarGore" volume="0.9500" maxnum="1">
@@ -4779,7 +4779,7 @@
 	<soundset name="OrthusGrunt" volume="0.8500" maxnum="1">
 		<sound filename="OrthusGrunt.wav" volume="0.9500"></sound>
 	</soundset>
-	<soundset name="OrthusSelect" volume="0.7000" maxnum="2">
+	<soundset name="OrthusSelect" volume="0.9000" maxnum="2">
 		<sound filename="OrthusSelect1.wav" volume="0.7000"></sound>
 		<sound filename="OrthusSelect2.wav" volume="0.7000"></sound>
 	</soundset>
@@ -5583,7 +5583,7 @@
 		<sound filename="CougarMove.wav" volume="1.0000"></sound>
 		<sound filename="CougarGrunt2.wav" volume="1.0000"></sound>
 	</soundset>
- 	<soundset name="Maelstrom" volume="2.0000" maxnum="3">
+ 	<soundset name="Maelstrom" volume="1.0000" maxnum="3">
 		<sound filename="TornadoExist.wav" volume="1.5000"></sound>
 	</soundset>
 	<soundset name="CloudGiantExist" volume="1.0000" maxnum="1">
@@ -5676,7 +5676,7 @@
 		<sound filename="TornadoBreath.mp3" volume="1.0000"></sound>
 	</soundset>
 	<soundset name="FavorPray" volume="2.5000" maxnum="1">
-		<sound filename="Favor Chant.mp3" volume="3.0000"></sound>
+		<sound filename="Favor Chant.mp3" volume="1.5000"></sound>
 	</soundset>
 	<soundset name="QuetzalcoatlAttack" volume="1.0000">
 		<sound filename="QuetzalcoatlAttack.mp3" volume="1.0000"></sound>

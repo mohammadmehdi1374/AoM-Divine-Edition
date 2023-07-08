@@ -14,11 +14,11 @@
 		<basedamagepercentunit>0.4</basedamagepercentunit>
 		<basedamagepercentvillager>0.25</basedamagepercentvillager>
 		<basedamagepercentbuilding>0.0</basedamagepercentbuilding>
-		<minhpdamageunit>150</minhpdamageunit>
-		<minhpdamagevillager>150</minhpdamagevillager>
+		<minhpdamageunit>160</minhpdamageunit>
+		<minhpdamagevillager>160</minhpdamagevillager>
 		<minhpdamagebuilding>0</minhpdamagebuilding>
-		<maxhpdamageunit>190</maxhpdamageunit>
-		<maxhpdamagevillager>190</maxhpdamagevillager>
+		<maxhpdamageunit>160</maxhpdamageunit>
+		<maxhpdamagevillager>160</maxhpdamagevillager>
 		<maxhpdamagebuilding>0</maxhpdamagebuilding>
 	</gpdamagemodel>
 	<abstracttype swapto="Yig Snake Temp">AbstractVillager</abstracttype>

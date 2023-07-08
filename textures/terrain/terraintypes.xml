@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<terraintypes version="2" edgetype="Crust" edgedensity="8">
+<terraintypes version="3" edgetype="Crust" edgedensity="8">
 	<type name="PassableLand" uiname="Land" mapcolor="183 206 220" impassablewater="">
 		<uiclass uiname="Grass">
 			<subtype mapcolor="123 159 46">GrassA</subtype>
@@ -34,28 +34,19 @@
 			<subtype mapcolor="123 159 46">PlainDirt50</subtype>
 			<subtype mapcolor="123 159 46">PlainDirt75</subtype>
 			<subtype mapcolor="123 159 46">CliffPlainB</subtype>
-			<subtype mapcolor="123 159 46">WhiteBeachII</subtype>
-			<subtype mapcolor="123 159 46">WhiteBeachIII</subtype>
-			<subtype mapcolor="123 159 46">WhiteBeachIV</subtype>
-			<subtype mapcolor="123 159 46">WhiteBeachV</subtype>
+			<subtype mapcolor="123 159 46">Aomterrain1</subtype>
+			<subtype mapcolor="123 159 46">Saguenay</subtype>
+			<subtype mapcolor="123 159 46">SaguenayII</subtype>
+			<subtype mapcolor="123 159 46">SaguenayIII</subtype>
+			<subtype mapcolor="123 159 46">SnowRockies</subtype>
 			<subtype mapcolor="123 159 46">NewEnglandCliff</subtype>
 			<subtype mapcolor="123 159 46">NewEnglandCliffa</subtype>
-			<subtype mapcolor="123 159 46">Saguenay</subtype>
-			<subtype mapcolor="123 159 46">SaguenayIII</subtype>
+			<subtype mapcolor="123 159 46">Amazon1</subtype>
 		</uiclass>
 		<uiclass uiname="Dirt">
 			<subtype mapcolor="216 217 180">DirtA</subtype>
 			<subtype mapcolor="123 159 46">DirtB</subtype>
 			<subtype mapcolor="123 159 46">DirtC</subtype>
-			<subtype mapcolor="123 159 46" lush="GaiaCreepASand" lushedge="GaiaCreepBorderSand">DryLand</subtype>
-			<subtype mapcolor="216 217 180">ground1_pam</subtype>
-			<subtype mapcolor="123 159 46">ground2_pam</subtype>
-			<subtype mapcolor="123 159 46">ground3_pam</subtype>
-			<subtype mapcolor="216 217 180">ground4_pam</subtype>
-			<subtype mapcolor="123 159 46">ground5_pam</subtype>
-			<subtype mapcolor="123 159 46">ground6_pam</subtype>
-			<subtype mapcolor="216 217 180">groundforest_pam</subtype>
-			<subtype mapcolor="123 159 46">riverPam</subtype>
 		</uiclass>
 		<uiclass uiname="Sand">
 			<subtype mapcolor="185 160 115" lush="GaiaCreepASand" lushedge="GaiaCreepBorderSand">SandA</subtype>
@@ -65,6 +56,8 @@
 			<subtype mapcolor="185 160 115" lush="GaiaCreepASand" lushedge="GaiaCreepBorderSand">CliffEgyptianB</subtype>
 			<subtype mapcolor="185 160 115" lush="GaiaCreepASand" lushedge="GaiaCreepBorderSand">SandDirt50</subtype>
 			<subtype mapcolor="185 160 115" lush="GaiaCreepASand" lushedge="GaiaCreepBorderSand">SandDirt50b</subtype>
+			<subtype mapcolor="185 160 115" lush="GaiaCreepASand" lushedge="GaiaCreepBorderSand">SandZ</subtype>
+			<subtype mapcolor="185 160 115" lush="GaiaCreepASand" lushedge="GaiaCreepBorderSand">SandZY</subtype>
 		</uiclass>
 		<uiclass uiname="Snow">
 			<subtype mapcolor="183 206 210" lush="GaiaCreepASnow" lushedge="GaiaCreepBorderSnow">SnowA</subtype>
@@ -79,7 +72,7 @@
 		</uiclass>
 		<uiclass uiname="Olympus">
 			<subtype mapcolor="183 206 210">OlympusA</subtype>
-			<subtype mapcolor="183 206 210">OlympusB</subtype>
+			<subtype mapcolor="83 106 110">OlympusB</subtype>
 			<subtype mapcolor="183 206 210">OlympusC</subtype>
 			<subtype mapcolor="183 206 210">OlympusTile</subtype>
 		</uiclass>
@@ -120,6 +113,13 @@
 			<subtype mapcolor="185 160 115">CityTileWaterCornerB</subtype>
 			<subtype mapcolor="185 160 115">CityTileWaterCornerC</subtype>
 			<subtype mapcolor="185 160 115">CityTileWaterCornerD</subtype>
+			<subtype mapcolor="185 160 115">GreekTileA</subtype>
+			<subtype mapcolor="185 160 115">GreekTileB</subtype>
+			<subtype mapcolor="185 160 115">RockyZ</subtype>
+			<subtype mapcolor="185 160 115">ZeusTile</subtype>
+			<subtype mapcolor="185 160 115">AztecFloor</subtype>
+			<subtype mapcolor="185 160 115">AztecFloorB</subtype>
+			<subtype mapcolor="185 160 115">AztecFloorCenter</subtype>
 		</uiclass>
 		<uiclass uiname="Scenario">
 			<subtype mapcolor="150 150 150">Hadesbuildable1</subtype>
@@ -164,6 +164,10 @@
 			<subtype mapcolor="50 50 50">HadesCliff</subtype>
 			<subtype mapcolor="215 40 25">Hades4</subtype>
 			<subtype mapcolor="0 0 0">BlackRock</subtype>
+		
+	
+			<subtype mapcolor="0 0 0">Astro Tile</subtype>
+			<subtype mapcolor="0 0 0">Astro TileB</subtype>
 		</uiclass>
 	</type>
 	<type name="Underwater" uiname="Shore/Underwater" mapcolor="215 215 195">
@@ -185,7 +189,7 @@
 			<subtype>coralD</subtype>
 			<subtype>coralE</subtype>
 			<subtype>coralF</subtype>
-			<subtype>CoralSeafloor</subtype>
+			<subtype>coralZ</subtype>
 		</uiclass>
 	</type>
 	<type name="Shoreline" uiname="Shoreline/Passable All" mapcolor="215 215 195">
@@ -231,8 +235,14 @@
 			<subtype>RiverMarshA</subtype>
 			<subtype>RiverMarshB</subtype>
 			<subtype>RiverMarshC</subtype>
+			<subtype>WaterZ</subtype>
 			<subtype>WhiteBeach0</subtype>
 			<subtype>WhiteBeach</subtype>
+			<subtype>WhiteBeachII</subtype>
+			<subtype>WhiteBeachIII</subtype>
+			<subtype>WhiteBeachIV</subtype>
+			<subtype>WhiteBeachV</subtype>
+			<subtype>waterterra</subtype>
 		</uiclass>
 	</type>
 	<type name="Ice" uiname="Ice/Passable All Nonbuildable" mapcolor="155 185 205" impassablewater="" nonsolid="">

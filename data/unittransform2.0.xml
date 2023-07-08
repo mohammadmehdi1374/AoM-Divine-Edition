@@ -212,4 +212,8 @@
 		<from>Praetorian</from>
 		<to>Praetorian Prefect</to>
 	</transform>
+	<transform>
+		<from>Eruption</from>
+		<to>Gianter Flesh Blob Fake</to>
+	</transform>
 </unittransforms>
