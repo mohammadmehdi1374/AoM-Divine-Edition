@@ -6,6 +6,7 @@ This is the largest and most ambitious mod for Age of Mythology in the history o
   - Azathoth
   - Yog-Sothoth
   - Shub-Niggurath
+  - The Nameless Mist <-- Temporarily replacing Erebus
 - The Aztecs (First Cosmology)
   - Tezcatlipoca
   - Quetzalcoatl
@@ -15,8 +16,14 @@ This is the largest and most ambitious mod for Age of Mythology in the history o
   - Juno
   - Minerva
 - Extended Pantheons
-  - Demeter (Greek) <-- Currently available through Khaos
-  - Aten (Egyptian) <-- Currently available through Chronos
+  - Demeter (Greek) <-- Temporarily replacing Khaos
+  - Aten (Egyptian) <-- Temporarily replacing Chronos
+  - Freyr (Norse) <-- Temporarily replacing Ananke
+  - Iapetus (Atlantean) <-- Temporarily replacing Nyx
+- Chinese 2.0
+  - Fu Xi <-- Available under Enlil
+  - Nu Wa <-- Available under Inanna
+  - Shennong <-- Available under Marduk
   
 
 As the mod is very large, hosting it on Steam Workshop is not practical. As such, users of this mod will need to keep it up-to-date by either pulling changes using git or re-downloading it after every patch. For patch notifications and general discussions, join our discord! https://discord.gg/ZuZKfWzV2Z
@@ -65,6 +72,7 @@ As the mod is very large, hosting it on Steam Workshop is not practical. As such
 - Using the "LETS GO!  NOW!" cheat at the beginning of the game will result in overlapping music from 1-2 minutes in.
 - In multiplayer, with more than six players all playing Eldritch or Japanese, you may experience slightly more lag.
 - I have no idea how saved games will react to this mod, try at your own risk. 
+- Recorded games require that you jump through several hoops (see discord post on the topic).
 - To edit hotkeys for many units, you will need to enter the hotkey twice: once to make the hotkey work, once to make it display properly ingame. 
 - It is very possible that your units lost counter for the Eldritch will be insanely inaccurate. I haven't tested that fully yet.
 - Your favorite unit/favorite myth unit may be incorrect. I thought I got all of the tags correct, but it's possible I missed some.
