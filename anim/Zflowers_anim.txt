@@ -3,7 +3,6 @@
 //==============================================================================
 
 
-
 //==============================================================================
 anim None
 {
@@ -15,7 +14,6 @@ anim None
 			version
 			{
 				Visual GreatPlainsFlowers
-				
 			}
 		}
 		set hotspot
@@ -23,7 +21,6 @@ anim None
 			version
 			{
 				Visual ShrubTexas
-				
 			}
 		}
 		set hotspot
@@ -31,7 +28,6 @@ anim None
 			version
 			{
 				Visual FlowerBunch
-				
 			}
 		}
 	}

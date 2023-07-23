@@ -9,6 +9,9 @@
 	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
 	<playsbattlemusic></playsbattlemusic>
 	
+	<powerblocker>30.0f</powerblocker>
+	
+	
 	<rangeindicatorprotoid radius="20.0" indicatorcount="8" speed="0.2">UI Range Indicator Egypt SFX</rangeindicatorprotoid>
 	<createunit quantity="1"  minradius="0" maxradius="0" pattern="symmetric"  delay="0.0">Inferno Fire Ground</createunit>
 	<createunit quantity="10"  minradius="5" maxradius="5" pattern="symmetric"  delay="0.0">Inferno Fire Ground</createunit>

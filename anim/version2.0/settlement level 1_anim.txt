@@ -130,7 +130,7 @@ anim Idle
 {
     SetSelector
     {
-    TechLogic none/Aztec Civ/Roman Civ
+    TechLogic none/Aztec Civ/Roman Civ/Lakota Civ
     SetSelector
     {
         CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
@@ -2681,6 +2681,20 @@ SetSelector
             }
          }
 
+
+    SetSelector  
+	{
+		set hotspot
+		{
+			version
+			{
+				Visual LakotaTownCenter4
+			}
+		}
+
+	}
+
+
     }
 }
 //==============================================================================
@@ -2688,7 +2702,7 @@ anim RangedAttack
 {
     SetSelector
     {
-    TechLogic none/Aztec Civ/Roman Civ
+    TechLogic none/Aztec Civ/Roman Civ/Lakota Civ
     SetSelector
     {
         CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
@@ -4067,6 +4081,24 @@ ReplaceTexture Building G Settlement02/Building Eld Settlement02
                }
             }
          }
+
+         SetSelector  
+	{
+		set hotspot
+		{
+			version
+			{
+				Visual LakotaTownCenter4
+
+                tag Attack 0.40 true
+                tag GenericSound 0.40 true
+                tag SpecificSoundSet 0.40 false Arrow checkVisible
+			}
+		}
+
+	}
+
+
     }
 }
 //==============================================================================
@@ -4074,7 +4106,7 @@ anim Death
 {
     SetSelector
     {
-    TechLogic none/Aztec Civ/Roman Civ
+    TechLogic none/Aztec Civ/Roman Civ/Lakota Civ
     SetSelector
     {
         CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
@@ -5298,6 +5330,18 @@ SetSelector
                }
             }
          }
+
+         SetSelector  
+	{
+		set hotspot
+		{
+			version
+			{
+				Visual LakotaTownCenter4
+			}
+		}
+
+	}
 
     }
 }

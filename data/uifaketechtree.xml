@@ -3,54 +3,98 @@
 <layout>
 	<gadget name="FakeTechTree-Root" type="dialog" size1024="0 0 1024 768" bevel="" backgroundcolor="100 100 100" closebutton="" z="101" blockmoderendering="" closeonesc="" contextexclusive="faketechtree" windowzstyle="" dontautoclose="">
 		<gadget z="20" name="FakeTechTree-Rollover" type="formatText" textcolor="255 255 255" textmarkup="" size1024="12 94 360 189" textfont="TechTreeRollover" textfontsize="14">Here is some fake help!  Let's see if it shows!</gadget>
-		<gadget name="FakeTechTree-CivSelect" type="scrollList" size1024="22 23 154 77" z="20" textfontsize="16" textfont="ScrollFont" textcolor="0 0 58" background="ui\ui scroll middle tile" tilebackground="" topcapart="ui\ui scroll top tile" bottomcapart="ui\ui scroll bottom tile" leftcapart="ui\ui scroll cap left" rightcapart="ui\ui scroll cap right" border1024="3 0" listitemheight="20" mouseovertext="$$21491$$This shows the god that you are currently viewing.  Click on the scroll to view information for a different god.">
+		<gadget name="FakeTechTree-CivSelect" type="scrollList" size1024="22 0 154 54" z="20" textfontsize="16" textfont="ScrollFont" textcolor="0 0 58" background="ui\ui scroll middle tile" tilebackground="" topcapart="ui\ui scroll top tile" bottomcapart="ui\ui scroll bottom tile" leftcapart="ui\ui scroll cap left" rightcapart="ui\ui scroll cap right" border1024="3 0" listitemheight="20" mouseovertext="$$21491$$This shows the god that you are currently viewing.  Click on the scroll to view information for a different god.">
 			<listitem>$$18610$$Zeus</listitem>
 			<listitem>$$18611$$Poseidon</listitem>
 			<listitem>$$18612$$Hades</listitem>
 			<listitem>$$18613$$Isis</listitem>
 			<listitem>$$18614$$Ra</listitem>
+			
 			<listitem>$$18615$$Set</listitem>
 			<listitem>$$18616$$Odin</listitem>
 			<listitem>$$18617$$Thor</listitem>
 			<listitem>$$18618$$Loki</listitem>
 			<listitem>$$22759$$Kronos</listitem>
+			
 			<listitem>$$22760$$Oranos</listitem>
 			<listitem>$$22761$$Gaia</listitem>
 			<listitem>$$50000$$Fuxi</listitem>
 			<listitem>$$50001$$Nuwa</listitem>
 			<listitem>$$50002$$Shennong</listitem>
-			<listitem>(NOT DONE) Azathoth</listitem>
-			<listitem>(NOT DONE) Yog-Sothoth</listitem>
-			<listitem>(NOT DONE) Shub-Niggurath</listitem>
+			
+			<listitem>Azathoth</listitem>
+			<listitem>Yog-Sothoth</listitem>
+			<listitem>Shub-Niggurath</listitem>
+			
 			<listitem>Tezcatlipoca</listitem>
 			<listitem>Quetzalcoatl</listitem>
 			<listitem>Huitzilopochtli</listitem>
+			
 			<listitem>(NOT DONE) Izanagi</listitem>
 			<listitem>(NOT DONE) Izanami</listitem>
 			<listitem>(NOT DONE) Kagu-Tsuchi</listitem>
-			<listitem>Demeter</listitem> <!-- Khaos-->
-			<listitem>Aten</listitem> <!-- Chronos-->
-			<listitem>Freyr</listitem> <!-- Ananke-->
-			<listitem>Iapetus</listitem> <!-- Nyx-->
-			<listitem>(NOT DONE) Tartarus</listitem>
-			<listitem>(NOT DONE) Erebus</listitem>
+			
+			<listitem>Demeter</listitem>
+			<listitem>Aten</listitem>
+			<listitem>Freyr</listitem>
+			<listitem>Iapetus</listitem>
+			<listitem>Nameless Mist</listitem>
+			
+			<listitem>(NOT DONE) ???</listitem>
+			
 			<listitem>Jupiter</listitem>
 			<listitem>Juno</listitem>
 			<listitem>Minerva</listitem>
+			
 			<listitem>(NOT DONE) Surtr</listitem>
-			<listitem>(NOT DONE) Ymir</listitem>
-			<!-- These do not fit...
-			<listitem>Aegir</listitem>
-			<listitem>Hanwi</listitem>
-			<listitem>Unci Makha</listitem>
-			<listitem>Anpetu Wi</listitem>
-			<listitem>The Dagda</listitem>
-			<listitem>Lugh</listitem>
-			<listitem>Morrigan</listitem>
-			<listitem>Enlil</listitem>
-			<listitem>Inanna</listitem>
-			<listitem>Marduk</listitem>
-			-->
+			<listitem>(NOT DONE) Ymir</listitem> <!-- 20 -->
+			<listitem>(NOT DONE) Aegir</listitem> <!-- 21 -->
+
+		</gadget>
+
+		<gadget name="FakeTechTree-CivSelect-2" type="scrollList" size1024="22 39 154 93" z="20" textfontsize="16" textfont="ScrollFont" textcolor="0 0 58" background="ui\ui scroll middle tile" tilebackground="" topcapart="ui\ui scroll top tile" bottomcapart="ui\ui scroll bottom tile" leftcapart="ui\ui scroll cap left" rightcapart="ui\ui scroll cap right" border1024="3 0" listitemheight="20" mouseovertext="$$21491$$This shows the god that you are currently viewing.  Click on the scroll to view information for a different god.">
+			<listitem>(NOT DONE) Wi</listitem> <!-- 22 -->
+			<listitem>(NOT DONE) Unci Makha</listitem>
+			<listitem>(NOT DONE) Hihan-Kaga</listitem>
+			
+			<listitem>(NOT DONE) The Dagda</listitem>
+			<listitem>(NOT DONE) Lugh</listitem>
+			<listitem>(NOT DONE) Morrigan</listitem>
+			
+			<listitem>(NOT DONE) Enlil</listitem>
+			<listitem>(NOT DONE) Inanna</listitem>
+			<listitem>(NOT DONE) Marduk</listitem>
+
+			<listitem>(NOT DONE) Khaos</listitem>
+			<listitem>(NOT DONE) Chronos</listitem>
+			<listitem>(NOT DONE) Nyx</listitem>
+			<listitem>(NOT DONE) Erebus</listitem>
+			<listitem>(NOT DONE) Tartarus</listitem>
+
+			<listitem>(NOT DONE) Lucifer</listitem>
+			<listitem>(NOT DONE) Baal</listitem>
+			<listitem>(NOT DONE) Wisdom of Solomon</listitem>
+			
+			<listitem>(NOT DONE) Slav 1</listitem>
+			<listitem>(NOT DONE) Slav 2</listitem>
+			<listitem>(NOT DONE) Slav 3</listitem>
+			
+			<listitem>(NOT DONE) ???</listitem>
+			<listitem>(NOT DONE) ???</listitem>
+			<listitem>(NOT DONE) ???</listitem>
+			<listitem>(NOT DONE) ???</listitem>
+			<listitem>(NOT DONE) ???</listitem>
+			
+			<listitem>(NOT DONE) RotG Tez</listitem>
+			<listitem>(NOT DONE) RotG Quetz</listitem>
+			<listitem>(NOT DONE) RotG Huitz</listitem>
+			<listitem>(NOT DONE) RotG Mayan 1</listitem>
+			<listitem>(NOT DONE) RotG Mayan 2</listitem>
+			<listitem>(NOT DONE) RotG Mayan 3</listitem>
+			<listitem>(NOT DONE) RotG Inca 1</listitem>
+			<listitem>(NOT DONE) RotG Inca 2</listitem>
+			<listitem>(NOT DONE) RotG Inca 3</listitem>			
+
 		</gadget>
 		
 		<gadget name="Age Names" type="gadget" size1024="8 191 993 245" z="20">
@@ -229,32 +273,652 @@
 				</gadget>
 			</div>
 			<div name="FakeTechTree-New1" hidden="" size1024="0 0 1024 768">
-				<gadget name="FakeTechTree-New1-XXX" hidden="" type="gadget" size1024="175 22 232 79" mouseovertext="azathoth" background="ui\god minor icon egypt anubis"></gadget>
-				<gadget name="FakeTechTree-New1-TechNode-Bolt GPXXX" hidden=""  type="button" size1024="242 34 274 66">Bolt</gadget>
-				<gadget name="FakeTechTree-New1-TechNode-PegasusXXX" hidden="" type="button" size1024="285 34 317 66">Pegasus</gadget>
+				<gadget name="FakeTechTree-New1-XXX" hidden="" type="button" size1024="175 22 232 79">Age 1 Azathoth</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Bolt GPXXX" hidden=""  type="button" size1024="240 25 265 50">Schism</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-PegasusXXX" hidden="" type="button"  size1024="271 25 296 50">The Black Man's Blessing</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-PegasusXXX" hidden="" type="button"  size1024="302 25 327 50">Dreamland Village</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-PegasusXXX" hidden="" type="button"  size1024="333 25 358 50">Shard of Space</gadget>
+
+				<gadget name="FakeTechTree-New1-TechNode-PegasusXXX" hidden="" type="button" size1024="240 55 265 80">Dream of Plenty</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-PegasusXXX" hidden="" type="button" size1024="271 55 296 80">Voice of Azathoth</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-PegasusXXX" hidden="" type="button" size1024="302 55 327 80">Black Hole</gadget>
 
 
-				<gadget name="FakeTechTree-New1-PoseidonBackgroundx" hidden="" type="gadget" size1024="0 0 1024 768" z="1">
-					<gadget name="PoseidonBackground1x" type="gadget" size1024="0 0 256 256" background="UI\techTreePoseidon1" clampbackground=""></gadget>
-					<gadget name="PoseidonBackground2x" type="gadget" size1024="256 0 512 256" background="UI\techTreePoseidon2" clampbackground=""></gadget>
-					<gadget name="PoseidonBackground3x" type="gadget" size1024="512 0 768 256" background="UI\techTreePoseidon3" clampbackground=""></gadget>
-					<gadget name="PoseidonBackground4x" type="gadget" size1024="768 0 1024 256" background="UI\techTreePoseidon4" clampbackground=""></gadget>
-					<gadget name="PoseidonBackground5x" type="gadget" size1024="0 256 256 512" background="UI\techTreePoseidon5" clampbackground=""></gadget>
-					<gadget name="PoseidonBackground6x" type="gadget" size1024="256 256 512 512" background="UI\techTreePoseidon6" clampbackground=""></gadget>
-					<gadget name="PoseidonBackground7x" type="gadget" size1024="512 256 768 512" background="UI\techTreePoseidon7" clampbackground=""></gadget>
-					<gadget name="PoseidonBackground8x" type="gadget" size1024="768 256 1024 512" background="UI\techTreePoseidon8" clampbackground=""></gadget>
-					<gadget name="PoseidonBackground9x" type="gadget" size1024="0 512 256 768" background="UI\techTreePoseidon9" clampbackground=""></gadget>
-					<gadget name="PoseidonBackground10x" type="gadget" size1024="256 512 512 768" background="UI\techTreePoseidon10" clampbackground=""></gadget>
-					<gadget name="PoseidonBackground11x" type="gadget" size1024="512 512 768 768" background="UI\techTreePoseidon11" clampbackground="" clampforeground=""></gadget>
-					<gadget name="PoseidonBackground12x" type="gadget" size1024="768 512 1024 768" background="UI\techTreePoseidon12" clampbackground=""></gadget>
+
+
+				<gadget name="FakeTechTree-New1-TechNode-Hermes" type="button"  size1024="380 13 436 69">Age 2 Atlach-Nacha</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button" size1024="445 13 475 43">Spinners Call</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button" size1024="482 13 512 43">Hyperborean Blades</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button" size1024="519 13 549 43">Silken Garb</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button" size1024="556 13 586 43">Dreams of the Mountain</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button" size1024="445 53 475 83">Spider of Leng</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button" size1024="482 53 512 83">Form of the Spider</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button" size1024="519 53 549 83">Voice of Atlach-Nacha</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button" size1024="556 53 586 83">Dreamlike Spool</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button" size1024="406 74 436 104">Weavers Transformation</gadget>
+
+				<gadget name="FakeTechTree-New1-TechNode-Hermes" type="button"  size1024="380 113 436 169">Age 2 Tsathoggua</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button" size1024="445 113 475 143">Wrath of the Vile</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button" size1024="482 113 512 143">Lusts of Klarkash-Ton</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button" size1024="519 113 549 143">Basalt Construction</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button" size1024="556 113 586 143">Vile Jelly</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button" size1024="445 153 475 183">Formless Spawn</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button" size1024="482 153 512 183">Form of Blood</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button" size1024="519 153 549 183">Voice of Tsathoggua</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button" size1024="556 153 586 183">Voormi Drums</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button" size1024="406 174 436 204">Twisted Statue</gadget>
+
+				<gadget name="FakeTechTree-New1-TechNode-Apollo" type="button"    size1024="596 13 652 69">Age 3 Nug and Yeb</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="661 13 691 43">Pillars of Irem</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="698 13 728 43">Torch of Nug</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="735 13 765 43">Furnace of Yeb</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="772 13 802 43">Tsathian Citadel</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="661 53 691 83">Ghoul</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="698 53 728 83">Ghoul Born</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="735 53 765 83">Voice of Nug and Yeb</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="772 53 802 83">Darkened Votive</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button"   size1024="622 74 652 104">Ritual of the Black Flame</gadget>
+
+
+				<gadget name="FakeTechTree-New1-TechNode-Apollo" type="button"    size1024="596 113 652 169">Age 3 Yig</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="661 113 691 143">Yigs Curse</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="698 113 728 143">Feeding Frenzy</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="735 113 765 143">Guardian Serpents</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="772 113 802 143">Drums of Fall</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="661 153 691 183">Serpent of Yig</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="698 153 728 183">Serpent Shed</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="735 153 765 183">Voice of Yig</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="772 153 802 183">Ancient Penance</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button"   size1024="622 174 652 204">Ritual of Serpents</gadget>
+
+
+				<gadget name="FakeTechTree-New1-TechNode-Apollo" type="button"    size1024="812 13 868 69">Age 4 Cthulhu</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="875 13 905 43">The End</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="912 13 942 43">Rlyeh Architecture 2</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="949 13 979 43">Stellar Alignment</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="986 13 1016 43">Dreamers Blessing</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="875 53 905 83">Shoggoth</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="912 53 942 83">Endbringer</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="949 53 979 83">Voice of Cthulhu</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="986 53 1016 83">Seastone Totem</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button"   size1024="838 74 868 104">Maw of the Deep</gadget>
+
+
+				<gadget name="FakeTechTree-New1-TechNode-Apollo" type="button"    size1024="812 113 868 169">Age 4 Nyarlathotep</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="875 113 905 143">Incarnation</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="912 113 942 143">Humanity</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="949 113 979 143">Spark of Wisdom</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="986 113 1016 143">The Shining Trapezohedron</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="875 153 905 183">Faceless One</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="912 153 942 183">Geometric Mage</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="949 153 979 183">Voice of Nyarlathotep</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Manticore" type="button" size1024="986 153 1016 183">Oaths of Fealty</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Centaur" type="button"   size1024="838 174 868 204">Ritual of Loyalty</gadget>
+
+				<gadget name="FakeTechTree-New1-TechNode-TC" type="button" size1024="25 255 55 285">Settlement Level 1</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-TC" type="button" size1024="65 255 95 285">Attainted Town Center</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-TC" type="button" size1024="105 255 135 285">Townsfolk</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-TC" type="button" size1024="145 255 175 285">Cultist</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-TC" type="button" size1024="25 295 55 325">Mill</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-TC" type="button" size1024="65 295 95 325">Husbandry</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-TC" type="button" size1024="105 295 135 325">Hunting Dogs</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-TC" type="button" size1024="145 295 175 325">Hand Axe</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-TC" type="button" size1024="25 335 55 365">Safehouse</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-TC" type="button" size1024="65 335 95 365">Pickaxe</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-TC" type="button" size1024="25 375 55 405">Dock</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-TC" type="button" size1024="65 375 95 405">Fishing Ship Eldritch</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-TC" type="button" size1024="25 415 55 445">Wall Connector</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-TC" type="button" size1024="25 455 55 485">House</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-TC" type="button" size1024="25 495 55 525">Temple</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-TC" type="button" size1024="65 495 95 525">Dedication</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-TC" type="button" size1024="105 495 135 525">Dream</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-TC" type="button" size1024="25 535 55 565">Town Hall</gadget>
+
+
+
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="275 255 305 285">Masons</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="275 295 305 325">Bow Saw</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="315 295 345 325">Plow</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="275 335 305 365">Shaft Mine</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="275 375 305 405">Trireme</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="315 375 345 405">Transport Ship Greek</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="355 375 385 405">Purse Seine</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="395 375 425 405">Enclosed Deck</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="435 375 465 405">Heroic Fleet</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="275 415 305 445">Stone Wall</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="275 455 305 485">Tower</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="315 455 345 485">Watch Tower</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="355 455 385 485">Signal Fires</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="395 455 425 485">Crenellations</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="275 495 305 525">Devotion</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="275 535 305 565">Farm</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="275 575 305 605">Library</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="315 575 345 605">True Craftsmen</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="275 615 305 645">Armory</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="315 615 345 645">Copper Weapons</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="355 615 385 645">Copper Mail</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="395 615 425 645">Copper Shields</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="275 655 305 685">Training Ground</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="315 655 345 685">Lunatic</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="355 655 385 685">Huntsman</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="395 655 425 685">Ravager</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="275 695 305 725">Medium Infantry</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="315 695 345 725">Medium Archers</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="355 695 385 725">Medium Cavalry</gadget>
+
+
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="525 255 555 285">Architects</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="565 255 595 285">Fortify Town Center</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="525 295 555 325">Carpenters</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="565 295 595 325">Irrigation</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="525 335 555 365">Quarry</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="525 375 555 405">Ramming Ship Greek</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="565 375 595 405">Siege Ship Greek</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="605 375 635 405">Salt Amphora</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="645 375 675 405">Cladding</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="525 415 555 445">Fortified Wall</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="525 455 555 485">Guard Tower</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="565 455 595 485">Carrier Pigeons</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="605 455 635 485">Boiling Oil</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="525 495 555 525">Zealotry</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="565 495 595 525">Fanaticism</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="525 535 555 565">Market</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="565 535 595 565">Caravan Greek</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="605 535 635 565">Ambassadors</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="645 535 675 565">Tax Collectors</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="525 575 555 605">Fulminated Keystones</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="565 575 595 605">Guardian Temples</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="525 615 555 645">Bronze Weapons</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="565 615 595 645">Bronze Mail</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="605 615 635 645">Bronze Shields</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="525 655 555 685">Military Center</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="565 655 595 685">Brutal</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="605 655 635 685">Shiner</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="645 655 675 685">Stoneskin</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="685 655 715 685">Devourer</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="725 655 755 685">Draft Horses</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="525 695 555 725">Heavy Infantry</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="565 695 595 725">Heavy Archers</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="605 695 635 725">Heavy Cavalry</gadget>
+
+
+				<gadget name="FakeTechTree-New1-TechNode-Bellerophon" type="button" size1024="825 255 855 285">Attainted Existence</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="825 295 855 325">Flood Control</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="825 335 855 365">Medium Yith-Possessed</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="865 335 895 365">Heavy Yith-Possessed</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="905 335 935 365">Champion Yith-Possessed</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="825 375 855 405">Naval Oxybeles</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="865 375 895 405">Reinforced Hull</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="905 375 935 405">Conscript Sailors</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="825 415 855 445">Wonder</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="865 415 895 445">Secrets of the Titans</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="825 455 855 485">Medium Penguin-Fletched</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="865 455 895 485">Heavy Penguin-Fletched</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="905 455 935 485">Champion Penguin-Fletched</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="825 495 855 525">Love</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Heracles" type="button" size1024="865 495 895 525">Omniscience</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="825 535 855 565">Coinage</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="825 575 855 605">Medium Gaunt-Rider</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="865 575 895 605">Heavy Gaunt-Rider</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="905 575 935 605">Champion Gaunt-Rider</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="825 615 855 645">Iron Weapons</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="865 615 895 645">Iron Mail</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="905 615 935 645">Iron Shields</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="825 655 855 685">Starthrower</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="865 655 895 685">Engineers</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="825 695 855 725">Champion Infantry</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="865 695 895 725">Champion Archers</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="905 695 935 725">Champion Cavalry</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="825 730 855 760">Grand Temple</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="865 730 895 760">Gaunt-Rider</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="905 730 935 760">Yith-Possessed</gadget>
+				<gadget name="FakeTechTree-New1-TechNode-Odysseus" type="button" size1024="945 730 975 760">Penguin-Fletched</gadget>
+
+
+				<gadget hidden="" name="FakeTechTree-New1-ShennongBackground" type="gadget" size1024="0 0 1024 768" z="1">
+					<gadget name="ShennongBackground1" type="gadget" size1024="0 0 1024 768" background="UI\ftt eldritch" clampbackground=""></gadget>
 				</gadget>
-				<gadget name="FakeTechTree-New1-GreekLegendPoseidonx" hidden=""  type="gadget" z="20">
-					<gadget name="GreekLegend-Buildingx" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 669 258 689" z="17">$$19159$$Building</gadget>
-					<gadget name="GreekLegend-Unitx" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 699 258 719" z="17">$$19160$$Unit</gadget>
-					<gadget name="GreekLegend-Improvementx" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 729 258 749" z="17">$$19161$$Improvement</gadget>
-					<gadget name="GreekLegend-Godx" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 669 163 689" z="17">$$19162$$God</gadget>
-					<gadget name="GreekLegend-God Powerx" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 699 163 719" z="17">$$19163$$God Power</gadget>
-					<gadget name="GreekLegend-Myth Unitx" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 729 163 749" z="17">$$19164$$Myth Unit</gadget>
+				<gadget hidden="" name="FakeTechTree-New1-ChineseLegendShennong" type="gadget" z="20">
+					<gadget name="ChineseLegend-Building" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 669 258 689" z="17">$$19159$$Building</gadget>
+					<gadget name="ChineseLegend-Unit" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 699 258 719" z="17">$$19160$$Unit</gadget>
+					<gadget name="ChineseLegend-Improvement" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 729 258 749" z="17">$$19161$$Improvement</gadget>
+					<gadget name="ChineseLegend-God" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 669 153 689" z="17">$$19162$$God</gadget>
+					<gadget name="ChineseLegend-God Power" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 699 153 719" z="17">$$19163$$God Power</gadget>
+					<gadget name="ChineseLegend-Myth Unit" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 729 153 749" z="17">$$19164$$Myth Unit</gadget>
+				</gadget>
+			</div>
+
+			<div name="FakeTechTree-New2" hidden="" size1024="0 0 1024 768">
+				<gadget name="FakeTechTree-New2-XXX" hidden="" type="button" size1024="175 22 232 79">Age 1 Yog-Sothoth</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Bolt GPXXX" hidden=""  type="button" size1024="240 25 265 50">Eyegate</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-PegasusXXX" hidden="" type="button"  size1024="271 25 296 50">Eyes on the Outside</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-PegasusXXX" hidden="" type="button"  size1024="302 25 327 50">Gates of Wisdom</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-PegasusXXX" hidden="" type="button"  size1024="333 25 358 50">Ebony Gate</gadget>
+
+				<gadget name="FakeTechTree-New2-TechNode-PegasusXXX" hidden="" type="button" size1024="240 55 265 80">Form of the Eye</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-PegasusXXX" hidden="" type="button" size1024="271 55 296 80">Voice of Yog-Sothoth</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-PegasusXXX" hidden="" type="button" size1024="302 55 327 80">Ritual of the Gate</gadget>
+
+
+
+
+				<gadget name="FakeTechTree-New2-TechNode-Hermes" type="button"  size1024="380 13 436 69">Age 2 Atlach-Nacha</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button" size1024="445 13 475 43">Spinners Call</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button" size1024="482 13 512 43">Hyperborean Blades</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button" size1024="519 13 549 43">Silken Garb</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button" size1024="556 13 586 43">Dreams of the Mountain</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button" size1024="445 53 475 83">Spider of Leng</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button" size1024="482 53 512 83">Form of the Spider</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button" size1024="519 53 549 83">Voice of Atlach-Nacha</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button" size1024="556 53 586 83">Dreamlike Spool</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button" size1024="406 74 436 104">Weavers Transformation</gadget>
+
+				<gadget name="FakeTechTree-New2-TechNode-Hermes" type="button"  size1024="380 113 436 169">Age 2 Ithaqua</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button" size1024="445 113 475 143">Howling Gale</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button" size1024="482 113 512 143">Children of the WindWalker</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button" size1024="519 113 549 143">Shantakscale armor</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button" size1024="556 113 586 143">Tireless Hunt</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button" size1024="445 153 475 183">Wendigo</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button" size1024="482 153 512 183">Form of the Hunter</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button" size1024="519 153 549 183">Voice of Ithaqua</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button" size1024="556 153 586 183">Crystal Rage</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button" size1024="406 174 436 204">Ritual of Wrath</gadget>
+
+				<gadget name="FakeTechTree-New2-TechNode-Apollo" type="button"    size1024="596 13 652 69">Age 3 Dagon</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="661 13 691 43">Grand Schism</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="698 13 728 43">Gift of the Star Spawn</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="735 13 765 43">Halfborn Fishermen</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="772 13 802 43">Phantom Ships</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="661 53 691 83">Deep One</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="698 53 728 83">Form of the Deep</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="735 53 765 83">Voice of Dagon</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="772 53 802 83">Oath of Dagon</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button"   size1024="622 74 652 104">Deep Pool</gadget>
+
+
+				<gadget name="FakeTechTree-New2-TechNode-Apollo" type="button"    size1024="596 113 652 169">Age 3 Daoloth</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="661 113 691 143">Spacial Fracture</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="698 113 728 143">Pentacle of Planes</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="735 113 765 143">Futuristic Development</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="772 113 802 143">Rent Veil</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="661 153 691 183">Dimensional Shambler</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="698 153 728 183">Flash of Inspiration</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="735 153 765 183">Voice of Daoloth</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="772 153 802 183">Daoloth Formula</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button"   size1024="622 174 652 204">Ritual of Farsight</gadget>
+
+
+				<gadget name="FakeTechTree-New2-TechNode-Apollo" type="button"    size1024="812 13 868 69">Age 4 Hastur</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="875 13 905 43">Plague</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="912 13 942 43">Plague Riders</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="949 13 979 43">Feasters Spirit</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="986 13 1016 43">High Priests</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="875 53 905 83">Yellow One</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="912 53 942 83">Form of Healing</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="949 53 979 83">Voice of Hastur</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="986 53 1016 83">Forbidden Script</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button"   size1024="838 74 868 104">The King in Yellow</gadget>
+
+
+				<gadget name="FakeTechTree-New2-TechNode-Apollo" type="button"    size1024="812 113 868 169">Age 4 Noth-Yidik</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="875 113 905 143">Time Hunt</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="912 113 942 143">Perfect Angle</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="949 113 979 143">Timeline Shift</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="986 113 1016 143">Transgression</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="875 153 905 183">Hound of Tindalos</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="912 153 942 183">Temporal Shade</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="949 153 979 183">Voice of Noth-Yidik</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Manticore" type="button" size1024="986 153 1016 183">Shattered Reality</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Centaur" type="button"   size1024="838 174 868 204">Splinter Threshold</gadget>
+
+				<gadget name="FakeTechTree-New2-TechNode-TC" type="button" size1024="25 255 55 285">Settlement Level 1</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-TC" type="button" size1024="65 255 95 285">Attainted Town Center</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-TC" type="button" size1024="105 255 135 285">Townsfolk</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-TC" type="button" size1024="145 255 175 285">Cultist</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-TC" type="button" size1024="25 295 55 325">Mill</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-TC" type="button" size1024="65 295 95 325">Husbandry</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-TC" type="button" size1024="105 295 135 325">Hunting Dogs</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-TC" type="button" size1024="145 295 175 325">Hand Axe</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-TC" type="button" size1024="25 335 55 365">Safehouse</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-TC" type="button" size1024="65 335 95 365">Pickaxe</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-TC" type="button" size1024="25 375 55 405">Dock</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-TC" type="button" size1024="65 375 95 405">Fishing Ship Eldritch</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-TC" type="button" size1024="25 415 55 445">Wall Connector</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-TC" type="button" size1024="25 455 55 485">House</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-TC" type="button" size1024="25 495 55 525">Temple</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-TC" type="button" size1024="65 495 95 525">Dedication</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-TC" type="button" size1024="105 495 135 525">Dream</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-TC" type="button" size1024="25 535 55 565">Town Hall</gadget>
+
+
+
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="275 255 305 285">Masons</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="275 295 305 325">Bow Saw</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="315 295 345 325">Plow</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="275 335 305 365">Shaft Mine</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="275 375 305 405">Trireme</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="315 375 345 405">Transport Ship Greek</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="355 375 385 405">Purse Seine</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="395 375 425 405">Enclosed Deck</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="435 375 465 405">Heroic Fleet</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="275 415 305 445">Stone Wall</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="275 455 305 485">Tower</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="315 455 345 485">Watch Tower</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="355 455 385 485">Signal Fires</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="395 455 425 485">Crenellations</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="275 495 305 525">Devotion</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="275 535 305 565">Farm</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="275 575 305 605">Library</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="315 575 345 605">True Craftsmen</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="275 615 305 645">Armory</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="315 615 345 645">Copper Weapons</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="355 615 385 645">Copper Mail</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="395 615 425 645">Copper Shields</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="275 655 305 685">Training Ground</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="315 655 345 685">Lunatic</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="355 655 385 685">Huntsman</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="395 655 425 685">Ravager</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="275 695 305 725">Medium Infantry</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="315 695 345 725">Medium Archers</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="355 695 385 725">Medium Cavalry</gadget>
+
+
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="525 255 555 285">Architects</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="565 255 595 285">Fortify Town Center</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="525 295 555 325">Carpenters</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="565 295 595 325">Irrigation</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="525 335 555 365">Quarry</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="525 375 555 405">Ramming Ship Greek</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="565 375 595 405">Siege Ship Greek</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="605 375 635 405">Salt Amphora</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="645 375 675 405">Cladding</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="525 415 555 445">Fortified Wall</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="525 455 555 485">Guard Tower</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="565 455 595 485">Carrier Pigeons</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="605 455 635 485">Boiling Oil</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="525 495 555 525">Zealotry</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="565 495 595 525">Fanaticism</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="525 535 555 565">Market</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="565 535 595 565">Caravan Greek</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="605 535 635 565">Ambassadors</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="645 535 675 565">Tax Collectors</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="525 575 555 605">Fulminated Keystones</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="565 575 595 605">Guardian Temples</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="525 615 555 645">Bronze Weapons</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="565 615 595 645">Bronze Mail</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="605 615 635 645">Bronze Shields</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="525 655 555 685">Military Center</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="565 655 595 685">Brutal</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="605 655 635 685">Shiner</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="645 655 675 685">Stoneskin</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="685 655 715 685">Devourer</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="725 655 755 685">Draft Horses</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="525 695 555 725">Heavy Infantry</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="565 695 595 725">Heavy Archers</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="605 695 635 725">Heavy Cavalry</gadget>
+
+
+				<gadget name="FakeTechTree-New2-TechNode-Bellerophon" type="button" size1024="825 255 855 285">Attainted Existence</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="825 295 855 325">Flood Control</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="825 335 855 365">Medium Yith-Possessed</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="865 335 895 365">Heavy Yith-Possessed</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="905 335 935 365">Champion Yith-Possessed</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="825 375 855 405">Naval Oxybeles</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="865 375 895 405">Reinforced Hull</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="905 375 935 405">Conscript Sailors</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="825 415 855 445">Wonder</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="865 415 895 445">Secrets of the Titans</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="825 455 855 485">Medium Penguin-Fletched</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="865 455 895 485">Heavy Penguin-Fletched</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="905 455 935 485">Champion Penguin-Fletched</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="825 495 855 525">Love</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Heracles" type="button" size1024="865 495 895 525">Omniscience</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="825 535 855 565">Coinage</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="825 575 855 605">Medium Gaunt-Rider</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="865 575 895 605">Heavy Gaunt-Rider</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="905 575 935 605">Champion Gaunt-Rider</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="825 615 855 645">Iron Weapons</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="865 615 895 645">Iron Mail</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="905 615 935 645">Iron Shields</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="825 655 855 685">Starthrower</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="865 655 895 685">Engineers</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="825 695 855 725">Champion Infantry</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="865 695 895 725">Champion Archers</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="905 695 935 725">Champion Cavalry</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="825 730 855 760">Grand Temple</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="865 730 895 760">Gaunt-Rider</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="905 730 935 760">Yith-Possessed</gadget>
+				<gadget name="FakeTechTree-New2-TechNode-Odysseus" type="button" size1024="945 730 975 760">Penguin-Fletched</gadget>
+
+
+				<gadget hidden="" name="FakeTechTree-New2-ShennongBackground" type="gadget" size1024="0 0 1024 768" z="1">
+					<gadget name="ShennongBackground1" type="gadget" size1024="0 0 1024 768" background="UI\ftt eldritch" clampbackground=""></gadget>
+				</gadget>
+				<gadget hidden="" name="FakeTechTree-New2-ChineseLegendShennong" type="gadget" z="20">
+					<gadget name="ChineseLegend-Building" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 669 258 689" z="17">$$19159$$Building</gadget>
+					<gadget name="ChineseLegend-Unit" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 699 258 719" z="17">$$19160$$Unit</gadget>
+					<gadget name="ChineseLegend-Improvement" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 729 258 749" z="17">$$19161$$Improvement</gadget>
+					<gadget name="ChineseLegend-God" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 669 153 689" z="17">$$19162$$God</gadget>
+					<gadget name="ChineseLegend-God Power" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 699 153 719" z="17">$$19163$$God Power</gadget>
+					<gadget name="ChineseLegend-Myth Unit" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 729 153 749" z="17">$$19164$$Myth Unit</gadget>
+				</gadget>
+			</div>
+
+			<div name="FakeTechTree-New3" hidden="" size1024="0 0 1024 768">
+				<gadget name="FakeTechTree-New3-XXX" hidden="" type="button" size1024="175 22 232 79">Age 1 Shub-Niggurath</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Bolt GPXXX" hidden=""  type="button" size1024="240 25 265 50">Maw</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-PegasusXXX" hidden="" type="button"  size1024="271 25 296 50">The Darkwood Ritual</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-PegasusXXX" hidden="" type="button"  size1024="302 25 327 50">Seeds of Flesh</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-PegasusXXX" hidden="" type="button"  size1024="333 25 358 50">Lunar Calendar</gadget>
+
+				<gadget name="FakeTechTree-New3-TechNode-PegasusXXX" hidden="" type="button" size1024="240 55 265 80">Form of the Dark Young</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-PegasusXXX" hidden="" type="button" size1024="271 55 296 80">Voice of Shub-Niggurath</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-PegasusXXX" hidden="" type="button" size1024="302 55 327 80">Ritual of the New Moon</gadget>
+
+
+
+
+				<gadget name="FakeTechTree-New3-TechNode-Hermes" type="button"  size1024="380 13 436 69">Age 2 Ubbo-Sathla</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button" size1024="445 13 475 43">Bubbling Flesh</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button" size1024="482 13 512 43">Corrupted Muscle</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button" size1024="519 13 549 43">Sarkicist Timber</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button" size1024="556 13 586 43">Fanged Grip</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button" size1024="445 53 475 83">Unwraveler</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button" size1024="482 53 512 83">Giant Flesh Blob</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button" size1024="519 53 549 83">Voice of Ubbo-Sathla</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button" size1024="556 53 586 83">Elder Tablets</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button" size1024="406 74 436 104">Eruption</gadget>
+
+				<gadget name="FakeTechTree-New3-TechNode-Hermes" type="button"  size1024="380 113 436 169">Age 2 Tsathoggua</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button" size1024="445 113 475 143">Wrath of the Vile</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button" size1024="482 113 512 143">Lusts of Klarkash-Ton</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button" size1024="519 113 549 143">Basalt Construction</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button" size1024="556 113 586 143">Vile Jelly</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button" size1024="445 153 475 183">Formless Spawn</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button" size1024="482 153 512 183">Form of Blood</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button" size1024="519 153 549 183">Voice of Tsathoggua</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button" size1024="556 153 586 183">Voormi Drums</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button" size1024="406 174 436 204">Twisted Statue</gadget>
+
+				<gadget name="FakeTechTree-New3-TechNode-Apollo" type="button"    size1024="596 13 652 69">Age 3 Dagon</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="661 13 691 43">Grand Schism</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="698 13 728 43">Gift of the Star Spawn</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="735 13 765 43">Halfborn Fishermen</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="772 13 802 43">Phantom Ships</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="661 53 691 83">Deep One</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="698 53 728 83">Form of the Deep</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="735 53 765 83">Voice of Dagon</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="772 53 802 83">Oath of Dagon</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button"   size1024="622 74 652 104">Deep Pool</gadget>
+
+
+				<gadget name="FakeTechTree-New3-TechNode-Apollo" type="button"    size1024="596 113 652 169">Age 3 Yig</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="661 113 691 143">Yigs Curse</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="698 113 728 143">Feeding Frenzy</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="735 113 765 143">Guardian Serpents</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="772 113 802 143">Drums of Fall</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="661 153 691 183">Serpent of Yig</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="698 153 728 183">Serpent Shed</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="735 153 765 183">Voice of Yig</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="772 153 802 183">Ancient Penance</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button"   size1024="622 174 652 204">Ritual of Serpents</gadget>
+
+
+				<gadget name="FakeTechTree-New3-TechNode-Apollo" type="button"    size1024="812 13 868 69">Age 4 Cthulhu</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="875 13 905 43">The End</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="912 13 942 43">Rlyeh Architecture 2</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="949 13 979 43">Stellar Alignment</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="986 13 1016 43">Dreamers Blessing</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="875 53 905 83">Shoggoth</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="912 53 942 83">Endbringer</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="949 53 979 83">Voice of Cthulhu</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="986 53 1016 83">Seastone Totem</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button"   size1024="838 74 868 104">Maw of the Deep</gadget>
+
+
+				<gadget name="FakeTechTree-New3-TechNode-Apollo" type="button"    size1024="812 113 868 169">Age 4 Hastur</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="875 113 905 143">Plague</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="912 113 942 143">Feasters Spirit</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="949 113 979 143">Plague Riders</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="986 113 1016 143">High Priests</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="875 153 905 183">Yellow One</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="912 153 942 183">Form of Healing</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="949 153 979 183">Voice of Hastur</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Manticore" type="button" size1024="986 153 1016 183">Forbidden Script</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Centaur" type="button"   size1024="838 174 868 204">The King in Yellow</gadget>
+
+				<gadget name="FakeTechTree-New3-TechNode-TC" type="button" size1024="25 255 55 285">Settlement Level 1</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-TC" type="button" size1024="65 255 95 285">Attainted Town Center</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-TC" type="button" size1024="105 255 135 285">Townsfolk</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-TC" type="button" size1024="145 255 175 285">Cultist</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-TC" type="button" size1024="25 295 55 325">Mill</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-TC" type="button" size1024="65 295 95 325">Husbandry</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-TC" type="button" size1024="105 295 135 325">Hunting Dogs</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-TC" type="button" size1024="145 295 175 325">Hand Axe</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-TC" type="button" size1024="25 335 55 365">Safehouse</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-TC" type="button" size1024="65 335 95 365">Pickaxe</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-TC" type="button" size1024="25 375 55 405">Dock</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-TC" type="button" size1024="65 375 95 405">Fishing Ship Eldritch</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-TC" type="button" size1024="25 415 55 445">Wall Connector</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-TC" type="button" size1024="25 455 55 485">House</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-TC" type="button" size1024="25 495 55 525">Temple</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-TC" type="button" size1024="65 495 95 525">Dedication</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-TC" type="button" size1024="105 495 135 525">Dream</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-TC" type="button" size1024="25 535 55 565">Town Hall</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-TC" type="button" size1024="25 575 55 605">Blessed Child</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-TC" type="button" size1024="25 615 55 645">Night Tree</gadget>
+
+
+
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="275 255 305 285">Masons</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="275 295 305 325">Bow Saw</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="315 295 345 325">Plow</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="275 335 305 365">Shaft Mine</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="275 375 305 405">Trireme</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="315 375 345 405">Transport Ship Greek</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="355 375 385 405">Purse Seine</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="395 375 425 405">Enclosed Deck</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="435 375 465 405">Heroic Fleet</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="275 415 305 445">Stone Wall</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="275 455 305 485">Tower</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="315 455 345 485">Watch Tower</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="355 455 385 485">Signal Fires</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="395 455 425 485">Crenellations</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="275 495 305 525">Devotion</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="275 535 305 565">Farm</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="275 575 305 605">Library</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="315 575 345 605">True Craftsmen</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="275 615 305 645">Armory</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="315 615 345 645">Copper Weapons</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="355 615 385 645">Copper Mail</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="395 615 425 645">Copper Shields</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="275 655 305 685">Training Ground</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="315 655 345 685">Lunatic</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="355 655 385 685">Huntsman</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="395 655 425 685">Ravager</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="275 695 305 725">Medium Infantry</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="315 695 345 725">Medium Archers</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="355 695 385 725">Medium Cavalry</gadget>
+
+
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="525 255 555 285">Architects</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="565 255 595 285">Fortify Town Center</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="525 295 555 325">Carpenters</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="565 295 595 325">Irrigation</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="525 335 555 365">Quarry</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="525 375 555 405">Ramming Ship Greek</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="565 375 595 405">Siege Ship Greek</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="605 375 635 405">Salt Amphora</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="645 375 675 405">Cladding</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="525 415 555 445">Fortified Wall</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="525 455 555 485">Guard Tower</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="565 455 595 485">Carrier Pigeons</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="605 455 635 485">Boiling Oil</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="525 495 555 525">Zealotry</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="565 495 595 525">Fanaticism</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="525 535 555 565">Market</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="565 535 595 565">Caravan Greek</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="605 535 635 565">Ambassadors</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="645 535 675 565">Tax Collectors</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="525 575 555 605">Fulminated Keystones</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="565 575 595 605">Guardian Temples</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="525 615 555 645">Bronze Weapons</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="565 615 595 645">Bronze Mail</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="605 615 635 645">Bronze Shields</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="525 655 555 685">Military Center</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="565 655 595 685">Brutal</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="605 655 635 685">Shiner</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="645 655 675 685">Stoneskin</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="685 655 715 685">Devourer</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="725 655 755 685">Draft Horses</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="525 695 555 725">Heavy Infantry</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="565 695 595 725">Heavy Archers</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="605 695 635 725">Heavy Cavalry</gadget>
+
+
+				<gadget name="FakeTechTree-New3-TechNode-Bellerophon" type="button" size1024="825 255 855 285">Attainted Existence</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="825 295 855 325">Flood Control</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="825 335 855 365">Medium Yith-Possessed</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="865 335 895 365">Heavy Yith-Possessed</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="905 335 935 365">Champion Yith-Possessed</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="825 375 855 405">Naval Oxybeles</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="865 375 895 405">Reinforced Hull</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="905 375 935 405">Conscript Sailors</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="825 415 855 445">Wonder</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="865 415 895 445">Secrets of the Titans</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="825 455 855 485">Medium Penguin-Fletched</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="865 455 895 485">Heavy Penguin-Fletched</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="905 455 935 485">Champion Penguin-Fletched</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="825 495 855 525">Love</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Heracles" type="button" size1024="865 495 895 525">Omniscience</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="825 535 855 565">Coinage</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="825 575 855 605">Medium Gaunt-Rider</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="865 575 895 605">Heavy Gaunt-Rider</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="905 575 935 605">Champion Gaunt-Rider</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="825 615 855 645">Iron Weapons</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="865 615 895 645">Iron Mail</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="905 615 935 645">Iron Shields</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="825 655 855 685">Starthrower</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="865 655 895 685">Engineers</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="825 695 855 725">Champion Infantry</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="865 695 895 725">Champion Archers</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="905 695 935 725">Champion Cavalry</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="825 730 855 760">Grand Temple</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="865 730 895 760">Gaunt-Rider</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="905 730 935 760">Yith-Possessed</gadget>
+				<gadget name="FakeTechTree-New3-TechNode-Odysseus" type="button" size1024="945 730 975 760">Penguin-Fletched</gadget>
+
+
+				<gadget hidden="" name="FakeTechTree-New3-ShennongBackground" type="gadget" size1024="0 0 1024 768" z="1">
+					<gadget name="ShennongBackground1" type="gadget" size1024="0 0 1024 768" background="UI\ftt eldritch shub" clampbackground=""></gadget>
+				</gadget>
+				<gadget hidden="" name="FakeTechTree-New3-ChineseLegendShennong" type="gadget" z="20">
+					<gadget name="ChineseLegend-Building" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 669 258 689" z="17">$$19159$$Building</gadget>
+					<gadget name="ChineseLegend-Unit" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 699 258 719" z="17">$$19160$$Unit</gadget>
+					<gadget name="ChineseLegend-Improvement" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 729 258 749" z="17">$$19161$$Improvement</gadget>
+					<gadget name="ChineseLegend-God" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 669 153 689" z="17">$$19162$$God</gadget>
+					<gadget name="ChineseLegend-God Power" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 699 153 719" z="17">$$19163$$God Power</gadget>
+					<gadget name="ChineseLegend-Myth Unit" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 729 153 749" z="17">$$19164$$Myth Unit</gadget>
 				</gadget>
 			</div>
 
@@ -788,9 +1452,8 @@
 					<gadget name="ChineseLegend-Myth Unit" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 729 153 749" z="17">$$19164$$Myth Unit</gadget>
 				</gadget>
 			</div>
+
 			<div name="FakeTechTree-New10"  hidden="" size1024="0 0 1024 768">
-				
-		
 				<gadget hidden="" name="FakeTechTree-New10-TechNode-Zeus" type="button" size1024="175 22 232 79">Demeter Triggered</gadget>
 				<gadget hidden="" name="FakeTechTree-New10-TechNode-Bolt GP" type="button" size1024="242 34 274 66">Blight</gadget>
 				<gadget hidden="" name="FakeTechTree-New10-TechNode-Pegasus" type="button" size1024="285 34 317 66">Pegasus</gadget>
@@ -1135,7 +1798,6 @@
 				</gadget>
 		
 			</div>
-
 			<div  name="FakeTechTree-New12" type="gadget" size1024="0 0 1024 768" hidden="">
 				<gadget hidden=""  name="FakeTechTree-New12-TechNode-Loki" type="button" size1024="174 23 232 81">Age 1 Freyr Real</gadget>
 				<gadget hidden=""  name="FakeTechTree-New12-TechNode-Spy GP" type="button" size1024="240 34 272 66">Day of Glory</gadget>
@@ -1464,6 +2126,222 @@
 				</gadget>
 			</div>
 
+			
+			<div name="FakeTechTree-New14" hidden="" size1024="0 0 1024 768">
+				<gadget name="FakeTechTree-New14-XXX" hidden="" type="button" size1024="175 22 232 79">Age 1 Nameless Mist</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Bolt GPXXX" hidden=""  type="button" size1024="240 25 265 50">Voidlance</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-PegasusXXX" hidden="" type="button"  size1024="271 25 296 50">Endless Darkness</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-PegasusXXX" hidden="" type="button"  size1024="302 25 327 50">Oblivion Call</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-PegasusXXX" hidden="" type="button"  size1024="333 25 358 50">Primordial Awareness</gadget>
+
+				<gadget name="FakeTechTree-New14-TechNode-PegasusXXX" hidden="" type="button" size1024="240 55 265 80">Voidblob Creature Cultist</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-PegasusXXX" hidden="" type="button" size1024="271 55 296 80">Voice of the Mist</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-PegasusXXX" hidden="" type="button" size1024="302 55 327 80">Dark Awakening</gadget>
+
+
+				<gadget name="FakeTechTree-New14-TechNode-Hermes" type="button"  size1024="380 13 436 69">Age 2 Tsathoggua</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button" size1024="445 13 475 43">Wrath of the Vile</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button" size1024="482 13 512 43">Basalt Construction</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button" size1024="519 13 549 43">Lusts of Klarkash-Ton</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button" size1024="556 13 586 43">Vile Jelly</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button" size1024="445 53 475 83">Formless Spawn</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button" size1024="482 53 512 83">Form of Blood</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button" size1024="519 53 549 83">Voice of Tsathoggua</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button" size1024="556 53 586 83">Voormi Drums</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button" size1024="406 74 436 104">Twisted Statue</gadget>
+
+				<gadget name="FakeTechTree-New14-TechNode-Hermes" type="button"  size1024="380 113 436 169">Age 2 Ubbo-Sathla</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button" size1024="445 113 475 143">Bubbling Flesh</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button" size1024="482 113 512 143">Corrupted Muscle</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button" size1024="519 113 549 143">Sarkicist Timber</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button" size1024="556 113 586 143">Fanged Grip</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button" size1024="445 153 475 183">Unwraveler</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button" size1024="482 153 512 183">Giant Flesh Blob</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button" size1024="519 153 549 183">Voice of Ubbo-Sathla</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button" size1024="556 153 586 183">Elder Tablets</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button" size1024="406 174 436 204">Eruption</gadget>
+
+				<gadget name="FakeTechTree-New14-TechNode-Apollo" type="button"    size1024="596 13 652 69">Age 3 Nug and Yeb</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="661 13 691 43">Pillars of Irem</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="698 13 728 43">Torch of Nug</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="735 13 765 43">Furnace of Yeb</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="772 13 802 43">Tsathian Citadel</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="661 53 691 83">Ghoul</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="698 53 728 83">Ghoul Born</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="735 53 765 83">Voice of Nug and Yeb</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="772 53 802 83">Darkened Votive</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button"   size1024="622 74 652 104">Ritual of the Black Flame</gadget>
+
+
+				<gadget name="FakeTechTree-New14-TechNode-Apollo" type="button"    size1024="596 113 652 169">Age 3 Daoloth</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="661 113 691 143">Spacial Fracture</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="698 113 728 143">Pentacle of Planes</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="735 113 765 143">Futuristic Development</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="772 113 802 143">Rent Veil</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="661 153 691 183">Dimensional Shambler</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="698 153 728 183">Flash of Inspiration</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="735 153 765 183">Voice of Daoloth</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="772 153 802 183">Daoloth Formula</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button"   size1024="622 174 652 204">Ritual of Farsight</gadget>
+
+
+				<gadget name="FakeTechTree-New14-TechNode-Apollo" type="button"    size1024="812 13 868 69">Age 4 Cthulhu</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="875 13 905 43">The End</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="912 13 942 43">Stellar Alignment</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="949 13 979 43">Rlyeh Architecture 2</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="986 13 1016 43">Dreamers Blessing</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="875 53 905 83">Shoggoth</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="912 53 942 83">Endbringer</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="949 53 979 83">Voice of Cthulhu</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="986 53 1016 83">Seastone Totem</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button"   size1024="838 74 868 104">Maw of the Deep</gadget>
+
+
+				<gadget name="FakeTechTree-New14-TechNode-Apollo" type="button"    size1024="812 113 868 169">Age 4 Noth-Yidik</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="875 113 905 143">Time Hunt</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="912 113 942 143">Perfect Angle</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="949 113 979 143">Timeline Shift</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="986 113 1016 143">Transgression</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="875 153 905 183">Hound of Tindalos</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="912 153 942 183">Temporal Shade</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="949 153 979 183">Voice of Noth-Yidik</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Manticore" type="button" size1024="986 153 1016 183">Shattered Reality</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Centaur" type="button"   size1024="838 174 868 204">Splinter Threshold</gadget>
+
+				<gadget name="FakeTechTree-New14-TechNode-TC" type="button" size1024="25 255 55 285">Settlement Level 1</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-TC" type="button" size1024="65 255 95 285">Attainted Town Center</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-TC" type="button" size1024="105 255 135 285">Townsfolk</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-TC" type="button" size1024="145 255 175 285">Cultist</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-TC" type="button" size1024="25 295 55 325">Mill</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-TC" type="button" size1024="65 295 95 325">Husbandry</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-TC" type="button" size1024="105 295 135 325">Hunting Dogs</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-TC" type="button" size1024="145 295 175 325">Hand Axe</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-TC" type="button" size1024="25 335 55 365">Safehouse</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-TC" type="button" size1024="65 335 95 365">Pickaxe</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-TC" type="button" size1024="25 375 55 405">Dock</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-TC" type="button" size1024="65 375 95 405">Fishing Ship Eldritch</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-TC" type="button" size1024="25 415 55 445">Wall Connector</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-TC" type="button" size1024="25 455 55 485">House</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-TC" type="button" size1024="25 495 55 525">Temple</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-TC" type="button" size1024="65 495 95 525">Dedication</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-TC" type="button" size1024="105 495 135 525">Dream</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-TC" type="button" size1024="25 535 55 565">Town Hall</gadget>
+
+
+
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="275 255 305 285">Masons</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="275 295 305 325">Bow Saw</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="315 295 345 325">Plow</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="275 335 305 365">Shaft Mine</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="275 375 305 405">Trireme</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="315 375 345 405">Transport Ship Greek</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="355 375 385 405">Purse Seine</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="395 375 425 405">Enclosed Deck</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="435 375 465 405">Heroic Fleet</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="275 415 305 445">Stone Wall</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="275 455 305 485">Tower</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="315 455 345 485">Watch Tower</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="355 455 385 485">Signal Fires</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="395 455 425 485">Crenellations</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="275 495 305 525">Devotion</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="275 535 305 565">Farm</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="275 575 305 605">Library</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="315 575 345 605">True Craftsmen</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="275 615 305 645">Armory</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="315 615 345 645">Copper Weapons</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="355 615 385 645">Copper Mail</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="395 615 425 645">Copper Shields</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="275 655 305 685">Training Ground</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="315 655 345 685">Lunatic</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="355 655 385 685">Huntsman</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="395 655 425 685">Ravager</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="275 695 305 725">Medium Infantry</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="315 695 345 725">Medium Archers</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="355 695 385 725">Medium Cavalry</gadget>
+
+
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="525 255 555 285">Architects</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="565 255 595 285">Fortify Town Center</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="525 295 555 325">Carpenters</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="565 295 595 325">Irrigation</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="525 335 555 365">Quarry</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="525 375 555 405">Ramming Ship Greek</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="565 375 595 405">Siege Ship Greek</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="605 375 635 405">Salt Amphora</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="645 375 675 405">Cladding</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="525 415 555 445">Fortified Wall</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="525 455 555 485">Guard Tower</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="565 455 595 485">Carrier Pigeons</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="605 455 635 485">Boiling Oil</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="525 495 555 525">Zealotry</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="565 495 595 525">Fanaticism</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="525 535 555 565">Market</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="565 535 595 565">Caravan Greek</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="605 535 635 565">Ambassadors</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="645 535 675 565">Tax Collectors</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="525 575 555 605">Fulminated Keystones</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="565 575 595 605">Guardian Temples</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="525 615 555 645">Bronze Weapons</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="565 615 595 645">Bronze Mail</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="605 615 635 645">Bronze Shields</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="525 655 555 685">Military Center</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="565 655 595 685">Brutal</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="605 655 635 685">Shiner</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="645 655 675 685">Stoneskin</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="685 655 715 685">Devourer</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="725 655 755 685">Draft Horses</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="525 695 555 725">Heavy Infantry</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="565 695 595 725">Heavy Archers</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="605 695 635 725">Heavy Cavalry</gadget>
+
+
+				<gadget name="FakeTechTree-New14-TechNode-Bellerophon" type="button" size1024="825 255 855 285">Attainted Existence</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="825 295 855 325">Flood Control</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="825 335 855 365">Medium Yith-Possessed</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="865 335 895 365">Heavy Yith-Possessed</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="905 335 935 365">Champion Yith-Possessed</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="825 375 855 405">Naval Oxybeles</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="865 375 895 405">Reinforced Hull</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="905 375 935 405">Conscript Sailors</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="825 415 855 445">Wonder</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="865 415 895 445">Secrets of the Titans</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="825 455 855 485">Medium Penguin-Fletched</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="865 455 895 485">Heavy Penguin-Fletched</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="905 455 935 485">Champion Penguin-Fletched</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="825 495 855 525">Love</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Heracles" type="button" size1024="865 495 895 525">Omniscience</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="825 535 855 565">Coinage</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="825 575 855 605">Medium Gaunt-Rider</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="865 575 895 605">Heavy Gaunt-Rider</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="905 575 935 605">Champion Gaunt-Rider</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="825 615 855 645">Iron Weapons</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="865 615 895 645">Iron Mail</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="905 615 935 645">Iron Shields</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="825 655 855 685">Starthrower</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="865 655 895 685">Engineers</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="825 695 855 725">Champion Infantry</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="865 695 895 725">Champion Archers</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="905 695 935 725">Champion Cavalry</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="825 730 855 760">Grand Temple</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="865 730 895 760">Gaunt-Rider</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="905 730 935 760">Yith-Possessed</gadget>
+				<gadget name="FakeTechTree-New14-TechNode-Odysseus" type="button" size1024="945 730 975 760">Penguin-Fletched</gadget>
+
+
+				<gadget hidden="" name="FakeTechTree-New14-ShennongBackground" type="gadget" size1024="0 0 1024 768" z="1">
+					<gadget name="ShennongBackground1" type="gadget" size1024="0 0 1024 768" background="UI\ftt eldritch" clampbackground=""></gadget>
+				</gadget>
+				<gadget hidden="" name="FakeTechTree-New14-ChineseLegendShennong" type="gadget" z="20">
+					<gadget name="ChineseLegend-Building" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 669 258 689" z="17">$$19159$$Building</gadget>
+					<gadget name="ChineseLegend-Unit" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 699 258 719" z="17">$$19160$$Unit</gadget>
+					<gadget name="ChineseLegend-Improvement" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 729 258 749" z="17">$$19161$$Improvement</gadget>
+					<gadget name="ChineseLegend-God" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 669 153 689" z="17">$$19162$$God</gadget>
+					<gadget name="ChineseLegend-God Power" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 699 153 719" z="17">$$19163$$God Power</gadget>
+					<gadget name="ChineseLegend-Myth Unit" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 729 153 749" z="17">$$19164$$Myth Unit</gadget>
+				</gadget>
+			</div>
+			
+			
 
 			<div hidden="" name="FakeTechTree-New16" size1024="0 0 1024 768">
 				<gadget hidden="" name="FakeTechTree-New16-TechNode-Zeus" type="button" size1024="175 22 232 79">Age 1 Jupiter</gadget>
@@ -1923,6 +2801,20 @@
 					<gadget name="ChineseLegend-God Power" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 699 153 719" z="17">$$19163$$God Power</gadget>
 					<gadget name="ChineseLegend-Myth Unit" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 729 153 749" z="17">$$19164$$Myth Unit</gadget>
 				</gadget>
+			</div>
+
+
+			<div hidden="" name="FakeTechTree-New21" size1024="0 0 1024 768">
+				<gadget hidden="" name="FakeTechTree-New21-TechNode-Zeus" type="button" size1024="175 22 232 79">Age 1 Wi</gadget>
+			</div>
+			<div hidden="" name="FakeTechTree-New22" size1024="0 0 1024 768">
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Zeus" type="button" size1024="175 22 232 79">Dark Awakening</gadget>
+			</div>
+			<div hidden="" name="FakeTechTree-New25" size1024="0 0 1024 768">
+				<gadget hidden="" name="FakeTechTree-New25-TechNode-Zeus" type="button" size1024="175 22 232 79">Age 1 Nameless Mist</gadget>
+			</div>
+			<div hidden="" name="FakeTechTree-New29" size1024="0 0 1024 768">
+				<gadget hidden="" name="FakeTechTree-New29-TechNode-Zeus" type="button" size1024="175 22 232 79">Age 3 Daoloth</gadget>
 			</div>
 			
 		</gadget>
@@ -4321,8 +5213,8 @@
 
 		<gadget name="FakeTechTree-New1" type="gadget" hidden="" size1024="0 0 1024 768">
 			<gadget name="FakeTechTree-New1XXX" type="gadget" size1024="175 22 232 79" mouseovertext="azathoth" background="ui\god minor icon egypt anubis"></gadget>
-			<gadget name="FakeTechTree-Zeus-TechNode-Bolt GPXXX" type="button" size1024="242 34 274 66">Bolt</gadget>
-			<gadget name="FakeTechTree-Zeus-TechNode-PegasusXXX" type="button" size1024="285 34 317 66">Pegasus</gadget>
+			<gadget name="FakeTechTree-New1-TechNode-Bolt GPXXX" type="button" size1024="242 34 274 66">Bolt</gadget>
+			<gadget name="FakeTechTree-New1-TechNode-PegasusXXX" type="button" size1024="285 34 317 66">Pegasus</gadget>
 
 
 			<gadget name="ZeusBackgroundXXX" type="gadget" size1024="0 0 1024 768" z="1">

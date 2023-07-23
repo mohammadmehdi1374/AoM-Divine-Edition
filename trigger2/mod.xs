@@ -569,6 +569,23 @@ active
 				}
 			}
 
+			q_id = kbUnitQueryCreate("Sacrificial Lamb");
+			kbUnitQuerySetPlayerID(q_id, i);
+			kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Sacrificial Lamb"));
+			kbUnitQuerySetState(q_id,2);
+			q_len = kbUnitQueryExecute(q_id);
+			for(j=0;<q_len)
+			{
+				trUnitSelectClear();
+				trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
+
+				
+
+				if (trUnitGetIsContained("Twisted Spire")) {
+					trUnitChangeProtoUnit("Twisted Spire Skull");
+				}
+			}
+
 		}
 	}
 }
@@ -1025,14 +1042,14 @@ active
 		}else if(kbGetTechStatus(1118) == cTechStatusActive) {
 			trChatSend(i, "I picked aegir!");
 		}else if(kbGetTechStatus(1119) == cTechStatusActive) {
-			trChatSend(i, "I picked hanwi!");
-			//trTechSetStatus(i, 981, cTechStatusActive);						// UNCOMMENT WHEN DEVELOPING
+			trChatSend(i, "I picked wi!");
+			trTechSetStatus(i, 981, cTechStatusActive);						// UNCOMMENT WHEN DEVELOPING
 		}else if(kbGetTechStatus(1120) == cTechStatusActive) {
 			trChatSend(i, "I picked unci makha!");
-			//trTechSetStatus(i, 982, cTechStatusActive);						// UNCOMMENT WHEN DEVELOPING
+			trTechSetStatus(i, 982, cTechStatusActive);						// UNCOMMENT WHEN DEVELOPING
 		}else if(kbGetTechStatus(1121) == cTechStatusActive) {
-			trChatSend(i, "I picked Anpetu Wi!");
-			//trTechSetStatus(i, 983, cTechStatusActive);						// UNCOMMENT WHEN DEVELOPING
+			trChatSend(i, "I picked Hihan-Kaga!");
+			trTechSetStatus(i, 983, cTechStatusActive);						// UNCOMMENT WHEN DEVELOPING
 		}else if(kbGetTechStatus(1122) == cTechStatusActive) {
 			trChatSend(i, "I picked the dagda!");
 		}else if(kbGetTechStatus(1123) == cTechStatusActive) {
@@ -1245,21 +1262,34 @@ priority 100
 				trTechSetStatus(i, 966, cTechStatusActive);
 				trSetCivilizationNameOverride(i, "Gaia");
 				trGenerateLush();
-			} else if (kbGetTechStatus(981) == cTechStatusActive) { // Hanwi
+			} else if (kbGetTechStatus(981) == cTechStatusActive) { // Wi
 				//trSetCivAndCulture(i, 10, 3);
 				trPlayerKillAllGodPowers(i);
 				trTechSetStatus(i, 978, cTechStatusActive);
-				trSetCivilizationNameOverride(i, "Hanwi");
+				trSetCivilizationNameOverride(i, "Wi");
+
+				
+				trUnitSelectByID(1);
+				trUnitChangeInArea(i, i, "Tower", "Lakota Sodhouse", 100000.0);
+
 			} else if (kbGetTechStatus(982) == cTechStatusActive) { // Unci Makha
 				//trSetCivAndCulture(i, 10, 3);
 				trPlayerKillAllGodPowers(i);
 				trTechSetStatus(i, 979, cTechStatusActive);
 				trSetCivilizationNameOverride(i, "Unci Makha");
-			} else if (kbGetTechStatus(983) == cTechStatusActive) { // Anpao
+
+				trUnitSelectByID(1);
+				trUnitChangeInArea(i, i, "Tower", "Lakota Sodhouse", 100000.0);
+
+			} else if (kbGetTechStatus(983) == cTechStatusActive) { // Hihan-Kaga
 				//trSetCivAndCulture(i, 10, 3);
 				trPlayerKillAllGodPowers(i);
 				trTechSetStatus(i, 980, cTechStatusActive);
-				trSetCivilizationNameOverride(i, "Anpetu Wi");
+				trSetCivilizationNameOverride(i, "Hihan-Kaga");
+
+				trUnitSelectByID(1);
+				trUnitChangeInArea(i, i, "Tower", "Lakota Sodhouse", 100000.0);
+
 			} else if (kbGetTechStatus(1128) == cTechStatusActive) { // Jupiter
 				trPlayerKillAllGodPowers(i);
 				trTechSetStatus(i, 1131, cTechStatusActive);
@@ -2513,6 +2543,7 @@ active
 		center_id = kbUnitQueryGetResult(q_id,j);
 
 		trUnitChangeInArea(i, i, "Cultist", "Super Appealing Form", 2.0);
+		trUnitChangeInArea(i, i, "Sacrificial Lamb", "Super Appealing Form", 2.0);
 
 	}
 
@@ -2710,8 +2741,10 @@ if(0 == 1) {
 		center_id = kbUnitQueryGetResult(q_id,j);
 
 		trUnitChangeInArea(i, i,"Cultist","Cthulhi", 8.0);
+		trUnitChangeInArea(i, i,"Sacrificial Lamb","Cthulhi", 8.0);
 
 if (0 == 1) {
+		trUnitChangeInArea(i, i,"Sacrificial Lamb","Temp Deep", 8.0);
 		trUnitChangeInArea(i, i,"Cultist","Temp Deep", 8.0);
 
 
@@ -3127,6 +3160,20 @@ active
 		}
 	}
 
+	
+
+	if(kbGetTechStatus(1463) == cTechStatusActive)
+	{
+		if(trPlayerResourceCount(i, "Favor")>150) {
+			trPlayerGrantResources(i, "Favor", 150-trPlayerResourceCount(i, "Favor"));
+		}
+	} else if(kbGetTechStatus(984) == cTechStatusActive)
+	{
+		if(trPlayerResourceCount(i, "Favor")>100) {
+			trPlayerGrantResources(i, "Favor", 100-trPlayerResourceCount(i, "Favor"));
+		}
+	}
+
 	if(kbGetTechStatus(1236) == cTechStatusActive)
 	{
 		if(trPlayerResourceCount(i, "Favor")>100) {
@@ -3457,8 +3504,8 @@ priority 100
 				for(pid2=1;<cNumberPlayers)
 				{		
 					if (kbIsPlayerAlly(pid2)) {
-						trDamageUnitsInArea(pid,"LogicalTypeCanBeHealed",10,-15.0);
-						trDamageUnitsInArea(pid,"LogicalTypeCanBeHealed",15,-10.0);
+						trDamageUnitsInArea(pid2,"LogicalTypeCanBeHealed",10,-15.0);
+						trDamageUnitsInArea(pid2,"LogicalTypeCanBeHealed",15,-10.0);
 					}
 				}
 			}
@@ -3493,9 +3540,9 @@ priority 100
 				for(pid2=1;<cNumberPlayers)
 				{		
 					if (kbIsPlayerAlly(pid2)) {
-						trDamageUnitsInArea(pid,"LogicalTypeCanBeHealed",15,-5.0);
-						trDamageUnitsInArea(pid,"LogicalTypeCanBeHealed",10,-5.0);
-						trDamageUnitsInArea(pid,"LogicalTypeCanBeHealed",7,-10.0);
+						trDamageUnitsInArea(pid2,"LogicalTypeCanBeHealed",15,-5.0);
+						trDamageUnitsInArea(pid2,"LogicalTypeCanBeHealed",10,-5.0);
+						trDamageUnitsInArea(pid2,"LogicalTypeCanBeHealed",7,-10.0);
 					}
 				}
 			}
@@ -4294,4 +4341,384 @@ active
 
 	}
 
+}
+
+
+rule summonBison
+active
+minInterval 1
+maxInterval 1
+priority 100
+{
+	int prevPlayer = xsGetContextPlayer();
+	for(i=0;<cNumberPlayers)
+	{
+		xsSetContextPlayer(i);
+
+		
+
+		int q_id = kbUnitQueryCreate("Invoker of Bison Small");
+		kbUnitQuerySetPlayerID(q_id, i);
+		kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Invoker of Bison Small"));
+		kbUnitQuerySetState(q_id,2);
+		int q_len = kbUnitQueryExecute(q_id);
+		for(j=0;<q_len)
+		{
+			trUnitSelectClear();
+			trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
+
+			vector center = kbUnitGetPosition(kbUnitQueryGetResult(q_id,j));
+
+			trTechInvokeGodPower(0, "Bison Generate Small", center, center);
+		
+			trUnitDelete(false);
+		}
+
+		q_id = kbUnitQueryCreate("Invoker of Bison Medium");
+		kbUnitQuerySetPlayerID(q_id, i);
+		kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Invoker of Bison Medium"));
+		kbUnitQuerySetState(q_id,2);
+		q_len = kbUnitQueryExecute(q_id);
+		for(j=0;<q_len)
+		{
+			trUnitSelectClear();
+			trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
+
+			center = kbUnitGetPosition(kbUnitQueryGetResult(q_id,j));
+
+			trTechInvokeGodPower(0, "Bison Generate Medium", center, center);
+		
+			trUnitDelete(false);
+		}
+
+		q_id = kbUnitQueryCreate("Invoker of Bison Large");
+		kbUnitQuerySetPlayerID(q_id, i);
+		kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Invoker of Bison Large"));
+		kbUnitQuerySetState(q_id,2);
+		q_len = kbUnitQueryExecute(q_id);
+		for(j=0;<q_len)
+		{
+			trUnitSelectClear();
+			trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
+
+			center = kbUnitGetPosition(kbUnitQueryGetResult(q_id,j));
+
+			trTechInvokeGodPower(0, "Bison Generate Large", center, center);
+		
+			trUnitDelete(false);
+		}
+
+		q_id = kbUnitQueryCreate("Invoker of Bison Convert");
+		kbUnitQuerySetPlayerID(q_id, i);
+		kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Invoker of Bison Convert"));
+		kbUnitQuerySetState(q_id,2);
+		q_len = kbUnitQueryExecute(q_id);
+		for(j=0;<q_len)
+		{
+			trUnitSelectClear();
+			trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
+
+			center = kbUnitGetPosition(kbUnitQueryGetResult(q_id,j));
+
+			
+			trUnitChangeInArea(0, i, "Bison", "Bison Owned", 50);
+			trUnitChangeInArea(0, i, "Gold Bison", "Gold Bison", 50);
+		
+			trUnitDelete(false);
+		}
+
+		q_id = kbUnitQueryCreate("Invoker of Gold Bison");
+		kbUnitQuerySetPlayerID(q_id, i);
+		kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Invoker of Gold Bison"));
+		kbUnitQuerySetState(q_id,2);
+		q_len = kbUnitQueryExecute(q_id);
+		for(j=0;<q_len)
+		{
+			trUnitSelectClear();
+			trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
+
+			center = kbUnitGetPosition(kbUnitQueryGetResult(q_id,j));
+
+			trTechInvokeGodPower(0, "Bison Generate Gold", center, center);
+		
+			trUnitDelete(false);
+		}
+
+	}
+
+}
+
+
+rule WiTree
+active
+minInterval 60
+maxInterval 60
+priority 100
+{
+	int prevPlayer = xsGetContextPlayer();
+	for(i=0;<cNumberPlayers)
+	{
+		xsSetContextPlayer(i);
+
+		
+
+		int q_id = kbUnitQueryCreate("Wagacan Tree");
+		kbUnitQuerySetPlayerID(q_id, i);
+		kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Wagacan Tree"));
+		kbUnitQuerySetState(q_id,2);
+		int q_len = kbUnitQueryExecute(q_id);
+		for(j=0;<q_len)
+		{
+			trUnitSelectClear();
+			trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
+
+			vector center = kbUnitGetPosition(kbUnitQueryGetResult(q_id,j));
+
+
+			trTechInvokeGodPower(0, "Tree Spawn", center, center);
+
+		}
+
+
+	}
+
+}
+		
+
+rule OwlSoldier
+active
+minInterval 2
+maxInterval 2
+priority 100
+{
+	int prevPlayer = xsGetContextPlayer();
+	for(i=1;<cNumberPlayers)
+	{
+		xsSetContextPlayer(i);
+
+		
+
+		int q_id = kbUnitQueryCreate("Lakota Temple");
+		kbUnitQuerySetPlayerID(q_id, i);
+		kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Lakota Temple"));
+		kbUnitQuerySetState(q_id,2);
+		int q_len = kbUnitQueryExecute(q_id);
+		for(j=0;<q_len)
+		{
+			trUnitSelectClear();
+			trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
+
+			
+			trUnitChangeInArea(i, i, "Owl Soldier", "Owl Soldier Owl Temp", 5.0);
+			trUnitChangeInArea(i, i, "Owl Soldier 2", "Owl Soldier Owl Temp", 5.0);
+
+		}
+
+
+	}
+
+}
+
+
+rule CrazyBull
+active
+minInterval 1
+maxInterval 1
+priority 100
+{
+	int prevPlayer = xsGetContextPlayer();
+	for(i=1;<cNumberPlayers)
+	{
+		xsSetContextPlayer(i);
+
+		
+
+		int q_id = kbUnitQueryCreate("Tathanka Gnaskiyan Insane");
+		kbUnitQuerySetPlayerID(q_id, i);
+		kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Tathanka Gnaskiyan Insane"));
+		kbUnitQuerySetState(q_id,2);
+		int q_len = kbUnitQueryExecute(q_id);
+		for(j=0;<q_len)
+		{
+			trUnitSelectClear();
+			trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
+			vector center = kbUnitGetPosition(kbUnitQueryGetResult(q_id,j));
+
+			
+			trTechInvokeGodPower(0, "Crazy Bull Chaos", center, center);
+
+		}
+
+
+	}
+
+}
+	
+	
+	
+rule IRS
+active
+minInterval 5
+maxInterval 5
+priority 100
+{
+	int prevPlayer = xsGetContextPlayer();
+	for(i=1;<cNumberPlayers)
+	{
+		xsSetContextPlayer(i);
+
+		
+
+		int q_id = kbUnitQueryCreate("Invoker of IRS");
+		kbUnitQuerySetPlayerID(q_id, i);
+		kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Invoker of IRS"));
+		kbUnitQuerySetState(q_id,2);
+		int q_len = kbUnitQueryExecute(q_id);
+		for(j=0;<q_len)
+		{
+			trUnitSelectClear();
+			trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
+			trUnitDelete(false);
+			
+			int enemy_num = 0;
+
+			for(k=1;<cNumberPlayers)
+			{
+				if (kbIsPlayerEnemy(k)) {
+					enemy_num = enemy_num + 1;
+				}
+			}
+
+
+			float tax_percent = 0.5 / enemy_num;
+
+			for(k=1;<cNumberPlayers)
+			{
+				if (kbIsPlayerEnemy(k)) {
+
+					float gold_owed = trPlayerResourceCount(k, "Gold") * tax_percent;
+					
+
+					int gold_real = (1*gold_owed+1);
+
+
+					trPlayerGrantResources(i, "Gold",  gold_real);
+
+					trPlayerGrantResources(k, "Gold", -1* gold_real);
+					trChatSend(k, "I pay " + gold_real +" gold!");
+
+				}
+			}
+
+		}
+
+
+	}
+
+}
+	
+
+
+rule WopheFire
+active
+minInterval 1
+maxInterval 1
+priority 100
+{
+	for (i=1; < cNumberPlayers)
+    {
+		xsSetContextPlayer(i);
+		int q_id = kbUnitQueryCreate("Wophe Fire");
+		kbUnitQuerySetPlayerID(q_id, i);
+		kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Wophe Fire"));
+		kbUnitQuerySetState(q_id,2);
+		int q_len = kbUnitQueryExecute(q_id);
+		for(j=0;<q_len)
+		{
+			trUnitSelectClear();
+			trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
+
+			for(pid2=1;<cNumberPlayers)
+			{		
+				if (kbIsPlayerAlly(pid2)) {
+					trDamageUnitsInArea(pid2,"LogicalTypeCanBeHealed",10,-5.0);
+					trDamageUnitsInArea(pid2,"LogicalTypeCanBeHealed",15,-5.0);
+				}
+			}
+		}
+
+		
+	}
+
+}
+
+rule HihanResurrect
+active
+minInterval 5
+maxInterval 5
+priority 100
+{
+	for (i=1; < cNumberPlayers)
+    {
+		xsSetContextPlayer(i);
+
+		if (kbGetTechStatus(1482) == cTechStatusActive) {
+
+			int q_id = kbUnitQueryCreate("Akicita Dead");
+			kbUnitQuerySetPlayerID(q_id, i);
+			kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Akicita Dead"));
+			kbUnitQuerySetState(q_id,2);
+			int q_len = kbUnitQueryExecute(q_id);
+
+			trChatSend(0, "num: " + q_len);
+
+			if (q_len >= 13) {
+
+				
+				trUnitSelectClear();
+				trUnitSelectByID(kbUnitQueryGetResult(q_id,q_len-1));
+				trUnitChangeInArea(i, i, "Akicita Dead", "Owl Soldier 2", 0.1);
+
+				for(j=0;<12)
+				{
+					trUnitSelectClear();
+					trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
+
+					trUnitDelete(false);
+				}
+
+				
+			}
+
+		}
+		if (kbGetTechStatus(1484) == cTechStatusActive) {
+
+			q_id = kbUnitQueryCreate("Medicine Woman Dead");
+			kbUnitQuerySetPlayerID(q_id, i);
+			kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Medicine Woman Dead"));
+			kbUnitQuerySetState(q_id,2);
+			q_len = kbUnitQueryExecute(q_id);
+
+			trChatSend(0, "num: " + q_len);
+
+			if (q_len >= 5) {
+
+				
+				trUnitSelectClear();
+				trUnitSelectByID(kbUnitQueryGetResult(q_id,q_len-1));
+				trUnitChangeInArea(i, i, "Medicine Woman Dead", "Owl Soldier 2", 0.1);
+
+				for(j=0;<4)
+				{
+					trUnitSelectClear();
+					trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
+
+					trUnitDelete(false);
+				}
+
+				
+			}
+
+		}
+	}
 }

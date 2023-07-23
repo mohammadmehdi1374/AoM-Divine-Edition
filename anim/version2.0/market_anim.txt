@@ -140,7 +140,7 @@ anim idle
 {
    SetSelector
    {
-		TechLogic none/Aztec Civ/Roman Civ
+		TechLogic none/Aztec Civ/Roman Civ/Lakota Civ
    SetSelector
    {
 		CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
@@ -1245,6 +1245,20 @@ anim idle
       }
    }
 
+SetSelector 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual LakotaMarket
+			}
+		}
+	}
+
+
+
    }
 
 }
@@ -1254,7 +1268,7 @@ anim Death
 {
    SetSelector
    {
-		TechLogic none/Aztec Civ/Roman Civ
+		TechLogic none/Aztec Civ/Roman Civ/Lakota Civ
    SetSelector
    {
 		CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
@@ -2297,6 +2311,18 @@ anim Death
          }
       }
    }
+
+SetSelector 
+	{
+		VariationLogic
+		set hotspot
+		{
+			version
+			{
+				Visual LakotaMarket
+			}
+		}
+	}
 
 
    }

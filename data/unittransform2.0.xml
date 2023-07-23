@@ -64,6 +64,10 @@
 		<to>Appealing Form</to>
 	</transform>
 	<transform>
+		<from>Sacrificial Lamb</from>
+		<to>Appealing Form</to>
+	</transform>
+	<transform>
 		<from>Cultist of Tsathoggua</from>
 		<to>Form of Blood</to>
 	</transform>
@@ -215,5 +219,93 @@
 	<transform>
 		<from>Eruption</from>
 		<to>Gianter Flesh Blob Fake</to>
+	</transform>
+	<transform>
+		<from>Packed Thikceya</from>
+		<to>Thikceya</to>
+	</transform>
+	<transform>
+		<from>Packed Thikceya 2</from>
+		<to>Thikceya</to>
+	</transform>
+	<transform>
+		<from>Lakota Sodhouse</from>
+		<to>Thikceya</to>
+	</transform>
+	<transform>
+		<from>Thikceya</from>
+		<to>Packed Thikceya 2</to>
+	</transform>
+	<transform>
+		<from>Guild Fire</from>
+		<to>Packed Guild Fire</to>
+	</transform>
+	<transform>
+		<from>Guild Fire 2</from>
+		<to>Packed Guild Fire</to>
+	</transform>
+	<transform>
+		<from>Packed Guild Fire</from>
+		<to>Guild Fire 2</to>
+	</transform>
+	<transform>
+		<from>Owl Soldier</from>
+		<to>Owl Soldier Owl Temp</to>
+	</transform>
+	<transform>
+		<from>Owl Soldier 2</from>
+		<to>Owl Soldier Owl Temp</to>
+	</transform>
+	<transform>
+		<from>Owl Soldier Owl</from>
+		<to>Owl Soldier 2 Temp</to>
+	</transform>
+	<transform>
+		<from>Wi Can</from>
+		<to>Wi Can Melee</to>
+	</transform>
+	<transform>
+		<from>Wi Can Melee</from>
+		<to>Wi Can Ranged</to>
+	</transform>
+	<transform>
+		<from>Wi Can Ranged</from>
+		<to>Wi Can Melee</to>
+	</transform>
+	<transform>
+		<from>Wakhukeza Iktomi</from>
+		<to>Kitfox Soldier</to>
+	</transform>
+	<transform>
+		<from>Wakhukeza Wani</from>
+		<to>Fancy Spear</to>
+	</transform>
+	<transform>
+		<from>Wakhukeza Capa</from>
+		<to>Strongheart</to>
+	</transform>
+	<transform>
+		<from>Waoka Anung Ite</from>
+		<to>Crow-Rider</to>
+	</transform>
+	<transform>
+		<from>Waoka Tate</from>
+		<to>White Marked</to>
+	</transform>
+	<transform>
+		<from>Waoka Wakinyan</from>
+		<to>No-Flights</to>
+	</transform>
+	<transform>
+		<from>Canpi Unk</from>
+		<to>Warpath Badger</to>
+	</transform>
+	<transform>
+		<from>Canpi Wophe</from>
+		<to>White Rider</to>
+	</transform>
+	<transform>
+		<from>Canpi Anpao and Han</from>
+		<to>Raven Keeper</to>
 	</transform>
 </unittransforms>

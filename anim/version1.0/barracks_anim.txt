@@ -761,7 +761,8 @@ anim Death
       }
    }
 
-
+SetSelector
+   {
 
    SetSelector
    {
@@ -781,7 +782,7 @@ anim Death
    }
 }
 
-{
+
    SetSelector
    {
       TechLogic age 2/age 3/age 4

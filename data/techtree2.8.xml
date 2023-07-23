@@ -107,6 +107,9 @@
 			<effect type="Data" action="RangedAttack" amount="1.20" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
 				<target type="ProtoUnit">AutoupgradedUnit</target>
 			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.20" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+				<target type="ProtoUnit">AutoupgradedUnit</target>
+			</effect>
 			<effect type="Data" action="ChargedRangedAttack" amount="1.20" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
 				<target type="ProtoUnit">AutoupgradedUnit</target>
 			</effect>
@@ -171,6 +174,9 @@
 				<target type="ProtoUnit">AutoupgradedUnit</target>
 			</effect>
 			<effect type="Data" action="RangedAttack" amount="1.20" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">AutoupgradedUnit</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.20" subtype="Damage" damagetype="Crush" relativity="BasePercent">
 				<target type="ProtoUnit">AutoupgradedUnit</target>
 			</effect>
 			<effect type="Data" action="ChargedRangedAttack" amount="1.20" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
@@ -4589,6 +4595,9 @@
 				<target type="ProtoUnit">AutoupgradedUnit</target>
 			</effect>
 			<effect type="Data" action="RangedAttack" amount="1.20" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">AutoupgradedUnit</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.20" subtype="Damage" damagetype="Crush" relativity="BasePercent">
 				<target type="ProtoUnit">AutoupgradedUnit</target>
 			</effect>
 			<effect type="Data" action="ChargedRangedAttack" amount="1.20" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
@@ -17150,6 +17159,9 @@
 				<target type="ProtoUnit">Cultist</target>
 			</effect>
 			<effect type="Data" amount="1.50" subtype="LOS" relativity="BasePercent">
+				<target type="ProtoUnit">Sacrificial Lamb</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="LOS" relativity="BasePercent">
 				<target type="ProtoUnit">Cultist of Yog-Sothoth</target>
 			</effect>
 			<effect type="Data" amount="1.50" subtype="LOS" relativity="BasePercent">
@@ -17328,7 +17340,7 @@
 		<displaynameid>99127</displaynameid>
 		<researchpoints>0.1000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>God Power Tartarian Gate icon</icon>
+		<icon>god power eclipse icon</icon>
 		<rollovertextid>99128</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 1 Zeus</techstatus>
@@ -17341,7 +17353,7 @@
 		<displaynameid>99133</displaynameid>
 		<researchpoints>0.1000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>God Power Tartarian Gate icon</icon>
+		<icon>god power eclipse icon</icon>
 		<rollovertextid>99134</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 1 Zeus</techstatus>
@@ -17794,6 +17806,9 @@
 
 			<effect type="Data" action="Gather" amount="0.55" subtype="WorkRate" unittype="Herdable" relativity="Absolute">
 				<target type="ProtoUnit">Cultist</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="0.55" subtype="WorkRate" unittype="Herdable" relativity="Absolute">
+				<target type="ProtoUnit">Sacrificial Lamb</target>
 			</effect>
 		</effects>
 	</tech>
@@ -19165,9 +19180,12 @@
 			<techstatus status="Active">Eldritch Civ</techstatus>
 		</prereqs>
 		<effects>
-		
+
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Altar</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Sacrificial Lamb</target>
 			</effect>
 		</effects>
 	</tech>
@@ -28603,7 +28621,7 @@
 
 
 
-	<tech name="Age 1 Hanwi" type="Normal">
+	<tech name="Age 1 Wi" type="Normal">
 		<dbid></dbid>
 		<displaynameid>110001</displaynameid>
 		<researchpoints>0.010</researchpoints>
@@ -28625,16 +28643,26 @@
 			<effect type="TechStatus" status="unobtainable">Age 1 Anpao Fake</effect>
 			<effect type="TechStatus" status="unobtainable">Age 1 Ouranos Fake</effect>
 			<effect type="TechStatus" status="ACTIVE">Lakota Civ</effect>
-			<effect type="TechStatus" status="ACTIVE">Can Do Capa</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Wani</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Iktomi</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Anung Ite</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Tate</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Wophe</effect>
-			<effect type="TechStatus" status="ACTIVE">Can Do Hihan-Kaga</effect>
-			<effect type="TechStatus" status="ACTIVE">Can Do Wakinyan</effect>
-			<effect tech="Bolt" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+			<effect type="TechStatus" status="ACTIVE">Can Do Anpao and Han</effect>
+			<effect tech="Wagacan" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
 				<target type="Player"></target>
 			</effect>
 			<!-- bonus stuff -->
+
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Eye of the Moon</target>
+			</effect>
+			<effect type="Data" action="AutoGather" amount="1.10" subtype="WorkRate" unittype="Favor" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractMonument</target>
+			</effect>
+			<effect type="Data" amount="2.00" subtype="LOS" relativity="Assign">
+				<target type="ProtoUnit">Flash of Inspiration</target>
+			</effect>
 		</effects>
 	</tech>
 	<tech name="Age 1 Unci Makha" type="Normal">
@@ -28659,19 +28687,30 @@
 			<effect type="TechStatus" status="unobtainable">Age 1 Anpao Fake</effect>
 			<effect type="TechStatus" status="unobtainable">Age 1 Ouranos Fake</effect>
 			<effect type="TechStatus" status="ACTIVE">Lakota Civ</effect>
-			<effect type="TechStatus" status="ACTIVE">Can Do Iktomi</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Wani</effect>
-			<effect type="TechStatus" status="ACTIVE">Can Do Wophe</effect>
-			<effect type="TechStatus" status="ACTIVE">Can Do Untunktahe</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Capa</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Anung Ite</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Wakinyan</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Wophe</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Unk</effect>
-			<effect tech="Bolt" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+			<effect tech="Hierarchy of Life" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
 				<target type="Player"></target>
 			</effect>
 			<!-- bonus stuff -->
+
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Invoker of Bison Convert</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Invoker of Gold Bison</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Invoker of Unci Sight</target>
+			</effect>
+
 		</effects>
 	</tech>
-	<tech name="Age 1 Anpao" type="Normal">
+	<tech name="Age 1 Hihan Kaga" type="Normal">
 		<dbid></dbid>
 		<displaynameid>110005</displaynameid>
 		<researchpoints>0.010</researchpoints>
@@ -28693,16 +28732,25 @@
 			<effect type="TechStatus" status="unobtainable">Age 1 Anpao Fake</effect>
 			<effect type="TechStatus" status="unobtainable">Age 1 Ouranos Fake</effect>
 			<effect type="TechStatus" status="ACTIVE">Lakota Civ</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Iktomi</effect>
 			<effect type="TechStatus" status="ACTIVE">Can Do Capa</effect>
-			<effect type="TechStatus" status="ACTIVE">Can Do Wani</effect>
-			<effect type="TechStatus" status="ACTIVE">Can Do Anung Ite</effect>
-			<effect type="TechStatus" status="ACTIVE">Can Do Untunktahe</effect>
-			<effect type="TechStatus" status="ACTIVE">Can Do Hihan-Kaga</effect>
-			<effect type="TechStatus" status="ACTIVE">Can Do Unk</effect>
-			<effect tech="Bolt" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+			<effect type="TechStatus" status="ACTIVE">Can Do Tate</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Wakinyan</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Anpao and Han</effect>
+			<effect type="TechStatus" status="ACTIVE">Can Do Wophe</effect>
+			<effect tech="Nagi Akta" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
 				<target type="Player"></target>
 			</effect>
 			<!-- bonus stuff -->
+
+
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Owl Soldier</target>
+			</effect>
+
+			<effect type="Data" amount="2.00" subtype="LOS" relativity="Assign">
+				<target type="ProtoUnit">Flash of Inspiration</target>
+			</effect>
 		</effects>
 	</tech>
 
@@ -28774,17 +28822,211 @@
 		<status>UNOBTAINABLE</status>
 		<icon>God Major Zeus Icon 64</icon>
 		<rollovertextid>17911</rollovertextid>
-		<effects>
-			<!-- testing stuff -->
+		<flag>HideFromDetailHelp</flag>
 
+		<effects>
+
+
+			<effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Temple</target>
+			</effect>
+			<effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Armory</target>
+			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Villager Atlantean</target>
+				<target type="ProtoUnit">Market</target>
+			</effect>
+			<effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Farm</target>
 			</effect>
 			
-			<!-- stuff -->
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Yuspi</target>
+			</effect>
+
+
+
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Fortress</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Petrobolos</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Helepolis</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Migdol Stronghold</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Catapult Lakota</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Siege Tower Lakota</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hill Fort</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Ballista</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Portable Ram</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Palace</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Fire Siphon</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Onager</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Castle</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Sitting Tiger</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Castrum</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Scorpio</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Covered Ram</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Roman Onager</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Castrum Praetoria</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Aztec Fortress</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Huron Mantlet</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Iroquois ram</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Military Center</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Starthrower</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Devourer</target>
+			</effect>
+
+
+
+
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Villager Lakota</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Packed Thikceya</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Guild Fire</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Lakota Temple</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Lakota Market</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Lakota Sodhouse</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Ribbon Garden</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Native Fishing</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Ribbon Garden</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Caravan Lakota Dog</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Caravan Lakota Horse</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Invoker of Bison Small</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Invoker of Bison Medium</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Invoker of Bison Large</target>
+			</effect>
+
+			<effect type="TechStatus" status="unobtainable">Fortify Town Center</effect>
+			<effect type="TechStatus" status="unobtainable">Watch Tower</effect>
+			<effect type="TechStatus" status="unobtainable">Guard Tower</effect>
+			<effect type="TechStatus" status="unobtainable">Stone Wall</effect>
+			<effect type="TechStatus" status="unobtainable">Medium Infantry</effect>
+			<effect type="TechStatus" status="unobtainable">Medium Archers</effect>
+			<effect type="TechStatus" status="unobtainable">Medium Cavalry</effect>
+			<effect type="TechStatus" status="unobtainable">Beast Slayer</effect>
+			<effect type="TechStatus" status="unobtainable">Levy Castrum Units</effect>
+			<effect type="TechStatus" status="unobtainable">Engineers</effect>
+			<effect type="TechStatus" status="unobtainable">Carrier Pigeons</effect>
+
+			<effect type="Data" amount="0.00" subtype="BuildLimit" relativity="Assign">
+				<target type="ProtoUnit">Aztec Male Tlaloque</target>
+			</effect>
+			<effect type="Data" amount="0.00" subtype="BuildLimit" relativity="Assign">
+				<target type="ProtoUnit">Aztec Female Tlaloque</target>
+			</effect>
+			<effect type="Data" amount="0.00" subtype="BuildLimit" relativity="Assign">
+				<target type="ProtoUnit">Villager Atlantean Hero</target>
+			</effect>
+
 			
 			<Effect type="Sound">LakotaThemeMusic</Effect>
-			
+
+
+			<effect type="Data" amount="50.00" subtype="Cost" resource="Food" relativity="Absolute">
+				<target type="ProtoUnit">Settlement Level 1</target>
+			</effect>
+			<effect type="Data" amount="-200.00" subtype="Cost" resource="Gold" relativity="Absolute">
+				<target type="ProtoUnit">Settlement Level 1</target>
+			</effect>
+			<effect type="Data" amount="-150.00" subtype="Cost" resource="Wood" relativity="Absolute">
+				<target type="ProtoUnit">Settlement Level 1</target>
+			</effect>
+			<effect type="Data" amount="0.75" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Settlement Level 1</target>
+			</effect>
+			<effect type="Data" amount="0.5" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Market</target>
+			</effect>
+			<effect type="Data" amount="-200.00" subtype="Cost" resource="Wood" relativity="Absolute">
+				<target type="ProtoUnit">Market</target>
+			</effect>
+
+			<effect type="Data" amount="100.00" subtype="Cost" resource="Food" relativity="Absolute">
+				<target type="ProtoUnit">Market</target>
+			</effect>
+
+
+
+			<effect mute="true" type="CreateUnit" unit="Villager Lakota" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="4.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
 			
 			
 		</effects>
@@ -28820,16 +29062,27 @@
 			<effect type="TechStatus" status="unobtainable">Age 2 Wani</effect>
 			<effect type="TechStatus" status="active">Age 2</effect>
 			<effect type="TechStatus" status="active">Migration Trigger Age 2</effect>
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Armory</target>
-			</effect>
-			<effect tech="Audrey" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+	
+			
+			<effect tech="Omakha Waphaya" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
 				<target type="Player"></target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Flying Medic</target>
+				<target type="ProtoUnit">Waawayanka</target>
 			</effect>
-			<effect type="CreateUnit" unit="Flying Medic" delay="2000.00" generator="Temple">
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Fishing Boat</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Canoe</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Wakhukeza Capa</target>
+			</effect>
+
+			<effect type="TechStatus" status="active">Did Capa</effect>
+
+			<effect type="CreateUnit" unit="Waawayanka" delay="2000.00" generator="Lakota Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="-5.00" y="0.00" z="0.00"></offset>
 				</pattern>
@@ -28866,16 +29119,24 @@
 			<effect type="TechStatus" status="active">Age 2</effect>
 			<effect type="TechStatus" status="active">Migration Trigger Age 2</effect>
 
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Armory</target>
-			</effect>
-			<effect tech="Audrey" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+			<effect type="TechStatus" status="active">Did Iktomi</effect>
+
+			<effect tech="Shapeshifters Chaos" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
 				<target type="Player"></target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Flying Medic</target>
+				<target type="ProtoUnit">Tathanka Gnaskiyan</target>
 			</effect>
-			<effect type="CreateUnit" unit="Flying Medic" delay="2000.00" generator="Temple">
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Fishing Boat</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Canoe</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Wakhukeza Iktomi</target>
+			</effect>
+			<effect type="CreateUnit" unit="Tathanka Gnaskiyan" delay="2000.00" generator="Lakota Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="-5.00" y="0.00" z="0.00"></offset>
 				</pattern>
@@ -28912,16 +29173,24 @@
 			<effect type="TechStatus" status="active">Age 2</effect>
 			<effect type="TechStatus" status="active">Migration Trigger Age 2</effect>
 
-			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Armory</target>
-			</effect>
-			<effect tech="Audrey" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+			<effect type="TechStatus" status="active">Did Wani</effect>
+
+			<effect tech="Four Winds" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
 				<target type="Player"></target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Flying Medic</target>
+				<target type="ProtoUnit">Zuzeca Zuya</target>
 			</effect>
-			<effect type="CreateUnit" unit="Flying Medic" delay="2000.00" generator="Temple">
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Fishing Boat</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Canoe</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Wakhukeza Wani</target>
+			</effect>
+			<effect type="CreateUnit" unit="Zuzeca Zuya" delay="2000.00" generator="Lakota Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="-5.00" y="0.00" z="0.00"></offset>
 				</pattern>
@@ -28943,7 +29212,7 @@
 		<flag>AlwaysShowButton</flag>
 		<flag>AgeUpgrade</flag>
 		<prereqs>
-			<typecount unit="Armory" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<typecount unit="AbstractArmory" count="1.00" state="noneState aliveState " operator="gte"></typecount>
 			<specificage>Classical Age</specificage>
 			<techstatus status="Active">Can Do Anung Ite</techstatus>
 			<culture>
@@ -28954,29 +29223,40 @@
 			<effect type="TextOutput">110036</effect>
 			<effect all="true" type="TextOutput">110037</effect>
 			<effect type="Sound">researchcomplete1.wav</effect>
-			<effect type="TechStatus" status="unobtainable">Age 3 Wophe</effect>
-			<effect type="TechStatus" status="unobtainable">Age 3 Untunktahe</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Tate</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Wakinyan</effect>
 			<effect type="TechStatus" status="active">Age 3</effect>
 			<effect type="TechStatus" status="active">Migration Trigger Age 3</effect>
+
+			<effect type="TechStatus" status="active">Did Anung Ite</effect>
+
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Market</target>
+				<target type="ProtoUnit">Deer Woman</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Satyr</target>
+				<target type="ProtoUnit">War Canoe</target>
 			</effect>
-			<effect type="CreateUnit" unit="Satyr" delay="2000.00" generator="Temple">
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Tlaloc Canoe</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Waoka Anung Ite</target>
+			</effect>
+			
+		
+			<effect type="CreateUnit" unit="Deer Woman" delay="2000.00" generator="Lakota Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="-5.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect tech="Hesperides" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+			<effect tech="Fruit of the Garden" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
 				<target type="Player"></target>
 			</effect>
 		</effects>
-		<exclude>Age 3 Wophe</exclude>
-		<exclude>Age 3 Untunktahe</exclude>
+		<exclude>Age 3 Tate</exclude>
+		<exclude>Age 3 Wakinyan</exclude>
 	</tech>
-	<tech name="Age 3 Wophe" type="Normal">
+	<tech name="Age 3 Tate" type="Normal">
 		<dbid></dbid>
 		<displaynameid>110038</displaynameid>
 		<cost resourcetype="Food">800.0000</cost>
@@ -28989,9 +29269,9 @@
 		<flag>AlwaysShowButton</flag>
 		<flag>AgeUpgrade</flag>
 		<prereqs>
-			<typecount unit="Armory" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<typecount unit="AbstractArmory" count="1.00" state="noneState aliveState " operator="gte"></typecount>
 			<specificage>Classical Age</specificage>
-			<techstatus status="Active">Can Do Wophe</techstatus>
+			<techstatus status="Active">Can Do Tate</techstatus>
 			<culture>
 				<culturename>Greek</culturename>
 			</culture>
@@ -29001,28 +29281,45 @@
 			<effect all="true" type="TextOutput">110041</effect>
 			<effect type="Sound">researchcomplete1.wav</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Anung Ite</effect>
-			<effect type="TechStatus" status="unobtainable">Age 3 Untunktahe</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Wakinyan</effect>
 			<effect type="TechStatus" status="active">Age 3</effect>
 			<effect type="TechStatus" status="active">Migration Trigger Age 3</effect>
+
+			<effect type="TechStatus" status="active">Did Tate</effect>
+
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Market</target>
+				<target type="ProtoUnit">Canotila</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Satyr</target>
+				<target type="ProtoUnit">Wiwila</target>
 			</effect>
-			<effect type="CreateUnit" unit="Satyr" delay="2000.00" generator="Temple">
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">War Canoe</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Tlaloc Canoe</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Waoka Tate</target>
+			</effect>
+			<effect type="CreateUnit" unit="Canotila" delay="2000.00" generator="Lakota Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="-5.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect tech="Hesperides" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+			<effect type="CreateUnit" unit="Wiwila" delay="2000.00" generator="Dock">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect tech="Winds of Time" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
 				<target type="Player"></target>
 			</effect>
 		</effects>
 		<exclude>Age 3 Anung Ite</exclude>
-		<exclude>Age 3 Untunktahe</exclude>
+		<exclude>Age 3 Wakinyan</exclude>
 	</tech>
-	<tech name="Age 3 Untunktahe" type="Normal">
+	<tech name="Age 3 Wakinyan" type="Normal">
 		<dbid></dbid>
 		<displaynameid>110042</displaynameid>
 		<cost resourcetype="Food">800.0000</cost>
@@ -29035,9 +29332,9 @@
 		<flag>AlwaysShowButton</flag>
 		<flag>AgeUpgrade</flag>
 		<prereqs>
-			<typecount unit="Armory" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<typecount unit="AbstractArmory" count="1.00" state="noneState aliveState " operator="gte"></typecount>
 			<specificage>Classical Age</specificage>
-			<techstatus status="Active">Can Do Untunktahe</techstatus>
+			<techstatus status="Active">Can Do Wakinyan</techstatus>
 			<culture>
 				<culturename>Greek</culturename>
 			</culture>
@@ -29047,28 +29344,37 @@
 			<effect all="true" type="TextOutput">110045</effect>
 			<effect type="Sound">researchcomplete1.wav</effect>
 			<effect type="TechStatus" status="unobtainable">Age 3 Anung Ite</effect>
-			<effect type="TechStatus" status="unobtainable">Age 3 Wophe</effect>
+			<effect type="TechStatus" status="unobtainable">Age 3 Tate</effect>
 			<effect type="TechStatus" status="active">Age 3</effect>
 			<effect type="TechStatus" status="active">Migration Trigger Age 3</effect>
+
+			<effect type="TechStatus" status="active">Did Wakinyan</effect>
+
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Market</target>
+				<target type="ProtoUnit">Thunderbird</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Satyr</target>
+				<target type="ProtoUnit">War Canoe</target>
 			</effect>
-			<effect type="CreateUnit" unit="Satyr" delay="2000.00" generator="Temple">
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Tlaloc Canoe</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Waoka Wakinyan</target>
+			</effect>
+			<effect type="CreateUnit" unit="Thunderbird" delay="2000.00" generator="Lakota Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="-5.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
-			<effect tech="Hesperides" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+			<effect tech="Thunders Judgement" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
 				<target type="Player"></target>
 			</effect>
 		</effects>
 		<exclude>Age 3 Anung Ite</exclude>
-		<exclude>Age 3 Wophe</exclude>
+		<exclude>Age 3 Tate</exclude>
 	</tech>
-	<tech name="Age 4 Hihan-Kaga" type="Normal">
+	<tech name="Age 4 Wophe" type="Normal">
 		<dbid></dbid>
 		<displaynameid>110046</displaynameid>
 		<cost resourcetype="Food">1000.0000</cost>
@@ -29083,7 +29389,7 @@
 		<prereqs>
 			<typecount unit="Market" count="1.00" state="noneState aliveState " operator="gte"></typecount>
 			<specificage>Heroic Age</specificage>
-			<techstatus status="Active">Can Do Hihan-Kaga</techstatus>
+			<techstatus status="Active">Can Do Wophe</techstatus>
 			<culture>
 				<culturename>Greek</culturename>
 			</culture>
@@ -29092,25 +29398,31 @@
 			<effect type="TextOutput">110048</effect>
 			<effect all="true" type="TextOutput">110049</effect>
 			<effect type="Sound">researchcomplete1.wav</effect>
-			<effect type="TechStatus" status="unobtainable">Age 4 Wakinyan</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Anpao and Han</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Unk</effect>
 			<effect type="TechStatus" status="active">Age 4</effect>
-			<effect tech="Vortex" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+
+			<effect type="TechStatus" status="active">Did Wophe</effect>
+
+			<effect tech="Fires of Peace" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
 				<target type="Player"></target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Heka Gigantes</target>
+				<target type="ProtoUnit">Wi Can</target>
 			</effect>
-			<effect type="CreateUnit" unit="Heka Gigantes" delay="2000.00" generator="Temple">
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Canpi Wophe</target>
+			</effect>
+			<effect type="CreateUnit" unit="Wi Can" delay="2000.00" generator="Lakota Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="-5.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
 		</effects>
-		<exclude>Age 4 Wakinyan</exclude>
+		<exclude>Age 4 Anpao and Han</exclude>
 		<exclude>Age 4 Unk</exclude>
 	</tech>
-	<tech name="Age 4 Wakinyan" type="Normal">
+	<tech name="Age 4 Anpao and Han" type="Normal">
 		<dbid></dbid>
 		<displaynameid>110050</displaynameid>
 		<cost resourcetype="Food">1000.0000</cost>
@@ -29125,7 +29437,7 @@
 		<prereqs>
 			<typecount unit="Market" count="1.00" state="noneState aliveState " operator="gte"></typecount>
 			<specificage>Heroic Age</specificage>
-			<techstatus status="Active">Can Do Wakinyan</techstatus>
+			<techstatus status="Active">Can Do Anpao and Han</techstatus>
 			<culture>
 				<culturename>Greek</culturename>
 			</culture>
@@ -29134,22 +29446,28 @@
 			<effect type="TextOutput">110052</effect>
 			<effect all="true" type="TextOutput">110053</effect>
 			<effect type="Sound">researchcomplete1.wav</effect>
-			<effect type="TechStatus" status="unobtainable">Age 4 Hihan-Kaga</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Wophe</effect>
 			<effect type="TechStatus" status="unobtainable">Age 4 Unk</effect>
 			<effect type="TechStatus" status="active">Age 4</effect>
-			<effect tech="Vortex" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+
+			<effect type="TechStatus" status="active">Did Anpao and Han</effect>
+
+			<effect tech="Maker of Days" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
 				<target type="Player"></target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Heka Gigantes</target>
+				<target type="ProtoUnit">Woniya Thanka</target>
 			</effect>
-			<effect type="CreateUnit" unit="Heka Gigantes" delay="2000.00" generator="Temple">
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Canpi Anpao and Han</target>
+			</effect>
+			<effect type="CreateUnit" unit="Woniya Thanka" delay="2000.00" generator="Lakota Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="-5.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
 		</effects>
-		<exclude>Age 4 Hihan-Kaga</exclude>
+		<exclude>Age 4 Wophe</exclude>
 		<exclude>Age 4 Unk</exclude>
 	</tech>
 	<tech name="Age 4 Unk" type="Normal">
@@ -29176,23 +29494,37 @@
 			<effect type="TextOutput">110056</effect>
 			<effect all="true" type="TextOutput">110057</effect>
 			<effect type="Sound">researchcomplete1.wav</effect>
-			<effect type="TechStatus" status="unobtainable">Age 4 Hihan-Kaga</effect>
-			<effect type="TechStatus" status="unobtainable">Age 4 Wakinyan</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Wophe</effect>
+			<effect type="TechStatus" status="unobtainable">Age 4 Anpao and Han</effect>
 			<effect type="TechStatus" status="active">Age 4</effect>
-			<effect tech="Vortex" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+
+			<effect type="TechStatus" status="active">Did Unk</effect>
+
+			<effect tech="Uncegila" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
 				<target type="Player"></target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Heka Gigantes</target>
+				<target type="ProtoUnit">Unktehi Bloka</target>
 			</effect>
-			<effect type="CreateUnit" unit="Heka Gigantes" delay="2000.00" generator="Temple">
+			<effect type="CreateUnit" unit="Unktehi Bloka" delay="2000.00" generator="Dock">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Unktehi Winyela</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Canpi Unk</target>
+			</effect>
+			<effect type="CreateUnit" unit="Unktehi Winyela" delay="2000.00" generator="Lakota Temple">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="-5.00" y="0.00" z="0.00"></offset>
 				</pattern>
 			</effect>
 		</effects>
-		<exclude>Age 4 Hihan-Kaga</exclude>
-		<exclude>Age 4 Wakinyan</exclude>
+		<exclude>Age 4 Wophe</exclude>
+		<exclude>Age 4 Anpao and Han</exclude>
 	</tech>
 
 
@@ -29252,21 +29584,7 @@
 		<status>UNOBTAINABLE</status>
 		<icon>God Power Tartarian Gate icon</icon>
 	</tech>
-	<tech name="Can Do Wophe" type="Power">
-		<dbid></dbid>
-		<displaynameid>99174</displaynameid>
-		<researchpoints>0.0000</researchpoints>
-		<status>UNOBTAINABLE</status>
-		<icon>God Power Tartarian Gate icon</icon>
-	</tech>
-	<tech name="Can Do Untunktahe" type="Power">
-		<dbid></dbid>
-		<displaynameid>99174</displaynameid>
-		<researchpoints>0.0000</researchpoints>
-		<status>UNOBTAINABLE</status>
-		<icon>God Power Tartarian Gate icon</icon>
-	</tech>
-	<tech name="Can Do Hihan-Kaga" type="Power">
+	<tech name="Can Do Tate" type="Power">
 		<dbid></dbid>
 		<displaynameid>99174</displaynameid>
 		<researchpoints>0.0000</researchpoints>
@@ -29274,6 +29592,20 @@
 		<icon>God Power Tartarian Gate icon</icon>
 	</tech>
 	<tech name="Can Do Wakinyan" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Wophe" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Can Do Anpao and Han" type="Power">
 		<dbid></dbid>
 		<displaynameid>99174</displaynameid>
 		<researchpoints>0.0000</researchpoints>
@@ -29296,6 +29628,7 @@
 		<status>OBTAINABLE</status>
 		<icon>god major izanagi icon 64</icon>
 		<rollovertextid>110002</rollovertextid>
+		<flag>HideFromDetailHelp</flag>
 		<delay>0.0100</delay>
 		<prereqs>
 			<civilization>
@@ -29304,7 +29637,17 @@
 		</prereqs>
 		<effects>
 
-			<effect mute="true" type="CreateUnit" unit="Villager Atlantean" generator="SettlementsThatTrainVillagers">
+			<effect mute="true" type="CreateUnit" unit="Villager Lakota" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Medicine Woman" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Packed Thikceya" generator="SettlementsThatTrainVillagers">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="3.00" minradius="0.00">
 					<offset x="-6.00" y="0.00" z="-6.00"></offset>
 				</pattern>
@@ -29320,6 +29663,7 @@
 		<status>OBTAINABLE</status>
 		<icon>god major izanagi icon 64</icon>
 		<rollovertextid>110002</rollovertextid>
+		<flag>HideFromDetailHelp</flag>
 		<delay>0.0100</delay>
 		<prereqs>
 			<civilization>
@@ -29358,6 +29702,7 @@
 		<status>OBTAINABLE</status>
 		<icon>god major izanagi icon 64</icon>
 		<rollovertextid>110002</rollovertextid>
+		<flag>HideFromDetailHelp</flag>
 		<delay>0.0100</delay>
 		<prereqs>
 			<civilization>
@@ -29365,13 +29710,42 @@
 			</civilization>
 		</prereqs>
 		<effects>
-			<effect mute="true" type="CreateUnit" unit="Deer" generator="SettlementsThatTrainVillagers">
+			<effect mute="true" type="CreateUnit" unit="Bison" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="6.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Villager Lakota" generator="SettlementsThatTrainVillagers">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="3.00" minradius="0.00">
 					<offset x="-6.00" y="0.00" z="-6.00"></offset>
 				</pattern>
 			</effect>
 			<effect type="Data" amount="15.00" subtype="PopulationCapAddition" relativity="Absolute">
 				<target type="ProtoUnit">Settlement Level 1</target>
+			</effect>
+			<effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+				<target type="ProtoUnit">Caravan Lakota Dog</target>
+			</effect>
+
+
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+				<target type="ProtoUnit">Magpie</target>
+			</effect>
+			<effect type="Data" action="LightningAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+				<target type="ProtoUnit">Wanbli</target>
+			</effect>
+
+			<effect type="Data" amount="2.00" subtype="Hitpoints" relativity="Percent">
+				<target type="ProtoUnit">Magpie</target>
+			</effect>
+			<effect type="Data" amount="2.00" subtype="Hitpoints" relativity="Percent">
+				<target type="ProtoUnit">Wanbli</target>
+			</effect>
+			<effect type="Data" amount="1.1" subtype="MaximumVelocity" relativity="Percent">
+				<target type="ProtoUnit">Magpie</target>
+			</effect>
+			<effect type="Data" amount="1.1" subtype="MaximumVelocity" relativity="Percent">
+				<target type="ProtoUnit">Wanbli</target>
 			</effect>
 		</effects>
 	</tech>
@@ -29383,6 +29757,7 @@
 		<status>OBTAINABLE</status>
 		<icon>god major izanagi icon 64</icon>
 		<rollovertextid>110002</rollovertextid>
+		<flag>HideFromDetailHelp</flag>
 		<delay>0.0100</delay>
 		<prereqs>
 			<civilization>
@@ -29391,7 +29766,18 @@
 		</prereqs>
 		<effects>
 
-			<effect mute="true" type="CreateUnit" unit="Villager Atlantean" generator="SettlementsThatTrainVillagers">
+			<effect mute="true" type="CreateUnit" unit="Villager Lakota" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="3.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Medicine Woman" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="2.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+
+			<effect mute="true" type="CreateUnit" unit="Packed Thikceya" generator="SettlementsThatTrainVillagers">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="3.00" minradius="0.00">
 					<offset x="-6.00" y="0.00" z="-6.00"></offset>
 				</pattern>
@@ -29447,6 +29833,7 @@
 		<status>OBTAINABLE</status>
 		<icon>god major izanagi icon 64</icon>
 		<rollovertextid>110002</rollovertextid>
+		<flag>HideFromDetailHelp</flag>
 		<delay>0.0100</delay>
 		<prereqs>
 			<civilization>
@@ -29454,13 +29841,39 @@
 			</civilization>
 		</prereqs>
 		<effects>
-			<effect mute="true" type="CreateUnit" unit="Deer" generator="SettlementsThatTrainVillagers">
-				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="3.00" minradius="0.00">
+			<effect mute="true" type="CreateUnit" unit="Bison" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="12.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Villager Lakota" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="4.00" minradius="0.00">
 					<offset x="-6.00" y="0.00" z="-6.00"></offset>
 				</pattern>
 			</effect>
 			<effect type="Data" amount="15.00" subtype="PopulationCapAddition" relativity="Absolute">
 				<target type="ProtoUnit">Settlement Level 1</target>
+			</effect>
+			<effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+				<target type="ProtoUnit">Caravan Lakota Dog</target>
+			</effect>
+			<effect type="Data" amount="2.00" subtype="Hitpoints" relativity="Percent">
+				<target type="ProtoUnit">Magpie</target>
+			</effect>
+			<effect type="Data" amount="2.00" subtype="Hitpoints" relativity="Percent">
+				<target type="ProtoUnit">Wanbli</target>
+			</effect>
+			<effect type="Data" amount="1.1" subtype="MaximumVelocity" relativity="Percent">
+				<target type="ProtoUnit">Magpie</target>
+			</effect>
+			<effect type="Data" amount="1.1" subtype="MaximumVelocity" relativity="Percent">
+				<target type="ProtoUnit">Wanbli</target>
+			</effect>
+			<effect type="Data" action="ChargedRangedAttack" amount="1.00" subtype="NumberProjectiles" relativity="Absolute">
+				<target type="ProtoUnit">Magpie</target>
+			</effect>
+			<effect type="Data" action="ChargedRangedAttack" amount="1.00" subtype="NumberProjectiles" relativity="Absolute">
+				<target type="ProtoUnit">Wanbli</target>
 			</effect>
 		</effects>
 	</tech>
@@ -29482,7 +29895,17 @@
 		</prereqs>
 		<effects>
 
-			<effect mute="true" type="CreateUnit" unit="Villager Atlantean" generator="SettlementsThatTrainVillagers">
+			<effect mute="true" type="CreateUnit" unit="Villager Lakota" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="5.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Medicine Woman" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="3.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Packed Thikceya" generator="SettlementsThatTrainVillagers">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="3.00" minradius="0.00">
 					<offset x="-6.00" y="0.00" z="-6.00"></offset>
 				</pattern>
@@ -29539,19 +29962,46 @@
 		<icon>god major izanagi icon 64</icon>
 		<rollovertextid>110002</rollovertextid>
 		<delay>0.0100</delay>
+		<flag>HideFromDetailHelp</flag>
 		<prereqs>
 			<civilization>
 				<civname>Ouranos</civname>
 			</civilization>
 		</prereqs>
 		<effects>
-			<effect mute="true" type="CreateUnit" unit="Deer" generator="SettlementsThatTrainVillagers">
-				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="3.00" minradius="0.00">
+			<effect mute="true" type="CreateUnit" unit="Bison" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="16.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Villager Lakota" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="5.00" minradius="0.00">
 					<offset x="-6.00" y="0.00" z="-6.00"></offset>
 				</pattern>
 			</effect>
 			<effect type="Data" amount="15.00" subtype="PopulationCapAddition" relativity="Absolute">
 				<target type="ProtoUnit">Settlement Level 1</target>
+			</effect>
+			<effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+				<target type="ProtoUnit">Caravan Lakota Dog</target>
+			</effect>
+			<effect type="Data" amount="2.00" subtype="Hitpoints" relativity="Percent">
+				<target type="ProtoUnit">Magpie</target>
+			</effect>
+			<effect type="Data" amount="2.00" subtype="Hitpoints" relativity="Percent">
+				<target type="ProtoUnit">Wanbli</target>
+			</effect>
+			<effect type="Data" amount="1.1" subtype="MaximumVelocity" relativity="Percent">
+				<target type="ProtoUnit">Magpie</target>
+			</effect>
+			<effect type="Data" amount="1.1" subtype="MaximumVelocity" relativity="Percent">
+				<target type="ProtoUnit">Wanbli</target>
+			</effect>
+			<effect type="Data" action="ChargedRangedAttack" amount="1.00" subtype="NumberProjectiles" relativity="Absolute">
+				<target type="ProtoUnit">Magpie</target>
+			</effect>
+			<effect type="Data" action="ChargedRangedAttack" amount="1.00" subtype="NumberProjectiles" relativity="Absolute">
+				<target type="ProtoUnit">Wanbli</target>
 			</effect>
 		</effects>
 	</tech>
@@ -29565,9 +30015,6 @@
 		<rollovertextid>110061</rollovertextid>
 		<delay>0.0100</delay>
 		<prereqs>
-			<civilization>
-				<civname>Ouranos</civname>
-			</civilization>
 			<specificage>Mythic Age</specificage>
 			<techstatus status="Active">Lakota Civ</techstatus>
 		</prereqs>
@@ -39502,6 +39949,9 @@
 		<rollovertextid>120653</rollovertextid>
 		<delay>0.0100</delay>
 		<prereqs>
+			<culture>
+				<culturename>Chinese</culturename>
+			</culture>
 		</prereqs>
 		<effects>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -40056,7 +40506,7 @@
 		<cost resourcetype="Gold">1000.0000</cost>
 		<researchpoints>90.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement cthulhu icon</icon>
+		<icon>improvement noth-yidik icon</icon>
 		<rollovertextid>120691</rollovertextid>
 		<prereqsnotmetrollovertextid>17980</prereqsnotmetrollovertextid>
 		<buttonpos row="1" column="2"></buttonpos>
@@ -40338,6 +40788,9 @@
 			</effect>
 			<effect type="Data" amount="-0.12" subtype="ArmorVulnerability" damagetype="Hack" relativity="Percent">
 				<target type="ProtoUnit">Cultist</target>
+			</effect>
+			<effect type="Data" amount="-0.12" subtype="ArmorVulnerability" damagetype="Hack" relativity="Percent">
+				<target type="ProtoUnit">Sacrificial Lamb</target>
 			</effect>
 		</effects>
 	</tech>
@@ -40624,9 +41077,2822 @@
 			</effect>
 		</effects>
 	</tech>
+	<tech name="Bison Generate Small" type="Power">
+		<dbid></dbid>
+		<displaynameid>99094</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement schism icon</icon>
+		<rollovertextid>99095</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+	<tech name="Bison Generate Medium" type="Power">
+		<dbid></dbid>
+		<displaynameid>99094</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement schism icon</icon>
+		<rollovertextid>99095</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+	<tech name="Bison Generate Large" type="Power">
+		<dbid></dbid>
+		<displaynameid>99094</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement schism icon</icon>
+		<rollovertextid>99095</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Wagacan" type="Power">
+		<dbid></dbid>
+		<displaynameid>110118</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement schism icon</icon>
+		<rollovertextid>110119</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Tree Spawn" type="Power">
+		<dbid></dbid>
+		<displaynameid>110118</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement schism icon</icon>
+		<rollovertextid>110119</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Hierarchy of Life" type="Power">
+		<dbid></dbid>
+		<displaynameid>110120</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement schism icon</icon>
+		<rollovertextid>110121</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Nagi Akta" type="Power">
+		<dbid></dbid>
+		<displaynameid>110123</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement schism icon</icon>
+		<rollovertextid>110124</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Shapeshifters Chaos" type="Power">
+		<dbid></dbid>
+		<displaynameid>110125</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement schism icon</icon>
+		<rollovertextid>110126</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Four Winds" type="Power">
+		<dbid></dbid>
+		<displaynameid>110127</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement schism icon</icon>
+		<rollovertextid>110128</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Omakha Waphaya" type="Power">
+		<dbid></dbid>
+		<displaynameid>110129</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement schism icon</icon>
+		<rollovertextid>110130</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+
+
+	<tech name="Fruit of the Garden" type="Power">
+		<dbid></dbid>
+		<displaynameid>110131</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement schism icon</icon>
+		<rollovertextid>110132</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Winds of Time" type="Power">
+		<dbid></dbid>
+		<displaynameid>110133</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement schism icon</icon>
+		<rollovertextid>110134</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Thunders Judgement" type="Power">
+		<dbid></dbid>
+		<displaynameid>110135</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement schism icon</icon>
+		<rollovertextid>110136</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Fires of Peace" type="Power">
+		<dbid></dbid>
+		<displaynameid>110137</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement schism icon</icon>
+		<rollovertextid>110138</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Uncegila" type="Power">
+		<dbid></dbid>
+		<displaynameid>110139</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement schism icon</icon>
+		<rollovertextid>110140</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Maker of Days" type="Power">
+		<dbid></dbid>
+		<displaynameid>110141</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement schism icon</icon>
+		<rollovertextid>110142</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+
+
+	<tech name="Crazy Bull Chaos" type="Power">
+		<dbid></dbid>
+		<displaynameid>110142</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement schism icon</icon>
+		<rollovertextid>110143</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Four Winds Active" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110127</displaynameid>
+		<rollovertextid>110128</rollovertextid>
+		<researchpoints>0.1000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>Improvement Burning Hearths Icon</icon>
+		<effects>
+
+			<effect type="Data" amount="1.33" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Unit</target>
+			</effect>
+			<effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Unit</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Unit</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="5.00" subtype="TrackRating" relativity="Absolute">
+				<target type="ProtoUnit">Unit</target>
+			</effect>
+
+		</effects>
+	</tech>
+
+	<tech name="Fruit of the Garden Active" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110131</displaynameid>
+		<rollovertextid>110132</rollovertextid>
+		<researchpoints>0.1000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>Improvement Burning Hearths Icon</icon>
+		<effects>
+
+
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="HumanSoldier" relativity="BasePercent">
+				<target type="ProtoUnit">Deer Woman</target>
+			</effect>
+			<effect type="Data" amount="0.33" subtype="RechargeTime" relativity="BasePercent">
+				<target type="ProtoUnit">Deer Woman</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Owl Migration" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Trigger Age 2</techstatus>
+			<techstatus status="Active">Age 1 Hihan Kaga</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Owl Soldier" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="2.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Hihan Migration 2" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Done Age 2</techstatus>
+			<techstatus status="Active">Age 1 Hihan Kaga</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Villager Lakota" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="2.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+			<effect tech="Nagi Akta" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Hihan Migration 3" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Done Age 3</techstatus>
+			<techstatus status="Active">Age 1 Hihan Kaga</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Villager Lakota" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="3.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+			<effect tech="Nagi Akta" type="Data" amount="2.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Hihan Migration 4" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Done Age 4</techstatus>
+			<techstatus status="Active">Age 1 Hihan Kaga</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Villager Lakota" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="4.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+
+			<effect tech="Nagi Akta" type="Data" amount="3.00" subtype="GrantedTech" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Wi Migration 2" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110001</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<flag>HideFromDetailHelp</flag>
+		<rollovertextid>110002</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Done Age 2</techstatus>
+			<techstatus status="Active">Age 1 Wi</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Medicine Woman" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Invoker of Void Tree" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="5.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Unit</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Unit</target>
+			</effect>
+			<effect type="Data" action="LightningAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Unit</target>
+			</effect>
+			<effect type="Data" action="ChargedRangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Unit</target>
+			</effect>
+			
+		</effects>
+	</tech>
+	<tech name="Wi Migration 3" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110001</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<flag>HideFromDetailHelp</flag>
+		<rollovertextid>110002</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Done Age 3</techstatus>
+			<techstatus status="Active">Age 1 Wi</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Medicine Woman" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Invoker of Void Tree" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="5.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Unit</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Unit</target>
+			</effect>
+			<effect type="Data" action="LightningAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Unit</target>
+			</effect>
+			<effect type="Data" action="ChargedRangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Unit</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Wi Migration 4" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110001</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<flag>HideFromDetailHelp</flag>
+		<rollovertextid>110002</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Done Age 4</techstatus>
+			<techstatus status="Active">Age 1 Wi</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Medicine Woman" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+			<effect mute="true" type="CreateUnit" unit="Invoker of Void Tree" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="5.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Unit</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Unit</target>
+			</effect>
+			<effect type="Data" action="LightningAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Unit</target>
+			</effect>
+			<effect type="Data" action="ChargedRangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Unit</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Unci Migration 2" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<flag>HideFromDetailHelp</flag>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Done Age 2</techstatus>
+			<techstatus status="Active">Age 1 Unci Makha</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Bison" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="2.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Unci Migration 3" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<flag>HideFromDetailHelp</flag>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Done Age 3</techstatus>
+			<techstatus status="Active">Age 1 Unci Makha</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Bison" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="5.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Unci Migration 4" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<flag>HideFromDetailHelp</flag>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Done Age 4</techstatus>
+			<techstatus status="Active">Age 1 Unci Makha</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Bison" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="7.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Iktomi Migration 1" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<flag>HideFromDetailHelp</flag>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Trigger Age 2</techstatus>
+			<techstatus status="Active">Did Iktomi</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Kitfox Soldier" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="2.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Iktomi Migration 2" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>HideFromDetailHelp</flag>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Done Age 2</techstatus>
+			<techstatus status="Active">Did Iktomi</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Kitfox Soldier" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="2.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Capa Migration 1" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<flag>HideFromDetailHelp</flag>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Trigger Age 2</techstatus>
+			<techstatus status="Active">Did Capa</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Strongheart" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="2.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Capa Migration 2" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>HideFromDetailHelp</flag>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Done Age 2</techstatus>
+			<techstatus status="Active">Did Capa</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Strongheart" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="2.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Wani Migration 1" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>HideFromDetailHelp</flag>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Trigger Age 2</techstatus>
+			<techstatus status="Active">Did Wani</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Fancy Spear" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="2.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Wani Migration 2" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>HideFromDetailHelp</flag>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Done Age 2</techstatus>
+			<techstatus status="Active">Did Wani</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Fancy Spear" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="2.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Anung Ite Migration 1" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>HideFromDetailHelp</flag>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Trigger Age 3</techstatus>
+			<techstatus status="Active">Did Anung Ite</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Crow-Rider" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="4.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Anung Ite Migration 2" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>HideFromDetailHelp</flag>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Done Age 3</techstatus>
+			<techstatus status="Active">Did Anung Ite</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Crow-Rider" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="3.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Tate Migration 1" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>HideFromDetailHelp</flag>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Trigger Age 3</techstatus>
+			<techstatus status="Active">Did Tate</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="White Marked" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="4.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Tate Migration 2" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<flag>HideFromDetailHelp</flag>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Done Age 3</techstatus>
+			<techstatus status="Active">Did Tate</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="White Marked" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="3.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Wakinyan Migration 1" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<flag>HideFromDetailHelp</flag>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Trigger Age 3</techstatus>
+			<techstatus status="Active">Did Wakinyan</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="No-Flights" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="4.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Wakinyan Migration 2" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<flag>HideFromDetailHelp</flag>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Done Age 3</techstatus>
+			<techstatus status="Active">Did Wakinyan</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="No-Flights" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="3.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Wophe Migration 1" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<flag>HideFromDetailHelp</flag>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Trigger Age 4</techstatus>
+			<techstatus status="Active">Did Wophe</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="White Rider" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="8.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Wophe Migration 2" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<flag>HideFromDetailHelp</flag>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Done Age 4</techstatus>
+			<techstatus status="Active">Did Wophe</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="White Rider" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="4.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Anpao and Han Migration 1" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>HideFromDetailHelp</flag>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Trigger Age 4</techstatus>
+			<techstatus status="Active">Did Anpao and Han</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Raven Keeper" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="8.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Anpao and Han Migration 2" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>HideFromDetailHelp</flag>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Done Age 4</techstatus>
+			<techstatus status="Active">Did Anpao and Han</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Raven Keeper" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="4.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Unk Migration 1" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>HideFromDetailHelp</flag>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Trigger Age 4</techstatus>
+			<techstatus status="Active">Did Unk</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Warpath Badger" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="8.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Unk Migration 2" type="Normal">
+		<dbid></dbid>
+		<displaynameid>120684</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>HideFromDetailHelp</flag>
+		<icon>Improvement Nameless Mist Icon</icon>
+		<rollovertextid>120685</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Migration Done Age 4</techstatus>
+			<techstatus status="Active">Did Unk</techstatus>
+		</prereqs>
+		<effects>
+			<effect mute="true" type="CreateUnit" unit="Warpath Badger" generator="SettlementsThatTrainVillagers">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="4.00" minradius="0.00">
+					<offset x="-6.00" y="0.00" z="-6.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Wanbli Respawn" type="Normal">
+		<dbid></dbid>
+		<displaynameid>11181</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>PERSISTENT</status>
+		<delay>120.0000</delay>
+		<flag>Volatile</flag>
+		<flag>HideFromDetailHelp</flag>
+		<prereqs>
+			<techstatus status="Active">Age 1 Wi</techstatus>
+
+			<typecount unit="Lakota Temple" count="1.00" state="noneState aliveState " operator="gte"></typecount>
+			<typecount unit="Wanbli" count="1.00" state="noneState aliveState " operator="lt"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">110307</effect>
+			<effect type="CreateUnit" unit="Wanbli" generator="Lakota Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="First Wanbli" type="Normal">
+		<dbid></dbid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>HideFromDetailHelp</flag>
+		<prereqs>
+			<techstatus status="Active">Age 1 Wi</techstatus>
+
+			<typecount unit="Lakota Temple" count="0.00" state="noneState aliveState " operator="gt"></typecount>
+			<typecount unit="Wanbli" count="1.00" state="noneState buildingState aliveState " operator="lt"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">110308</effect>
+			<effect type="CreateUnit" unit="Wanbli" generator="Lakota Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="First Magpie" type="Normal">
+		<dbid></dbid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<flag>HideFromDetailHelp</flag>
+		<prereqs>
+			<techstatus status="Active">Age 1 Unci Makha</techstatus>
+
+			<typecount unit="Lakota Temple" count="0.00" state="noneState aliveState " operator="gt"></typecount>
+			<typecount unit="Magpie" count="1.00" state="noneState buildingState aliveState " operator="lt"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">110309</effect>
+			<effect type="CreateUnit" unit="Magpie" generator="Lakota Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Magpie</target>
+			</effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Bison Generate Gold" type="Power">
+		<dbid></dbid>
+		<displaynameid>99094</displaynameid>
+		<researchpoints>0.1000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement schism icon</icon>
+		<rollovertextid>99095</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 1 Zeus</techstatus>
+		</prereqs>
+	</tech>
+
+	<tech name="Solar Calendar" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110145</displaynameid>
+		<cost resourcetype="Gold">100.0000</cost>
+		<cost resourcetype="Favor">5.0000</cost>
+		<researchpoints>15.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110146</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Classical Age</specificage>
+			<techstatus status="Active">Age 1 Wi</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Lunar Calendar L" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110147</displaynameid>
+		<cost resourcetype="Gold">100.0000</cost>
+		<cost resourcetype="Favor">5.0000</cost>
+		<researchpoints>15.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110148</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Classical Age</specificage>
+			<techstatus status="Active">Age 1 Wi</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="Empower" amount="1.20" subtype="WorkRate" unittype="ActionGather" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Sun Dogs" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110149</displaynameid>
+		<cost resourcetype="Gold">150.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<researchpoints>15.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110150</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+			<techstatus status="Active">Age 1 Wi</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+				<target type="ProtoUnit">Wi Can Ranged</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+				<target type="ProtoUnit">Villager Lakota</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+				<target type="ProtoUnit">Wi Can</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+				<target type="ProtoUnit">Wi Can Melee</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Moon Dogs" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110151</displaynameid>
+		<cost resourcetype="Gold">150.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<researchpoints>15.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110152</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+			<techstatus status="Active">Age 1 Wi</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Lakota</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Wanbli</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Villager Lakota</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Wanbli</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Ahanzi" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110153</displaynameid>
+		<cost resourcetype="Gold">300.0000</cost>
+		<cost resourcetype="Favor">20.0000</cost>
+		<researchpoints>15.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110154</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Mythic Age</specificage>
+			<techstatus status="Active">Age 1 Wi</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.15" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">MythUnit</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Reflections" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110155</displaynameid>
+		<cost resourcetype="Gold">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<researchpoints>15.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110156</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Classical Age</specificage>
+			<techstatus status="Active">Age 1 Unci Makha</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Grandmothers Tree</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="As Above" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110157</displaynameid>
+		<cost resourcetype="Gold">150.0000</cost>
+		<cost resourcetype="Favor">15.0000</cost>
+		<researchpoints>15.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110158</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+			<techstatus status="Active">Age 1 Unci Makha</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Building</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Building</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="So Below" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110159</displaynameid>
+		<cost resourcetype="Gold">150.0000</cost>
+		<cost resourcetype="Favor">15.0000</cost>
+		<researchpoints>15.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110160</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+			<techstatus status="Active">Age 1 Unci Makha</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.05" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Building</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.05" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Building</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Nightwatcher" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110293</displaynameid>
+		<cost resourcetype="Gold">300.0000</cost>
+		<cost resourcetype="Favor">30.0000</cost>
+		<researchpoints>15.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110294</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Mythic Age</specificage>
+			<techstatus status="Active">Age 1 Unci Makha</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="10.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Grandmothers Tree</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="10.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Grandmothers Tree</target>
+			</effect>
+			<effect type="TechStatus" status="unobtainable">Daybreaker</effect>
+		</effects>
+		<exclude>Daybreaker</exclude>
+	</tech>
+	<tech name="Daybreaker" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110295</displaynameid>
+		<cost resourcetype="Gold">300.0000</cost>
+		<cost resourcetype="Favor">30.0000</cost>
+		<researchpoints>15.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110296</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Mythic Age</specificage>
+			<techstatus status="Active">Age 1 Unci Makha</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="RangedAttack" amount="1.5" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Grandmothers Tree</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.5" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+				<target type="ProtoUnit">Grandmothers Tree</target>
+			</effect>
+			<effect type="TechStatus" status="unobtainable">Nightwatcher</effect>
+		</effects>
+		<exclude>Nightwatcher</exclude>
+	</tech>
+
+
+	<tech name="Did Capa" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Did Iktomi" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Did Wani" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Did Anung Ite" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Did Tate" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Did Wakinyan" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Did Wophe" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Did Anpao and Han" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+	<tech name="Did Unk" type="Power">
+		<dbid></dbid>
+		<displaynameid>99174</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>God Power Tartarian Gate icon</icon>
+	</tech>
+
+	<tech name="Osage Tree Gifts" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110161</displaynameid>
+		<cost resourcetype="Gold">100.0000</cost>
+		<cost resourcetype="Favor">5.0000</cost>
+		<researchpoints>15.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110162</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Classical Age</specificage>
+			<techstatus status="Active">Age 1 Hihan Kaga</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="RangedAttack" amount="1.05" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">All</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.05" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">All</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.05" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+				<target type="ProtoUnit">All</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Ehanni" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110163</displaynameid>
+		<cost resourcetype="Gold">100.0000</cost>
+		<cost resourcetype="Favor">5.0000</cost>
+		<researchpoints>15.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110164</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Classical Age</specificage>
+			<techstatus status="Active">Age 1 Hihan Kaga</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="10.0" subtype="Hitpoints" relativity="Assign">
+				<target type="ProtoUnit">Akicita Dead</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Inipi" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110165</displaynameid>
+		<cost resourcetype="Gold">150.0000</cost>
+		<cost resourcetype="Favor">15.0000</cost>
+		<researchpoints>15.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110166</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+			<techstatus status="Active">Age 1 Hihan Kaga</techstatus>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" action="RangedAttack" amount="1.05" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.05" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.05" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.05" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.05" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.05" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="Percent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Woptecasni" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110167</displaynameid>
+		<cost resourcetype="Gold">150.0000</cost>
+		<cost resourcetype="Favor">15.0000</cost>
+		<researchpoints>15.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110168</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+			<techstatus status="Active">Age 1 Hihan Kaga</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="10.0" subtype="Hitpoints" relativity="Assign">
+				<target type="ProtoUnit">Medicine Woman Dead</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Call of the Void" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110169</displaynameid>
+		<cost resourcetype="Gold">300.0000</cost>
+		<cost resourcetype="Favor">30.0000</cost>
+		<researchpoints>15.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110170</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Mythic Age</specificage>
+			<techstatus status="Active">Age 1 Hihan Kaga</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.20" subtype="Hitpoints" relativity="Percent">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Master of Whispers" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110171</displaynameid>
+		<cost resourcetype="Wood">130.0000</cost>
+		<cost resourcetype="Favor">15.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110172</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 2 Iktomi</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="HandAttack" amount="2.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+				<target type="ProtoUnit">Tathanka Gnaskiyan</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="2.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+				<target type="ProtoUnit">Tokala Soldier</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Ducks Folly" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110173</displaynameid>
+		<cost resourcetype="Food">180.0000</cost>
+		<cost resourcetype="Favor">12.0000</cost>
+		<researchpoints>25.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110174</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 2 Iktomi</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Turkey</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Yanpas Wisdom" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110175</displaynameid>
+		<cost resourcetype="Wood">200.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110176</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 2 Wani</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Favor" relativity="BasePercent">
+				<target type="Tech">Okagas Wisdom</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Favor" relativity="BasePercent">
+				<target type="Tech">Peyatas Wisdom</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Favor" relativity="BasePercent">
+				<target type="Tech">Yatas Wisdom</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Okagas Wisdom" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110177</displaynameid>
+		<cost resourcetype="Wood">200.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110178</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 2 Wani</techstatus>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" amount="0.75" subtype="TrainPoints" relativity="BasePercent">
+				<target type="ProtoUnit">MythUnit</target>
+			</effect>
+			
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Favor" relativity="BasePercent">
+				<target type="Tech">Yanpas Wisdom</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Favor" relativity="BasePercent">
+				<target type="Tech">Peyatas Wisdom</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Favor" relativity="BasePercent">
+				<target type="Tech">Yatas Wisdom</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Peyatas Wisdom" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110179</displaynameid>
+		<cost resourcetype="Wood">200.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110180</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 2 Wani</techstatus>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" action="RangedAttack" amount="1.5" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+				<target type="ProtoUnit">Zuzeca Zuya</target>
+			</effect>
+			
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Favor" relativity="BasePercent">
+				<target type="Tech">Okagas Wisdom</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Favor" relativity="BasePercent">
+				<target type="Tech">Yanpas Wisdom</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Favor" relativity="BasePercent">
+				<target type="Tech">Yatas Wisdom</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Yatas Wisdom" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110181</displaynameid>
+		<cost resourcetype="Wood">200.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110182</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 2 Wani</techstatus>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Zuzeca Zuya</target>
+			</effect>
+
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Favor" relativity="BasePercent">
+				<target type="Tech">Okagas Wisdom</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Favor" relativity="BasePercent">
+				<target type="Tech">Peyatas Wisdom</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="Cost" resource="Favor" relativity="BasePercent">
+				<target type="Tech">Yanpas Wisdom</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Yaunka" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110183</displaynameid>
+		<cost resourcetype="Food">220.0000</cost>
+		<cost resourcetype="Favor">15.0000</cost>
+		<researchpoints>25.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110184</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 2 Capa</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="HandAttack" amount="1.5" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">Waawaynka</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Lakota</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="5.00" subtype="DamageBonus" unittype="Tree" relativity="Absolute">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Mazaskazi Capa" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110185</displaynameid>
+		<cost resourcetype="Wood">200.0000</cost>
+		<cost resourcetype="Favor">25.0000</cost>
+		<researchpoints>35.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110186</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 2 Capa</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="AutoGather" amount="2.5" subtype="WorkRate" unittype="Gold" relativity="Assign">
+				<target type="ProtoUnit">Strongheart</target>
+			</effect>
+			<effect type="Data" action="AutoGather" amount="2.5" subtype="WorkRate" unittype="Gold" relativity="Assign">
+				<target type="ProtoUnit">Waawaynka</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Stars of the Evening" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110187</displaynameid>
+		<cost resourcetype="Wood">150.0000</cost>
+		<cost resourcetype="Favor">30.0000</cost>
+		<researchpoints>25.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110188</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 3 Anung Ite</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="3.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Deer Woman</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="3.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Deer Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="3.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Deer Woman</target>
+			</effect>
+			<effect type="SetName" proto="Deer Woman" culture="Greek" newname="110314"></effect>
+
+		</effects>
+	</tech>
+	<tech name="Stars of the Morning" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110189</displaynameid>
+		<cost resourcetype="Wood">200.0000</cost>
+		<cost resourcetype="Favor">20.0000</cost>
+		<researchpoints>35.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110190</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 3 Anung Ite</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Villager Lakota</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Villager Lakota</target>
+			</effect>
+			<effect type="Data" amount="1.05" subtype="MaximumVelocity" relativity="Percent">
+				<target type="ProtoUnit">Villager Lakota</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Seeds of the Five Winds" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110191</displaynameid>
+		<cost resourcetype="Food">220.0000</cost>
+		<cost resourcetype="Favor">21.0000</cost>
+		<researchpoints>35.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110192</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 3 Anung Ite</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="0.25" subtype="BuildPoints" relativity="Percent">
+				<target type="ProtoUnit">Ribbon Garden</target>
+			</effect>
+		</effects>
+	</tech>
+
+
+	<tech name="The Son of Love" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110193</displaynameid>
+		<cost resourcetype="Food">200.0000</cost>
+		<cost resourcetype="Favor">20.0000</cost>
+		<researchpoints>45.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110194</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 3 Tate</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="0.33" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Villager Lakota</target>
+			</effect>
+			<effect type="Data" amount="0.33" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			<effect type="Data" amount="1.1" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="ProtoUnit">Villager Lakota</target>
+			</effect>
+			<effect type="Data" amount="1.1" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Etu" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110195</displaynameid>
+		<cost resourcetype="Wood">160.0000</cost>
+		<cost resourcetype="Favor">17.0000</cost>
+		<researchpoints>25.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110196</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 3 Tate</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="Percent">
+				<target type="ProtoUnit">Packed Thikceya</target>
+			</effect>
+			<effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="Percent">
+				<target type="ProtoUnit">Packed Thikceya 2</target>
+			</effect>
+			<effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="Percent">
+				<target type="ProtoUnit">Packed Guild Fire</target>
+			</effect>
+
+			<effect type="Data" amount="0.0" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="ProtoUnit">Thikceya</target>
+			</effect>
+			<effect type="Data" amount="0.0" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="ProtoUnit">Guild Fire 2</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Thunder-Dreamer" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110197</displaynameid>
+		<cost resourcetype="Food">100.0000</cost>
+		<cost resourcetype="Favor">25.0000</cost>
+		<researchpoints>35.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110198</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 3 Wakinyan</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="-0.25" subtype="ArmorVulnerability" damagetype="Hack" relativity="Percent">
+				<target type="ProtoUnit">No-Flights</target>
+			</effect>
+			<effect type="Data" amount="-0.25" subtype="ArmorVulnerability" damagetype="Pierce" relativity="Percent">
+				<target type="ProtoUnit">No-Flights</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Thunder-Walker" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110199</displaynameid>
+		<cost resourcetype="Wood">130.0000</cost>
+		<cost resourcetype="Favor">25.0000</cost>
+		<researchpoints>35.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110200</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 3 Wakinyan</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="DamageBonus" unittype="MythUnit" relativity="Assign">
+				<target type="ProtoUnit">HumanSoldier</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Memories of the Dragonfly" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110201</displaynameid>
+		<cost resourcetype="Wood">110.0000</cost>
+		<cost resourcetype="Favor">25.0000</cost>
+		<researchpoints>35.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110202</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 3 Wakinyan</techstatus>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" action="AreaAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+				<target type="ProtoUnit">SettlementsThatTrainVillagers</target>
+			</effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Cannunpa" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110203</displaynameid>
+		<cost resourcetype="Wood">300.0000</cost>
+		<cost resourcetype="Favor">35.0000</cost>
+		<researchpoints>35.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110204</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 4 Wophe</techstatus>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" action="Heal" amount="2.0" subtype="WorkRate" unittype="LogicalTypeCanBeHealed" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			<effect type="Data" action="AutoGather" amount="0.1" subtype="WorkRate" unittype="Favor" relativity="Assign">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Sacred Flame" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110205</displaynameid>
+		<cost resourcetype="Food">300.0000</cost>
+		<cost resourcetype="Favor">35.0000</cost>
+		<researchpoints>35.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110206</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Age 4 Wophe</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="Regenerate" amount="1.00" subtype="WorkRate" unittype="All" relativity="Absolute">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" action="Regenerate" amount="1.00" subtype="WorkRate" unittype="All" relativity="Absolute">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			<effect type="Data" action="Regenerate" amount="1.00" subtype="WorkRate" unittype="All" relativity="Absolute">
+				<target type="ProtoUnit">Wi Can</target>
+			</effect>
+			<effect type="Data" action="Regenerate" amount="1.00" subtype="WorkRate" unittype="All" relativity="Absolute">
+				<target type="ProtoUnit">Wi Can Melee</target>
+			</effect>
+			<effect type="Data" action="Regenerate" amount="1.00" subtype="WorkRate" unittype="All" relativity="Absolute">
+				<target type="ProtoUnit">Wi Can Ranged</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Falling Star" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110207</displaynameid>
+		<cost resourcetype="Food">275.0000</cost>
+		<cost resourcetype="Favor">30.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement tooth shards Icon</icon>
+		<rollovertextid>110208</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 4 Wophe</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="RangedAttack" amount="2.0" subtype="Damage" damagetype="Hack" relativity="Absolute">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+		</effects>
+	</tech>
+
+	<tech name="Skecethanka" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110209</displaynameid>
+		<cost resourcetype="Food">275.0000</cost>
+		<cost resourcetype="Favor">32.0000</cost>
+		<researchpoints>35.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement tooth shards Icon</icon>
+		<rollovertextid>110210</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 4 Unk</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="HandAttack" amount="0.25" subtype="ReflectDamage" relativity="Assign">
+				<target type="ProtoUnit">Warpath Badger</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Surviving Alone" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110211</displaynameid>
+		<cost resourcetype="Wood">320.0000</cost>
+		<cost resourcetype="Favor">30.0000</cost>
+		<researchpoints>35.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement tooth shards Icon</icon>
+		<rollovertextid>110212</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 4 Unk</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="Regenerate" amount="2.00" subtype="WorkRate" unittype="All" relativity="Absolute">
+				<target type="ProtoUnit">Ship</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="A Mothers Rage" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110213</displaynameid>
+		<cost resourcetype="Wood">300.0000</cost>
+		<cost resourcetype="Favor">25.0000</cost>
+		<researchpoints>35.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement tooth shards Icon</icon>
+		<rollovertextid>110214</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 4 Unk</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="SetName" proto="Unktethi Winyela" culture="Greek" newname="110315"></effect>
+			<effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Unktethi Winyela</target>
+			</effect>
+			<effect type="Data" amount="-0.30" subtype="ArmorVulnerability" damagetype="Hack" relativity="Percent">
+				<target type="ProtoUnit">Unktethi Winyela</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="A Fathers Anger" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110215</displaynameid>
+		<cost resourcetype="Wood">300.0000</cost>
+		<cost resourcetype="Favor">25.0000</cost>
+		<researchpoints>35.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement tooth shards Icon</icon>
+		<rollovertextid>110216</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 4 Unk</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="SetName" proto="Unktethi Bloka" culture="Greek" newname="110316"></effect>
+			<effect type="Data" amount="1.33" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Unktethi Bloka</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+				<target type="ProtoUnit">Unktethi Bloka</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="The Fear of Death" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110217</displaynameid>
+		<cost resourcetype="Wood">320.0000</cost>
+		<cost resourcetype="Favor">25.0000</cost>
+		<researchpoints>35.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement tooth shards Icon</icon>
+		<rollovertextid>110218</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 4 Unk</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+				<target type="ProtoUnit">AbstractArcher</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Morning Star" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110219</displaynameid>
+		<cost resourcetype="Food">300.0000</cost>
+		<cost resourcetype="Favor">28.0000</cost>
+		<researchpoints>45.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement tooth shards Icon</icon>
+		<rollovertextid>110220</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 4 Anpao and Han</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="RangedAttack" amount="1.30" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractArcher</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.30" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractArcher</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.30" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractArcher</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Cycles of Light" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110221</displaynameid>
+		<cost resourcetype="Wood">300.0000</cost>
+		<cost resourcetype="Favor">23.0000</cost>
+		<researchpoints>55.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement tooth shards Icon</icon>
+		<rollovertextid>110222</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 4 Anpao and Han</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="RangedAttack" amount="0.20" subtype="DamageBonus" unittype="Building" relativity="Absolute">
+				<target type="ProtoUnit">MythUnit</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="0.20" subtype="DamageBonus" unittype="Building" relativity="Absolute">
+				<target type="ProtoUnit">MythUnit</target>
+			</effect>
+			<effect type="Data" action="LightningAttack" amount="0.20" subtype="DamageBonus" unittype="Building" relativity="Absolute">
+				<target type="ProtoUnit">MythUnit</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Twilight Lineage" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110223</displaynameid>
+		<cost resourcetype="Wood">300.0000</cost>
+		<cost resourcetype="Favor">29.0000</cost>
+		<researchpoints>45.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement tooth shards Icon</icon>
+		<rollovertextid>110224</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 4 Anpao and Han</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="CreateUnit" unit="Wa" delay="0000.00" generator="Lakota Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="0.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Ka" delay="0000.00" generator="Lakota Temple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="0.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Evening Star" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110229</displaynameid>
+		<cost resourcetype="Wood">300.0000</cost>
+		<cost resourcetype="Favor">28.0000</cost>
+		<researchpoints>45.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement tooth shards Icon</icon>
+		<rollovertextid>110230</rollovertextid>
+		<prereqs>
+			<techstatus status="Active">Age 4 Anpao and Han</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="HandAttack" amount="2.0" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+				<target type="ProtoUnit">Woniya Thanka</target>
+			</effect>
+			<effect type="SetName" proto="Woniya Thanka" culture="Greek" newname="110317"></effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Timpsila Foraging" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110283</displaynameid>
+		<cost resourcetype="Gold">200.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement domestication icon</icon>
+		<rollovertextid>110284</rollovertextid>
+		<buttonpos row="2" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Migration Done Age 2</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="Gather" amount="5.00" subtype="WorkRate" unittype="WildCrops" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Timpsila Braiding" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110285</displaynameid>
+		<cost resourcetype="Gold">200.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement domestication icon</icon>
+		<rollovertextid>110286</rollovertextid>
+		<buttonpos row="2" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Timpsila Foraging</techstatus>
+			<techstatus status="Active">Migration Done Age 2</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="2.00" subtype="CarryCapacity" resource="Food" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Kicico" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110287</displaynameid>
+		<cost resourcetype="Gold">300.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement domestication icon</icon>
+		<rollovertextid>110288</rollovertextid>
+		<buttonpos row="2" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Migration Done Age 3</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="Empower" amount="1.5" subtype="WorkRate" unittype="ActionGather" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="The Tempter" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110289</displaynameid>
+		<cost resourcetype="Gold">300.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement domestication icon</icon>
+		<rollovertextid>110290</rollovertextid>
+		<buttonpos row="2" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Migration Done Age 3</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" action="Convert" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Migrations 1" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110297</displaynameid>
+		<cost resourcetype="Gold">150.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement domestication icon</icon>
+		<rollovertextid>110298</rollovertextid>
+		<buttonpos row="2" column="0"></buttonpos>
+		<prereqs>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+				<target type="ProtoUnit">Lakota Sodhouse</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Migrations 2" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110297</displaynameid>
+		<cost resourcetype="Gold">200.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement domestication icon</icon>
+		<rollovertextid>110298</rollovertextid>
+		<buttonpos row="2" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Migrations 1</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+				<target type="ProtoUnit">Lakota Sodhouse</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Migrations 3" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110297</displaynameid>
+		<cost resourcetype="Gold">250.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement domestication icon</icon>
+		<rollovertextid>110298</rollovertextid>
+		<buttonpos row="2" column="0"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Migrations 2</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+				<target type="ProtoUnit">Lakota Sodhouse</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Long-grass Roofing" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110299</displaynameid>
+		<cost resourcetype="Wood">150.0000</cost>
+		<cost resourcetype="Gold">150.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement domestication icon</icon>
+		<rollovertextid>110300</rollovertextid>
+		<buttonpos row="2" column="0"></buttonpos>
+		<prereqs>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="-0.15" subtype="ArmorVulnerability" damagetype="Hack" relativity="Percent">
+				<target type="ProtoUnit">Lakota Sodhouse</target>
+			</effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Akhita" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110312</displaynameid>
+		<cost resourcetype="Gold">50.0000</cost>
+		<researchpoints>15.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement nourishing oats icon</icon>
+		<rollovertextid>110313</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Villager Lakota</target>
+			</effect>
+			<effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+		</effects>
+	</tech>
 
 
 
+	<tech name="Medium Warriors" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110263</displaynameid>
+		<cost resourcetype="Gold">250.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement medium barracks icon</icon>
+		<rollovertextid>110264</rollovertextid>
+		<buttonpos row="2" column="2"></buttonpos>
+		<prereqs>
+			<specificage>Classical Age</specificage>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractInfantry</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.10" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractInfantry</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">AbstractInfantry</target>
+			</effect>
+
+
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Waoka Tate</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Waoka Tate</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Waoka Tate</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Waoka Anung Ite</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Waoka Anung Ite</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Waoka Anung Ite</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Waoka Wakinyan</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Waoka Wakinyan</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Waoka Wakinyan</target>
+			</effect>
+
+			<effect type="SetName" proto="Wakhukeza Capa" culture="none" newname="110318"></effect>
+			<effect type="SetName" proto="Wakhukeza Iktomi" culture="none" newname="110318"></effect>
+			<effect type="SetName" proto="Wakhukeza Wani" culture="none" newname="110318"></effect>
+			<effect type="SetName" proto="Waoka Anung Ite" culture="none" newname="110319"></effect>
+			<effect type="SetName" proto="Waoka Tate" culture="none" newname="110319"></effect>
+			<effect type="SetName" proto="Waoka Wakinyan" culture="none" newname="110319"></effect>
+			<effect type="SetName" proto="Canpi Unk" culture="none" newname="110320"></effect>
+			<effect type="SetName" proto="Canpi Anpao and Han" culture="none" newname="110320"></effect>
+			<effect type="SetName" proto="Canpi Wophe" culture="none" newname="110320"></effect>
+		</effects>
+	</tech>
+	<tech name="Heavy Warriors" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110265</displaynameid>
+		<cost resourcetype="Gold">450.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement heavy barracks icon</icon>
+		<rollovertextid>110266</rollovertextid>
+		<buttonpos row="2" column="2"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Medium Warriors</techstatus>
+			<specificage>Heroic Age</specificage>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractInfantry</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.10" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractInfantry</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">AbstractInfantry</target>
+			</effect>
+
+
+			<effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Waoka Tate</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Waoka Tate</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Waoka Tate</target>
+			</effect>
+			<effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Waoka Anung Ite</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Waoka Anung Ite</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Waoka Anung Ite</target>
+			</effect>
+			<effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Waoka Wakinyan</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Waoka Wakinyan</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Waoka Wakinyan</target>
+			</effect>
+
+			<effect type="SetName" proto="Wakhukeza Capa" culture="none" newname="110321"></effect>
+			<effect type="SetName" proto="Wakhukeza Iktomi" culture="none" newname="110321"></effect>
+			<effect type="SetName" proto="Wakhukeza Wani" culture="none" newname="110321"></effect>
+			<effect type="SetName" proto="Waoka Anung Ite" culture="none" newname="110322"></effect>
+			<effect type="SetName" proto="Waoka Tate" culture="none" newname="110322"></effect>
+			<effect type="SetName" proto="Waoka Wakinyan" culture="none" newname="110322"></effect>
+			<effect type="SetName" proto="Canpi Unk" culture="none" newname="110323"></effect>
+			<effect type="SetName" proto="Canpi Anpao and Han" culture="none" newname="110323"></effect>
+			<effect type="SetName" proto="Canpi Wophe" culture="none" newname="110323"></effect>
+		</effects>
+	</tech>
+	<tech name="Champion Warriors" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110267</displaynameid>
+		<cost resourcetype="Gold">650.0000</cost>
+		<researchpoints>40.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement champion barracks icon</icon>
+		<rollovertextid>110268</rollovertextid>
+		<buttonpos row="2" column="2"></buttonpos>
+		<prereqs>
+			<specificage>Mythic Age</specificage>
+			<techstatus status="Active">Heavy Warriors</techstatus>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractInfantry</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.10" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractInfantry</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">AbstractInfantry</target>
+			</effect>
+
+
+			<effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Waoka Tate</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Waoka Tate</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Waoka Tate</target>
+			</effect>
+			<effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Waoka Anung Ite</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Waoka Anung Ite</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Waoka Anung Ite</target>
+			</effect>
+			<effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Waoka Wakinyan</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Waoka Wakinyan</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">Waoka Wakinyan</target>
+			</effect>
+
+			<effect type="SetName" proto="Wakhukeza Capa" culture="none" newname="110324"></effect>
+			<effect type="SetName" proto="Wakhukeza Iktomi" culture="none" newname="110324"></effect>
+			<effect type="SetName" proto="Wakhukeza Wani" culture="none" newname="110324"></effect>
+			<effect type="SetName" proto="Waoka Anung Ite" culture="none" newname="110325"></effect>
+			<effect type="SetName" proto="Waoka Tate" culture="none" newname="110325"></effect>
+			<effect type="SetName" proto="Waoka Wakinyan" culture="none" newname="110325"></effect>
+			<effect type="SetName" proto="Canpi Unk" culture="none" newname="110326"></effect>
+			<effect type="SetName" proto="Canpi Anpao and Han" culture="none" newname="110326"></effect>
+			<effect type="SetName" proto="Canpi Wophe" culture="none" newname="110326"></effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Medium Akicita" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110269</displaynameid>
+		<cost resourcetype="Gold">350.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement medium barracks icon</icon>
+		<rollovertextid>110270</rollovertextid>
+		<buttonpos row="2" column="2"></buttonpos>
+		<prereqs>
+			<specificage>Classical Age</specificage>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Wi Can</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Wi Can Melee</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Wi Can Ranged</target>
+			</effect>
+
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.10" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.10" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+
+
+			<effect type="SetName" proto="Kitfox Soldier" culture="none" newname="110327"></effect>
+			<effect type="SetName" proto="Fancy Spear" culture="none"    newname="110328"></effect>
+			<effect type="SetName" proto="Strongheart" culture="none"    newname="110329"></effect>
+			<effect type="SetName" proto="Crow-Rider" culture="none"     newname="110330"></effect>
+			<effect type="SetName" proto="White Marked" culture="none"   newname="110331"></effect>
+			<effect type="SetName" proto="No-Flights" culture="none"     newname="110332"></effect>
+			<effect type="SetName" proto="Warpath Badger" culture="none" newname="110333"></effect>
+			<effect type="SetName" proto="White Rider" culture="none"    newname="110334"></effect>
+			<effect type="SetName" proto="Raven Keeper" culture="none"   newname="110335"></effect>
+			<effect type="SetName" proto="Owl Soldier" culture="none"    newname="110336"></effect>
+			<effect type="SetName" proto="Owl Soldier 2" culture="none"    newname="110336"></effect>
+		</effects>
+	</tech>
+	<tech name="Heavy Akicita" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110271</displaynameid>
+		<cost resourcetype="Gold">550.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement heavy barracks icon</icon>
+		<rollovertextid>110272</rollovertextid>
+		<buttonpos row="2" column="2"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Medium Akicita</techstatus>
+			<specificage>Heroic Age</specificage>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Wi Can</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Wi Can Melee</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Wi Can Ranged</target>
+			</effect>
+
+			<effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.10" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.10" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+
+
+			<effect type="SetName" proto="Kitfox Soldier" culture="none" newname="110337"></effect>
+			<effect type="SetName" proto="Fancy Spear" culture="none"    newname="110338"></effect>
+			<effect type="SetName" proto="Strongheart" culture="none"    newname="110339"></effect>
+			<effect type="SetName" proto="Crow-Rider" culture="none"     newname="110340"></effect>
+			<effect type="SetName" proto="White Marked" culture="none"   newname="110341"></effect>
+			<effect type="SetName" proto="No-Flights" culture="none"     newname="110342"></effect>
+			<effect type="SetName" proto="Warpath Badger" culture="none" newname="110343"></effect>
+			<effect type="SetName" proto="White Rider" culture="none"    newname="110344"></effect>
+			<effect type="SetName" proto="Raven Keeper" culture="none"   newname="110345"></effect>
+			<effect type="SetName" proto="Owl Soldier" culture="none"    newname="110346"></effect>
+			<effect type="SetName" proto="Owl Soldier 2" culture="none"    newname="110346"></effect>
+		</effects>
+	</tech>
+	<tech name="Champion Akicita" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110273</displaynameid>
+		<cost resourcetype="Gold">750.0000</cost>
+		<researchpoints>40.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement champion barracks icon</icon>
+		<rollovertextid>110274</rollovertextid>
+		<buttonpos row="2" column="2"></buttonpos>
+		<prereqs>
+			<specificage>Mythic Age</specificage>
+			<techstatus status="Active">Heavy Akicita</techstatus>
+		</prereqs>
+		<effects>
+
+
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Wi Can</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Wi Can Melee</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Wi Can Ranged</target>
+			</effect>
+
+
+			<effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.10" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.10" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+
+
+
+			<effect type="SetName" proto="Kitfox Soldier" culture="none" newname="110347"></effect>
+			<effect type="SetName" proto="Fancy Spear" culture="none"    newname="110348"></effect>
+			<effect type="SetName" proto="Strongheart" culture="none"    newname="110349"></effect>
+			<effect type="SetName" proto="Crow-Rider" culture="none"     newname="110350"></effect>
+			<effect type="SetName" proto="White Marked" culture="none"   newname="110351"></effect>
+			<effect type="SetName" proto="No-Flights" culture="none"     newname="110352"></effect>
+			<effect type="SetName" proto="Warpath Badger" culture="none" newname="110353"></effect>
+			<effect type="SetName" proto="White Rider" culture="none"    newname="110354"></effect>
+			<effect type="SetName" proto="Raven Keeper" culture="none"   newname="110355"></effect>
+			<effect type="SetName" proto="Owl Soldier" culture="none"    newname="110356"></effect>
+			<effect type="SetName" proto="Owl Soldier 2" culture="none"    newname="110356"></effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Medium Akicita Hihan" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110269</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement medium barracks icon</icon>
+		<rollovertextid>110270</rollovertextid>
+		<buttonpos row="2" column="2"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Medium Akicita</techstatus>
+			<techstatus status="Active">age 1 hihan Kaga</techstatus>
+			<specificage>Classical Age</specificage>
+		</prereqs>
+		<effects>
+
+
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Lakota</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Lakota</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			
+			<effect type="SetName" proto="Villager Lakota" culture="none" newname="110257"></effect>
+			<effect type="SetName" proto="Medicine Woman" culture="none"  newname="110260"></effect>
+		</effects>
+	</tech>
+	<tech name="Heavy Akicita Hihan" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110271</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement heavy barracks icon</icon>
+		<rollovertextid>110272</rollovertextid>
+		<buttonpos row="2" column="2"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Heavy Akicita</techstatus>
+			<techstatus status="Active">age 1 hihan Kaga</techstatus>
+			<specificage>Heroic Age</specificage>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Lakota</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Lakota</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+
+			<effect type="SetName" proto="Villager Lakota" culture="none" newname="110258"></effect>
+			<effect type="SetName" proto="Medicine Woman" culture="none"  newname="110261"></effect>
+		</effects>
+	</tech>
+	<tech name="Champion Akicita Hihan" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110273</displaynameid>
+		<researchpoints>0.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement champion barracks icon</icon>
+		<rollovertextid>110274</rollovertextid>
+		<buttonpos row="2" column="2"></buttonpos>
+		<prereqs>
+			<specificage>Mythic Age</specificage>
+			<techstatus status="Active">age 1 hihan Kaga</techstatus>
+			<techstatus status="Active">Champion Akicita</techstatus>
+		</prereqs>
+		<effects>
+
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Lakota</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Lakota</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+
+			<effect type="SetName" proto="Villager Lakota" culture="none" newname="110259"></effect>
+			<effect type="SetName" proto="Medicine Woman" culture="none"  newname="110262"></effect>
+		</effects>
+	</tech>
+
+
+	<tech name="Levy Warriors" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110275</displaynameid>
+		<cost resourcetype="Food">300.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement levy infantry icon</icon>
+		<rollovertextid>110276</rollovertextid>
+		<buttonpos row="2" column="1"></buttonpos>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="0.80" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">AbstractInfantry</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Waoka Tate</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Waoka Wakinyan</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Waoka Anung Ite</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Dreamcult Warriors" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110279</displaynameid>
+		<cost resourcetype="Food">500.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement conscript infantry icon</icon>
+		<rollovertextid>110280</rollovertextid>
+		<buttonpos row="2" column="1"></buttonpos>
+		<prereqs>
+			<specificage>Mythic Age</specificage>
+			<techstatus status="Active">Levy Warriors</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="0.80" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">AbstractInfantry</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Waoka Tate</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Waoka Wakinyan</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Waoka Anung Ite</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Levy Akicita" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110277</displaynameid>
+		<cost resourcetype="Food">300.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement levy infantry icon</icon>
+		<rollovertextid>110278</rollovertextid>
+		<buttonpos row="2" column="1"></buttonpos>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="0.80" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Wi Can</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Dreamcult Akicita" type="Normal">
+		<dbid></dbid>
+		<displaynameid>110281</displaynameid>
+		<cost resourcetype="Food">500.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement conscript infantry icon</icon>
+		<rollovertextid>110282</rollovertextid>
+		<buttonpos row="2" column="1"></buttonpos>
+		<prereqs>
+			<specificage>Mythic Age</specificage>
+			<techstatus status="Active">Levy Akicita</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="Data" amount="0.80" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">AbstractCavalry</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="TrainPoints" relativity="Percent">
+				<target type="ProtoUnit">Wi Can</target>
+			</effect>
+		</effects>
+	</tech>
 
 
 

@@ -299,7 +299,7 @@
 			<gadget sound="UI_thunder" mouseovertext="$$110002$$" name="Col1Row3ButtonF" type="stateButton" size1024="225 320 325 420" z="11" background="ui\ui god odin 128x128" statebuttonuseinternalstates="" hidden="" donthighlight="">
 				<stateentry background="ui\ui god hanwi 256x256"></stateentry>
 			</gadget>
-			<gadget name="Col1Row3NameF" textcentervert="" textcolor="255 255 255" textfontsize="22" textfont="PregameHeadersSmall" type="formatText" size1024="225 420 325 442" z="12" hidden="" textcenterhoriz="" transparent="">Hanwi</gadget>
+			<gadget name="Col1Row3NameF" textcentervert="" textcolor="255 255 255" textfontsize="22" textfont="PregameHeadersSmall" type="formatText" size1024="225 420 325 442" z="12" hidden="" textcenterhoriz="" transparent="">Wi</gadget>
 			
 			<gadget name="Col2Row3HighlightF" type="gadget" size1024="375 320 475 420" z="12" hidden="" background="ui\ui god boarder highlight 128x128" transparent=""></gadget>
 			<gadget sound="UI_thunder" mouseovertext="$$110004$$" name="Col2Row3ButtonF" type="stateButton" size1024="375 320 475 420" z="11" background="ui\ui god thor 128x128" statebuttonuseinternalstates="" hidden="" donthighlight="">
@@ -308,10 +308,10 @@
 			<gadget name="Col2Row3NameF" textcentervert="" textcolor="255 255 255" textfontsize="22" textfont="PregameHeadersSmall" type="formatText" size1024="355 420 495 442" z="12" hidden="" textcenterhoriz="" transparent="">Unci Makha</gadget>
 						
 			<gadget name="Col3Row3HighlightF" type="gadget" size1024="525 320 625 420" z="12" hidden="" background="ui\ui god boarder highlight 128x128" transparent=""></gadget>
-			<gadget sound="UI_thunder" mouseovertext="$$110005$$" name="Col3Row3ButtonF" type="stateButton" size1024="525 320 625 420" z="11" background="ui\ui god loki 128x128" statebuttonuseinternalstates="" hidden="" donthighlight="">
+			<gadget sound="UI_thunder" mouseovertext="$$110006$$" name="Col3Row3ButtonF" type="stateButton" size1024="525 320 625 420" z="11" background="ui\ui god loki 128x128" statebuttonuseinternalstates="" hidden="" donthighlight="">
 				<stateentry background="ui\ui god Anpetu Wi 256x256"></stateentry>
 			</gadget>
-			<gadget name="Col3Row3NameF" textcentervert="" textcolor="255 255 255" textfontsize="22" textfont="PregameHeadersSmall" type="formatText" size1024="505 420 645 442" z="12" hidden="" textcenterhoriz="" transparent="">Anpetu Wi</gadget>
+			<gadget name="Col3Row3NameF" textcentervert="" textcolor="255 255 255" textfontsize="22" textfont="PregameHeadersSmall" type="formatText" size1024="505 420 645 442" z="12" hidden="" textcenterhoriz="" transparent="">Hihan-Kaga</gadget>
 		</div>
 		<!-- Celtic -->
 		<div>
@@ -1332,7 +1332,7 @@
 		</gadget>
 <gadget name="Selected-God-Area-XX22" type="gadget"  hidden="" size1024="695 55 972 493" z="5">
 			<gadget name="FirstAge-Section-XX22" type="gadget" size1024="695 62 972 182" background="ui\ui background opaque 2" z="11">
-				<gadget name="Selected-God-Name-XX22" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="696 63 972 93" z="12" textcenterhoriz="">Hanwi</gadget>
+				<gadget name="Selected-God-Name-XX22" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="696 63 972 93" z="12" textcenterhoriz="">Wi</gadget>
 				<gadget name="MinorGodText-XX22" textcentervert="" textcolor="255 255 255" textfontsize="16" textfont="GodPickerTitles" type="formatText" size1024="696 93 972 118" z="12" textcenterhoriz="">$$19963$$Minor Gods and God Powers</gadget>
 				<gadget name="FirstAge-Text-XX22" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 118 972 143" z="12" textcenterhoriz="">$$18966$$Archaic Age</gadget>
 				<gadget outlinecolor="255 208 0" name="FirstAge-GodPower-XX22" type="gadget" size1024="782 147 814 179" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
@@ -1418,7 +1418,7 @@
 		</gadget>
 <gadget name="Selected-God-Area-XX24" type="gadget"  hidden="" size1024="695 55 972 493" z="5">
 			<gadget name="FirstAge-Section-XX24" type="gadget" size1024="695 62 972 182" background="ui\ui background opaque 2" z="11">
-				<gadget name="Selected-God-Name-XX24" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="696 63 972 93" z="12" textcenterhoriz="">Anpetu Wi</gadget>
+				<gadget name="Selected-God-Name-XX24" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="696 63 972 93" z="12" textcenterhoriz="">Hihan-Kaga</gadget>
 				<gadget name="MinorGodText-XX24" textcentervert="" textcolor="255 255 255" textfontsize="16" textfont="GodPickerTitles" type="formatText" size1024="696 93 972 118" z="12" textcenterhoriz="">$$19963$$Minor Gods and God Powers</gadget>
 				<gadget name="FirstAge-Text-XX24" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 118 972 143" z="12" textcenterhoriz="">$$18966$$Archaic Age</gadget>
 				<gadget outlinecolor="255 208 0" name="FirstAge-GodPower-XX24" type="gadget" size1024="782 147 814 179" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<power name="Wagacan" type="Hesperides" techname="Wagacan">
+	<activetime>-1</activetime>
+	<createunit quantity="1" radius="0.0" delay="0.0" norotate="">Wagacan Tree</createunit>
+	<placement forceonmap="1" losprotounit="Hesperides Tree">full</placement>
+	<placementprotounitid>Hesperides Tree</placementprotounitid>
+	<expandcheckplacementhull></expandcheckplacementhull>
+	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
+	<soundset type="StartSound" listenertype="Caster">HesperidesTree</soundset>
+	<attachproto>Plenty Flare</attachproto>
+	<gatherrate rate="0.0f">favor</gatherrate>
+	<burstdelay>5.0f</burstdelay>
+	<exclusionradius>25.0 </exclusionradius>
+	<minimapeventtime sendalertto="none">0.0</minimapeventtime>
+	<recharges>0 </recharges>
+	<rechargetime>120 </rechargetime>
+</power>

@@ -290,7 +290,7 @@ anim Idle
 {
     SetSelector
     {
-        TechLogic none/Aztec Civ/Roman Civ
+        TechLogic none/Aztec Civ/Roman Civ/Lakota Civ
 
         
 
@@ -1683,6 +1683,18 @@ anim Idle
    }
 
 
+SetSelector 
+	{
+		set hotspot
+		{
+			version
+			{
+				Visual Iroquis Dock
+			}
+		}
+	}
+
+
     }
 }
 //==============================================================================
@@ -1691,7 +1703,7 @@ anim RangedAttack
 
 SetSelector
     {
-       TechLogic none/Aztec Civ/Roman Civ
+       TechLogic none/Aztec Civ/Roman Civ/Lakota Civ
        SetSelector
         {
             CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
@@ -3149,6 +3161,9 @@ SetSelector
             version
             {
                   Visual Building Beta G Dock_ClassicalAge
+ tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
             }
          }
          set hotspot
@@ -3185,6 +3200,9 @@ SetSelector
             version
             {
                   Visual Building Beta G Dock
+ tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
             }
          }
          set hotspot
@@ -3221,6 +3239,9 @@ SetSelector
             version
             {
 					Visual Building Beta G Dock_OlympicAge
+ tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
             }
          }
          set hotspot
@@ -3250,6 +3271,20 @@ SetSelector
       }
    }
 
+SetSelector 
+	{
+		set hotspot
+		{
+			version
+			{
+				Visual Iroquis Dock
+ tag Attack 0.40 true
+                            tag GenericSound 0.40 true
+                            tag SpecificSoundSet 0.31 false Arrow checkVisible
+			}
+		}
+	}
+
 
     }
 }
@@ -3259,7 +3294,7 @@ anim Death
 
 SetSelector
     {
-       TechLogic none/Aztec Civ/Roman Civ
+       TechLogic none/Aztec Civ/Roman Civ/Lakota Civ
         SetSelector
         {
             CultureLogic Egyptian/Greek/Norse/Atlantean/Chinese
@@ -4738,7 +4773,16 @@ SetSelector
       }
    }
 
-
+SetSelector  
+	{
+		set hotspot
+		{
+			version
+			{
+				Visual Iroquis Dock
+			}
+		}
+	}
 
 
     }

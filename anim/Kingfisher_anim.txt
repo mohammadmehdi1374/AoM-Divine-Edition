@@ -14,24 +14,9 @@ anim idle
 		{
 			version
 			{
-				Visual Kingfisher idle
+				Visual KingFisherBird
 				
 			}
 		}
 	}
-}
-//==============================================================================
-anim bored
-{
-   SetSelector
-   {
-	  	set hotspot
-      {
-         version
-         {
-			Visual KingFisherBird
-			
-         }
-      }
-   }
 }

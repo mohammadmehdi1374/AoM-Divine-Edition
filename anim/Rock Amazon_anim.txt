@@ -16,6 +16,14 @@ anim idle
 				
 			}
 		}
+		set hotspot
+		{
+			version
+			{
+				Visual AmazonRockPlants2
+				
+			}
+		}
 
 	}
 }
