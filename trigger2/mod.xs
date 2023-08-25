@@ -654,9 +654,9 @@ priority 100
 			trModifyProtounit( "Rock Snow", i, 10, newFavor );
 
 			if(kbGetTechStatus(1344) == cTechStatusActive) {
-				trPlayerGrantResources(i, "Food", 4*8*newFavor);
-				trPlayerGrantResources(i, "Wood", 4*6*newFavor);
-				trPlayerGrantResources(i, "Gold", 4*4*newFavor);
+				trPlayerGrantResources(i, "Food", 8*newFavor);
+				trPlayerGrantResources(i, "Wood", 6*newFavor);
+				trPlayerGrantResources(i, "Gold", 4*newFavor);
 			}
 			
 
@@ -728,31 +728,31 @@ priority 100
 			trChatSendToPlayer(0, i, "Your K/D is " + trGetStatValue(i, 2) + " to " + trGetStatValue(i, 6));
 			trChatSendToPlayer(0, i, "Your cost K/D is " + kill_cost + " to " + lost_cost);
 
-			if (kill_cost > lost_cost) {
+			if (kill_cost - 50 > lost_cost) {
 				
 				if (trTechStatusActive(i, 1091)) {
 				} else {
 					trTechSetStatus(i, 1091, cTechStatusActive);
 				}
-				if (kill_cost - 125 > lost_cost * 1.125) {
+				if (kill_cost - 125 - 100 > lost_cost * 1.125) {
 					
 					if (trTechStatusActive(i, 1092)) {
 					} else {
 						trTechSetStatus(i, 1092, cTechStatusActive);
 					}
-					if (kill_cost - 250 > lost_cost * 1.25) {
+					if (kill_cost - 250 - 150 > lost_cost * 1.25) {
 						
 						if (trTechStatusActive(i, 1093)) {
 						} else {
 							trTechSetStatus(i, 1093, cTechStatusActive);
 						}
-						if (kill_cost - 500 > lost_cost * 1.5) {
+						if (kill_cost - 500 - 200 > lost_cost * 1.5) {
 							
 							if (trTechStatusActive(i, 1094)) {
 							} else {
 								trTechSetStatus(i, 1094, cTechStatusActive);
 							}
-							if (kill_cost - 1000 > lost_cost * 2) {
+							if (kill_cost - 1000  - 250 > lost_cost * 2) {
 								trChatSend(0, "Strength level 5");
 								if (trTechStatusActive(i, 1095)) {
 								} else {

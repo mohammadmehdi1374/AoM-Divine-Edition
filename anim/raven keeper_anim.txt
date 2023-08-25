@@ -1,8 +1,10 @@
 //==============================================================================
-// Companion Cavalry_Anim.txt
+// Prodromos_anim.txt
 //==============================================================================
 
-import phalangite_sword_anim.txt
+import Spear_defines_anim.txt
+import Greek_Cavalry_Shield_anim.txt
+
 
 //==============================================================================
 define Armour
@@ -19,237 +21,583 @@ define Armour
       }
    }
 }
+
 //==============================================================================
-define spear
+define Head
 {
-	SetSelector none 
+	SetSelector
 	{
 		set hotspot
 		{
-		version
+			version
 			{
-			Visual Greek Spear
+				Visual Villager N feMale Head
+
+				ReplaceTexture villager n female head/L villager n female head
+
 			}
 		}
 	}
 }
 
 //==============================================================================
-define Head
-{
-   SetSelector
-   {
-      set hotspot
-      {
-         version
-         {
-            Visual Hetairoi Helmet
-		ReplaceTexture Infantry G Hoplite Head Bronze/Hetairoi helmet
-         }
-      }
-   }
-}
-//==============================================================================
 anim Bored
 {
-   SetSelector
-   {
-      set hotspot
-      {
-         version
-         {
+	SetSelector
+	{
+		TechLogic none/Medium Akicita/Heavy Akicita/Champion Akicita
+		set hotspot
+		{
+			version
+			{
 				Visual Cavalry G Prodromos_BoredA
-				ReplaceTexture Cavalry G Prodromos Standard/Promachoi Armor
-				ReplaceTexture Cavalry G Prodromos Horse Standard/cavalry g hetairoi horse iron
 				connect RightHand Spear hotspot
 				Connect FrontChest Armour hotspot
 				Connect TopOfHead Head hotspot
-         }
-         version
-         {
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Standard
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+
+
+			}
+			version
+			{
 				Visual Cavalry G Prodromos_BoredB
-				ReplaceTexture Cavalry G Prodromos Standard/Promachoi Armor
-				ReplaceTexture Cavalry G Prodromos Horse Standard/cavalry g hetairoi horse iron
 				connect RightHand Spear hotspot
 				Connect FrontChest Armour hotspot
 				Connect TopOfHead Head hotspot
-         }
-      }
-   }
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Standard
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+
+
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_BoredA
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Copper
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Prodromos_BoredB
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Copper
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_BoredA
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Bronze
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Prodromos_BoredB
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Bronze
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_BoredA
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Iron
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Prodromos_BoredB
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Iron
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
 }
 
 //==============================================================================
 anim Walk
 {
-   SetSelector
-   {
-      set hotspot
-      {
-         version
-         {  
+	SetSelector
+	{
+		TechLogic none/Medium Akicita/Heavy Akicita/Champion Akicita
+		set hotspot
+		{
+			version
+			{  
 				Visual Cavalry G Prodromos_WalkA
-				ReplaceTexture Cavalry G Prodromos Standard/Promachoi Armor
-				ReplaceTexture Cavalry G Prodromos Horse Standard/cavalry g hetairoi horse iron
 				connect RightHand Spear hotspot
 				Connect FrontChest Armour hotspot
 				Connect TopOfHead Head hotspot
-				tag FootstepLeft 0.00 true   
-				tag FootstepRight 0.50 true   
-				tag FootstepLeft 0.20 true   
+				tag FootstepLeft 0.00 true	
+				tag FootstepRight 0.50 true	
+				tag FootstepLeft 0.20 true	
 				tag FootstepRight 0.75 true
-         }
-      }
-   }
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Standard
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+
+
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_WalkA
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Copper
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+				tag FootstepLeft 0.00 true	
+				tag FootstepRight 0.50 true	
+				tag FootstepLeft 0.20 true	
+				tag FootstepRight 0.75 true
+
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_WalkA
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Bronze
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+				tag FootstepLeft 0.00 true	
+				tag FootstepRight 0.50 true	
+				tag FootstepLeft 0.20 true	
+				tag FootstepRight 0.75 true
+
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_WalkA
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Iron
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+				tag FootstepLeft 0.00 true	
+				tag FootstepRight 0.50 true	
+				tag FootstepLeft 0.20 true	
+				tag FootstepRight 0.75 true
+			}
+		}
+	}
 }
 
 //==============================================================================
 anim Death
 {
-   SetSelector
-   {
-      set hotspot
-      {
-         version
-         {
+	SetSelector
+	{
+		TechLogic none/Medium Akicita/Heavy Akicita/Champion Akicita
+		set hotspot
+		{
+			version
+			{
 				Visual Cavalry G Prodromos_DeathA
 //-- auto generated by the bang animation tool
 //-- do not hand edit these values
-            tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+				tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
 //-- end auto generated section
-				ReplaceTexture Cavalry G Prodromos Standard/Promachoi Armor
-				ReplaceTexture Cavalry G Prodromos Horse Standard/cavalry g hetairoi horse iron
 				connect RightHand Spear hotspot
-				Connect TopOfHead Head hotspot
 				Connect FrontChest Armour hotspot
-         }
-      }
-   }
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Standard
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+
+
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Copper
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Bronze
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_DeathA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Iron
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
 }
 
 //==============================================================================
 anim Idle
 {
-   SetSelector
-   {
-      set hotspot
-      {
-         version
-         {
+	SetSelector
+	{
+		TechLogic none/Medium Akicita/Heavy Akicita/Champion Akicita
+		set hotspot
+		{
+			version
+			{
 				Visual Cavalry G Prodromos_IdleA
-				ReplaceTexture Cavalry G Prodromos Standard/Promachoi Armor
-				ReplaceTexture Cavalry G Prodromos Horse Standard/cavalry g hetairoi horse iron
 				connect RightHand Spear hotspot
-				Connect TopOfHead Head hotspot
 				Connect FrontChest Armour hotspot
-         }
-      }
-   }
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Standard
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+
+
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_IdleA
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Copper
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_IdleA
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Bronze
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_IdleA
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Iron
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
 }
 
 //==============================================================================
 anim Attack
 {
-   SetSelector
-   {
-      set hotspot
-      {
-         version 
-         {
+	SetSelector
+	{
+		TechLogic none/Medium Akicita/Heavy Akicita/Champion Akicita
+		set hotspot
+		{
+			version
+			{
 				Visual Cavalry G Prodromos_AttackA
 //-- auto generated by the bang animation tool
 //-- do not hand edit these values
-            tag Attack 0.71 true   
-            tag GenericSound 0.40 true   
+				tag Attack 0.37 true	
+				tag GenericSound 0.40 true	
 //-- end auto generated section
-				ReplaceTexture Cavalry G Prodromos Standard/Promachoi Armor
-				ReplaceTexture Cavalry G Prodromos Horse Standard/cavalry g hetairoi horse iron
-				connect RightHand GreekSword hotspot
-				Connect TopOfHead Head hotspot
+				connect RightHand Spear hotspot
 				Connect FrontChest Armour hotspot
-         }
-         version
-         {
-				Visual Cavalry N Raiding Cavalry_attackB
-//-- auto generated by the bang animation tool
-//-- do not hand edit these values
-            tag Attack 0.63 true   
-            tag GenericSound 0.40 true   
-//-- end auto generated section
-				ReplaceTexture Cavalry N Raiding Cavalry Standard/Promachoi Armor
-				ReplaceTexture Cavalry N Raiding Cavalry Horse Standard/cavalry g hetairoi horse iron
-				connect RightHand GreekSword hotspot
 				Connect TopOfHead Head hotspot
-				Connect FrontChest Armour hotspot
-         }
-         version
-         {
-				Visual Cavalry N Raiding Cavalry_attackC
-//-- auto generated by the bang animation tool
-//-- do not hand edit these values
-            tag Attack 0.63 true   
-            tag GenericSound 0.40 true   
-//-- end auto generated section
-				ReplaceTexture Cavalry N Raiding Cavalry Standard/Promachoi Armor
-				ReplaceTexture Cavalry N Raiding Cavalry Horse Standard/cavalry g hetairoi horse iron
-				connect RightHand GreekSword hotspot
-				Connect TopOfHead Head hotspot
-				Connect FrontChest Armour hotspot
-         }
-      }
-   }
-}
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Standard
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
 
-//==============================================================================
-anim whirlwindattack
-{
-   SetSelector
-   {
-      set hotspot
-      {
-         version
-         {
+
+			}
+			version
+			{
 				Visual Cavalry G Prodromos_AttackB
 //-- auto generated by the bang animation tool
 //-- do not hand edit these values
-            tag Attack 0.37 true   
-            tag GenericSound 0.40 true   
+				tag Attack 0.71 true	
+				tag GenericSound 0.40 true	
 //-- end auto generated section
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Standard
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
 
+
+			}
+			version
+			{
+				Visual Cavalry G Prodromos_AttackC
 //-- auto generated by the bang animation tool
 //-- do not hand edit these values
-               tag Attack 0.60 true   
-               tag GenericSound 0.60 true   
-               tag SpecificSoundSet 0.47 false SwordSwing checkVisible 
-               tag SpecificSoundSet 0.11 false ArkantosSpecial checkVisible 
+				tag Attack 0.63 true	
+				tag GenericSound 0.40 true	
 //-- end auto generated section
-
-				ReplaceTexture Cavalry G Prodromos Standard/Promachoi Armor
-				ReplaceTexture Cavalry G Prodromos Horse Standard/cavalry g hetairoi horse iron
 				connect RightHand Spear hotspot
-				Connect TopOfHead Head hotspot
 				Connect FrontChest Armour hotspot
-         }
-      }
-   }
+				Connect TopOfHead Head hotspot
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Standard
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+
+
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.37 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Copper
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Prodromos_AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.71 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Copper
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+			Version
+			{
+				Visual Cavalry G Prodromos_AttackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.63 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Copper
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.37 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Bronze
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Prodromos_AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.71 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Bronze
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Prodromos_AttackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.63 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Bronze
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_AttackA
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.37 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Iron
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Prodromos_AttackB
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.71 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Iron
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+			version
+			{
+				Visual Cavalry G Prodromos_AttackC
+//-- auto generated by the bang animation tool
+//-- do not hand edit these values
+				tag Attack 0.63 true	
+				tag GenericSound 0.40 true	
+//-- end auto generated section
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Iron
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
 }
 
 //==============================================================================
 anim Flail
 {
-   SetSelector
-   {
-      set hotspot
-      {
-         version
-         {
+	SetSelector
+	{
+		TechLogic none/Medium Akicita/Heavy Akicita/Champion Akicita
+		set hotspot
+		{
+			version
+			{
 				Visual Cavalry G Prodromos_FlailA
-				ReplaceTexture Cavalry G Prodromos Standard/Promachoi Armor
-				ReplaceTexture Cavalry G Prodromos Horse Standard/cavalry g hetairoi horse iron
 				connect RightHand Spear hotspot
 				Connect FrontChest Armour hotspot
 				Connect TopOfHead Head hotspot
-         }
-      }
-   }
-}
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Standard
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
 
+
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_FlailA
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Copper
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_FlailA
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Bronze
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+		set hotspot
+		{
+			version
+			{
+				Visual Cavalry G Prodromos_FlailA
+				ReplaceTexture Cavalry G Prodromos Standard/Archer C Mounted Archer Copper
+				ReplaceTexture Cavalry G Prodromos Horse Standard/Cavalry G Hippikon Horse Iron
+				connect RightHand Spear hotspot
+				Connect FrontChest Armour hotspot
+				Connect TopOfHead Head hotspot
+			}
+		}
+	}
+}

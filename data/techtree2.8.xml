@@ -17942,6 +17942,7 @@
 			<effect type="TechStatus" status="active">Age 2</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Atlach-Nacha</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Tsathoggua</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Ubbo-Sathla</effect>
 			<effect tech="Howling Gale" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
 				<target type="Player"></target>
 			</effect>
@@ -18036,6 +18037,8 @@
 			<effect type="TechStatus" status="active">Age 2</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Ithaqua</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Tsathoggua</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Ubbo-Sathla</effect>
+
 			<effect tech="Spinners Call" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
 				<target type="Player"></target>
 			</effect>
@@ -18133,6 +18136,8 @@
 			<effect type="TechStatus" status="active">Age 2</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Ithaqua</effect>
 			<effect type="TechStatus" status="unobtainable">Age 2 Atlach-Nacha</effect>
+			<effect type="TechStatus" status="unobtainable">Age 2 Ubbo-Sathla</effect>
+
 			<effect tech="Wrath of the Vile" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
 				<target type="Player"></target>
 			</effect>
@@ -21340,9 +21345,10 @@
 				<target type="ProtoUnit">Temple</target>
 			</effect>
 
-			<effect type="Data" action="LightningAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+			<!--<effect type="Data" action="LightningAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
 				<target type="ProtoUnit">Grand Temple</target>
-			</effect>
+			</effect>-->
+			<!-- Why...-->
 		</effects>
 	</tech>
 
@@ -28835,6 +28841,9 @@
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Market</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Outpost Settlement</target>
 			</effect>
 			<effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Farm</target>
@@ -38580,7 +38589,7 @@
 		<displaynameid>120569</displaynameid>
 		<cost resourcetype="Wood">50.0000</cost>
 		<cost resourcetype="Favor">20.0000</cost>
-		<researchpoints>20.0000</researchpoints>
+		<researchpoints>28.0000</researchpoints>
 		<status>OBTAINABLE</status>
 		<icon>Improvement forest reserves Icon</icon>
 		<rollovertextid>120530</rollovertextid>
@@ -43725,8 +43734,8 @@
 				<target type="ProtoUnit">Medicine Woman</target>
 			</effect>
 			
-			<effect type="SetName" proto="Villager Lakota" culture="none" newname="110257"></effect>
-			<effect type="SetName" proto="Medicine Woman" culture="none"  newname="110260"></effect>
+			<effect type="SetName" proto="Villager Lakota" culture="none" newname="110357"></effect>
+			<effect type="SetName" proto="Medicine Woman" culture="none"  newname="110360"></effect>
 		</effects>
 	</tech>
 	<tech name="Heavy Akicita Hihan" type="Normal">
@@ -43757,8 +43766,8 @@
 				<target type="ProtoUnit">Medicine Woman</target>
 			</effect>
 
-			<effect type="SetName" proto="Villager Lakota" culture="none" newname="110258"></effect>
-			<effect type="SetName" proto="Medicine Woman" culture="none"  newname="110261"></effect>
+			<effect type="SetName" proto="Villager Lakota" culture="none" newname="110358"></effect>
+			<effect type="SetName" proto="Medicine Woman" culture="none"  newname="110361"></effect>
 		</effects>
 	</tech>
 	<tech name="Champion Akicita Hihan" type="Normal">
@@ -43789,8 +43798,8 @@
 				<target type="ProtoUnit">Medicine Woman</target>
 			</effect>
 
-			<effect type="SetName" proto="Villager Lakota" culture="none" newname="110259"></effect>
-			<effect type="SetName" proto="Medicine Woman" culture="none"  newname="110262"></effect>
+			<effect type="SetName" proto="Villager Lakota" culture="none" newname="110359"></effect>
+			<effect type="SetName" proto="Medicine Woman" culture="none"  newname="110362"></effect>
 		</effects>
 	</tech>
 

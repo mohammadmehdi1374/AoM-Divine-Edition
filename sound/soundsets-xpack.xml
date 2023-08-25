@@ -5906,9 +5906,272 @@
 	<soundset name="LakotaThemeMusic" volume="1.2">
 		<sound filename="The Lakota (Age of Empires III_ Definitive Edition Soundtrack).mp3" volume="1.0000"></sound>
 	</soundset>
-	
-	
 
-	
+
+
+	<soundset name="LakotaWarriorSelect" volume="1.000">
+		<sound filename="siouxdogsoldierselect1.wav" volume="1.0000"></sound>
+		<sound filename="siouxdogsoldierselect2.wav" volume="1.0000"></sound>
+		<sound filename="siouxdogsoldierselect3.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaWarriorMove" volume="1.000">
+		<sound filename="siouxdogsoldiermove1.wav" volume="1.0000"></sound>
+		<sound filename="siouxdogsoldiermove2.wav" volume="1.0000"></sound>
+		<sound filename="siouxdogsoldiermove3.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaWarriorAttack" volume="1.000">
+		<sound filename="siouxdogsoldierattack1.wav" volume="1.0000"></sound>
+		<sound filename="siouxdogsoldierattack2.wav" volume="1.0000"></sound>
+		<sound filename="siouxdogsoldierattack3.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaAkicitaSelect" volume="1.000">
+		<sound filename="siouxaxeriderselect1.wav" volume="1.0000"></sound>
+		<sound filename="siouxaxeriderselect2.wav" volume="1.0000"></sound>
+		<sound filename="siouxaxeriderselect3.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaAkicitaMove" volume="1.000">
+		<sound filename="siouxaxeridermove1.wav" volume="1.0000"></sound>
+		<sound filename="siouxaxeridermove2.wav" volume="1.0000"></sound>
+		<sound filename="siouxaxeridermove3.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaAkicitaAttack" volume="1.000">
+		<sound filename="siouxaxeriderattack1.wav" volume="1.0000"></sound>
+		<sound filename="siouxaxeriderattack2.wav" volume="1.0000"></sound>
+		<sound filename="siouxaxeriderattack3.wav" volume="1.0000"></sound>
+	</soundset>
+
+
+
+
+	<soundset name="LakotaFemAttack" volume="2.000">
+		<sound filename="siouxvfattack1.wav" volume="1.0000"></sound>
+		<sound filename="siouxvfattack2.wav" volume="1.0000"></sound>
+		<sound filename="siouxvfattack3.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaFemSelect" volume="2.000">
+		<sound filename="siouxvfselect1.wav" volume="1.0000"></sound>
+		<sound filename="siouxvfselect2.wav" volume="1.0000"></sound>
+		<sound filename="siouxvfselect3.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaFemMove" volume="2.000">
+		<sound filename="siouxvfmove1.wav" volume="1.0000"></sound>
+		<sound filename="siouxvfmove2.wav" volume="1.0000"></sound>
+		<sound filename="siouxvfmove3.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaFemBuild" volume="2.000">
+		<sound filename="siouxvfbuild.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaFemFarm" volume="2.000">
+		<sound filename="siouxvffarm.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaFemWood" volume="2.000">
+		<sound filename="siouxvfgatherwood.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaFemFood" volume="2.000">
+		<sound filename="siouxvfgathermeat.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaFemBerry" volume="2.000">
+		<sound filename="siouxvfgatherfruit.wav" volume="1.0000"></sound>
+	</soundset>
+
+
+	<soundset name="LakotaVilAttack" volume="2.000">
+		<sound filename="siouxvmattack1.wav" volume="1.0000"></sound>
+		<sound filename="siouxvmattack2.wav" volume="1.0000"></sound>
+		<sound filename="siouxvmattack3.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaVilSelect" volume="2.000">
+		<sound filename="siouxvmselect1.wav" volume="1.0000"></sound>
+		<sound filename="siouxvmselect2.wav" volume="1.0000"></sound>
+		<sound filename="siouxvmselect3.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaVilMove" volume="2.000">
+		<sound filename="siouxvmmove1.wav" volume="1.0000"></sound>
+		<sound filename="siouxvmmove2.wav" volume="1.0000"></sound>
+		<sound filename="siouxvmmove3.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaVilBuild" volume="2.000">
+		<sound filename="siouxvmbuild.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaVilFarm" volume="2.000">
+		<sound filename="siouxvmfarm.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaVilWood" volume="2.000">
+		<sound filename="siouxvmgatherwood.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaVilFood" volume="2.000">
+		<sound filename="siouxvmgathermeat.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaVilBerry" volume="2.000">
+		<sound filename="siouxvmgatherfruit.wav" volume="1.0000"></sound>
+	</soundset>
+
+	<soundset name="WoniyaSelect" volume="1.000">
+		<sound filename="woniyaselect1.wav" volume="1.0000"></sound>
+		<sound filename="woniyaselect2.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="WoniyaMove" volume="1.000">
+		<sound filename="woniyamove1.wav" volume="1.0000"></sound>
+		<sound filename="woniyamove2.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="WoniyaAttack" volume="1.000">
+		<sound filename="woniyaattack1.wav" volume="1.0000"></sound>
+		<sound filename="woniyaattack2.wav" volume="1.0000"></sound>
+	</soundset>
+
+	<soundset name="LakotaFemAttackMyth" volume="2.000">
+		<sound filename="siouxvfattack1myth.wav" volume="1.0000"></sound>
+		<sound filename="siouxvfattack2myth.wav" volume="1.0000"></sound>
+		<sound filename="siouxvfattack3myth.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaFemSelectMyth" volume="2.000">
+		<sound filename="siouxvfselect1myth.wav" volume="1.0000"></sound>
+		<sound filename="siouxvfselect2myth.wav" volume="1.0000"></sound>
+		<sound filename="siouxvfselect3myth.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaFemMoveMyth" volume="2.000">
+		<sound filename="siouxvfmove1myth.wav" volume="1.0000"></sound>
+		<sound filename="siouxvfmove2myth.wav" volume="1.0000"></sound>
+		<sound filename="siouxvfmove3myth.wav" volume="1.0000"></sound>
+	</soundset>
+
+
+	<soundset name="LakotaMiniSelect" volume="1.000">
+		<sound filename="siouxaxeriderselect1mini.wav" volume="1.0000"></sound>
+		<sound filename="siouxaxeriderselect2mini.wav" volume="1.0000"></sound>
+		<sound filename="siouxaxeriderselect3mini.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaMiniMove" volume="1.000">
+		<sound filename="siouxaxeridermove1mini.wav" volume="1.0000"></sound>
+		<sound filename="siouxaxeridermove2mini.wav" volume="1.0000"></sound>
+		<sound filename="siouxaxeridermove3mini.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaMiniAttack" volume="1.000">
+		<sound filename="siouxaxeriderattack1mini.wav" volume="1.0000"></sound>
+		<sound filename="siouxaxeriderattack2mini.wav" volume="1.0000"></sound>
+		<sound filename="siouxaxeriderattack3mini.wav" volume="1.0000"></sound>
+	</soundset>
+
+	<soundset name="LakotaMythSelect" volume="1.000">
+		<sound filename="siouxaxeriderselect1myth.wav" volume="1.0000"></sound>
+		<sound filename="siouxaxeriderselect2myth.wav" volume="1.0000"></sound>
+		<sound filename="siouxaxeriderselect3myth.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaMythMove" volume="1.000">
+		<sound filename="siouxaxeridermove1myth.wav" volume="1.0000"></sound>
+		<sound filename="siouxaxeridermove2myth.wav" volume="1.0000"></sound>
+		<sound filename="siouxaxeridermove3myth.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="LakotaMythAttack" volume="1.000">
+		<sound filename="siouxaxeriderattack1mini.wav" volume="1.0000"></sound>
+		<sound filename="siouxaxeriderattack2mini.wav" volume="1.0000"></sound>
+		<sound filename="siouxaxeriderattack3mini.wav" volume="1.0000"></sound>
+	</soundset>
+
+	<soundset name="BeaverSelect" volume="1.000">
+		<sound filename="beaverselect1.wav" volume="1.0000"></sound>
+		<sound filename="beaverselect2.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="BeaverAttack" volume="1.000">
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack1.wav" volume="1.0000"></sound>
+		<sound filename="beaverattack2.wav" volume="1.0000"></sound>
+		<sound filename="beaverattacksecret.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="BeaverMove" volume="1.000">
+		<sound filename="beavermove1.wav" volume="1.0000"></sound>
+		<sound filename="beavermove2.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="BeaverDie" volume="1.000">
+		<sound filename="beavergrunt.wav" volume="1.0000"></sound>
+	</soundset>
+
+
+
 
 </soundsetdef>

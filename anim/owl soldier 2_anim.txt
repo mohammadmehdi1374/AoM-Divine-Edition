@@ -5,38 +5,21 @@
 //==============================================================================
 define Head
 {
-   SetSelector
+
+SetSelector
    {
-      TechLogic none/Medium Archers/Heavy Archers/Champion Archers
       set hotspot
       {
          version
          {
-            Visual Cavalry X Javelin Head Standard
-         }
-      }
-      set hotspot
-      {
-         version
-         {
-            Visual Cavalry X Javelin Head Copper
-         }
-      }
-      set hotspot
-      {
-         version
-         {
-            Visual Cavalry X Javelin Head Bronze
-         }
-      }
-      set hotspot
-      {
-         version
-         {
-            Visual Cavalry X Javelin Head Iron
+            Visual Roman Cavalry Head
+		ReplaceTexture Infantry G Hoplite Head Iron/Auxiliary Head
          }
       }
    }
+
+
+  
 }
 
 //==============================================================================

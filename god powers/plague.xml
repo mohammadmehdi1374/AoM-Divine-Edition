@@ -9,7 +9,7 @@
 	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
 	<soundset type="StartSound" listenertype="IfOnScreenAll">SOOPBirth</soundset>
 	<overallchance>1.0</overallchance>
-	<abstracttype swapto="Zombie Temp">Cultist of Hastur</abstracttype>
+	<abstracttype swapto="Zombie Temp">Cultist</abstracttype>
 	<sfx>Osiris SFX</sfx>
 	<mutate></mutate>
 	<unittarget></unittarget>

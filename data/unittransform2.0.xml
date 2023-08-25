@@ -308,4 +308,8 @@
 		<from>Canpi Anpao and Han</from>
 		<to>Raven Keeper</to>
 	</transform>
+	<transform>
+		<from>Outpost Settlement</from>
+		<to>Settlement Level 1</to>
+	</transform>
 </unittransforms>
