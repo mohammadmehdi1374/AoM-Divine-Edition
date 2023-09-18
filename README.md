@@ -15,6 +15,10 @@ This is the largest and most ambitious mod for Age of Mythology in the history o
   - Jupiter
   - Juno
   - Minerva
+- The Lakota
+  - Wi
+  - Unci Mahka
+  - Hihan Kaga
 - Extended Pantheons
   - Demeter (Greek) <-- Temporarily replacing Khaos
   - Aten (Egyptian) <-- Temporarily replacing Chronos
