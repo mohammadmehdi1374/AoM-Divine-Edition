@@ -15,6 +15,6 @@
 	<outportal>Stargate</outportal>
 	<icon>improvement stargate icon</icon>
 	<usedicon>improvement stargate used icon</usedicon>
-	<recharges>4</recharges>
+	<recharges>3</recharges>
 	<rechargetime>20 </rechargetime>
 </power>

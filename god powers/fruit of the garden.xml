@@ -2,13 +2,13 @@
 
 <power name="FruitOfTheGarden" type="flamingweapons" techname="Fruit of the Garden">
 	<placement>skip</placement>
-	<activetime>25</activetime>
+	<activetime>45</activetime>
 	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
 	<soundset type="StartSound" listenertype="IfOnScreenAll">FrostWindLoop</soundset>
 	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
 	<powerplayerrelation>player</powerplayerrelation>
 	<tech>Fruit of the Garden Active</tech>
 	
-	<icon>improvement burning hearths icon</icon>
-	<usedicon>improvement burning hearths used icon</usedicon>
+	<icon>improvement Fruit of the Garden icon</icon>
+	<usedicon>improvement Fruit of the Garden used icon</usedicon>
 </power>

@@ -48,6 +48,7 @@ As the mod is very large, hosting it on Steam Workshop is not practical. As such
 - Lightning and Deathmatch modes are not currently supported. This is partially due to balance reasons, as we have not yet determined how to properly balance the Eldritch in particular. If you decide to try those modes out anyway, I recommend not having headphones on. It gets loud. 
 - Playing in online games against AI opponents may cause desyncs. This is a rare but well-documented issue and affects many mods. 
 - With spectators in an online game, the gods picked will be shifted up by one for each player under a spectator. As an example, if P1 is a spectator who prior to selecting spectator picked Yog-Sothoth, if P2 is an active player, P2 will be assigned to Yog-Sothoth. As such it is strongly recommended for all spectators to be at the bottom of the player list.
+- If you invite a friend via Steam invite, you may cause the game to desync immediately upon starting the match.
 - The AI cannot play any of the new gods and, if somehow given a new god, will default to an old one. Moreover, the AI will not react properly to many strategies, such as ignoring Eldritch rituals, not properly quarantining during the use of Plague, and massing counter-infantry against Roman legion units. 
 - The AI for Zeus is currently offended by some unknown change. As such, the game will lag significantly when an AI playing as Zeus advances to the mythic age, advances to the titan age, or researches omniscience.
 - The menu music is from Age of Wrath, and will soon be changed to Divine Edition-exclusive music.
@@ -96,7 +97,7 @@ Ana Winters (Lakota Main Designer)
 
 AProperGentleman (Project Lead) (Eldritch|Japanese|Roman Main Designer) 
 
-BookWyrm 
+HAMLET (Voice Actor)
 
 Kaoru 
 

@@ -39,8 +39,8 @@ active
 	//trChatSend(0, kbGetTechName(654) ); // Eldritch Civ
 	//trChatSend(0, kbGetTechName(650) ); // Zeus Real
 	//trChatSend(0, kbGetTechName(68)  ); // Age 1 Zeus
-	//trChatSend(0, kbGetTechName(981)  ); // Age 1 Hanwi Fake
-	//trchatsend(0, kbGetTechName(978)  ); // Age 1 Hanwi
+	trChatSend(0, kbGetTechName(959)  ); // Age 1 Hanwi Fake
+	trChatSend(0, kbGetTechName(978)  ); // Age 1 Wi
 	//trchatsend(0, kbGetTechName(1021)  ); // Medicinal Knowledge
 	//trchatsend(0, kbGetTechName(1033)  ); // Fushimi Pilgrimage
 	//trchatsend(0, kbGetTechName(1096)  ); // God Picked
@@ -413,8 +413,8 @@ active
 
 
 rule MinervaGP
-minInterval 0
-maxInterval 0
+minInterval 1
+maxInterval 1
 active
 {
 
@@ -429,11 +429,45 @@ active
 				
 				
 				if (kbGetBuildLimit(i, kbGetProtoUnitID("MinervaGP")) > 0) {
-					int techID = 1143 + kbGetBuildLimit(i, kbGetProtoUnitID("MinervaGP"));
-					trTechSetStatus(i, techID, cTechStatusActive);
-					trTechSetStatus(i, 1166, cTechStatusUnobtainable);
-					//trchatsend(0, kbGetTechName(techID)  );
-					trModifyProtounit( "MinervaGP", i, 10, (0 - kbGetBuildLimit(i, kbGetProtoUnitID("MinervaGP"))) );
+					
+
+
+					if  (kbGetTechStatus(1229) == cTechStatusActive && trPlayerResourceCount(i, "Food") >= 400) {
+						trChatSend(0, "C: "  );
+						trPlayerGrantResources(i, "Food", -400);
+						trTechSetStatus(i, 1229, cTechStatusUnobtainable);
+
+						int techID = 1143 + kbGetBuildLimit(i, kbGetProtoUnitID("MinervaGP"));
+						trTechSetStatus(i, techID, cTechStatusActive);
+						trTechSetStatus(i, 1166, cTechStatusUnobtainable);
+						trChatSend(0, "A: " + kbGetTechName(techID)  );
+						trModifyProtounit( "MinervaGP", i, 10, (0 - kbGetBuildLimit(i, kbGetProtoUnitID("MinervaGP"))) );
+
+					} else if  (kbGetTechStatus(1230) == cTechStatusActive && (trPlayerResourceCount(i, "Food") >= 800 && trPlayerResourceCount(i, "Gold") >= 500)) {
+						trPlayerGrantResources(i, "Food", -800);
+						trPlayerGrantResources(i, "Gold", -500);
+						trTechSetStatus(i, 1230, cTechStatusUnobtainable);
+						trChatSend(0, "D: "  );
+
+						techID = 1143 + kbGetBuildLimit(i, kbGetProtoUnitID("MinervaGP"));
+						trTechSetStatus(i, techID, cTechStatusActive);
+						trTechSetStatus(i, 1166, cTechStatusUnobtainable);
+						trChatSend(0, "A: " + kbGetTechName(techID)  );
+						trModifyProtounit( "MinervaGP", i, 10, (0 - kbGetBuildLimit(i, kbGetProtoUnitID("MinervaGP"))) );
+
+					} else if  (kbGetTechStatus(1231) == cTechStatusActive && (trPlayerResourceCount(i, "Food") >= 1000 && trPlayerResourceCount(i, "Gold") >= 1000)) {
+						trPlayerGrantResources(i, "Food", -1000);
+						trPlayerGrantResources(i, "Gold", -1000);
+						trTechSetStatus(i, 1231, cTechStatusUnobtainable);
+						trChatSend(0, "E: "  );
+
+						techID = 1143 + kbGetBuildLimit(i, kbGetProtoUnitID("MinervaGP"));
+						trTechSetStatus(i, techID, cTechStatusActive);
+						trTechSetStatus(i, 1166, cTechStatusUnobtainable);
+						trChatSend(0, "A: " + kbGetTechName(techID)  );
+						trModifyProtounit( "MinervaGP", i, 10, (0 - kbGetBuildLimit(i, kbGetProtoUnitID("MinervaGP"))) );
+					}
+
 				}
 
 				for (checkID = 1144; <1144 + 9) {
@@ -449,6 +483,8 @@ active
 					}
 
 					if (perc > limit && perc < 1.0) {
+
+						trChatSend(0, "B: " + kbGetTechName(checkID)  );
 
 						int q_id = kbUnitQueryCreate("SettlementsThatTrainVillagers");
 						kbUnitQuerySetPlayerID(q_id, i);
@@ -481,18 +517,6 @@ active
 
 				}
 				
-			} else if  (kbGetTechStatus(1229) == cTechStatusActive) {
-				trPlayerGrantResources(i, "Food", -400);
-				trTechSetStatus(i, 1229, cTechStatusUnobtainable);
-			} else if  (kbGetTechStatus(1230) == cTechStatusActive) {
-				trPlayerGrantResources(i, "Food", -800);
-				trPlayerGrantResources(i, "Gold", -500);
-				trTechSetStatus(i, 1230, cTechStatusUnobtainable);
-
-			} else if  (kbGetTechStatus(1231) == cTechStatusActive) {
-				trPlayerGrantResources(i, "Food", -1000);
-				trPlayerGrantResources(i, "Gold", -1000);
-				trTechSetStatus(i, 1231, cTechStatusUnobtainable);
 			}
 		}
 	}
@@ -3586,8 +3610,8 @@ priority 100
 
 rule CeresTempleFood
 active
-minInterval 1
-maxInterval 1
+minInterval 5
+maxInterval 5
 priority 100
 {
 	int prevPlayer = xsGetContextPlayer();
@@ -3619,7 +3643,15 @@ priority 100
 				trUnitSelectByID(kbUnitQueryGetResult(Qid2,i2));
 				if (trUnitDistanceToUnitID(kbUnitQueryGetResult(Qid,i)) <= 18.0)
 				{
-					foodCeres = foodCeres + 5;
+					foodCeres = foodCeres + 1;
+				}
+				if (trUnitDistanceToUnitID(kbUnitQueryGetResult(Qid,i)) <= 10.0)
+				{
+					foodCeres = foodCeres + 1;
+				}
+				if (trUnitDistanceToUnitID(kbUnitQueryGetResult(Qid,i)) <= 5.0)
+				{
+					foodCeres = foodCeres + 1;
 				}
 			}
 			trPlayerGrantResources(pid, "Food", foodCeres);
@@ -3683,10 +3715,10 @@ priority 100
 
 			int age = kbGetAgeForPlayer(pid);
 
-			int factor = 1;
+			float factor = 1.0;
 
 			if (kbGetTechStatus(1312) == cTechStatusActive) {
-				factor = 2;
+				factor = 1.5;
 			}
 		
 			int num = kbUnitQueryExecute(Qid);
@@ -3698,10 +3730,10 @@ priority 100
 				for(pid2=1;<cNumberPlayers)
 				{		
 					if (kbIsPlayerEnemy(pid2)) {
-						trDamageUnitsInArea(pid2,"All",7, (1.0 + age) * factor );
-						trDamageUnitsInArea(pid2,"Military",7, (1.0 + 3 * age) * factor);
+						trDamageUnitsInArea(pid2,"All",7, (1.0 + age) * factor / 1.5);
+						trDamageUnitsInArea(pid2,"Military",7, (1.0 * age) * factor / 1.5);
 					} else if (kbIsPlayerAlly(pid2)) {
-						trDamageUnitsInArea(pid2,"LogicalTypeCanBeHealed",10,(-2.0 - 3 * age) * factor);
+						trDamageUnitsInArea(pid2,"LogicalTypeCanBeHealed",10,(-1.0 - 2.0 * age) * factor / 1.5);
 					}
 				}
 			}
@@ -3883,8 +3915,15 @@ active
 				civChosen = 25;
 			} else if (kbGetTechStatus(1385) == cTechStatusActive) { // nameless mist
 				civChosen = 26;
+			} else if (kbGetTechStatus(978) == cTechStatusActive) { // wi
+				civChosen = 27;
+			} else if (kbGetTechStatus(979) == cTechStatusActive) { // unci makha
+				civChosen = 28;
+			} else if (kbGetTechStatus(980) == cTechStatusActive) { // hihan kaga
+				civChosen = 29;
 			}
 
+			
 			
 			}
 
@@ -4031,6 +4070,21 @@ active
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Wendigo", 0.01);
 				} else {
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Wendigo", 0.01);
+				} }
+				case 27: { if (j2 < 2) {													// Wi
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Zuzeca Zuya", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Arrow", 0.01);
+				} }
+				case 28: { if (j2 < 2) {													// Unci Mahka
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Waawayanka", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Waawayanka", 0.01);
+				} }
+				case 29: { if (j2 < 2) {													// Hihan Kaga
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Tathanka Gnaskiyan", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Arrow", 0.01);
 				} }
 				default: { if (j2 < 1) {												// Roman/else
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 1", "Manes", 0.01);
@@ -4182,6 +4236,21 @@ active
 				} else {
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
 				} }
+				case 27: { if (j2 < 2) {													// Wi
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Canotila", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} }
+				case 28: { if (j2 < 2) {													// Unci Makha
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Deer Woman", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} }
+				case 29: { if (j2 < 2) {													// Hihan Kaga
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Thunderbird", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Arrow", 0.01);
+				} }
 				default: { if (j2 < 2) {												// Roman/else
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 2", "Manes", 0.01);
 				} else {
@@ -4329,6 +4398,21 @@ active
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Hound of Tindalos", 0.01);
 				} else {
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Hound of Tindalos", 0.01);
+				} }
+				case 27: { if (j2 < 2) {													// Wi
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Wi Can", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
+				} }
+				case 28: { if (j2 < 2) {													// Unci Makha
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Unktehi Winyela", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
+				} }
+				case 29: { if (j2 < 2) {													// Hihan Kaga
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Woniya Thanka", 0.01);
+				} else {
+					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Arrow", 0.01);
 				} }
 				default: { if (j2 < 2) {												// Roman/else
 					trUnitChangeInArea(i, i, "Rome MU Placeholder 3", "Manes", 0.01);

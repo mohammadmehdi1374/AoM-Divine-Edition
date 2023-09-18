@@ -11,8 +11,12 @@
 	<attachproto>Plenty Flare</attachproto>
 	<gatherrate rate="0.0f">favor</gatherrate>
 	<burstdelay>5.0f</burstdelay>
-	<exclusionradius>25.0 </exclusionradius>
+	<exclusionradius>20.0 </exclusionradius>
 	<minimapeventtime sendalertto="none">0.0</minimapeventtime>
-	<recharges>0 </recharges>
+	<recharges>2 </recharges>
 	<rechargetime>120 </rechargetime>
+
+
+	<icon>improvement wagacan icon</icon>
+	<usedicon>improvement wagacan used icon</usedicon>
 </power>

@@ -25,6 +25,6 @@
 	<createunit quantity="1" radius="18" delay="24.5">Unk Snake</createunit>
 	<createunit quantity="1" radius="16" delay="26.25">Unk Snake</createunit>
 	<createunit quantity="1" radius="17" delay="28.0">Unk Snake</createunit>
-	<icon>god power ancestors icon</icon>
-	<usedicon>god power ancestors icon done</usedicon>
+	<icon>improvement Uncegila icon</icon>
+	<usedicon>improvement Uncegila used icon</usedicon>
 </power>

@@ -33,7 +33,7 @@
 					<soundset name="MinionAcknowledge"></soundset>
 				</choice>
 				<choice name="Building">
-					<soundset name="VillagerGreekRepair"></soundset>
+					<soundset name="MinionAcknowledge"></soundset>
 				</choice>
 			</targetlogic>
 		</soundtype>

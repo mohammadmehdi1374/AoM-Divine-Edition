@@ -9,9 +9,9 @@
 	<powerplayerrelation>player</powerplayerrelation>
 	<tech>Four Winds Active</tech>
 	
-	<icon>improvement burning hearths icon</icon>
-	<usedicon>improvement burning hearths used icon</usedicon>
+	<icon>improvement Four Winds icon</icon>
+	<usedicon>improvement Four Winds used icon</usedicon>
 
-	<recharges>4 </recharges>
+	<recharges>3 </recharges>
 	<rechargetime>20 </rechargetime>
 </power>

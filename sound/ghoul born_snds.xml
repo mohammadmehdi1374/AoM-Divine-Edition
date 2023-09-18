@@ -3,7 +3,7 @@
 <ProtoUnitSoundDef>
 	<ProtoUnit name ="Ghoul Born">
 		<SoundType name ="Select">
-			<SoundSet name ="MinotaurSelect"></SoundSet>
+			<SoundSet name ="EldMythSelect"></SoundSet>
 		</SoundType>
 		<SoundType name ="Grunt">
 			<SoundSet name ="MinotaurGrunt"></SoundSet>
@@ -25,13 +25,20 @@
 			</DamageTypeLogic>
 		</SoundType>
 		<SoundType name ="Death">
-			<SoundSet name ="MinotaurDeath"></SoundSet>
+			<SoundSet name ="EldMythPray"></SoundSet>
 		</SoundType>
 		<SoundType name ="Creation">
 			<SoundSet name ="MythUnitBirth"></SoundSet>
 		</SoundType>
 		<SoundType name ="Acknowledge">
-			<SoundSet name ="MinotaurAcknowledge"></SoundSet>
+			<targetlogic>
+				<choice name="default">
+					<soundset name="EldMythMove"></soundset>
+				</choice>
+				<choice name="enemy">
+					<soundset name="EldMythAttack"></soundset>
+				</choice>
+			</targetlogic>
 		</SoundType>
 	</ProtoUnit>
 </ProtoUnitSoundDef>

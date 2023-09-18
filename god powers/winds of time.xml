@@ -27,6 +27,6 @@
 	<swapdelay>0.5</swapdelay>
 	<sfx>Curse SFX</sfx>
 	<swapenemyonly></swapenemyonly>
-	<icon>god power curse icon</icon>
-	<usedicon>god power curse icon done</usedicon>
+	<icon>improvement Winds of Time icon</icon>
+	<usedicon>improvement Winds of Time used icon</usedicon>
 </power>

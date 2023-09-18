@@ -5,8 +5,8 @@
 	<placement forceonmap="1" losprotounit="Wophe Fire">all</placement>
 	<createunit quantity="1" radius="0.0" delay="0.0" norotate="">Wophe Fire</createunit>
 	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
-	<icon>god power nidhogg icon</icon>
-	<usedicon>god power nidhogg icon done</usedicon>
+	<icon>improvement Fires of Peace icon</icon>
+	<usedicon>improvement Fires of Peace used icon</usedicon>
 
 	<powerblocker>10.0f</powerblocker>
 

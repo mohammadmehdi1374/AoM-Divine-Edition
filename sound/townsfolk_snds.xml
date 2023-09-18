@@ -5,10 +5,10 @@
 		<soundtype name="Select">
 			<variationlogic>
 				<choice name="0">
-					<soundset name="VillagerGreekSelect"></soundset>
+					<soundset name="EldVilSelect"></soundset>
 				</choice>
 				<choice name="1">
-					<soundset name="VillagerGreekFemaleSelect"></soundset>
+					<soundset name="EldVilSelect"></soundset>
 				</choice>
 			</variationlogic>
 		</soundtype>
@@ -56,62 +56,62 @@
 				<choice name="0">
 					<targetlogic>
 						<choice name="default">
-							<soundset name="VillagerGreekAcknowledge"></soundset>
+							<soundset name="EldVilMove"></soundset>
 						</choice>
 						<choice name="enemy">
-							<soundset name="VillagerGreekAttack"></soundset>
+							<soundset name="EldVilAttack"></soundset>
 						</choice>
 						<choice name="Berry Bush">
-							<soundset name="VillagerGreekForage"></soundset>
+							<soundset name="EldVilBerry"></soundset>
 						</choice>
 						<choice name="Farm">
-							<soundset name="VillagerGreekFarm"></soundset>
+							<soundset name="EldVilFarm"></soundset>
 						</choice>
 						<choice name="Tree">
-							<soundset name="VillagerGreekLumberjack"></soundset>
+							<soundset name="EldVilWood"></soundset>
 						</choice>
 						<choice name="Gold">
-							<soundset name="VillagerGreekMine"></soundset>
+							<soundset name="EldVilGold"></soundset>
 						</choice>
-						<choice name="Fish">
-							<soundset name="VillagerGreekFish"></soundset>
+						<choice name="Herdable">
+							<soundset name="EldVilHerd"></soundset>
 						</choice>
 						<choice name="Huntable">
-							<soundset name="VillagerGreekHunt"></soundset>
+							<soundset name="EldVilHunt"></soundset>
 						</choice>
 						<choice name="Building">
-							<soundset name="VillagerGreekRepair"></soundset>
+							<soundset name="EldVilBuild"></soundset>
 						</choice>
 					</targetlogic>
 				</choice>
 				<choice name="1">
 					<targetlogic>
 						<choice name="default">
-							<soundset name="VillagerGreekFemaleAcknowledge"></soundset>
+							<soundset name="EldVilMove"></soundset>
 						</choice>
 						<choice name="enemy">
-							<soundset name="VillagerGreekFemaleAttack"></soundset>
+							<soundset name="EldVilAttack"></soundset>
 						</choice>
 						<choice name="Berry Bush">
-							<soundset name="VillagerGreekFemaleForage"></soundset>
+							<soundset name="EldVilBerry"></soundset>
 						</choice>
 						<choice name="Farm">
-							<soundset name="VillagerGreekFemaleFarm"></soundset>
+							<soundset name="EldVilFarm"></soundset>
 						</choice>
 						<choice name="Tree">
-							<soundset name="VillagerGreekFemaleLumberjack"></soundset>
+							<soundset name="EldVilWood"></soundset>
 						</choice>
 						<choice name="Gold">
-							<soundset name="VillagerGreekFemaleMine"></soundset>
+							<soundset name="EldVilGold"></soundset>
 						</choice>
-						<choice name="Fish">
-							<soundset name="VillagerGreekFemaleFish"></soundset>
+						<choice name="Herdable">
+							<soundset name="EldVilHerd"></soundset>
 						</choice>
 						<choice name="Huntable">
-							<soundset name="VillagerGreekFemaleHunt"></soundset>
+							<soundset name="EldVilHunt"></soundset>
 						</choice>
 						<choice name="Building">
-							<soundset name="VillagerGreekFemaleRepair"></soundset>
+							<soundset name="EldVilBuild"></soundset>
 						</choice>
 					</targetlogic>
 				</choice>

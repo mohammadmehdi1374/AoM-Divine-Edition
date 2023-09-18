@@ -3,32 +3,29 @@
 <protounitsounddef>
 	<protounit name="Incarnation of Nyarlathotep">
 		<soundtype name="Select">
-			<soundset name="SOOPSelect"></soundset>
+			<soundset name="EldHeroSelect"></soundset>
 		</soundtype>
 		<soundtype name="Grunt">
-			<soundset name="SOOPGrunt"></soundset>
+			<soundset name="MaleGruntNoMetal"></soundset>
 		</soundtype>
 		<soundtype name="Hit">
 			<damagetypelogic>
-				<choice name="Crush">
-					<soundset name="CrushFlesh"></soundset>
-				</choice>
-				<choice name="Fire">
+				<choice name="Hack">
 					<soundset name="HackFlesh"></soundset>
 				</choice>
-				<choice name="Hack">
-					<soundset name="MetalSlice"></soundset>
+				<choice name="Slash">
+					<soundset name="HackFlesh"></soundset>
 				</choice>
 				<choice name="Pierce">
 					<soundset name="PierceFlesh"></soundset>
 				</choice>
-				<choice name="Slash">
-					<soundset name="MetalSlice"></soundset>
+				<choice name="Crush">
+					<soundset name="CrushFlesh"></soundset>
 				</choice>
 			</damagetypelogic>
 		</soundtype>
 		<soundtype name="Death">
-			<soundset name="SOOPDeath"></soundset>
+			<soundset name="MaleDeath"></soundset>
 		</soundtype>
 		<soundtype name="Creation">
 			<soundset name="HeroBirth"></soundset>
@@ -36,10 +33,13 @@
 		<soundtype name="Acknowledge">
 			<targetlogic>
 				<choice name="default">
-					<soundset name="SOOPAcknowledge"></soundset>
+					<soundset name="EldHeroMove"></soundset>
+				</choice>
+				<choice name="building">
+					<soundset name="EldHeroEmpower"></soundset>
 				</choice>
 				<choice name="enemy">
-					<soundset name="SOOPAttack"></soundset>
+					<soundset name="EldHeroAttack"></soundset>
 				</choice>
 			</targetlogic>
 		</soundtype>

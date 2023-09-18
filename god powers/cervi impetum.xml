@@ -15,10 +15,10 @@
 		<basedamagepercentunit>0.20</basedamagepercentunit>
 		<basedamagepercentvillager>0.25</basedamagepercentvillager>
 		<basedamagepercentbuilding>0.15</basedamagepercentbuilding>
-		<minhpdamageunit>1050</minhpdamageunit>
+		<minhpdamageunit>850</minhpdamageunit>
 		<minhpdamagevillager>50</minhpdamagevillager>
 		<minhpdamagebuilding>300</minhpdamagebuilding>
-		<maxhpdamageunit>1200</maxhpdamageunit>
+		<maxhpdamageunit>1000</maxhpdamageunit>
 		<maxhpdamagevillager>60</maxhpdamagevillager>
 		<maxhpdamagebuilding>600</maxhpdamagebuilding>
 	</gpdamagemodel>

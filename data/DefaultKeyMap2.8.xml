@@ -2071,14 +2071,14 @@
 		<keymapdata>
 			<name>Ravager</name>
 			<displayname>$$99057$$Ravager</displayname>
-			<event>u</event>
+			<event>i</event>
 			<context>Game</context>
 			<command>tis("Ravager")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Ravager</name>
 			<displayname>$$99057$$Ravager</displayname>
-			<event>u</event>
+			<event>i</event>
 			<context>GreekAcademyAccel</context>
 			<command>tis("Ravager")</command>
 		</keymapdata>
@@ -2113,14 +2113,14 @@
 		<keymapdata>
 			<name>Multiple Ravager</name>
 			<displayname>$$99592$$Multiple Ravager</displayname>
-			<event>shift-u</event>
+			<event>shift-i</event>
 			<context>Game</context>
 			<command>tis("Ravager",5)</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Multiple Ravager</name>
 			<displayname>$$99592$$Multiple Ravager</displayname>
-			<event>shift-u</event>
+			<event>shift-i</event>
 			<context>GreekAcademyAccel</context>
 			<command>tis("Ravager",5)</command>
 		</keymapdata>
@@ -2158,14 +2158,14 @@
 		<keymapdata>
 			<name>Stoneskin</name>
 			<displayname>$$99313$$Stoneskin</displayname>
-			<event>u</event>
+			<event>i</event>
 			<context>Game</context>
 			<command>tis("Stoneskin")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Stoneskin</name>
 			<displayname>$$99313$$Stoneskin</displayname>
-			<event>u</event>
+			<event>i</event>
 			<context>GreekAcademyAccel</context>
 			<command>tis("Stoneskin")</command>
 		</keymapdata>
@@ -2200,14 +2200,14 @@
 		<keymapdata>
 			<name>Multiple Stoneskin</name>
 			<displayname>$$99596$$Multiple Stoneskin</displayname>
-			<event>shift-u</event>
+			<event>shift-i</event>
 			<context>Game</context>
 			<command>tis("Stoneskin",5)</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Multiple Stoneskin</name>
 			<displayname>$$99596$$Multiple Stoneskin</displayname>
-			<event>shift-u</event>
+			<event>shift-i</event>
 			<context>GreekAcademyAccel</context>
 			<command>tis("Stoneskin",5)</command>
 		</keymapdata>
@@ -2487,14 +2487,14 @@
 		<keymapdata>
 			<name>Penguin-Fletched</name>
 			<displayname>$$99324$$Penguin-Fletched</displayname>
-			<event>u</event>
+			<event>i</event>
 			<context>Game</context>
 			<command>tis("Penguin-Fletched")</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Penguin-Fletched</name>
 			<displayname>$$99324$$Penguin-Fletched</displayname>
-			<event>u</event>
+			<event>i</event>
 			<context>GreekAcademyAccel</context>
 			<command>tis("Penguin-Fletched")</command>
 		</keymapdata>
@@ -2529,14 +2529,14 @@
 		<keymapdata>
 			<name>Multiple Penguin-Fletched</name>
 			<displayname>$$99628$$Multiple Penguin-Fletched</displayname>
-			<event>shift-u</event>
+			<event>shift-i</event>
 			<context>Game</context>
 			<command>tis("Penguin-Fletched",5)</command>
 		</keymapdata>
 		<keymapdata>
 			<name>Multiple Penguin-Fletched</name>
 			<displayname>$$99628$$Multiple Penguin-Fletched</displayname>
-			<event>shift-u</event>
+			<event>shift-i</event>
 			<context>GreekAcademyAccel</context>
 			<command>tis("Penguin-Fletched",5)</command>
 		</keymapdata>

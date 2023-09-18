@@ -13,9 +13,9 @@
 	<sfx>Osiris SFX</sfx>
 	<mutate></mutate>
 	<unittarget></unittarget>
-	<icon>improvement son of sobek icon</icon>
-	<usedicon>improvement son of sobek used icon</usedicon>
+	<icon>improvement Shapeshifters Chaos icon</icon>
+	<usedicon>improvement Shapeshifters Chaos used icon</usedicon>
 
-	<recharges>2 </recharges>
+	<recharges>1 </recharges>
 	<rechargetime>120 </rechargetime>
 </power>

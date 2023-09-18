@@ -11,8 +11,8 @@
 	
 	
 	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
-	<icon>god power nidhogg icon</icon>
-	<usedicon>god power nidhogg icon done</usedicon>
+	<icon>improvement Maker of Days icon</icon>
+	<usedicon>improvement Maker of Days used icon</usedicon>
 
 	<powerblocker>10.0f</powerblocker>
 

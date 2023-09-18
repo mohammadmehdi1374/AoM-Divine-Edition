@@ -2331,6 +2331,21 @@
 				<target type="ProtoUnit">Onager</target>
 			</effect>
 			<effect type="Data" action="RangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Starthrower</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Roman Onager</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Scorpio</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Catapult Lakota</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">Huron Mantlet</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
 				<target type="ProtoUnit">Sitting Tiger</target>
 			</effect>
 			<effect type="Data" action="RangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
@@ -17906,6 +17921,13 @@
 			<effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Fishing Ship Greek</target>
 			</effect>
+		
+	
+			<effect type="Data" amount="0.75" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+	
+	
 		</effects>
 	</tech>
 
@@ -18400,130 +18422,92 @@
 		</effects>
 	</tech>
 
-	<tech name="Slaughter" type="Normal">
+	<tech name="Euphoric Slaughter" type="Normal">
 		<dbid></dbid>
 		<displaynameid>99183</displaynameid>
-		<cost resourcetype="Wood">100.0000</cost>
-		<cost resourcetype="Gold">50.0000</cost>
-		<researchpoints>30.0000</researchpoints>
+		<cost resourcetype="Favor">10.0000</cost>
+		<researchpoints>20.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement husbandry icon</icon>
+		<icon>improvement euphoric slaughter icon</icon>
 		<rollovertextid>99184</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Eldritch Civ</techstatus>
 		</prereqs>
 		<effects>
 
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist</target>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
+				<target type="ProtoUnit">Townsfolk</target>
 			</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist of Azathoth</target>
-			</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist of Yog-Sothoth</target>
-			</effect>
-			<effect type="Data" action="Gather" amount="2.0" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist of Shub-Niggurath</target>
+		
+			<effect type="Data" amount="-6.0" subtype="Hitpoints" relativity="Absolute">
+				<target type="ProtoUnit">Townsfolk</target>
 			</effect>
 		</effects>
 	</tech>
 
-	<tech name="Woodlore" type="Normal">
+	<tech name="Resinous Blood" type="Normal">
 		<dbid></dbid>
-		<displaynameid>99185</displaynameid>
-		<cost resourcetype="Wood">100.0000</cost>
-		<cost resourcetype="Gold">50.0000</cost>
+		<displaynameid>99185</displaynameid>		
+		<cost resourcetype="Favor">10.0000</cost>
 		<researchpoints>30.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement husbandry icon</icon>
+		<icon>improvement resinous blood icon</icon>
 		<rollovertextid>99186</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Eldritch Civ</techstatus>
 		</prereqs>
 		<effects>
-			<effect type="TextOutput">99000</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist</target>
+
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">Townsfolk</target>
 			</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist of Azathoth</target>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gaia forest tree" relativity="BasePercent">
+				<target type="ProtoUnit">Townsfolk</target>
 			</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist of Yog-Sothoth</target>
-			</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist of Shub-Niggurath</target>
-			</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Gaia Forest tree" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist</target>
-			</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Gaia Forest tree" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist of Azathoth</target>
-			</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Gaia Forest tree" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist of Yog-Sothoth</target>
-			</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Gaia Forest tree" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist of Shub-Niggurath</target>
+			<effect type="Data" amount="-6.0" subtype="Hitpoints" relativity="Absolute">
+				<target type="ProtoUnit">Townsfolk</target>
 			</effect>
 		</effects>
 	</tech>
 
-	<tech name="Greed" type="Normal">
+	<tech name="Inhuman Greed" type="Normal">
 		<dbid></dbid>
 		<displaynameid>99187</displaynameid>
-		<cost resourcetype="Wood">100.0000</cost>
-		<cost resourcetype="Gold">50.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
 		<researchpoints>30.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement husbandry icon</icon>
+		<icon>improvement inhuman greed icon</icon>
 		<rollovertextid>99188</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Eldritch Civ</techstatus>
 		</prereqs>
 		<effects>
-			<effect type="TextOutput">99000</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist</target>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">Townsfolk</target>
 			</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist of Azathoth</target>
-			</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist of Yog-Sothoth</target>
-			</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist of Shub-Niggurath</target>
+			<effect type="Data" amount="-6.0" subtype="Hitpoints" relativity="Absolute">
+				<target type="ProtoUnit">Townsfolk</target>
 			</effect>
 		</effects>
 	</tech>
 
-	<tech name="Bloodfed Beasts" type="Normal">
+	<tech name="Bestial Blood" type="Normal">
 		<dbid></dbid>
 		<displaynameid>99189</displaynameid>
-		<cost resourcetype="Wood">100.0000</cost>
-		<cost resourcetype="Gold">50.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
 		<researchpoints>30.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement husbandry icon</icon>
+		<icon>improvement bestial blood icon</icon>
 		<rollovertextid>99190</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Eldritch Civ</techstatus>
 		</prereqs>
 		<effects>
-			<effect type="TextOutput">99000</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist</target>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+				<target type="ProtoUnit">Townsfolk</target>
 			</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist of Azathoth</target>
-			</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist of Shub-Niggurath</target>
-			</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist of Yog-Sothoth</target>
+			<effect type="Data" amount="-6.0" subtype="Hitpoints" relativity="Absolute">
+				<target type="ProtoUnit">Townsfolk</target>
 			</effect>
 		</effects>
 	</tech>
@@ -18531,40 +18515,31 @@
 	<tech name="Hunters Lust" type="Normal">
 		<dbid></dbid>
 		<displaynameid>99191</displaynameid>
-		<cost resourcetype="Wood">100.0000</cost>
-		<cost resourcetype="Gold">50.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
 		<researchpoints>30.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement husbandry icon</icon>
+		<icon>improvement hunters lust icon</icon>
 		<rollovertextid>99192</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Eldritch Civ</techstatus>
 		</prereqs>
 		<effects>
-			<effect type="TextOutput">99000</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist</target>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
+				<target type="ProtoUnit">Townsfolk</target>
 			</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist of Azathoth</target>
-			</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist of Yog-Sothoth</target>
-			</effect>
-			<effect type="Data" action="Gather" amount="10.0" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
-				<target type="ProtoUnit">Cultist of Shub-Niggurath</target>
+			<effect type="Data" amount="-6.0" subtype="Hitpoints" relativity="Absolute">
+				<target type="ProtoUnit">Townsfolk</target>
 			</effect>
 		</effects>
 	</tech>
 
-	<tech name="Institutional Worship" type="Normal">
+	<tech name="Ruinous Perfection" type="Normal">
 		<dbid></dbid>
 		<displaynameid>99193</displaynameid>
-		<cost resourcetype="Food">300.0000</cost>
-		<cost resourcetype="Gold">500.0000</cost>
+		<cost resourcetype="Favor">100.0000</cost>
 		<researchpoints>30.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>Icon Building Temple</icon>
+		<icon>improvement ruinous perfection icon</icon>
 		<rollovertextid>99194</rollovertextid>
 		<prereqs>
 			<specificage>Mythic Age</specificage>
@@ -18572,8 +18547,27 @@
 		</prereqs>
 		<effects>
 
-			<effect type="Data" action="Gather" amount="1.5" subtype="WorkRate" unittype="Temple" relativity="BasePercent">
-				<target type="ProtoUnit">AbstractVillager</target>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+				<target type="ProtoUnit">Townsfolk</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">Townsfolk</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">Townsfolk</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
+				<target type="ProtoUnit">Townsfolk</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
+				<target type="ProtoUnit">Townsfolk</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gaia Forest Tree" relativity="BasePercent">
+				<target type="ProtoUnit">Townsfolk</target>
+			</effect>
+			
+			<effect type="Data" amount="-12.0" subtype="Hitpoints" relativity="Absolute">
+				<target type="ProtoUnit">Townsfolk</target>
 			</effect>
 		</effects>
 	</tech>
@@ -19576,7 +19570,7 @@
 				<target type="ProtoUnit">Voice of Cthulhu</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
-				<target type="ProtoUnit">Endbringer</target>
+				<target type="ProtoUnit">Endbringer Temp</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Invoker of The End</target>
@@ -20540,9 +20534,7 @@
 		</prereqs>
 		<effects>
 
-			<effect type="Data" action="HandAttack" amount="4.00" subtype="DamageBonus" unittype="AbstractCavalry" relativity="Assign">
-				<target type="ProtoUnit">Devourer</target>
-			</effect>
+			
 			<effect type="Data" amount="1.50" subtype="MaximumVelocity" relativity="BasePercent">
 				<target type="ProtoUnit">Devourer</target>
 			</effect>
@@ -26978,6 +26970,7 @@
 		<dbid>90114</dbid>
 		<displaynameid>90114</displaynameid>
 		<cost resourcetype="Wood">150.0000</cost>
+		<cost resourcetype="Favor">13.0000</cost>
 		<researchpoints>15.0000</researchpoints>
 		<status>OBTAINABLE</status>
 		<icon>HurronFishIcon</icon>
@@ -27023,7 +27016,8 @@
 	<tech name="Ceremonial Dagger" type="Normal">
 		<dbid>90120</dbid>
 		<displaynameid>90120</displaynameid>
-		<cost resourcetype="Gold">75.0000</cost>
+		<cost resourcetype="Gold">125.0000</cost>
+		<cost resourcetype="Favor">30.0000</cost>
 		<researchpoints>20.0000</researchpoints>
 		<status>OBTAINABLE</status>
 		<icon>ObsidianDagger</icon>
@@ -27086,6 +27080,7 @@
 		<displaynameid>90124</displaynameid>
 		<cost resourcetype="Wood">150.0000</cost>
 		<cost resourcetype="Gold">150.0000</cost>
+		<cost resourcetype="Favor">20.0000</cost>
 		<researchpoints>20.0000</researchpoints>
 		<status>OBTAINABLE</status>
 		<icon>MilkywayIcon</icon>
@@ -28632,7 +28627,7 @@
 		<displaynameid>110001</displaynameid>
 		<researchpoints>0.010</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>god major izanagi icon 64</icon>
+		<icon>improvement wi icon</icon>
 		<rollovertextid>110002</rollovertextid>
 		<delay>0.0100</delay>
 		<prereqs>
@@ -28676,7 +28671,7 @@
 		<displaynameid>110003</displaynameid>
 		<researchpoints>0.010</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>god major izanagi icon 64</icon>
+		<icon>improvement unci makha icon</icon>
 		<rollovertextid>110004</rollovertextid>
 		<delay>0.0100</delay>
 		<prereqs>
@@ -28721,7 +28716,7 @@
 		<displaynameid>110005</displaynameid>
 		<researchpoints>0.010</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>god major izanagi icon 64</icon>
+		<icon>improvement hihan kaga icon</icon>
 		<rollovertextid>110006</rollovertextid>
 		<delay>0.0100</delay>
 		<prereqs>
@@ -29048,7 +29043,7 @@
 		<cost resourcetype="Food">400.0000</cost>
 		<researchpoints>60.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>god major okeanus icons 64</icon>
+		<icon>improvement capa icon</icon>
 		<rollovertextid>110023</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<flag>AlwaysShowButton</flag>
@@ -29106,7 +29101,7 @@
 		<cost resourcetype="Food">400.0000</cost>
 		<researchpoints>60.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>god major prometheus icons 64</icon>
+		<icon>improvement iktomi icon</icon>
 		<rollovertextid>110027</rollovertextid>
 		<buttonpos row="1" column="1"></buttonpos>
 		<flag>AlwaysShowButton</flag>
@@ -29160,7 +29155,7 @@
 		<cost resourcetype="Food">400.0000</cost>
 		<researchpoints>60.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>god major leto icons 64</icon>
+		<icon>improvement wani icon</icon>
 		<rollovertextid>110031</rollovertextid>
 		<buttonpos row="1" column="2"></buttonpos>
 		<flag>AlwaysShowButton</flag>
@@ -29215,7 +29210,7 @@
 		<cost resourcetype="Gold">500.0000</cost>
 		<researchpoints>60.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>god major hyperion icons 64</icon>
+		<icon>improvement anung ite icon</icon>
 		<rollovertextid>110035</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<flag>AlwaysShowButton</flag>
@@ -29272,7 +29267,7 @@
 		<cost resourcetype="Gold">500.0000</cost>
 		<researchpoints>60.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>god major rheia icons 64</icon>
+		<icon>improvement tate icon</icon>
 		<rollovertextid>110039</rollovertextid>
 		<buttonpos row="1" column="1"></buttonpos>
 		<flag>AlwaysShowButton</flag>
@@ -29335,7 +29330,7 @@
 		<cost resourcetype="Gold">500.0000</cost>
 		<researchpoints>60.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>god major theia icons 64</icon>
+		<icon>improvement wakinyan icon</icon>
 		<rollovertextid>110043</rollovertextid>
 		<buttonpos row="1" column="2"></buttonpos>
 		<flag>AlwaysShowButton</flag>
@@ -29390,7 +29385,7 @@
 		<cost resourcetype="Gold">1000.0000</cost>
 		<researchpoints>90.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>god major helios icons 64</icon>
+		<icon>improvement wophe icon</icon>
 		<rollovertextid>110047</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<flag>AlwaysShowButton</flag>
@@ -29438,7 +29433,7 @@
 		<cost resourcetype="Gold">1000.0000</cost>
 		<researchpoints>90.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>god major hekate icons 64</icon>
+		<icon>improvement anpao and han icon</icon>
 		<rollovertextid>110051</rollovertextid>
 		<buttonpos row="1" column="1"></buttonpos>
 		<flag>AlwaysShowButton</flag>
@@ -29486,7 +29481,7 @@
 		<cost resourcetype="Gold">1000.0000</cost>
 		<researchpoints>90.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>god major atlas icons 64</icon>
+		<icon>improvement unk icon</icon>
 		<rollovertextid>110055</rollovertextid>
 		<buttonpos row="1" column="2"></buttonpos>
 		<flag>AlwaysShowButton</flag>
@@ -30020,7 +30015,7 @@
 		<displaynameid>110060</displaynameid>
 		<researchpoints>0.010</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>god major izanagi icon 64</icon>
+		<icon>improvement final migration icon</icon>
 		<rollovertextid>110061</rollovertextid>
 		<delay>0.0100</delay>
 		<prereqs>
@@ -33114,7 +33109,7 @@
 					<offset x="-20.00" y="0.00" z="28.00"></offset>
 				</pattern>
 			</effect>
-			<effect type="CreateUnit" unit="Roman Eagle" delay="30000.00" generator="SettlementsThatTrainVillagers">
+			<effect type="CreateUnit" unit="Roman Eagle" delay="100.00" generator="SettlementsThatTrainVillagers">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="-20.00" y="0.00" z="28.00"></offset>
 				</pattern>
@@ -33174,6 +33169,75 @@
 			<effect type="Data" amount="1.50" subtype="Cost" resource="Gold" relativity="BasePercent">
 				<target type="Tech">Champion Infantry Minerva</target>
 			</effect>
+			
+			
+			<effect type="Data" amount="2.0" subtype="Cost" resource="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">Temple Diana</target>
+			</effect>
+			<effect type="Data" amount="2.0" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">Temple Diana</target>
+			</effect>
+			<effect type="Data" amount="2.0" subtype="Cost" resource="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">Temple Apollo</target>
+			</effect>
+			<effect type="Data" amount="2.0" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">Temple Apollo</target>
+			</effect>
+			<effect type="Data" amount="2.0" subtype="Cost" resource="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">Temple Neptune</target>
+			</effect>
+			<effect type="Data" amount="2.0" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">Temple Neptune</target>
+			</effect>
+			<effect type="Data" amount="3.0" subtype="Cost" resource="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">Temple Vulcan</target>
+			</effect>
+			<effect type="Data" amount="3.0" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">Temple Vulcan</target>
+			</effect>
+			<effect type="Data" amount="3.0" subtype="Cost" resource="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">Temple Venus</target>
+			</effect>
+			<effect type="Data" amount="3.0" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">Temple Venus</target>
+			</effect>
+			<effect type="Data" amount="3.0" subtype="Cost" resource="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">Temple Mercury</target>
+			</effect>
+			<effect type="Data" amount="3.0" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">Temple Mercury</target>
+			</effect>
+			<effect type="Data" amount="4.0" subtype="Cost" resource="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">Temple Ceres</target>
+			</effect>
+			<effect type="Data" amount="4.0" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">Temple Ceres</target>
+			</effect>
+			<effect type="Data" amount="4.0" subtype="Cost" resource="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">Temple Mars</target>
+			</effect>
+			<effect type="Data" amount="4.0" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">Temple Mars</target>
+			</effect>
+			<effect type="Data" amount="4.0" subtype="Cost" resource="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">Temple Vesta</target>
+			</effect>
+			<effect type="Data" amount="4.0" subtype="Cost" resource="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">Temple Vesta</target>
+			</effect>
+		
+	
+			
+			<effect type="Data" amount="0.80" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">LogicalTypeMythUnitNotTitan</target>
+			</effect>
+			<effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Manes</target>
+			</effect>
+			<effect type="Data" amount="0.5" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Shoggoth</target>
+			</effect>
+	
 		</effects>
 	</tech>
 
@@ -34094,10 +34158,10 @@
 			<effect type="Data" action="AutoGather" amount="2.0" subtype="WorkRate" unittype="Food" relativity="Absolute">
 				<target type="ProtoUnit">Farm</target>
 			</effect>
-			<effect type="Data" action="AutoGather" amount="1.25" subtype="WorkRate" unittype="Wood" relativity="Absolute">
+			<effect type="Data" action="AutoGather" amount="1.0" subtype="WorkRate" unittype="Wood" relativity="Absolute">
 				<target type="ProtoUnit">Farm</target>
 			</effect>
-			<effect type="Data" action="AutoGather" amount="0.5" subtype="WorkRate" unittype="Gold" relativity="Absolute">
+			<effect type="Data" action="AutoGather" amount="0.25" subtype="WorkRate" unittype="Gold" relativity="Absolute">
 				<target type="ProtoUnit">Farm</target>
 			</effect>
 		</effects>
@@ -34633,10 +34697,10 @@
 			<techstatus status="Active">Age 2 Diana</techstatus>
 		</prereqs>
 		<effects>
-			<effect type="Data" action="RangedAttack" amount="3.00" subtype="NumberProjectiles" relativity="Absolute">
+			<effect type="Data" action="RangedAttack" amount="1.00" subtype="NumberProjectiles" relativity="Absolute">
 				<target type="ProtoUnit">Tower</target>
 			</effect>
-			<effect type="Data" action="RangedAttack" amount="3.00" subtype="NumberProjectiles" relativity="Absolute">
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="NumberProjectiles" relativity="Absolute">
 				<target type="ProtoUnit">AbstractFortress</target>
 			</effect>
 			<effect type="Data" action="RangedAttack" amount="3.00" subtype="NumberProjectiles" relativity="Absolute">
@@ -38935,16 +38999,16 @@
 			<effect type="Data" amount="2.00" subtype="PopulationCount" relativity="Assign">
 				<target type="ProtoUnit">Trident Soldier Hero</target>
 			</effect>
-			<effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Assign">
+			<effect type="Data" amount="2.00" subtype="PopulationCount" relativity="Assign">
 				<target type="ProtoUnit">Swordsman Hero</target>
 			</effect>
-			<effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Assign">
+			<effect type="Data" amount="2.00" subtype="PopulationCount" relativity="Assign">
 				<target type="ProtoUnit">Archer Atlantean Hero</target>
 			</effect>
-			<effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Assign">
+			<effect type="Data" amount="2.00" subtype="PopulationCount" relativity="Assign">
 				<target type="ProtoUnit">Maceman Hero</target>
 			</effect>
-			<effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Assign">
+			<effect type="Data" amount="2.00" subtype="PopulationCount" relativity="Assign">
 				<target type="ProtoUnit">Javelin Cavalry Hero</target>
 			</effect>
 			<effect type="Data" amount="2.00" subtype="PopulationCount" relativity="Assign">
@@ -41125,7 +41189,7 @@
 		<displaynameid>110118</displaynameid>
 		<researchpoints>0.1000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement schism icon</icon>
+		<icon>improvement wagacan icon</icon>
 		<rollovertextid>110119</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 1 Zeus</techstatus>
@@ -41149,7 +41213,7 @@
 		<displaynameid>110120</displaynameid>
 		<researchpoints>0.1000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement schism icon</icon>
+		<icon>improvement Hierarchy of Life icon</icon>
 		<rollovertextid>110121</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 1 Zeus</techstatus>
@@ -41161,7 +41225,7 @@
 		<displaynameid>110123</displaynameid>
 		<researchpoints>0.1000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement schism icon</icon>
+		<icon>improvement nagi akta icon</icon>
 		<rollovertextid>110124</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 1 Zeus</techstatus>
@@ -41173,7 +41237,7 @@
 		<displaynameid>110125</displaynameid>
 		<researchpoints>0.1000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement schism icon</icon>
+		<icon>improvement Shapeshifters Chaos icon</icon>
 		<rollovertextid>110126</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 1 Zeus</techstatus>
@@ -41185,7 +41249,7 @@
 		<displaynameid>110127</displaynameid>
 		<researchpoints>0.1000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement schism icon</icon>
+		<icon>improvement Four Winds icon</icon>
 		<rollovertextid>110128</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 1 Zeus</techstatus>
@@ -41197,7 +41261,7 @@
 		<displaynameid>110129</displaynameid>
 		<researchpoints>0.1000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement schism icon</icon>
+		<icon>improvement Omakha Waphaya icon</icon>
 		<rollovertextid>110130</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 1 Zeus</techstatus>
@@ -41210,7 +41274,7 @@
 		<displaynameid>110131</displaynameid>
 		<researchpoints>0.1000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement schism icon</icon>
+		<icon>improvement Fruit of the Garden icon</icon>
 		<rollovertextid>110132</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 1 Zeus</techstatus>
@@ -41222,7 +41286,7 @@
 		<displaynameid>110133</displaynameid>
 		<researchpoints>0.1000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement schism icon</icon>
+		<icon>improvement Winds of Time icon</icon>
 		<rollovertextid>110134</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 1 Zeus</techstatus>
@@ -41234,7 +41298,7 @@
 		<displaynameid>110135</displaynameid>
 		<researchpoints>0.1000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement schism icon</icon>
+		<icon>improvement Thunders Judgement icon</icon>
 		<rollovertextid>110136</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 1 Zeus</techstatus>
@@ -41246,7 +41310,7 @@
 		<displaynameid>110137</displaynameid>
 		<researchpoints>0.1000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement schism icon</icon>
+		<icon>improvement Fires of Peace icon</icon>
 		<rollovertextid>110138</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 1 Zeus</techstatus>
@@ -41258,7 +41322,7 @@
 		<displaynameid>110139</displaynameid>
 		<researchpoints>0.1000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement schism icon</icon>
+		<icon>improvement Uncegila icon</icon>
 		<rollovertextid>110140</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 1 Zeus</techstatus>
@@ -41270,7 +41334,7 @@
 		<displaynameid>110141</displaynameid>
 		<researchpoints>0.1000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement schism icon</icon>
+		<icon>improvement maker of days icon</icon>
 		<rollovertextid>110142</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 1 Zeus</techstatus>
@@ -41296,7 +41360,7 @@
 		<rollovertextid>110128</rollovertextid>
 		<researchpoints>0.1000</researchpoints>
 		<status>UNOBTAINABLE</status>
-		<icon>Improvement Burning Hearths Icon</icon>
+		<icon>Improvement four winds Icon</icon>
 		<effects>
 
 			<effect type="Data" amount="1.33" subtype="MaximumVelocity" relativity="BasePercent">
@@ -41321,14 +41385,90 @@
 		<rollovertextid>110132</rollovertextid>
 		<researchpoints>0.1000</researchpoints>
 		<status>UNOBTAINABLE</status>
-		<icon>Improvement Burning Hearths Icon</icon>
+		<icon>Improvement fruit of the garden Icon</icon>
 		<effects>
 
 
+			
 			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="HumanSoldier" relativity="BasePercent">
 				<target type="ProtoUnit">Deer Woman</target>
 			</effect>
-			<effect type="Data" amount="0.33" subtype="RechargeTime" relativity="BasePercent">
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Villager Greek" relativity="BasePercent">
+				<target type="ProtoUnit">Deer Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Villager Chinese" relativity="BasePercent">
+				<target type="ProtoUnit">Deer Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Villager Chinese Reborn" relativity="BasePercent">
+				<target type="ProtoUnit">Deer Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Villager Norse" relativity="BasePercent">
+				<target type="ProtoUnit">Deer Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Dwarf" relativity="BasePercent">
+				<target type="ProtoUnit">Deer Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Aztec Male Villager" relativity="BasePercent">
+				<target type="ProtoUnit">Deer Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Aztec Female Villager" relativity="BasePercent">
+				<target type="ProtoUnit">Deer Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Townsfolk" relativity="BasePercent">
+				<target type="ProtoUnit">Deer Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Villager Lakota" relativity="BasePercent">
+				<target type="ProtoUnit">Deer Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Villager Roman" relativity="BasePercent">
+				<target type="ProtoUnit">Deer Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Military Engineer" relativity="BasePercent">
+				<target type="ProtoUnit">Deer Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Villager Atlantean" relativity="BasePercent">
+				<target type="ProtoUnit">Deer Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Villager Greek" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Villager Chinese" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Villager Chinese Reborn" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Villager Norse" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Dwarf" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Aztec Male Villager" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Aztec Female Villager" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Townsfolk" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Villager Lakota" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Villager Roman" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Military Engineer" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			<effect type="Data" action="Convert" amount="0.5" subtype="WorkRate" unittype="Villager Atlantean" relativity="BasePercent">
+				<target type="ProtoUnit">Medicine Woman</target>
+			</effect>
+			
+		
+	
+			<effect type="Data" amount="0.01" subtype="RechargeTime" relativity="BasePercent">
 				<target type="ProtoUnit">Deer Woman</target>
 			</effect>
 		</effects>
@@ -41371,9 +41511,6 @@
 					<offset x="-6.00" y="0.00" z="-6.00"></offset>
 				</pattern>
 			</effect>
-			<effect tech="Nagi Akta" type="Data" amount="1.00" subtype="GrantedTech" relativity="Absolute">
-				<target type="Player"></target>
-			</effect>
 		</effects>
 	</tech>
 	<tech name="Hihan Migration 3" type="Normal">
@@ -41392,9 +41529,6 @@
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="3.00" minradius="0.00">
 					<offset x="-6.00" y="0.00" z="-6.00"></offset>
 				</pattern>
-			</effect>
-			<effect tech="Nagi Akta" type="Data" amount="2.00" subtype="GrantedTech" relativity="Absolute">
-				<target type="Player"></target>
 			</effect>
 		</effects>
 	</tech>
@@ -41416,9 +41550,6 @@
 				</pattern>
 			</effect>
 
-			<effect tech="Nagi Akta" type="Data" amount="3.00" subtype="GrantedTech" relativity="Absolute">
-				<target type="Player"></target>
-			</effect>
 		</effects>
 	</tech>
 	<tech name="Wi Migration 2" type="Normal">
@@ -42051,7 +42182,7 @@
 		<cost resourcetype="Favor">5.0000</cost>
 		<researchpoints>15.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement solar calendar icon</icon>
 		<rollovertextid>110146</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42077,7 +42208,7 @@
 		<cost resourcetype="Favor">5.0000</cost>
 		<researchpoints>15.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement lunar calendar l icon</icon>
 		<rollovertextid>110148</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42097,7 +42228,7 @@
 		<cost resourcetype="Favor">10.0000</cost>
 		<researchpoints>15.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement sun dogs icon</icon>
 		<rollovertextid>110150</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42135,7 +42266,7 @@
 		<cost resourcetype="Favor">10.0000</cost>
 		<researchpoints>15.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement moon dogs icon</icon>
 		<rollovertextid>110152</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42165,7 +42296,7 @@
 		<cost resourcetype="Favor">20.0000</cost>
 		<researchpoints>15.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement ahanzi icon</icon>
 		<rollovertextid>110154</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42186,7 +42317,7 @@
 		<cost resourcetype="Favor">10.0000</cost>
 		<researchpoints>15.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement reflections icon</icon>
 		<rollovertextid>110156</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42207,7 +42338,7 @@
 		<cost resourcetype="Favor">15.0000</cost>
 		<researchpoints>15.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement as above icon</icon>
 		<rollovertextid>110158</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42231,7 +42362,7 @@
 		<cost resourcetype="Favor">15.0000</cost>
 		<researchpoints>15.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement so below icon</icon>
 		<rollovertextid>110160</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42255,7 +42386,7 @@
 		<cost resourcetype="Favor">30.0000</cost>
 		<researchpoints>15.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement nightwatcher icon</icon>
 		<rollovertextid>110294</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42280,7 +42411,7 @@
 		<cost resourcetype="Favor">30.0000</cost>
 		<researchpoints>15.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement daybreaker icon</icon>
 		<rollovertextid>110296</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42371,7 +42502,7 @@
 		<cost resourcetype="Favor">5.0000</cost>
 		<researchpoints>15.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement osage tree gifts icon</icon>
 		<rollovertextid>110162</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42397,7 +42528,7 @@
 		<cost resourcetype="Favor">5.0000</cost>
 		<researchpoints>15.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement ehanni icon</icon>
 		<rollovertextid>110164</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42417,7 +42548,7 @@
 		<cost resourcetype="Favor">15.0000</cost>
 		<researchpoints>15.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement inipi icon</icon>
 		<rollovertextid>110166</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42456,7 +42587,7 @@
 		<cost resourcetype="Favor">15.0000</cost>
 		<researchpoints>15.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement woptecasni icon</icon>
 		<rollovertextid>110168</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42476,7 +42607,7 @@
 		<cost resourcetype="Favor">30.0000</cost>
 		<researchpoints>15.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement call of the void icon</icon>
 		<rollovertextid>110170</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42497,7 +42628,7 @@
 		<cost resourcetype="Favor">15.0000</cost>
 		<researchpoints>30.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement master of whispers icon</icon>
 		<rollovertextid>110172</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42519,7 +42650,7 @@
 		<cost resourcetype="Favor">12.0000</cost>
 		<researchpoints>25.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement ducks folly icon</icon>
 		<rollovertextid>110174</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42539,7 +42670,7 @@
 		<cost resourcetype="Favor">10.0000</cost>
 		<researchpoints>20.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement yanpas wisdom icon</icon>
 		<rollovertextid>110176</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42567,7 +42698,7 @@
 		<cost resourcetype="Favor">10.0000</cost>
 		<researchpoints>20.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement okagas wisdom icon</icon>
 		<rollovertextid>110178</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42597,7 +42728,7 @@
 		<cost resourcetype="Favor">10.0000</cost>
 		<researchpoints>20.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement peyatas wisdom icon</icon>
 		<rollovertextid>110180</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42627,7 +42758,7 @@
 		<cost resourcetype="Favor">10.0000</cost>
 		<researchpoints>20.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement yatas wisdom icon</icon>
 		<rollovertextid>110182</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42658,7 +42789,7 @@
 		<cost resourcetype="Favor">15.0000</cost>
 		<researchpoints>25.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement yaunka icon</icon>
 		<rollovertextid>110184</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42683,7 +42814,7 @@
 		<cost resourcetype="Favor">25.0000</cost>
 		<researchpoints>35.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement Mazaskazi Capa icon</icon>
 		<rollovertextid>110186</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42706,7 +42837,7 @@
 		<cost resourcetype="Favor">30.0000</cost>
 		<researchpoints>25.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement Stars of the Evening icon</icon>
 		<rollovertextid>110188</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42733,7 +42864,7 @@
 		<cost resourcetype="Favor">20.0000</cost>
 		<researchpoints>35.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement Stars of the Morning icon</icon>
 		<rollovertextid>110190</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42758,7 +42889,7 @@
 		<cost resourcetype="Favor">21.0000</cost>
 		<researchpoints>35.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement Seeds of the Five Winds icon</icon>
 		<rollovertextid>110192</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42779,7 +42910,7 @@
 		<cost resourcetype="Favor">20.0000</cost>
 		<researchpoints>45.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement the son of love icon</icon>
 		<rollovertextid>110194</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42807,7 +42938,7 @@
 		<cost resourcetype="Favor">17.0000</cost>
 		<researchpoints>25.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement etu icon</icon>
 		<rollovertextid>110196</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42840,7 +42971,7 @@
 		<cost resourcetype="Favor">25.0000</cost>
 		<researchpoints>35.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement thunder dreamer icon</icon>
 		<rollovertextid>110198</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42862,7 +42993,7 @@
 		<cost resourcetype="Favor">25.0000</cost>
 		<researchpoints>35.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement thunder walker icon</icon>
 		<rollovertextid>110200</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42881,7 +43012,7 @@
 		<cost resourcetype="Favor">25.0000</cost>
 		<researchpoints>35.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement memories of the dragonfly icon</icon>
 		<rollovertextid>110202</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42889,8 +43020,9 @@
 		</prereqs>
 		<effects>
 
-			<effect type="Data" action="AreaAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-				<target type="ProtoUnit">SettlementsThatTrainVillagers</target>
+			
+			<effect type="Data" action="Regenerate" amount="4.00" subtype="WorkRate" unittype="All" relativity="Absolute">
+				<target type="ProtoUnit">Settlement Level 1</target>
 			</effect>
 		</effects>
 	</tech>
@@ -42903,7 +43035,7 @@
 		<cost resourcetype="Favor">35.0000</cost>
 		<researchpoints>35.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement Cannunpa icon</icon>
 		<rollovertextid>110204</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42926,7 +43058,7 @@
 		<cost resourcetype="Favor">35.0000</cost>
 		<researchpoints>35.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement sacred flame icon</icon>
 		<rollovertextid>110206</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -42957,7 +43089,7 @@
 		<cost resourcetype="Favor">30.0000</cost>
 		<researchpoints>30.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>Improvement tooth shards Icon</icon>
+		<icon>Improvement falling star Icon</icon>
 		<rollovertextid>110208</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 4 Wophe</techstatus>
@@ -42976,7 +43108,7 @@
 		<cost resourcetype="Favor">32.0000</cost>
 		<researchpoints>35.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>Improvement tooth shards Icon</icon>
+		<icon>Improvement Skecethanka Icon</icon>
 		<rollovertextid>110210</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 4 Unk</techstatus>
@@ -42994,7 +43126,7 @@
 		<cost resourcetype="Favor">30.0000</cost>
 		<researchpoints>35.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>Improvement tooth shards Icon</icon>
+		<icon>Improvement surviving alone Icon</icon>
 		<rollovertextid>110212</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 4 Unk</techstatus>
@@ -43012,7 +43144,7 @@
 		<cost resourcetype="Favor">25.0000</cost>
 		<researchpoints>35.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>Improvement tooth shards Icon</icon>
+		<icon>Improvement a mothers rage Icon</icon>
 		<rollovertextid>110214</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 4 Unk</techstatus>
@@ -43034,7 +43166,7 @@
 		<cost resourcetype="Favor">25.0000</cost>
 		<researchpoints>35.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>Improvement tooth shards Icon</icon>
+		<icon>Improvement a fathers anger Icon</icon>
 		<rollovertextid>110216</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 4 Unk</techstatus>
@@ -43056,7 +43188,7 @@
 		<cost resourcetype="Favor">25.0000</cost>
 		<researchpoints>35.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>Improvement tooth shards Icon</icon>
+		<icon>Improvement the fear of death Icon</icon>
 		<rollovertextid>110218</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 4 Unk</techstatus>
@@ -43074,7 +43206,7 @@
 		<cost resourcetype="Favor">28.0000</cost>
 		<researchpoints>45.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>Improvement tooth shards Icon</icon>
+		<icon>Improvement morning star Icon</icon>
 		<rollovertextid>110220</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 4 Anpao and Han</techstatus>
@@ -43098,7 +43230,7 @@
 		<cost resourcetype="Favor">23.0000</cost>
 		<researchpoints>55.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>Improvement tooth shards Icon</icon>
+		<icon>Improvement cycles of light Icon</icon>
 		<rollovertextid>110222</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 4 Anpao and Han</techstatus>
@@ -43122,7 +43254,7 @@
 		<cost resourcetype="Favor">29.0000</cost>
 		<researchpoints>45.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>Improvement tooth shards Icon</icon>
+		<icon>Improvement twilight lineage Icon</icon>
 		<rollovertextid>110224</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 4 Anpao and Han</techstatus>
@@ -43147,7 +43279,7 @@
 		<cost resourcetype="Favor">28.0000</cost>
 		<researchpoints>45.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>Improvement tooth shards Icon</icon>
+		<icon>Improvement evening star Icon</icon>
 		<rollovertextid>110230</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Age 4 Anpao and Han</techstatus>
@@ -43167,11 +43299,11 @@
 		<cost resourcetype="Gold">200.0000</cost>
 		<researchpoints>30.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement domestication icon</icon>
+		<icon>improvement timpsila foraging icon</icon>
 		<rollovertextid>110284</rollovertextid>
 		<buttonpos row="2" column="0"></buttonpos>
 		<prereqs>
-			<techstatus status="Active">Migration Done Age 2</techstatus>
+			<specificage>Classical Age</specificage>
 		</prereqs>
 		<effects>
 			<effect type="Data" action="Gather" amount="5.00" subtype="WorkRate" unittype="WildCrops" relativity="BasePercent">
@@ -43185,12 +43317,12 @@
 		<cost resourcetype="Gold">200.0000</cost>
 		<researchpoints>30.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement domestication icon</icon>
+		<icon>improvement Timpsila Braiding icon</icon>
 		<rollovertextid>110286</rollovertextid>
 		<buttonpos row="2" column="0"></buttonpos>
 		<prereqs>
 			<techstatus status="Active">Timpsila Foraging</techstatus>
-			<techstatus status="Active">Migration Done Age 2</techstatus>
+			<specificage>Classical Age</specificage>
 		</prereqs>
 		<effects>
 			<effect type="Data" amount="2.00" subtype="CarryCapacity" resource="Food" relativity="BasePercent">
@@ -43204,11 +43336,11 @@
 		<cost resourcetype="Gold">300.0000</cost>
 		<researchpoints>30.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement domestication icon</icon>
+		<icon>improvement kicico icon</icon>
 		<rollovertextid>110288</rollovertextid>
 		<buttonpos row="2" column="0"></buttonpos>
 		<prereqs>
-			<techstatus status="Active">Migration Done Age 3</techstatus>
+			<techstatus status="Active">Migration Done Age 2</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="Data" action="Empower" amount="1.5" subtype="WorkRate" unittype="ActionGather" relativity="BasePercent">
@@ -43222,11 +43354,11 @@
 		<cost resourcetype="Gold">300.0000</cost>
 		<researchpoints>30.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement domestication icon</icon>
+		<icon>improvement the tempter icon</icon>
 		<rollovertextid>110290</rollovertextid>
 		<buttonpos row="2" column="0"></buttonpos>
 		<prereqs>
-			<techstatus status="Active">Migration Done Age 3</techstatus>
+			<techstatus status="Active">Migration Done Age 2</techstatus>
 		</prereqs>
 		<effects>
 			<effect type="Data" action="Convert" amount="1.00" subtype="ActionEnable" relativity="Absolute">
@@ -43242,7 +43374,7 @@
 		<cost resourcetype="Gold">150.0000</cost>
 		<researchpoints>20.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement domestication icon</icon>
+		<icon>improvement migrations icon</icon>
 		<rollovertextid>110298</rollovertextid>
 		<buttonpos row="2" column="0"></buttonpos>
 		<prereqs>
@@ -43259,7 +43391,7 @@
 		<cost resourcetype="Gold">200.0000</cost>
 		<researchpoints>20.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement domestication icon</icon>
+		<icon>improvement migrations icon</icon>
 		<rollovertextid>110298</rollovertextid>
 		<buttonpos row="2" column="0"></buttonpos>
 		<prereqs>
@@ -43277,7 +43409,7 @@
 		<cost resourcetype="Gold">250.0000</cost>
 		<researchpoints>20.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement domestication icon</icon>
+		<icon>improvement migrations icon</icon>
 		<rollovertextid>110298</rollovertextid>
 		<buttonpos row="2" column="0"></buttonpos>
 		<prereqs>
@@ -43296,7 +43428,7 @@
 		<cost resourcetype="Gold">150.0000</cost>
 		<researchpoints>20.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement domestication icon</icon>
+		<icon>improvement longgrass roofing icon</icon>
 		<rollovertextid>110300</rollovertextid>
 		<buttonpos row="2" column="0"></buttonpos>
 		<prereqs>
@@ -43315,7 +43447,7 @@
 		<cost resourcetype="Gold">50.0000</cost>
 		<researchpoints>15.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement nourishing oats icon</icon>
+		<icon>improvement akhita icon</icon>
 		<rollovertextid>110313</rollovertextid>
 		<buttonpos row="1" column="0"></buttonpos>
 		<prereqs>
@@ -43533,7 +43665,7 @@
 		<cost resourcetype="Gold">350.0000</cost>
 		<researchpoints>20.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement medium barracks icon</icon>
+		<icon>improvement medium cavalry icon</icon>
 		<rollovertextid>110270</rollovertextid>
 		<buttonpos row="2" column="2"></buttonpos>
 		<prereqs>
@@ -43590,7 +43722,7 @@
 		<cost resourcetype="Gold">550.0000</cost>
 		<researchpoints>30.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement heavy barracks icon</icon>
+		<icon>improvement heavy cavalry icon</icon>
 		<rollovertextid>110272</rollovertextid>
 		<buttonpos row="2" column="2"></buttonpos>
 		<prereqs>
@@ -43648,7 +43780,7 @@
 		<cost resourcetype="Gold">750.0000</cost>
 		<researchpoints>40.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement champion barracks icon</icon>
+		<icon>improvement champion cavalry icon</icon>
 		<rollovertextid>110274</rollovertextid>
 		<buttonpos row="2" column="2"></buttonpos>
 		<prereqs>
@@ -43710,7 +43842,7 @@
 		<displaynameid>110269</displaynameid>
 		<researchpoints>0.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement medium barracks icon</icon>
+		<icon>improvement medium cavalry icon</icon>
 		<rollovertextid>110270</rollovertextid>
 		<buttonpos row="2" column="2"></buttonpos>
 		<prereqs>
@@ -43743,7 +43875,7 @@
 		<displaynameid>110271</displaynameid>
 		<researchpoints>0.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement heavy barracks icon</icon>
+		<icon>improvement heavy cavalry icon</icon>
 		<rollovertextid>110272</rollovertextid>
 		<buttonpos row="2" column="2"></buttonpos>
 		<prereqs>
@@ -43775,7 +43907,7 @@
 		<displaynameid>110273</displaynameid>
 		<researchpoints>0.0000</researchpoints>
 		<status>OBTAINABLE</status>
-		<icon>improvement champion barracks icon</icon>
+		<icon>improvement champion cavalry icon</icon>
 		<rollovertextid>110274</rollovertextid>
 		<buttonpos row="2" column="2"></buttonpos>
 		<prereqs>

@@ -3,7 +3,7 @@
 <protounitsounddef>
 	<protounit name="Brutal">
 		<soundtype name="Select">
-			<soundset name="MilitaryGreekSelect"></soundset>
+			<soundset name="EldInsanSelect"></soundset>
 		</soundtype>
 		<soundtype name="Grunt">
 			<soundset name="MaleGrunt"></soundset>
@@ -33,10 +33,10 @@
 		<soundtype name="Acknowledge">
 			<targetlogic>
 				<choice name="default">
-					<soundset name="MilitaryGreekAcknowledge"></soundset>
+					<soundset name="EldInsanMove"></soundset>
 				</choice>
 				<choice name="enemy">
-					<soundset name="MilitaryGreekAttack"></soundset>
+					<soundset name="EldInsanAttack"></soundset>
 				</choice>
 			</targetlogic>
 		</soundtype>

@@ -13,8 +13,8 @@
 	<abstracttype swapto="Owl Soldier 2">Owl Soldier Dead Replacement</abstracttype>
 	<swapdelay>0.5</swapdelay>
 	<convertunitstogodpowerplayer></convertunitstogodpowerplayer>
-	<convertusingminmax minswapamount="3" maxswapamount="3">Owl Soldier Dead Replacement</convertusingminmax>
+	<convertusingminmax minswapamount="4" maxswapamount="4">Owl Soldier Dead Replacement</convertusingminmax>
 	<sfx>Recreation</sfx>
-	<icon>god power recreation icon</icon>
-	<usedicon>god power recreation icon done</usedicon>
+	<icon>improvement nagi akta icon</icon>
+	<usedicon>improvement nagi akta used icon</usedicon>
 </power>

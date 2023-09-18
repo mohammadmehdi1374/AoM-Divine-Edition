@@ -15,7 +15,7 @@ SetSelector
          {
             //Visual Roman Cavalry Head
 		//ReplaceTexture Infantry G Hoplite Head Iron/Auxiliary Head
-		Visual owlhead
+		Visual nxowlhead
          }
       }
    }

@@ -5909,32 +5909,32 @@
 
 
 
-	<soundset name="LakotaWarriorSelect" volume="1.000">
+	<soundset name="LakotaWarriorSelect" volume="1.500">
 		<sound filename="siouxdogsoldierselect1.wav" volume="1.0000"></sound>
 		<sound filename="siouxdogsoldierselect2.wav" volume="1.0000"></sound>
 		<sound filename="siouxdogsoldierselect3.wav" volume="1.0000"></sound>
 	</soundset>
-	<soundset name="LakotaWarriorMove" volume="1.000">
+	<soundset name="LakotaWarriorMove" volume="1.500">
 		<sound filename="siouxdogsoldiermove1.wav" volume="1.0000"></sound>
 		<sound filename="siouxdogsoldiermove2.wav" volume="1.0000"></sound>
 		<sound filename="siouxdogsoldiermove3.wav" volume="1.0000"></sound>
 	</soundset>
-	<soundset name="LakotaWarriorAttack" volume="1.000">
+	<soundset name="LakotaWarriorAttack" volume="1.5000">
 		<sound filename="siouxdogsoldierattack1.wav" volume="1.0000"></sound>
 		<sound filename="siouxdogsoldierattack2.wav" volume="1.0000"></sound>
 		<sound filename="siouxdogsoldierattack3.wav" volume="1.0000"></sound>
 	</soundset>
-	<soundset name="LakotaAkicitaSelect" volume="1.000">
+	<soundset name="LakotaAkicitaSelect" volume="1.500">
 		<sound filename="siouxaxeriderselect1.wav" volume="1.0000"></sound>
 		<sound filename="siouxaxeriderselect2.wav" volume="1.0000"></sound>
 		<sound filename="siouxaxeriderselect3.wav" volume="1.0000"></sound>
 	</soundset>
-	<soundset name="LakotaAkicitaMove" volume="1.000">
+	<soundset name="LakotaAkicitaMove" volume="1.500">
 		<sound filename="siouxaxeridermove1.wav" volume="1.0000"></sound>
 		<sound filename="siouxaxeridermove2.wav" volume="1.0000"></sound>
 		<sound filename="siouxaxeridermove3.wav" volume="1.0000"></sound>
 	</soundset>
-	<soundset name="LakotaAkicitaAttack" volume="1.000">
+	<soundset name="LakotaAkicitaAttack" volume="1.500">
 		<sound filename="siouxaxeriderattack1.wav" volume="1.0000"></sound>
 		<sound filename="siouxaxeriderattack2.wav" volume="1.0000"></sound>
 		<sound filename="siouxaxeriderattack3.wav" volume="1.0000"></sound>
@@ -6019,50 +6019,50 @@
 		<sound filename="woniyaattack2.wav" volume="1.0000"></sound>
 	</soundset>
 
-	<soundset name="LakotaFemAttackMyth" volume="2.000">
+	<soundset name="LakotaFemAttackMyth" volume="1.500">
 		<sound filename="siouxvfattack1myth.wav" volume="1.0000"></sound>
 		<sound filename="siouxvfattack2myth.wav" volume="1.0000"></sound>
 		<sound filename="siouxvfattack3myth.wav" volume="1.0000"></sound>
 	</soundset>
-	<soundset name="LakotaFemSelectMyth" volume="2.000">
+	<soundset name="LakotaFemSelectMyth" volume="1.500">
 		<sound filename="siouxvfselect1myth.wav" volume="1.0000"></sound>
 		<sound filename="siouxvfselect2myth.wav" volume="1.0000"></sound>
 		<sound filename="siouxvfselect3myth.wav" volume="1.0000"></sound>
 	</soundset>
-	<soundset name="LakotaFemMoveMyth" volume="2.000">
+	<soundset name="LakotaFemMoveMyth" volume="1.500">
 		<sound filename="siouxvfmove1myth.wav" volume="1.0000"></sound>
 		<sound filename="siouxvfmove2myth.wav" volume="1.0000"></sound>
 		<sound filename="siouxvfmove3myth.wav" volume="1.0000"></sound>
 	</soundset>
 
 
-	<soundset name="LakotaMiniSelect" volume="1.000">
+	<soundset name="LakotaMiniSelect" volume="2.000">
 		<sound filename="siouxaxeriderselect1mini.wav" volume="1.0000"></sound>
 		<sound filename="siouxaxeriderselect2mini.wav" volume="1.0000"></sound>
 		<sound filename="siouxaxeriderselect3mini.wav" volume="1.0000"></sound>
 	</soundset>
-	<soundset name="LakotaMiniMove" volume="1.000">
+	<soundset name="LakotaMiniMove" volume="2.000">
 		<sound filename="siouxaxeridermove1mini.wav" volume="1.0000"></sound>
 		<sound filename="siouxaxeridermove2mini.wav" volume="1.0000"></sound>
 		<sound filename="siouxaxeridermove3mini.wav" volume="1.0000"></sound>
 	</soundset>
-	<soundset name="LakotaMiniAttack" volume="1.000">
+	<soundset name="LakotaMiniAttack" volume="2.000">
 		<sound filename="siouxaxeriderattack1mini.wav" volume="1.0000"></sound>
 		<sound filename="siouxaxeriderattack2mini.wav" volume="1.0000"></sound>
 		<sound filename="siouxaxeriderattack3mini.wav" volume="1.0000"></sound>
 	</soundset>
 
-	<soundset name="LakotaMythSelect" volume="1.000">
+	<soundset name="LakotaMythSelect" volume="1.500">
 		<sound filename="siouxaxeriderselect1myth.wav" volume="1.0000"></sound>
 		<sound filename="siouxaxeriderselect2myth.wav" volume="1.0000"></sound>
 		<sound filename="siouxaxeriderselect3myth.wav" volume="1.0000"></sound>
 	</soundset>
-	<soundset name="LakotaMythMove" volume="1.000">
+	<soundset name="LakotaMythMove" volume="1.500">
 		<sound filename="siouxaxeridermove1myth.wav" volume="1.0000"></sound>
 		<sound filename="siouxaxeridermove2myth.wav" volume="1.0000"></sound>
 		<sound filename="siouxaxeridermove3myth.wav" volume="1.0000"></sound>
 	</soundset>
-	<soundset name="LakotaMythAttack" volume="1.000">
+	<soundset name="LakotaMythAttack" volume="1.500">
 		<sound filename="siouxaxeriderattack1mini.wav" volume="1.0000"></sound>
 		<sound filename="siouxaxeriderattack2mini.wav" volume="1.0000"></sound>
 		<sound filename="siouxaxeriderattack3mini.wav" volume="1.0000"></sound>
@@ -6169,6 +6169,123 @@
 	</soundset>
 	<soundset name="BeaverDie" volume="1.000">
 		<sound filename="beavergrunt.wav" volume="1.0000"></sound>
+	</soundset>
+
+	<soundset name="EldHeroSelect" volume="3.00">
+		<sound filename="eld_hero_select1.wav" volume="1.0000"></sound>
+		<sound filename="eld_hero_select2.wav" volume="1.0000"></sound>
+		<sound filename="eld_hero_select3.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldHeroMove" volume="3.00">
+		<sound filename="eld_hero_move1.wav" volume="1.0000"></sound>
+		<sound filename="eld_hero_move2.wav" volume="1.0000"></sound>
+		<sound filename="eld_hero_move3.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldHeroAttack" volume="3.00">
+		<sound filename="eld_hero_attack1.wav" volume="1.0000"></sound>
+		<sound filename="eld_hero_attack2.wav" volume="1.0000"></sound>
+		<sound filename="eld_hero_attack3.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldHeroEmpower" volume="3.00">
+		<sound filename="eld_hero_build.wav" volume="1.0000"></sound>
+	</soundset>
+
+	<soundset name="EldVilSelect" volume="2.500">
+		<sound filename="eld_norm_select1.mp3" volume="1.0000"></sound>
+		<sound filename="eld_norm_select2.mp3" volume="1.0000"></sound>
+		<sound filename="eld_norm_select3.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldVilMove" volume="2.500">
+		<sound filename="eld_norm_move1.mp3" volume="1.0000"></sound>
+		<sound filename="eld_norm_move2.mp3" volume="1.0000"></sound>
+		<sound filename="eld_norm_move3.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldVilAttack" volume="2.500">
+		<sound filename="eld_norm_attack1.mp3" volume="1.0000"></sound>
+		<sound filename="eld_norm_attack2.mp3" volume="1.0000"></sound>
+		<sound filename="eld_norm_attack3.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldVilBuild" volume="2.500">
+		<sound filename="eld_norm_build.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldVilFarm" volume="2.500">
+		<sound filename="eld_norm_farm.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldVilPray" volume="2.500">
+		<sound filename="eld_norm_pray.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldVilBerry" volume="2.500">
+		<sound filename="eld_norm_berry.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldVilHunt" volume="2.500">
+		<sound filename="eld_norm_hunt.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldVilHerd" volume="2.500">
+		<sound filename="eld_norm_herd.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldVilWood" volume="2.500">
+		<sound filename="eld_norm_wood.wav" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldVilGold" volume="2.500">
+		<sound filename="eld_norm_gold.mp3" volume="1.0000"></sound>
+	</soundset>
+
+
+	<soundset name="EldMythSelect" volume="2.500">
+		<sound filename="eld_myth_select1.mp3" volume="1.0000"></sound>
+		<sound filename="eld_myth_select2.mp3" volume="1.0000"></sound>
+		<sound filename="eld_myth_select3.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldMythMove" volume="2.500">
+		<sound filename="eld_myth_move1.mp3" volume="1.0000"></sound>
+		<sound filename="eld_myth_move2.mp3" volume="1.0000"></sound>
+		<sound filename="eld_myth_move3.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldMythAttack" volume="2.500">
+		<sound filename="eld_myth_attack1.mp3" volume="1.0000"></sound>
+		<sound filename="eld_myth_attack2.mp3" volume="1.0000"></sound>
+		<sound filename="eld_myth_attack3.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldMythBuild" volume="2.500">
+		<sound filename="eld_myth_build.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldMythFarm" volume="2.500">
+		<sound filename="eld_myth_farm.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldMythPray" volume="2.500">
+		<sound filename="eld_myth_pray.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldMythBerry" volume="2.500">
+		<sound filename="eld_myth_berry.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldMythHunt" volume="2.500">
+		<sound filename="eld_myth_hunt.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldMythHerd" volume="2.500">
+		<sound filename="eld_myth_herd.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldMythWood" volume="2.500">
+		<sound filename="eld_myth_wood.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldMythGold" volume="2.500">
+		<sound filename="eld_myth_gold.mp3" volume="1.0000"></sound>
+	</soundset>
+
+
+	<soundset name="EldInsanSelect" volume="2.500">
+		<sound filename="eld_Insan_select1.mp3" volume="1.0000"></sound>
+		<sound filename="eld_Insan_select2.mp3" volume="1.0000"></sound>
+		<sound filename="eld_Insan_select3.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldInsanMove" volume="2.500">
+		<sound filename="eld_Insan_move1.mp3" volume="1.0000"></sound>
+		<sound filename="eld_Insan_move2.mp3" volume="1.0000"></sound>
+		<sound filename="eld_Insan_move3.mp3" volume="1.0000"></sound>
+	</soundset>
+	<soundset name="EldInsanAttack" volume="2.500">
+		<sound filename="eld_Insan_attack1.mp3" volume="1.0000"></sound>
+		<sound filename="eld_Insan_attack2.mp3" volume="1.0000"></sound>
+		<sound filename="eld_Insan_attack3.mp3" volume="1.0000"></sound>
 	</soundset>
 
 

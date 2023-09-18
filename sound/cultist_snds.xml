@@ -3,7 +3,34 @@
 <protounitsounddef>
 	<protounit name="Cultist">
 		<soundtype name="Select">
-			<soundset name="MinionSelect"></soundset>
+			<variationlogic>
+				<choice name="0">
+					<soundset name="EldVilSelect"></soundset>
+				</choice>
+				<choice name="1">
+					<soundset name="EldVilSelect"></soundset>
+				</choice>
+			</variationlogic>
+		</soundtype>
+		<soundtype name="Grunt">
+			<variationlogic>
+				<choice name="0">
+					<soundset name="MaleGrunt"></soundset>
+				</choice>
+				<choice name="1">
+					<soundset name="FemaleGrunt"></soundset>
+				</choice>
+			</variationlogic>
+		</soundtype>
+		<soundtype name="Death">
+			<variationlogic>
+				<choice name="0">
+					<soundset name="MaleDeath"></soundset>
+				</choice>
+				<choice name="1">
+					<soundset name="FemaleDeath"></soundset>
+				</choice>
+			</variationlogic>
 		</soundtype>
 		<soundtype name="Hit">
 			<damagetypelogic>
@@ -21,21 +48,74 @@
 				</choice>
 			</damagetypelogic>
 		</soundtype>
-		<soundtype name="Death">
-			<soundset name="MinionDeath"></soundset>
-		</soundtype>
 		<soundtype name="Creation">
 			<soundset name="VillagerBirth"></soundset>
 		</soundtype>
 		<soundtype name="Acknowledge">
-			<targetlogic>
-				<choice name="default">
-					<soundset name="MinionAcknowledge"></soundset>
+			<variationlogic>
+				<choice name="0">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="EldVilMove"></soundset>
+						</choice>
+						<choice name="enemy">
+							<soundset name="EldVilAttack"></soundset>
+						</choice>
+						<choice name="Berry Bush">
+							<soundset name="EldVilBerry"></soundset>
+						</choice>
+						<choice name="Farm">
+							<soundset name="EldVilFarm"></soundset>
+						</choice>
+						<choice name="Tree">
+							<soundset name="EldVilWood"></soundset>
+						</choice>
+						<choice name="Gold">
+							<soundset name="EldVilGold"></soundset>
+						</choice>
+						<choice name="Herdable">
+							<soundset name="EldVilHerd"></soundset>
+						</choice>
+						<choice name="Huntable">
+							<soundset name="EldVilHunt"></soundset>
+						</choice>
+						<choice name="Building">
+							<soundset name="EldVilBuild"></soundset>
+						</choice>
+					</targetlogic>
 				</choice>
-				<choice name="Building">
-					<soundset name="VillagerGreekRepair"></soundset>
+				<choice name="1">
+					<targetlogic>
+						<choice name="default">
+							<soundset name="EldVilMove"></soundset>
+						</choice>
+						<choice name="enemy">
+							<soundset name="EldVilAttack"></soundset>
+						</choice>
+						<choice name="Berry Bush">
+							<soundset name="EldVilBerry"></soundset>
+						</choice>
+						<choice name="Farm">
+							<soundset name="EldVilFarm"></soundset>
+						</choice>
+						<choice name="Tree">
+							<soundset name="EldVilWood"></soundset>
+						</choice>
+						<choice name="Gold">
+							<soundset name="EldVilGold"></soundset>
+						</choice>
+						<choice name="Herdable">
+							<soundset name="EldVilHerd"></soundset>
+						</choice>
+						<choice name="Huntable">
+							<soundset name="EldVilHunt"></soundset>
+						</choice>
+						<choice name="Building">
+							<soundset name="EldVilBuild"></soundset>
+						</choice>
+					</targetlogic>
 				</choice>
-			</targetlogic>
+			</variationlogic>
 		</soundtype>
 	</protounit>
 </protounitsounddef>
