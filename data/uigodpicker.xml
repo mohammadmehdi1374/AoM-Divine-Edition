@@ -592,11 +592,12 @@
 				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-MythUnit-XX1" type="gadget" size1024="780 285 812 317"  background="icons\improvement unwraveler icon" z="12" mouseovertext="Unwraveler"></gadget>
 				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-MythTech-XX1" type="gadget" size1024="708 285 740 317" background="icons\improvement flesh blob icon" z="12" mouseovertext="Giant Flesh Blob"></gadget>
 				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-MythTech-aXX1" type="gadget" size1024="708 249 740 281" background="icons\Improvement eruption Icon" z="12" mouseovertext="Eruption"></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-Icon-XX2" type="gadget" size1024="858 216 922 280" background="icons\god icon ithaqua" z="12" mouseovertext="$$99166$$"></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-GodPower-XX1" type="gadget" size1024="856 285 888 317" background="icons\improvement howling gale icon" z="12" mouseovertext="$$99178$$"></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythUnit-XX1" type="gadget" size1024="892 285 924 317" background="icons\improvement wendigo icon" z="12" mouseovertext="$$99198$$"></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythTech-XX1" type="gadget" size1024="928 285 960 317" background="icons\cultist ithaqua icon" z="12" mouseovertext="$$99196$$"></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythTech-aXX1" type="gadget" size1024="928 249 960 281" background="icons\Improvement crystal rage Icon" z="12" mouseovertext="$$99208$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-Icon-XX1" type="gadget" size1024="858 216 922 280" background="icons\god icon tsathoggua" z="12" mouseovertext="$$99170$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-GodPower-XX1" type="gadget" size1024="856 285 888 317" background="icons\improvement wrath of the vile icon" z="12" mouseovertext="$$99254$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythUnit-XX1" type="gadget" size1024="892 285 924 317" background="icons\improvement formless spawn icon" z="12" mouseovertext="$$99250$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythTech-XX1" type="gadget" size1024="928 285 960 317" background="icons\Animal Chicken icon 64" z="12" mouseovertext="$$99011$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythTech-aXX1" type="gadget" size1024="928 249 960 281" background="icons\Improvement voormi drums Icon" z="12" mouseovertext="$$99648$$"></gadget>
+
 			</gadget>
 			<gadget name="ThirdAge-Section-XX3" type="gadget" size1024="695 324 972 456" z="12" background="ui\ui background opaque 2">
 				<gadget name="ThirdAge-Text-XX3" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 323 972 348" z="11" textcenterhoriz="">$$18968$$Heroic Age</gadget>
@@ -1036,11 +1037,11 @@
 				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-MythUnit-XX1" type="gadget" size1024="780 285 812 317"  background="icons\improvement unwraveler icon" z="12" mouseovertext="Unwraveler"></gadget>
 				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-MythTech-XX1" type="gadget" size1024="708 285 740 317" background="icons\improvement flesh blob icon" z="12" mouseovertext="Giant Flesh Blob"></gadget>
 				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-MythTech-aXX1" type="gadget" size1024="708 249 740 281" background="icons\Improvement eruption Icon" z="12" mouseovertext="Eruption"></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-Icon-XX1" type="gadget" size1024="858 216 922 280" background="icons\god icon tsathoggua" z="12" mouseovertext="$$99170$$"></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-GodPower-XX1" type="gadget" size1024="856 285 888 317" background="icons\improvement wrath of the vile icon" z="12" mouseovertext="$$99254$$"></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythUnit-XX1" type="gadget" size1024="892 285 924 317" background="icons\improvement formless spawn icon" z="12" mouseovertext="$$99250$$"></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythTech-XX1" type="gadget" size1024="928 285 960 317" background="icons\Animal Chicken icon 64" z="12" mouseovertext="$$99011$$"></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythTech-aXX1" type="gadget" size1024="928 249 960 281" background="icons\Improvement voormi drums Icon" z="12" mouseovertext="$$99648$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-Icon-XX2" type="gadget" size1024="858 216 922 280" background="icons\god icon ithaqua" z="12" mouseovertext="$$99166$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-GodPower-XX1" type="gadget" size1024="856 285 888 317" background="icons\improvement howling gale icon" z="12" mouseovertext="$$99178$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythUnit-XX1" type="gadget" size1024="892 285 924 317" background="icons\improvement wendigo icon" z="12" mouseovertext="$$99198$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythTech-XX1" type="gadget" size1024="928 285 960 317" background="icons\cultist ithaqua icon" z="12" mouseovertext="$$99196$$"></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythTech-aXX1" type="gadget" size1024="928 249 960 281" background="icons\Improvement crystal rage Icon" z="12" mouseovertext="$$99208$$"></gadget>
 			</gadget>
 			<gadget name="ThirdAge-Section-XX14" type="gadget" size1024="695 324 972 456" z="12" background="ui\ui background opaque 2">
 				<gadget name="ThirdAge-Text-XX14" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 323 972 348" z="11" textcenterhoriz="">$$18968$$Heroic Age</gadget>

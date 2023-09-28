@@ -6,20 +6,21 @@
 define Head
 {
 
+
 SetSelector
    {
       set hotspot
       {
          version
          {
-            Visual Roman Cavalry Head
-		ReplaceTexture Infantry G Hoplite Head Iron/Auxiliary Head
+            //Visual Roman Cavalry Head
+		//ReplaceTexture Infantry G Hoplite Head Iron/Auxiliary Head
+		Visual nxowlhead
          }
       }
    }
 
-
-  
+   
 }
 
 //==============================================================================
@@ -36,7 +37,7 @@ anim Bored
 				version
 				{
 					Visual Cavalry X Javelin_BoredA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 					Connect TopOfHead Head hotspot
@@ -47,7 +48,7 @@ anim Bored
 				version
 				{
 					Visual Cavalry X Javelin_BoredA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 					Connect TopOfHead Head hotspot
@@ -58,7 +59,7 @@ anim Bored
 				version
 				{
 					Visual Cavalry X Javelin_BoredA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 					Connect TopOfHead Head hotspot
@@ -69,7 +70,7 @@ anim Bored
 				version
 				{
 					Visual Cavalry X Javelin_BoredA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					Connect TopOfHead Head hotspot
 				}
@@ -83,8 +84,8 @@ anim Bored
 				version
 				{
 					Visual Cavalry X Javelin_BoredA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 					Connect TopOfHead Head hotspot
 				}
@@ -94,8 +95,8 @@ anim Bored
 				version
 				{
 					Visual Cavalry X Javelin_BoredA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 					Connect TopOfHead Head hotspot
 				}
@@ -105,8 +106,8 @@ anim Bored
 				version
 				{
 					Visual Cavalry X Javelin_BoredA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 					Connect TopOfHead Head hotspot
 				}
@@ -116,8 +117,8 @@ anim Bored
 				version
 				{
 					Visual Cavalry X Javelin_BoredA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					Connect TopOfHead Head hotspot
 				}
 			}									
@@ -130,8 +131,8 @@ anim Bored
 				version
 				{
 					Visual Cavalry X Javelin_BoredA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 					Connect TopOfHead Head hotspot
 				}
@@ -141,8 +142,8 @@ anim Bored
 				version
 				{
 					Visual Cavalry X Javelin_BoredA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 					Connect TopOfHead Head hotspot
 				}
@@ -152,8 +153,8 @@ anim Bored
 				version
 				{
 					Visual Cavalry X Javelin_BoredA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 					Connect TopOfHead Head hotspot
 				}
@@ -163,8 +164,8 @@ anim Bored
 				version
 				{
 					Visual Cavalry X Javelin_BoredA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					Connect TopOfHead Head hotspot
 				}
 			}									
@@ -177,8 +178,8 @@ anim Bored
 				version
 				{
 					Visual Cavalry X Javelin_BoredA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 					Connect TopOfHead Head hotspot
 				}
@@ -188,8 +189,8 @@ anim Bored
 				version
 				{
 					Visual Cavalry X Javelin_BoredA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 					Connect TopOfHead Head hotspot
 				}
@@ -199,8 +200,8 @@ anim Bored
 				version
 				{
 					Visual Cavalry X Javelin_BoredA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 					Connect TopOfHead Head hotspot
 				}
@@ -210,8 +211,8 @@ anim Bored
 				version
 				{
 					Visual Cavalry X Javelin_BoredA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					Connect TopOfHead Head hotspot
 				}
 			}									
@@ -234,7 +235,7 @@ anim Walk
 				version
 				{
 					Visual Cavalry X Javelin_WalkA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 					Connect TopOfHead Head hotspot
@@ -252,7 +253,7 @@ anim Walk
 				version
 				{
 					Visual Cavalry X Javelin_WalkA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 					Connect TopOfHead Head hotspot
@@ -270,7 +271,7 @@ anim Walk
 				version
 				{
 					Visual Cavalry X Javelin_WalkA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 					Connect TopOfHead Head hotspot
@@ -288,7 +289,7 @@ anim Walk
 				version
 				{
 					Visual Cavalry X Javelin_WalkA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					Connect TopOfHead Head hotspot
 //-- auto generated by the bang animation tool
@@ -309,8 +310,8 @@ anim Walk
 				version
 				{
 					Visual Cavalry X Javelin_WalkA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 					Connect TopOfHead Head hotspot
 //-- auto generated by the bang animation tool
@@ -327,8 +328,8 @@ anim Walk
 				version
 				{
 					Visual Cavalry X Javelin_WalkA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 					Connect TopOfHead Head hotspot
 //-- auto generated by the bang animation tool
@@ -345,8 +346,8 @@ anim Walk
 				version
 				{
 					Visual Cavalry X Javelin_WalkA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 					Connect TopOfHead Head hotspot
 //-- auto generated by the bang animation tool
@@ -363,8 +364,8 @@ anim Walk
 				version
 				{
 					Visual Cavalry X Javelin_WalkA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					Connect TopOfHead Head hotspot
 //-- auto generated by the bang animation tool
 //-- do not hand edit these values
@@ -384,8 +385,8 @@ anim Walk
 				version
 				{
 					Visual Cavalry X Javelin_WalkA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 					Connect TopOfHead Head hotspot
 //-- auto generated by the bang animation tool
@@ -402,8 +403,8 @@ anim Walk
 				version
 				{
 					Visual Cavalry X Javelin_WalkA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 					Connect TopOfHead Head hotspot
 //-- auto generated by the bang animation tool
@@ -420,8 +421,8 @@ anim Walk
 				version
 				{
 					Visual Cavalry X Javelin_WalkA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 					Connect TopOfHead Head hotspot
 //-- auto generated by the bang animation tool
@@ -438,8 +439,8 @@ anim Walk
 				version
 				{
 					Visual Cavalry X Javelin_WalkA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					Connect TopOfHead Head hotspot
 //-- auto generated by the bang animation tool
 //-- do not hand edit these values
@@ -459,8 +460,8 @@ anim Walk
 				version
 				{
 					Visual Cavalry X Javelin_WalkA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 					Connect TopOfHead Head hotspot
 //-- auto generated by the bang animation tool
@@ -477,8 +478,8 @@ anim Walk
 				version
 				{
 					Visual Cavalry X Javelin_WalkA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 					Connect TopOfHead Head hotspot
 //-- auto generated by the bang animation tool
@@ -495,8 +496,8 @@ anim Walk
 				version
 				{
 					Visual Cavalry X Javelin_WalkA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 					Connect TopOfHead Head hotspot
 //-- auto generated by the bang animation tool
@@ -513,8 +514,8 @@ anim Walk
 				version
 				{
 					Visual Cavalry X Javelin_WalkA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					Connect TopOfHead Head hotspot
 //-- auto generated by the bang animation tool
 //-- do not hand edit these values
@@ -543,7 +544,7 @@ anim Death
 				version
 				{
 					Visual Cavalry X Javelin_DeathA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 	//-- auto generated by the bang animation tool
@@ -558,7 +559,7 @@ anim Death
 				version
 				{
 					Visual Cavalry X Javelin_DeathA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 	//-- auto generated by the bang animation tool
@@ -573,7 +574,7 @@ anim Death
 				version
 				{
 					Visual Cavalry X Javelin_DeathA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 	//-- auto generated by the bang animation tool
@@ -588,7 +589,7 @@ anim Death
 				version
 				{
 					Visual Cavalry X Javelin_DeathA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
@@ -606,8 +607,8 @@ anim Death
 				version
 				{
 					Visual Cavalry X Javelin_DeathA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
@@ -621,8 +622,8 @@ anim Death
 				version
 				{
 					Visual Cavalry X Javelin_DeathA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
@@ -636,8 +637,8 @@ anim Death
 				version
 				{
 					Visual Cavalry X Javelin_DeathA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
@@ -651,8 +652,8 @@ anim Death
 				version
 				{
 					Visual Cavalry X Javelin_DeathA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
 					tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
@@ -669,8 +670,8 @@ anim Death
 				version
 				{
 					Visual Cavalry X Javelin_DeathA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
@@ -684,8 +685,8 @@ anim Death
 				version
 				{
 					Visual Cavalry X Javelin_DeathA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
@@ -699,8 +700,8 @@ anim Death
 				version
 				{
 					Visual Cavalry X Javelin_DeathA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
@@ -714,8 +715,8 @@ anim Death
 				version
 				{
 					Visual Cavalry X Javelin_DeathA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
 					tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
@@ -732,8 +733,8 @@ anim Death
 				version
 				{
 					Visual Cavalry X Javelin_DeathA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
@@ -747,8 +748,8 @@ anim Death
 				version
 				{
 					Visual Cavalry X Javelin_DeathA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
@@ -762,8 +763,8 @@ anim Death
 				version
 				{
 					Visual Cavalry X Javelin_DeathA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
@@ -777,8 +778,8 @@ anim Death
 				version
 				{
 					Visual Cavalry X Javelin_DeathA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
 					tag SpecificSoundSet 0.61 false HeavyFall checkVisible 
@@ -804,7 +805,7 @@ anim Idle
 				version
 				{
 					Visual Cavalry X Javelin_IdleA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 					Connect TopOfHead Head hotspot
@@ -815,7 +816,7 @@ anim Idle
 				version
 				{
 					Visual Cavalry X Javelin_IdleA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 					Connect TopOfHead Head hotspot
@@ -826,7 +827,7 @@ anim Idle
 				version
 				{
 					Visual Cavalry X Javelin_IdleA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 					Connect TopOfHead Head hotspot
@@ -837,7 +838,7 @@ anim Idle
 				version
 				{
 					Visual Cavalry X Javelin_IdleA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					Connect TopOfHead Head hotspot
 				}
@@ -851,8 +852,8 @@ anim Idle
 				version
 				{
 					Visual Cavalry X Javelin_IdleA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 					Connect TopOfHead Head hotspot
 				}
@@ -862,8 +863,8 @@ anim Idle
 				version
 				{
 					Visual Cavalry X Javelin_IdleA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 					Connect TopOfHead Head hotspot
 				}
@@ -873,8 +874,8 @@ anim Idle
 				version
 				{
 					Visual Cavalry X Javelin_IdleA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 					Connect TopOfHead Head hotspot
 				}
@@ -884,8 +885,8 @@ anim Idle
 				version
 				{
 					Visual Cavalry X Javelin_IdleA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					Connect TopOfHead Head hotspot
 				}						
 			}			
@@ -898,8 +899,8 @@ anim Idle
 				version
 				{
 					Visual Cavalry X Javelin_IdleA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 					Connect TopOfHead Head hotspot
 				}
@@ -909,8 +910,8 @@ anim Idle
 				version
 				{
 					Visual Cavalry X Javelin_IdleA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 					Connect TopOfHead Head hotspot
 				}
@@ -920,8 +921,8 @@ anim Idle
 				version
 				{
 					Visual Cavalry X Javelin_IdleA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 					Connect TopOfHead Head hotspot
 				}
@@ -931,8 +932,8 @@ anim Idle
 				version
 				{
 					Visual Cavalry X Javelin_IdleA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					Connect TopOfHead Head hotspot
 				}
 			}									
@@ -945,8 +946,8 @@ anim Idle
 				version
 				{
 					Visual Cavalry X Javelin_IdleA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 					Connect TopOfHead Head hotspot
 				}
@@ -956,8 +957,8 @@ anim Idle
 				version
 				{
 					Visual Cavalry X Javelin_IdleA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 					Connect TopOfHead Head hotspot
 				}
@@ -967,8 +968,8 @@ anim Idle
 				version
 				{
 					Visual Cavalry X Javelin_IdleA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 					Connect TopOfHead Head hotspot
 				}
@@ -978,8 +979,8 @@ anim Idle
 				version
 				{
 					Visual Cavalry X Javelin_IdleA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					Connect TopOfHead Head hotspot
 				}
 			}									
@@ -1001,7 +1002,7 @@ anim RangedAttack
 				version
 				{
 					Visual Cavalry X Javelin_AttackA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 	//-- auto generated by the bang animation tool
@@ -1017,7 +1018,7 @@ anim RangedAttack
 				version
 				{
 					Visual Cavalry X Javelin_AttackA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 	//-- auto generated by the bang animation tool
@@ -1033,7 +1034,7 @@ anim RangedAttack
 				version
 				{
 					Visual Cavalry X Javelin_AttackA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 	//-- auto generated by the bang animation tool
@@ -1049,7 +1050,7 @@ anim RangedAttack
 				version
 				{
 					Visual Cavalry X Javelin_AttackA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
@@ -1068,8 +1069,8 @@ anim RangedAttack
 				version
 				{
 					Visual Cavalry X Javelin_AttackA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
@@ -1084,8 +1085,8 @@ anim RangedAttack
 				version
 				{
 					Visual Cavalry X Javelin_AttackA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
@@ -1100,8 +1101,8 @@ anim RangedAttack
 				version
 				{
 					Visual Cavalry X Javelin_AttackA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
@@ -1116,8 +1117,8 @@ anim RangedAttack
 				version
 				{
 					Visual Cavalry X Javelin_AttackA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
 					tag Attack 0.53 true   
@@ -1135,8 +1136,8 @@ anim RangedAttack
 				version
 				{
 					Visual Cavalry X Javelin_AttackA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
@@ -1151,8 +1152,8 @@ anim RangedAttack
 				version
 				{
 					Visual Cavalry X Javelin_AttackA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
@@ -1167,8 +1168,8 @@ anim RangedAttack
 				version
 				{
 					Visual Cavalry X Javelin_AttackA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
@@ -1183,8 +1184,8 @@ anim RangedAttack
 				version
 				{
 					Visual Cavalry X Javelin_AttackA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
 					tag Attack 0.53 true   
@@ -1202,8 +1203,8 @@ anim RangedAttack
 				version
 				{
 					Visual Cavalry X Javelin_AttackA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
@@ -1218,8 +1219,8 @@ anim RangedAttack
 				version
 				{
 					Visual Cavalry X Javelin_AttackA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
@@ -1234,8 +1235,8 @@ anim RangedAttack
 				version
 				{
 					Visual Cavalry X Javelin_AttackA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
@@ -1250,8 +1251,8 @@ anim RangedAttack
 				version
 				{
 					Visual Cavalry X Javelin_AttackA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 	//-- auto generated by the bang animation tool
 	//-- do not hand edit these values
 					tag Attack 0.53 true   
@@ -1278,7 +1279,7 @@ anim Flail
 				version
 				{
 					Visual Cavalry X Javelin_FlailA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 					Connect TopOfHead Head hotspot
@@ -1289,7 +1290,7 @@ anim Flail
 				version
 				{
 					Visual Cavalry X Javelin_FlailA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 					Connect TopOfHead Head hotspot
@@ -1300,7 +1301,7 @@ anim Flail
 				version
 				{
 					Visual Cavalry X Javelin_FlailA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 					Connect TopOfHead Head hotspot
@@ -1311,7 +1312,7 @@ anim Flail
 				version
 				{
 					Visual Cavalry X Javelin_FlailA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Standard
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
 					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					Connect TopOfHead Head hotspot
 				}
@@ -1325,8 +1326,8 @@ anim Flail
 				version
 				{
 					Visual Cavalry X Javelin_FlailA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 					Connect TopOfHead Head hotspot
 				}
@@ -1336,8 +1337,8 @@ anim Flail
 				version
 				{
 					Visual Cavalry X Javelin_FlailA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 					Connect TopOfHead Head hotspot
 				}
@@ -1347,8 +1348,8 @@ anim Flail
 				version
 				{
 					Visual Cavalry X Javelin_FlailA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 					Connect TopOfHead Head hotspot
 				}
@@ -1358,8 +1359,8 @@ anim Flail
 				version
 				{
 					Visual Cavalry X Javelin_FlailA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Copper
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Copper
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					Connect TopOfHead Head hotspot
 				}
 			}									
@@ -1372,8 +1373,8 @@ anim Flail
 				version
 				{
 					Visual Cavalry X Javelin_FlailA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 					Connect TopOfHead Head hotspot
 				}
@@ -1383,8 +1384,8 @@ anim Flail
 				version
 				{
 					Visual Cavalry X Javelin_FlailA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 					Connect TopOfHead Head hotspot
 				}
@@ -1394,8 +1395,8 @@ anim Flail
 				version
 				{
 					Visual Cavalry X Javelin_FlailA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 					Connect TopOfHead Head hotspot
 				}
@@ -1405,8 +1406,8 @@ anim Flail
 				version
 				{
 					Visual Cavalry X Javelin_FlailA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Bronze
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Bronze
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					Connect TopOfHead Head hotspot
 				}
 			}									
@@ -1419,8 +1420,8 @@ anim Flail
 				version
 				{
 					Visual Cavalry X Javelin_FlailA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Standard
 					Connect TopOfHead Head hotspot
 				}
@@ -1430,8 +1431,8 @@ anim Flail
 				version
 				{
 					Visual Cavalry X Javelin_FlailA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Copper
 					Connect TopOfHead Head hotspot
 				}
@@ -1441,8 +1442,8 @@ anim Flail
 				version
 				{
 					Visual Cavalry X Javelin_FlailA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					ReplaceTexture Attachments A Spear Iron/Attachments A Spear Bronze
 					Connect TopOfHead Head hotspot
 				}
@@ -1452,8 +1453,8 @@ anim Flail
 				version
 				{
 					Visual Cavalry X Javelin_FlailA
-					ReplaceTexture Cavalry X Javelin Iron/Cavalry X Javelin Iron
-					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Iron
+					ReplaceTexture Cavalry X Javelin Iron/Archer C Mounted Archer Copper
+					ReplaceTexture Cavalry X Javelin Horse Iron/Cavalry X Javelin Horse Standard
 					Connect TopOfHead Head hotspot
 				}
 			}									

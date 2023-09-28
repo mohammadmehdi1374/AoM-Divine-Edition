@@ -150,7 +150,7 @@ anim bored
 }
 
 //==============================================================================
-anim RangedAttack
+anim Attack
 {
    SetSelector
    {
