@@ -236,6 +236,7 @@
 		<from>Thikceya</from>
 		<to>Packed Thikceya 2</to>
 	</transform>
+	<!--
 	<transform>
 		<from>Guild Fire</from>
 		<to>Packed Guild Fire</to>
@@ -247,7 +248,7 @@
 	<transform>
 		<from>Packed Guild Fire</from>
 		<to>Guild Fire 2</to>
-	</transform>
+	</transform>-->
 	<transform>
 		<from>Owl Soldier</from>
 		<to>Owl Soldier Owl Temp</to>

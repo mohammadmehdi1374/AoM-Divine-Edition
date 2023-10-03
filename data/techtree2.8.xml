@@ -17029,7 +17029,7 @@
 		<researchpoints>20.0000</researchpoints>
 		<status>OBTAINABLE</status>
 		<icon>Improvement Love Icon</icon>
-		<rollovertextid>99033</rollovertextid>
+		<rollovertextid>120781</rollovertextid>
 		<prereqs>
 			<techstatus status="Active">Fanaticism</techstatus>
 			<specificage>Mythic Age</specificage>
@@ -17814,16 +17814,31 @@
 			<effect type="Data" amount="3.00" subtype="populationcapaddition" relativity="Absolute">
 				<target type="ProtoUnit">Attainted Town Center</target>
 			</effect>
-			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
-				<target type="ProtoUnit">AbstractVillager</target>
-			</effect>
-
 
 			<effect type="Data" action="Gather" amount="0.55" subtype="WorkRate" unittype="Herdable" relativity="Absolute">
 				<target type="ProtoUnit">Cultist</target>
 			</effect>
 			<effect type="Data" action="Gather" amount="0.55" subtype="WorkRate" unittype="Herdable" relativity="Absolute">
 				<target type="ProtoUnit">Sacrificial Lamb</target>
+			</effect>
+
+			<effect type="Data" amount="0.5" subtype="Cost" resource="Favor" relativity="Percent">
+				<target type="Tech">Euphoric Slaughter</target>
+			</effect>
+			<effect type="Data" amount="0.5" subtype="Cost" resource="Favor" relativity="Percent">
+				<target type="Tech">Resinous Blood</target>
+			</effect>
+			<effect type="Data" amount="0.5" subtype="Cost" resource="Favor" relativity="Percent">
+				<target type="Tech">Inhuman Greed</target>
+			</effect>
+			<effect type="Data" amount="0.5" subtype="Cost" resource="Favor" relativity="Percent">
+				<target type="Tech">Bestial Blood</target>
+			</effect>
+			<effect type="Data" amount="0.5" subtype="Cost" resource="Favor" relativity="Percent">
+				<target type="Tech">Hunters Lust</target>
+			</effect>
+			<effect type="Data" amount="0.5" subtype="Cost" resource="Favor" relativity="Percent">
+				<target type="Tech">Ruinous Perfection</target>
 			</effect>
 		</effects>
 	</tech>
@@ -20388,6 +20403,9 @@
 			<effect type="Data" amount="-0.15" subtype="ArmorVulnerability" damagetype="Pierce" relativity="Percent">
 				<target type="ProtoUnit">MythUnit</target>
 			</effect>
+			<effect type="Data" amount="-0.15" subtype="ArmorVulnerability" damagetype="Crush" relativity="Percent">
+				<target type="ProtoUnit">MythUnit</target>
+			</effect>
 		</effects>
 	</tech>
 
@@ -20947,10 +20965,10 @@
 		</prereqs>
 		<effects>
 			
-			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="MythUnit" relativity="Assign">
 				<target type="ProtoUnit">Penguin-Fletched</target>
 			</effect>
-			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="Hero" relativity="Absolute">
+			<effect type="Data" action="HandAttack" amount="1.00" subtype="DamageBonus" unittype="Hero" relativity="Assign">
 				<target type="ProtoUnit">Penguin-Fletched</target>
 			</effect>
 
@@ -20977,10 +20995,13 @@
 			<techstatus status="Active">Age 4 Nyarlathotep</techstatus>
 		</prereqs>
 		<effects>
-			
+
 
 
 			<effect type="Data" action="RangedAttack" amount="0.15" subtype="DamageBonus" unittype="HumanSoldier" relativity="Absolute">
+				<target type="ProtoUnit">MythUnit</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="0.15" subtype="DamageBonus" unittype="HumanSoldier" relativity="Absolute">
 				<target type="ProtoUnit">MythUnit</target>
 			</effect>
 			<effect type="Data" action="ChargedRangedAttack" amount="0.15" subtype="DamageBonus" unittype="HumanSoldier" relativity="Absolute">
@@ -28976,7 +28997,7 @@
 			</effect>
 
 			<effect type="TechStatus" status="unobtainable">Fortify Town Center</effect>
-			<effect type="TechStatus" status="unobtainable">Watch Tower</effect>
+			<effect type="TechStatus" status="active">Watch Tower</effect>
 			<effect type="TechStatus" status="unobtainable">Guard Tower</effect>
 			<effect type="TechStatus" status="unobtainable">Stone Wall</effect>
 			<effect type="TechStatus" status="unobtainable">Medium Infantry</effect>
@@ -34155,13 +34176,13 @@
 		<status>UNOBTAINABLE</status>
 		<icon>roman icon rura florentia</icon>
 		<effects>
-			<effect type="Data" action="AutoGather" amount="2.0" subtype="WorkRate" unittype="Food" relativity="Absolute">
+			<effect type="Data" action="AutoGather" amount="1.60" subtype="WorkRate" unittype="Food" relativity="Absolute">
 				<target type="ProtoUnit">Farm</target>
 			</effect>
-			<effect type="Data" action="AutoGather" amount="1.0" subtype="WorkRate" unittype="Wood" relativity="Absolute">
+			<effect type="Data" action="AutoGather" amount="0.80" subtype="WorkRate" unittype="Wood" relativity="Absolute">
 				<target type="ProtoUnit">Farm</target>
 			</effect>
-			<effect type="Data" action="AutoGather" amount="0.25" subtype="WorkRate" unittype="Gold" relativity="Absolute">
+			<effect type="Data" action="AutoGather" amount="0.20" subtype="WorkRate" unittype="Gold" relativity="Absolute">
 				<target type="ProtoUnit">Farm</target>
 			</effect>
 		</effects>
@@ -34635,7 +34656,7 @@
 			<techstatus status="Active">Age 2 Apollo</techstatus>
 		</prereqs>
 		<effects>
-			<effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+			<effect type="Data" amount="1.075" subtype="MaximumVelocity" relativity="BasePercent">
 				<target type="ProtoUnit">HumanSoldier</target>
 			</effect>
 		</effects>
@@ -38694,7 +38715,7 @@
 	<tech name="Swift Childhood" type="Normal">
 		<dbid></dbid>
 		<displaynameid>120533</displaynameid>
-		<cost resourcetype="Wood">200.0000</cost>
+		<cost resourcetype="Wood">100.0000</cost>
 		<cost resourcetype="Favor">20.0000</cost>
 		<researchpoints>30.0000</researchpoints>
 		<status>OBTAINABLE</status>

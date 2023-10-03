@@ -22,7 +22,7 @@
 		<minhpdamagebuilding>15000</minhpdamagebuilding>
 		<maxhpdamageunit>1800</maxhpdamageunit>
 		<maxhpdamagevillager>1000</maxhpdamagevillager>
-		<maxhpdamagebuilding>19000</maxhpdamagebuilding>
+		<maxhpdamagebuilding>20000</maxhpdamagebuilding>
 	</gpdamagemodel>
 	<gpdamagemodel>
 		<playerrelation>ally</playerrelation>
@@ -32,9 +32,9 @@
 		<minhpdamageunit>3000</minhpdamageunit>
 		<minhpdamagevillager>3000</minhpdamagevillager>
 		<minhpdamagebuilding>1500</minhpdamagebuilding>
-		<maxhpdamageunit>1000</maxhpdamageunit>
+		<maxhpdamageunit>1500</maxhpdamageunit>
 		<maxhpdamagevillager>1000</maxhpdamagevillager>
-		<maxhpdamagebuilding>1400</maxhpdamagebuilding>
+		<maxhpdamagebuilding>5000</maxhpdamagebuilding>
 	</gpdamagemodel>
 	<tornadosfx>flood II</tornadosfx>
 	<debris>Tornado Debris</debris>

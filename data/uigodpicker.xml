@@ -631,14 +631,13 @@
 				<gadget name="Selected-God-Name-XX4" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="696 63 972 93" z="12" textcenterhoriz="">Tezcatlipoca</gadget>
 				<gadget name="MinorGodText-XX4" textcentervert="" textcolor="255 255 255" textfontsize="16" textfont="GodPickerTitles" type="formatText" size1024="696 93 972 118" z="12" textcenterhoriz="">$$19963$$Minor Gods and God Powers</gadget>
 				<gadget name="FirstAge-Text-XX4" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 118 972 143" z="12" textcenterhoriz="">$$18966$$Archaic Age</gadget>
-				<gadget outlinecolor="255 208 0" name="FirstAge-GodPower-XX4" type="gadget" size1024="782 147 814 179" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FirstAge-GodPower-XX4" type="gadget" size1024="782 147 814 179" background="icons\SmokingMirror" z="12" mouseovertext=""></gadget>
 			</gadget>
 			<gadget name="SecondAge-Section-XX4" type="gadget" size1024="695 187 972 319" z="11" background="ui\ui background opaque 2">
 				<gadget name="SecondAge-Text-XX4" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 186 972 211" z="11" textcenterhoriz="">$$18967$$Classical Age</gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-Icon-XX4" type="gadget" size1024="746 216 810 280" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-Icon-XX4" type="gadget" size1024="746 216 810 280" background="icons\Xipe_icon64" z="12" mouseovertext=""></gadget>
 				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-GodPower-XX4" type="gadget" size1024="744 285 776 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
 				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-MythUnit-XX4" type="gadget" size1024="780 285 812 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-MythTech-XX4" type="gadget" size1024="708 285 740 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
 				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-Icon-XX4" type="gadget" size1024="858 216 922 280" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
 				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-GodPower-XX4" type="gadget" size1024="856 285 888 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
 				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythUnit-XX4" type="gadget" size1024="892 285 924 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
@@ -1336,42 +1335,35 @@
 				<gadget name="Selected-God-Name-XX22" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="696 63 972 93" z="12" textcenterhoriz="">Wi</gadget>
 				<gadget name="MinorGodText-XX22" textcentervert="" textcolor="255 255 255" textfontsize="16" textfont="GodPickerTitles" type="formatText" size1024="696 93 972 118" z="12" textcenterhoriz="">$$19963$$Minor Gods and God Powers</gadget>
 				<gadget name="FirstAge-Text-XX22" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 118 972 143" z="12" textcenterhoriz="">$$18966$$Archaic Age</gadget>
-				<gadget outlinecolor="255 208 0" name="FirstAge-GodPower-XX22" type="gadget" size1024="782 147 814 179" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FirstAge-MythUnit-XX22" type="gadget" size1024="818 147 850 179" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FirstAge-MythTech-XX22" type="gadget" size1024="854 147 886 179" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FirstAge-GodPower-XX22" type="gadget" size1024="782 147 814 179" background="icons\improvement wagacan icon" z="12" mouseovertext=""></gadget>
 			</gadget>
 			<gadget name="SecondAge-Section-XX22" type="gadget" size1024="695 187 972 319" z="11" background="ui\ui background opaque 2">
 				<gadget name="SecondAge-Text-XX22" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 186 972 211" z="11" textcenterhoriz="">$$18967$$Classical Age</gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-Icon-XX22" type="gadget" size1024="746 216 810 280" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-GodPower-XX22" type="gadget" size1024="744 285 776 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-MythUnit-XX22" type="gadget" size1024="780 285 812 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-MythTech-XX22" type="gadget" size1024="708 285 740 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-Icon-XX22" type="gadget" size1024="858 216 922 280" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-GodPower-XX22" type="gadget" size1024="856 285 888 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythUnit-XX22" type="gadget" size1024="892 285 924 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythTech-XX22" type="gadget" size1024="928 285 960 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-Icon-XX22" type="gadget" size1024="746 216 810 280" background="icons\improvement iktomi icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-GodPower-XX22" type="gadget" size1024="744 285 776 317" background="icons\improvement shapeshifters chaos icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-MythUnit-XX22" type="gadget" size1024="780 285 812 317" background="icons\improvement crazy bull icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-Icon-XX22" type="gadget" size1024="858 216 922 280" background="icons\improvement wani icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-GodPower-XX22" type="gadget" size1024="856 285 888 317" background="icons\improvement four winds icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythUnit-XX22" type="gadget" size1024="892 285 924 317" background="icons\improvement zuzeca icon" z="12" mouseovertext=""></gadget>
 			</gadget>
 			<gadget name="ThirdAge-Section-XX22" type="gadget" size1024="695 324 972 456" z="12" background="ui\ui background opaque 2">
 				<gadget name="ThirdAge-Text-XX22" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 323 972 348" z="11" textcenterhoriz="">$$18968$$Heroic Age</gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-Icon-XX22" type="gadget" size1024="747 352 811 416" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-GodPower-XX22" type="gadget" size1024="745 421 777 453" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-MythUnit-XX22" type="gadget" size1024="781 421 813 453" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-MythTech-XX22" type="gadget" size1024="709 421 741 453" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-Icon-XX22" type="gadget" size1024="859 352 923 416" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-GodPower-XX22" type="gadget" size1024="857 421 889 453" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-MythUnit-XX22" type="gadget" size1024="893 421 925 453" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-MythTech-XX22" type="gadget" size1024="929 421 961 453" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-Icon-XX22" type="gadget" size1024="747 352 811 416" background="icons\improvement anung ite icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-GodPower-XX22" type="gadget" size1024="745 421 777 453" background="icons\improvement fruit of the garden icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-MythUnit-XX22" type="gadget" size1024="781 421 813 453" background="icons\improvement deer woman icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-Icon-XX22" type="gadget" size1024="859 352 923 416" background="icons\improvement tate icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-GodPower-XX22" type="gadget" size1024="857 421 889 453" background="icons\improvement winds of time icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-MythUnit-XX22" type="gadget" size1024="893 421 925 453" background="icons\improvement canotila icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-MythTech-XX22" type="gadget" size1024="929 421 961 453" background="icons\improvement canotila icon" z="12" mouseovertext=""></gadget>
 			</gadget>
 			<gadget name="FourthAge-Section-XX22" type="gadget" size1024="695 461 972 593" z="13" background="ui\ui background opaque 2">
 				<gadget name="FourthAge-Text-XX22" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 460 972 485" z="11" textcenterhoriz="">$$18969$$Mythic Age</gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-Icon-XX22" type="gadget" size1024="746 489 810 553" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-GodPower-XX22" type="gadget" size1024="744 558 776 590" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-MythUnit-XX22" type="gadget" size1024="780 558 812 590" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-MythTech-XX22" type="gadget" size1024="708 558 740 590" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-Icon-XX22" type="gadget" size1024="858 489 922 553" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-GodPower-XX22" type="gadget" size1024="856 558 888 590" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-MythUnit-XX22" type="gadget" size1024="892 558 924 590" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-MythTech-XX22" type="gadget" size1024="928 558 960 590" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-Icon-XX22" type="gadget" size1024="746 489 810 553" background="icons\improvement wophe icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-GodPower-XX22" type="gadget" size1024="744 558 776 590" background="icons\improvement fires of peace icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-MythUnit-XX22" type="gadget" size1024="780 558 812 590" background="icons\Quimetzin_Icon128" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-Icon-XX22" type="gadget" size1024="858 489 922 553" background="icons\improvement anpao and han icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-GodPower-XX22" type="gadget" size1024="856 558 888 590" background="icons\improvement maker of days icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-MythUnit-XX22" type="gadget" size1024="892 558 924 590" background="icons\Tzi_Icon128" z="12" mouseovertext=""></gadget>
 			</gadget>
 		</gadget>
 <gadget name="Selected-God-Area-XX23" type="gadget"  hidden="" size1024="695 55 972 493" z="5">
@@ -1379,42 +1371,35 @@
 				<gadget name="Selected-God-Name-XX23" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="696 63 972 93" z="12" textcenterhoriz="">Unci Makha</gadget>
 				<gadget name="MinorGodText-XX23" textcentervert="" textcolor="255 255 255" textfontsize="16" textfont="GodPickerTitles" type="formatText" size1024="696 93 972 118" z="12" textcenterhoriz="">$$19963$$Minor Gods and God Powers</gadget>
 				<gadget name="FirstAge-Text-XX23" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 118 972 143" z="12" textcenterhoriz="">$$18966$$Archaic Age</gadget>
-				<gadget outlinecolor="255 208 0" name="FirstAge-GodPower-XX23" type="gadget" size1024="782 147 814 179" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FirstAge-MythUnit-XX23" type="gadget" size1024="818 147 850 179" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FirstAge-MythTech-XX23" type="gadget" size1024="854 147 886 179" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FirstAge-GodPower-XX23" type="gadget" size1024="782 147 814 179" background="icons\improvement hierarchy of Life icon" z="12" mouseovertext=""></gadget>
 			</gadget>
 			<gadget name="SecondAge-Section-XX23" type="gadget" size1024="695 187 972 319" z="11" background="ui\ui background opaque 2">
 				<gadget name="SecondAge-Text-XX23" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 186 972 211" z="11" textcenterhoriz="">$$18967$$Classical Age</gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-Icon-XX23" type="gadget" size1024="746 216 810 280" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-GodPower-XX23" type="gadget" size1024="744 285 776 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-MythUnit-XX23" type="gadget" size1024="780 285 812 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-MythTech-XX23" type="gadget" size1024="708 285 740 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-Icon-XX23" type="gadget" size1024="858 216 922 280" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-GodPower-XX23" type="gadget" size1024="856 285 888 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythUnit-XX23" type="gadget" size1024="892 285 924 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythTech-XX23" type="gadget" size1024="928 285 960 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-Icon-XX23" type="gadget" size1024="746 216 810 280" background="icons\improvement capa icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-GodPower-XX23" type="gadget" size1024="744 285 776 317" background="icons\improvement omakha waphaya icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-MythUnit-XX23" type="gadget" size1024="780 285 812 317" background="icons\improvement Waawayanka icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-Icon-XX22" type="gadget" size1024="858 216 922 280" background="icons\improvement wani icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-GodPower-XX22" type="gadget" size1024="856 285 888 317" background="icons\improvement four winds icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythUnit-XX22" type="gadget" size1024="892 285 924 317" background="icons\improvement zuzeca icon" z="12" mouseovertext=""></gadget>
 			</gadget>
 			<gadget name="ThirdAge-Section-XX23" type="gadget" size1024="695 324 972 456" z="12" background="ui\ui background opaque 2">
 				<gadget name="ThirdAge-Text-XX23" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 323 972 348" z="11" textcenterhoriz="">$$18968$$Heroic Age</gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-Icon-XX23" type="gadget" size1024="747 352 811 416" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-GodPower-XX23" type="gadget" size1024="745 421 777 453" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-MythUnit-XX23" type="gadget" size1024="781 421 813 453" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-MythTech-XX23" type="gadget" size1024="709 421 741 453" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-Icon-XX23" type="gadget" size1024="859 352 923 416" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-GodPower-XX23" type="gadget" size1024="857 421 889 453" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-MythUnit-XX23" type="gadget" size1024="893 421 925 453" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-MythTech-XX23" type="gadget" size1024="929 421 961 453" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-Icon-XX22" type="gadget" size1024="747 352 811 416" background="icons\improvement anung ite icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-GodPower-XX22" type="gadget" size1024="745 421 777 453" background="icons\improvement fruit of the garden icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-MythUnit-XX22" type="gadget" size1024="781 421 813 453" background="icons\improvement deer woman icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-Icon-XX23" type="gadget" size1024="859 352 923 416" background="icons\improvement wakinyan icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-GodPower-XX23" type="gadget" size1024="857 421 889 453" background="icons\improvement thunders judgement icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-MythUnit-XX23" type="gadget" size1024="893 421 925 453" background="icons\improvement thunderbird icon" z="12" mouseovertext=""></gadget>
 			</gadget>
 			<gadget name="FourthAge-Section-XX23" type="gadget" size1024="695 461 972 593" z="13" background="ui\ui background opaque 2">
 				<gadget name="FourthAge-Text-XX23" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 460 972 485" z="11" textcenterhoriz="">$$18969$$Mythic Age</gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-Icon-XX23" type="gadget" size1024="746 489 810 553" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-GodPower-XX23" type="gadget" size1024="744 558 776 590" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-MythUnit-XX23" type="gadget" size1024="780 558 812 590" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-MythTech-XX23" type="gadget" size1024="708 558 740 590" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-Icon-XX23" type="gadget" size1024="858 489 922 553" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-GodPower-XX23" type="gadget" size1024="856 558 888 590" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-MythUnit-XX23" type="gadget" size1024="892 558 924 590" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-MythTech-XX23" type="gadget" size1024="928 558 960 590" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-Icon-XX22" type="gadget" size1024="746 489 810 553" background="icons\improvement wophe icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-GodPower-XX22" type="gadget" size1024="744 558 776 590" background="icons\improvement fires of peace icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-MythUnit-XX22" type="gadget" size1024="780 558 812 590" background="icons\Quimetzin_Icon128" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-Icon-XX23" type="gadget" size1024="858 489 922 553" background="icons\improvement unk icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-GodPower-XX23" type="gadget" size1024="856 558 888 590" background="icons\improvement uncegila icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-MythUnit-XX23" type="gadget" size1024="892 558 924 590" background="icons\XocNewIcon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-MythTech-XX23" type="gadget" size1024="928 558 960 590" background="icons\improvement winyela icon" z="12" mouseovertext=""></gadget>
 			</gadget>
 		</gadget>
 <gadget name="Selected-God-Area-XX24" type="gadget"  hidden="" size1024="695 55 972 493" z="5">
@@ -1422,42 +1407,35 @@
 				<gadget name="Selected-God-Name-XX24" textcentervert="" textcolor="255 255 255" textfontsize="30" textfont="Pregamelarge" type="formatText" size1024="696 63 972 93" z="12" textcenterhoriz="">Hihan-Kaga</gadget>
 				<gadget name="MinorGodText-XX24" textcentervert="" textcolor="255 255 255" textfontsize="16" textfont="GodPickerTitles" type="formatText" size1024="696 93 972 118" z="12" textcenterhoriz="">$$19963$$Minor Gods and God Powers</gadget>
 				<gadget name="FirstAge-Text-XX24" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 118 972 143" z="12" textcenterhoriz="">$$18966$$Archaic Age</gadget>
-				<gadget outlinecolor="255 208 0" name="FirstAge-GodPower-XX24" type="gadget" size1024="782 147 814 179" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FirstAge-MythUnit-XX24" type="gadget" size1024="818 147 850 179" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FirstAge-MythTech-XX24" type="gadget" size1024="854 147 886 179" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FirstAge-GodPower-XX24" type="gadget" size1024="782 147 814 179" background="icons\improvement nagi akta icon" z="12" mouseovertext=""></gadget>
 			</gadget>
 			<gadget name="SecondAge-Section-XX24" type="gadget" size1024="695 187 972 319" z="11" background="ui\ui background opaque 2">
 				<gadget name="SecondAge-Text-XX24" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 186 972 211" z="11" textcenterhoriz="">$$18967$$Classical Age</gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-Icon-XX24" type="gadget" size1024="746 216 810 280" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-GodPower-XX24" type="gadget" size1024="744 285 776 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-MythUnit-XX24" type="gadget" size1024="780 285 812 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-MythTech-XX24" type="gadget" size1024="708 285 740 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-Icon-XX24" type="gadget" size1024="858 216 922 280" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-GodPower-XX24" type="gadget" size1024="856 285 888 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythUnit-XX24" type="gadget" size1024="892 285 924 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythTech-XX24" type="gadget" size1024="928 285 960 317" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-Icon-XX22" type="gadget" size1024="858 216 922 280" background="icons\improvement capa icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-GodPower-XX22" type="gadget" size1024="856 285 888 317" background="icons\improvement omakha waphaya icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-Second-MinorGod-MythUnit-XX22" type="gadget" size1024="892 285 924 317" background="icons\improvement waawayanka icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-Icon-XX22" type="gadget" size1024="746 216 810 280" background="icons\improvement iktomi icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-GodPower-XX22" type="gadget" size1024="744 285 776 317" background="icons\improvement shapeshifters chaos icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="SecondAge-First-MinorGod-MythUnit-XX22" type="gadget" size1024="780 285 812 317" background="icons\improvement crazy bull icon" z="12" mouseovertext=""></gadget>
 			</gadget>
 			<gadget name="ThirdAge-Section-XX24" type="gadget" size1024="695 324 972 456" z="12" background="ui\ui background opaque 2">
 				<gadget name="ThirdAge-Text-XX24" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 323 972 348" z="11" textcenterhoriz="">$$18968$$Heroic Age</gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-Icon-XX24" type="gadget" size1024="747 352 811 416" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-GodPower-XX24" type="gadget" size1024="745 421 777 453" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-MythUnit-XX24" type="gadget" size1024="781 421 813 453" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-MythTech-XX24" type="gadget" size1024="709 421 741 453" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-Icon-XX24" type="gadget" size1024="859 352 923 416" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-GodPower-XX24" type="gadget" size1024="857 421 889 453" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-MythUnit-XX24" type="gadget" size1024="893 421 925 453" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-MythTech-XX24" type="gadget" size1024="929 421 961 453" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-Icon-XX24" type="gadget" size1024="747 352 811 416" background="icons\improvement wakinyan icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-GodPower-XX24" type="gadget" size1024="745 421 777 453" background="icons\improvement thunders judgement icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-First-MinorGod-MythUnit-XX24" type="gadget" size1024="781 421 813 453" background="icons\improvement thunderbird icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-Icon-XX22" type="gadget" size1024="859 352 923 416" background="icons\improvement tate icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-GodPower-XX22" type="gadget" size1024="857 421 889 453" background="icons\improvement winds of time icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-MythUnit-XX22" type="gadget" size1024="893 421 925 453" background="icons\improvement canotila icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="ThirdAge-Second-MinorGod-MythTech-XX22" type="gadget" size1024="929 421 961 453" background="icons\improvement canotila icon" z="12" mouseovertext=""></gadget>
 			</gadget>
 			<gadget name="FourthAge-Section-XX24" type="gadget" size1024="695 461 972 593" z="13" background="ui\ui background opaque 2">
 				<gadget name="FourthAge-Text-XX24" textcentervert="" textcolor="255 255 255" textfontsize="18" textfont="PregameLabels" type="formatText" size1024="696 460 972 485" z="11" textcenterhoriz="">$$18969$$Mythic Age</gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-Icon-XX24" type="gadget" size1024="746 489 810 553" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-GodPower-XX24" type="gadget" size1024="744 558 776 590" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-MythUnit-XX24" type="gadget" size1024="780 558 812 590" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-MythTech-XX24" type="gadget" size1024="708 558 740 590" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-Icon-XX24" type="gadget" size1024="858 489 922 553" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-GodPower-XX24" type="gadget" size1024="856 558 888 590" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-MythUnit-XX24" type="gadget" size1024="892 558 924 590" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
-				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-MythTech-XX24" type="gadget" size1024="928 558 960 590" background="ui\ui background yellow opaque" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-Icon-XX22" type="gadget" size1024="746 489 810 553" background="icons\improvement wophe icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-GodPower-XX22" type="gadget" size1024="744 558 776 590" background="icons\improvement fires of peace icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-First-MinorGod-MythUnit-XX22" type="gadget" size1024="780 558 812 590" background="icons\Quimetzin_Icon128" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-Icon-XX22" type="gadget" size1024="858 489 922 553" background="icons\improvement anpao and han icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-GodPower-XX22" type="gadget" size1024="856 558 888 590" background="icons\improvement maker of days icon" z="12" mouseovertext=""></gadget>
+				<gadget outlinecolor="255 208 0" name="FourthAge-Second-MinorGod-MythUnit-XX22" type="gadget" size1024="892 558 924 590" background="icons\Tzi_Icon128" z="12" mouseovertext=""></gadget>
 			</gadget>
 		</gadget>
 <gadget name="Selected-God-Area-XX25" type="gadget"  hidden="" size1024="695 55 972 493" z="5">

@@ -2,9 +2,9 @@
 
 <power name="Maelstrom" type="tornado" techname="Maelstrom">
 	<builduptime soundset="TornadoBirth">0.1</builduptime>
-	<activetime>20.0</activetime>
+	<activetime>40.0</activetime>
 	<shutdowntime soundset="TornadoDeath">0.1</shutdowntime>
-	<minimapeventtime>20.0</minimapeventtime>
+	<minimapeventtime>40.0</minimapeventtime>
 	<rangeindicatorprotoid radius="18.0" indicatorcount="10" speed="0.2">UI Range Indicator aztec</rangeindicatorprotoid>
 	<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
 	<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
@@ -16,21 +16,21 @@
 		<basedamagepercentunit>0.80</basedamagepercentunit>
 		<basedamagepercentvillager>0.30</basedamagepercentvillager>
 		<basedamagepercentbuilding>0.80</basedamagepercentbuilding>
-		<minhpdamageunit>650</minhpdamageunit>
+		<minhpdamageunit>450</minhpdamageunit>
 		<minhpdamagevillager>150</minhpdamagevillager>
 		<minhpdamagebuilding>500</minhpdamagebuilding>
-		<maxhpdamageunit>1000</maxhpdamageunit>
+		<maxhpdamageunit>500</maxhpdamageunit>
 		<maxhpdamagevillager>150</maxhpdamagevillager>
 		<maxhpdamagebuilding>500</maxhpdamagebuilding>
 	</gpdamagemodel>
 	<gpdamagemodel>
 		<playerrelation>ally</playerrelation>
-		<basedamagepercentunit>0.25</basedamagepercentunit>
-		<basedamagepercentvillager>0.5</basedamagepercentvillager>
-		<basedamagepercentbuilding>0.5</basedamagepercentbuilding>
-		<minhpdamageunit>100</minhpdamageunit>
-		<minhpdamagevillager>70</minhpdamagevillager>
-		<minhpdamagebuilding>100</minhpdamagebuilding>
+		<basedamagepercentunit>0.80</basedamagepercentunit>
+		<basedamagepercentvillager>0.30</basedamagepercentvillager>
+		<basedamagepercentbuilding>0.80</basedamagepercentbuilding>
+		<minhpdamageunit>450</minhpdamageunit>
+		<minhpdamagevillager>150</minhpdamagevillager>
+		<minhpdamagebuilding>500</minhpdamagebuilding>
 		<maxhpdamageunit>500</maxhpdamageunit>
 		<maxhpdamagevillager>150</maxhpdamagevillager>
 		<maxhpdamagebuilding>500</maxhpdamagebuilding>

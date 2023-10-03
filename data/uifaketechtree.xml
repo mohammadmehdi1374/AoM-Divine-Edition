@@ -53,9 +53,9 @@
 		</gadget>
 
 		<gadget name="FakeTechTree-CivSelect-2" type="scrollList" size1024="22 39 154 93" z="20" textfontsize="16" textfont="ScrollFont" textcolor="0 0 58" background="ui\ui scroll middle tile" tilebackground="" topcapart="ui\ui scroll top tile" bottomcapart="ui\ui scroll bottom tile" leftcapart="ui\ui scroll cap left" rightcapart="ui\ui scroll cap right" border1024="3 0" listitemheight="20" mouseovertext="$$21491$$This shows the god that you are currently viewing.  Click on the scroll to view information for a different god.">
-			<listitem>(NOT DONE) Wi</listitem> <!-- 22 -->
-			<listitem>(NOT DONE) Unci Makha</listitem>
-			<listitem>(NOT DONE) Hihan-Kaga</listitem>
+			<listitem>Wi</listitem> <!-- 22 -->
+			<listitem>Unci Makha</listitem>
+			<listitem>Hihan-Kaga</listitem>
 			
 			<listitem>(NOT DONE) The Dagda</listitem>
 			<listitem>(NOT DONE) Lugh</listitem>
@@ -2804,12 +2804,482 @@
 			</div>
 
 
-			<div hidden="" name="FakeTechTree-New21" size1024="0 0 1024 768">
-				<gadget hidden="" name="FakeTechTree-New21-TechNode-Zeus" type="button" size1024="175 22 232 79">Age 1 Wi</gadget>
-			</div>
+
 			<div hidden="" name="FakeTechTree-New22" size1024="0 0 1024 768">
-				<gadget hidden="" name="FakeTechTree-New22-TechNode-Zeus" type="button" size1024="175 22 232 79">Dark Awakening</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Zeus" type="button" size1024="175 22 232 79">Age 1 Wi</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Bolt GP" type="button" size1024="242 34 274 66">Wagacan</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Pegasus" type="button" size1024="285 34 317 66">Wanbli</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-TC" type="button" size1024="25 255 55 285">Settlement Level 1</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-TC" type="button" size1024="65 255 95 285">Villager Lakota</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-TC" type="button" size1024="105 255 135 285">Packed Thikceya</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-TC" type="button" size1024="25 295 55 325">Guild Fire</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-TC" type="button" size1024="65 295 95 325">Husbandry</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-TC" type="button" size1024="105 295 135 325">Hunting Dogs</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-TC" type="button" size1024="145 295 175 325">Hand Axe</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-TC" type="button" size1024="185 295 215 325">Akhita</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-TC" type="button" size1024="25 335 55 365">Market</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-TC" type="button" size1024="65 335 95 365">Caravan Lakota Dog</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-TC" type="button" size1024="25 375 55 405">Dock</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-TC" type="button" size1024="65 375 95 405">Native Fishing</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-TC" type="button" size1024="25 495 55 525">Lakota Temple</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-TC" type="button" size1024="25 535 55 565">Ribbon Garden</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-TC" type="button" size1024="65 535 95 565">Invoker of Bison Small</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-TC" type="button" size1024="105 535 135 565">Yuspi</gadget>
+				
+				
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="275 255 305 285">Masons</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="275 295 305 325">Bow Saw</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="315 295 345 325">Timpsila Foraging</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="275 335 305 365">Caravan Lakota Horse</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="275 375 305 405">Canoe</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="315 375 345 405">Fishing Boat</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="355 375 385 405">Purse Seine</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="395 375 425 405">Enclosed Deck</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="435 375 465 405">Heroic Fleet</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="275 415 305 445">Outpost Settlement</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="275 455 305 485">Lakota Sodhouse</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="315 455 345 485">Migrations 1</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="355 455 385 485">Signal Fires</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="395 455 425 485">Crenellations</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="435 455 465 485">Long-Grass Roofing</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="275 535 305 565">Medicine Woman</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="315 535 345 565">Invoker of Bison Medium</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="275 575 305 605">Solar Calendar</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="315 575 345 605">Lunar Calendar L</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="355 575 385 605">Eye of the Moon</gadget>
+
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="315 615 345 645">Copper Weapons</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="355 615 385 645">Copper Mail</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="395 615 425 645">Copper Shields</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="275 655 305 685">Wakhukeza Iktomi</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="315 655 345 685">Kitfox Soldier</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="355 655 385 685">Fancy Spear</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="275 695 305 725">Medium Warriors</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="315 695 345 725">Medium Akicita</gadget>
+
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="525 255 555 285">Architects</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="525 295 555 325">Carpenters</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="565 295 595 325">Timpsila Braiding</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="605 295 635 325">Kicico</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="645 295 675 325">The Tempter</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="525 335 555 365">Ambassadors</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="565 335 595 365">Tax Collectors</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="525 375 555 405">War Canoe</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="565 375 595 405">Tlaloc Canoe</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="605 375 635 405">Salt Amphora</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="645 375 675 405">Cladding</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="525 455 555 485">Carrier Pigeons</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="565 455 595 485">Migrations 2</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="525 535 555 565">Invoker of Bison Large</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="525 575 555 605">Sun Dogs</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="565 575 595 605">Moon Dogs</gadget>
+				
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="525 615 555 645">Bronze Weapons</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="565 615 595 645">Bronze Mail</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="605 615 635 645">Bronze Shields</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="525 655 555 685">Waoka Tate</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="565 655 595 685">Crow-Rider</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="605 655 635 685">White Marked</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="525 695 555 725">Heavy Warriors</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="565 695 595 725">Heavy Akicita</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="605 695 635 725">Levy Warriors</gadget>
+
+				<gadget name="FakeTechTree-New22-TechNode-Bellerophon" type="button" size1024="825 255 855 285">Migration Age 4</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="825 335 855 365">Coinage</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="825 375 855 405">Naval Oxybeles</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="865 375 895 405">Reinforced Hull</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="905 375 935 405">Conscript Sailors</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="825 415 855 445">Wonder</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="865 415 895 445">Secrets of the Titans</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="825 455 855 485">Migrations 3</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Heracles" type="button" size1024="865 495 895 525">Omniscience</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="825 575 855 605">Ahanzi</gadget>
+				
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="825 615 855 645">Iron Weapons</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="865 615 895 645">Iron Mail</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="905 615 935 645">Iron Shields</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="825 655 855 685">Canpi Unk</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="865 655 895 685">White Rider</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="905 655 935 685">Raven Keeper</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="825 695 855 725">Champion Warriors</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="865 695 895 725">Champion Akicita</gadget>
+				<gadget name="FakeTechTree-New22-TechNode-Odysseus" type="button" size1024="905 695 935 725">Dreamcult Warriors</gadget>
+
+
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Athena" type="button" size1024="407 23 463 79">Age 2 Iktomi</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Restoration GP" type="button" size1024="474 22 506 54">Shapeshifters Chaos</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Minotaur" type="button" size1024="515 22 547 54">Tathanka Gnaskiyan</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Labyrinth" type="button" size1024="515 64 547 96">Master of Whispers</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Aegis Shield" type="button" size1024="475 64 507 96">Ducks Folly</gadget>
+				
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Hermes" type="button" size1024="407 113 463 169">Age 2 Wani</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Centaur" type="button" size1024="515 113 547 145">Zuzeca Zuya</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Ceasefire" type="button" size1024="475 113 507 145">Four Winds</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Spirited Charge" type="button" size1024="476 153 508 185">Yanpas Wisdom</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Winged Messenger" type="button" size1024="515 153 547 185">Peyatas Wisdom</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Spirited Charge" type="button" size1024="555 113 587 145">Okagas Wisdom</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Winged Messenger" type="button" size1024="555 153 587 185">Yatas Wisdom</gadget>
+				
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Apollo" type="button" size1024="614 23 670 79">Age 3 Anung Ite</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Manticore" type="button" size1024="721 22 753 54">Deer Woman</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Tunnel" type="button" size1024="681 23 713 55">Fruit of the Garden</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Sun Ray" type="button" size1024="720 63 752 95">Stars of the Evening</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Temple of Healing" type="button" size1024="681 63 713 95">Stars of the Morning</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Temple of Healing" type="button" size1024="760 23 792 55">Seeds of the Five Winds</gadget>
+				
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Dionysus" type="button" size1024="614 113 670 169">Age 3 Tate</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Hydra" type="button" size1024="721 113 753 145">Canotila</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Bronze" type="button" size1024="679 113 711 145">Winds of Time</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Bacchanalia" type="button" size1024="681 153 713 185">Wiwila</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Anastrophe" type="button" size1024="720 153 752 185">The Son of Love</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Anastrophe" type="button" size1024="760 153 792 185">Etu</gadget>
+				
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Hephaestus" type="button" size1024="821 23 877 79">Age 4 Wophe</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Colossus" type="button" size1024="928 21 960 53">Wi Can</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Plenty" type="button" size1024="887 22 919 54">Fires of Peace</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Forge of Olympus" type="button" size1024="928 63 960 95">Cannunpa</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Forge of Olympus" type="button" size1024="968 63 1000 95">Sacred Flame</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Weapon of the Titans" type="button" size1024="887 64 919 96">Falling Star</gadget>
+				
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Hera" type="button" size1024="821 113 877 169">Age 4 Anpao and Han</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Medusa" type="button" size1024="927 113 959 145">Woniya Thanka</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Lightning Storm" type="button" size1024="888 113 920 145">Maker of Days</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Athenian Wall" type="button" size1024="887 154 919 186">Cycles of Light</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Face of the Gorgon" type="button" size1024="927 153 959 185">Twilight Lineage</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Face of the Gorgon" type="button" size1024="967 113 999 145">Morning Star</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-TechNode-Face of the Gorgon" type="button" size1024="967 153 999 185">Evening Star</gadget>
+
+				<gadget hidden="" name="FakeTechTree-New22-ShennongBackground" type="gadget" size1024="0 0 1024 768" z="1">
+					<gadget name="ShennongBackground1" type="gadget" size1024="0 0 1024 768" background="UI\ftt wi" clampbackground=""></gadget>
+				</gadget>
+				<gadget hidden="" name="FakeTechTree-New22-ChineseLegendShennong" type="gadget" z="20">
+					<gadget name="ChineseLegend-Building" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 669 258 689" z="17">$$19159$$Building</gadget>
+					<gadget name="ChineseLegend-Unit" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 699 258 719" z="17">$$19160$$Unit</gadget>
+					<gadget name="ChineseLegend-Improvement" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 729 258 749" z="17">$$19161$$Improvement</gadget>
+					<gadget name="ChineseLegend-God" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 669 153 689" z="17">$$19162$$God</gadget>
+					<gadget name="ChineseLegend-God Power" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 699 153 719" z="17">$$19163$$God Power</gadget>
+					<gadget name="ChineseLegend-Myth Unit" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 729 153 749" z="17">$$19164$$Myth Unit</gadget>
+				</gadget>
+				
 			</div>
+			<div hidden="" name="FakeTechTree-New23" size1024="0 0 1024 768">
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Zeus" type="button" size1024="175 22 232 79">Age 1 Unci Makha</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Bolt GP" type="button" size1024="242 34 274 66">Hierarchy of Life</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Pegasus" type="button" size1024="285 34 317 66">Magpie</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-TC" type="button" size1024="25 255 55 285">Settlement Level 1</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-TC" type="button" size1024="65 255 95 285">Villager Lakota</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-TC" type="button" size1024="105 255 135 285">Packed Thikceya</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-TC" type="button" size1024="25 295 55 325">Guild Fire</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-TC" type="button" size1024="65 295 95 325">Husbandry</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-TC" type="button" size1024="105 295 135 325">Hunting Dogs</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-TC" type="button" size1024="145 295 175 325">Hand Axe</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-TC" type="button" size1024="185 295 215 325">Akhita</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-TC" type="button" size1024="25 335 55 365">Market</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-TC" type="button" size1024="65 335 95 365">Caravan Lakota Dog</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-TC" type="button" size1024="25 375 55 405">Dock</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-TC" type="button" size1024="65 375 95 405">Native Fishing</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-TC" type="button" size1024="25 495 55 525">Lakota Temple</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-TC" type="button" size1024="25 535 55 565">Ribbon Garden</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-TC" type="button" size1024="65 535 95 565">Invoker of Bison Small</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-TC" type="button" size1024="105 535 135 565">Yuspi</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-TC" type="button" size1024="145 535 175 565">Invoker of Bison Convert</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-TC" type="button" size1024="185 535 215 565">Invoker of Unci Sight</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-TC" type="button" size1024="225 535 255 565">Invoker of Gold Bison</gadget>
+
+
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="275 255 305 285">Masons</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="275 295 305 325">Bow Saw</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="315 295 345 325">Timpsila Foraging</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="275 335 305 365">Caravan Lakota Horse</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="275 375 305 405">Canoe</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="315 375 345 405">Fishing Boat</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="355 375 385 405">Purse Seine</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="395 375 425 405">Enclosed Deck</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="435 375 465 405">Heroic Fleet</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="275 415 305 445">Outpost Settlement</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="275 455 305 485">Lakota Sodhouse</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="315 455 345 485">Migrations 1</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="355 455 385 485">Signal Fires</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="395 455 425 485">Crenellations</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="435 455 465 485">Long-Grass Roofing</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="275 535 305 565">Medicine Woman</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="315 535 345 565">Invoker of Bison Medium</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="275 575 305 605">Reflections</gadget>
+
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="315 615 345 645">Copper Weapons</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="355 615 385 645">Copper Mail</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="395 615 425 645">Copper Shields</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="275 655 305 685">Wakhukeza Iktomi</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="315 655 345 685">Strongheart</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="355 655 385 685">Fancy Spear</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="275 695 305 725">Medium Warriors</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="315 695 345 725">Medium Akicita</gadget>
+
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="525 255 555 285">Architects</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="525 295 555 325">Carpenters</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="565 295 595 325">Timpsila Braiding</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="605 295 635 325">Kicico</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="645 295 675 325">The Tempter</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="525 335 555 365">Ambassadors</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="565 335 595 365">Tax Collectors</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="525 375 555 405">War Canoe</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="565 375 595 405">Tlaloc Canoe</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="605 375 635 405">Salt Amphora</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="645 375 675 405">Cladding</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="525 455 555 485">Carrier Pigeons</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="565 455 595 485">Migrations 2</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="525 535 555 565">Invoker of Bison Large</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="525 575 555 605">As Above</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="565 575 595 605">So Below</gadget>
+
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="525 615 555 645">Bronze Weapons</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="565 615 595 645">Bronze Mail</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="605 615 635 645">Bronze Shields</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="525 655 555 685">Waoka Tate</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="565 655 595 685">Crow-Rider</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="605 655 635 685">No-Flights</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="525 695 555 725">Heavy Warriors</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="565 695 595 725">Heavy Akicita</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="605 695 635 725">Levy Warriors</gadget>
+
+				<gadget name="FakeTechTree-New23-TechNode-Bellerophon" type="button" size1024="825 255 855 285">Migration Age 4</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="825 335 855 365">Coinage</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="825 375 855 405">Naval Oxybeles</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="865 375 895 405">Reinforced Hull</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="905 375 935 405">Conscript Sailors</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="825 415 855 445">Wonder</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="865 415 895 445">Secrets of the Titans</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="825 455 855 485">Migrations 3</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Heracles" type="button" size1024="865 495 895 525">Omniscience</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="825 575 855 605">Nightwatcher</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="865 575 895 605">Daybreaker</gadget>
+
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="825 615 855 645">Iron Weapons</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="865 615 895 645">Iron Mail</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="905 615 935 645">Iron Shields</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="825 655 855 685">Canpi Unk</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="865 655 895 685">White Rider</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="905 655 935 685">Warpath Badger</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="825 695 855 725">Champion Warriors</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="865 695 895 725">Champion Akicita</gadget>
+				<gadget name="FakeTechTree-New23-TechNode-Odysseus" type="button" size1024="905 695 935 725">Dreamcult Warriors</gadget>
+
+
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Athena" type="button" size1024="407 23 463 79">Age 2 Capa</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Restoration GP" type="button" size1024="474 22 506 54">Omakha Waphaya</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Minotaur" type="button" size1024="515 22 547 54">Waawayanka</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Labyrinth" type="button" size1024="515 64 547 96">Yaunka</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Aegis Shield" type="button" size1024="475 64 507 96">Mazaskazi Capa</gadget>
+
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Hermes" type="button" size1024="407 113 463 169">Age 2 Wani</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Centaur" type="button" size1024="515 113 547 145">Zuzeca Zuya</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Ceasefire" type="button" size1024="475 113 507 145">Four Winds</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Spirited Charge" type="button" size1024="476 153 508 185">Yanpas Wisdom</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Winged Messenger" type="button" size1024="515 153 547 185">Peyatas Wisdom</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Spirited Charge" type="button" size1024="555 113 587 145">Okagas Wisdom</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Winged Messenger" type="button" size1024="555 153 587 185">Yatas Wisdom</gadget>
+
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Apollo" type="button" size1024="614 23 670 79">Age 3 Anung Ite</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Manticore" type="button" size1024="721 22 753 54">Deer Woman</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Tunnel" type="button" size1024="681 23 713 55">Fruit of the Garden</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Sun Ray" type="button" size1024="720 63 752 95">Stars of the Evening</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Temple of Healing" type="button" size1024="681 63 713 95">Stars of the Morning</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Temple of Healing" type="button" size1024="760 23 792 55">Seeds of the Five Winds</gadget>
+
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Dionysus" type="button" size1024="614 113 670 169">Age 3 Wakinyan</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Hydra" type="button" size1024="721 113 753 145">Thunderbird</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Bronze" type="button" size1024="679 113 711 145">Thunders Judgement</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Bacchanalia" type="button" size1024="681 153 713 185">Thunder-Dreamer</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Anastrophe" type="button" size1024="720 153 752 185">Thunder-Walker</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Anastrophe" type="button" size1024="760 153 792 185">Memories of the Dragonfly</gadget>
+
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Hephaestus" type="button" size1024="821 23 877 79">Age 4 Wophe</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Colossus" type="button" size1024="928 21 960 53">Wi Can</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Plenty" type="button" size1024="887 22 919 54">Fires of Peace</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Forge of Olympus" type="button" size1024="928 63 960 95">Cannunpa</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Forge of Olympus" type="button" size1024="968 63 1000 95">Sacred Flame</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Weapon of the Titans" type="button" size1024="887 64 919 96">Falling Star</gadget>
+
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Hera" type="button" size1024="821 113 877 169">Age 4 Unk</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Medusa" type="button" size1024="927 113 959 145">Unktehi Bloka</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Lightning Storm" type="button" size1024="888 113 920 145">Uncegila</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Athenian Wall" type="button" size1024="887 154 919 186">Unktehi Winyela</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Face of the Gorgon" type="button" size1024="927 153 959 185">Skecethanka</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Face of the Gorgon" type="button" size1024="967 113 999 145">Surviving Alone</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Face of the Gorgon" type="button" size1024="967 153 999 185">A Mothers Rage</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Face of the Gorgon" type="button" size1024="1007 113 1039 145">A Fathers Anger</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-TechNode-Face of the Gorgon" type="button" size1024="1007 153 1039 185">The Fear of Death</gadget>
+
+				<gadget hidden="" name="FakeTechTree-New23-ShennongBackground" type="gadget" size1024="0 0 1024 768" z="1">
+					<gadget name="ShennongBackground1" type="gadget" size1024="0 0 1024 768" background="UI\ftt unci" clampbackground=""></gadget>
+				</gadget>
+				<gadget hidden="" name="FakeTechTree-New23-ChineseLegendShennong" type="gadget" z="20">
+					<gadget name="ChineseLegend-Building" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 669 258 689" z="17">$$19159$$Building</gadget>
+					<gadget name="ChineseLegend-Unit" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 699 258 719" z="17">$$19160$$Unit</gadget>
+					<gadget name="ChineseLegend-Improvement" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 729 258 749" z="17">$$19161$$Improvement</gadget>
+					<gadget name="ChineseLegend-God" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 669 153 689" z="17">$$19162$$God</gadget>
+					<gadget name="ChineseLegend-God Power" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 699 153 719" z="17">$$19163$$God Power</gadget>
+					<gadget name="ChineseLegend-Myth Unit" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 729 153 749" z="17">$$19164$$Myth Unit</gadget>
+				</gadget>
+
+			</div>
+			<div hidden="" name="FakeTechTree-New24" size1024="0 0 1024 768">
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Zeus" type="button" size1024="175 22 232 79">Age 1 Hihan Kaga</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Bolt GP" type="button" size1024="242 34 274 66">Nagi Akta</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Pegasus" type="button" size1024="285 34 317 66">Owl Soldier</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-TC" type="button" size1024="25 255 55 285">Settlement Level 1</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-TC" type="button" size1024="65 255 95 285">Villager Lakota</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-TC" type="button" size1024="105 255 135 285">Packed Thikceya</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-TC" type="button" size1024="25 295 55 325">Guild Fire</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-TC" type="button" size1024="65 295 95 325">Husbandry</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-TC" type="button" size1024="105 295 135 325">Hunting Dogs</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-TC" type="button" size1024="145 295 175 325">Hand Axe</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-TC" type="button" size1024="185 295 215 325">Akhita</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-TC" type="button" size1024="25 335 55 365">Market</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-TC" type="button" size1024="65 335 95 365">Caravan Lakota Dog</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-TC" type="button" size1024="25 375 55 405">Dock</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-TC" type="button" size1024="65 375 95 405">Native Fishing</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-TC" type="button" size1024="25 495 55 525">Lakota Temple</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-TC" type="button" size1024="25 535 55 565">Ribbon Garden</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-TC" type="button" size1024="65 535 95 565">Invoker of Bison Small</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-TC" type="button" size1024="105 535 135 565">Yuspi</gadget>
+
+
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="275 255 305 285">Masons</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="275 295 305 325">Bow Saw</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="315 295 345 325">Timpsila Foraging</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="275 335 305 365">Caravan Lakota Horse</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="275 375 305 405">Canoe</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="315 375 345 405">Fishing Boat</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="355 375 385 405">Purse Seine</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="395 375 425 405">Enclosed Deck</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="435 375 465 405">Heroic Fleet</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="275 415 305 445">Outpost Settlement</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="275 455 305 485">Lakota Sodhouse</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="315 455 345 485">Migrations 1</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="355 455 385 485">Signal Fires</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="395 455 425 485">Crenellations</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="435 455 465 485">Long-Grass Roofing</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="275 535 305 565">Medicine Woman</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="315 535 345 565">Invoker of Bison Medium</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="275 575 305 605">Osage Tree Gifts</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="315 575 345 605">Ehanni</gadget>
+
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="315 615 345 645">Copper Weapons</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="355 615 385 645">Copper Mail</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="395 615 425 645">Copper Shields</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="275 655 305 685">Wakhukeza Iktomi</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="315 655 345 685">Kitfox Soldier</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="355 655 385 685">Strongheart</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="275 695 305 725">Medium Warriors</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="315 695 345 725">Medium Akicita</gadget>
+
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="525 255 555 285">Architects</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="525 295 555 325">Carpenters</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="565 295 595 325">Timpsila Braiding</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="605 295 635 325">Kicico</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="645 295 675 325">The Tempter</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="525 335 555 365">Ambassadors</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="565 335 595 365">Tax Collectors</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="525 375 555 405">War Canoe</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="565 375 595 405">Tlaloc Canoe</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="605 375 635 405">Salt Amphora</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="645 375 675 405">Cladding</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="525 455 555 485">Carrier Pigeons</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="565 455 595 485">Migrations 2</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="525 535 555 565">Invoker of Bison Large</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="525 575 555 605">Inipi</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="565 575 595 605">Woptecasni</gadget>
+
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="525 615 555 645">Bronze Weapons</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="565 615 595 645">Bronze Mail</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="605 615 635 645">Bronze Shields</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="525 655 555 685">Waoka Tate</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="565 655 595 685">No-Flights</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="605 655 635 685">White Marked</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="525 695 555 725">Heavy Warriors</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="565 695 595 725">Heavy Akicita</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="605 695 635 725">Levy Warriors</gadget>
+
+				<gadget name="FakeTechTree-New24-TechNode-Bellerophon" type="button" size1024="825 255 855 285">Migration Age 4</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="825 335 855 365">Coinage</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="825 375 855 405">Naval Oxybeles</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="865 375 895 405">Reinforced Hull</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="905 375 935 405">Conscript Sailors</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="825 415 855 445">Wonder</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="865 415 895 445">Secrets of the Titans</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="825 455 855 485">Migrations 3</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Heracles" type="button" size1024="865 495 895 525">Omniscience</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="825 575 855 605">Call of the Void</gadget>
+
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="825 615 855 645">Iron Weapons</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="865 615 895 645">Iron Mail</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="905 615 935 645">Iron Shields</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="825 655 855 685">Canpi Unk</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="865 655 895 685">White Rider</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="905 655 935 685">Raven Keeper</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="825 695 855 725">Champion Warriors</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="865 695 895 725">Champion Akicita</gadget>
+				<gadget name="FakeTechTree-New24-TechNode-Odysseus" type="button" size1024="905 695 935 725">Dreamcult Warriors</gadget>
+
+
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Athena" type="button" size1024="407 23 463 79">Age 2 Iktomi</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Restoration GP" type="button" size1024="474 22 506 54">Shapeshifters Chaos</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Minotaur" type="button" size1024="515 22 547 54">Tathanka Gnaskiyan</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Labyrinth" type="button" size1024="515 64 547 96">Master of Whispers</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Aegis Shield" type="button" size1024="475 64 507 96">Ducks Folly</gadget>
+
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Hermes" type="button" size1024="407 113 463 169">Age 2 Capa</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Centaur" type="button" size1024="515 113 547 145">Waawayanka</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Ceasefire" type="button" size1024="475 113 507 145">Omakha Waphaya</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Spirited Charge" type="button" size1024="476 153 508 185">Yaunka</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Winged Messenger" type="button" size1024="515 153 547 185">Mazaskazi Capa</gadget>
+
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Apollo" type="button" size1024="614 23 670 79">Age 3 Wakinyan</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Manticore" type="button" size1024="721 22 753 54">Thunderbird</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Tunnel" type="button" size1024="681 23 713 55">Thunders Judgement</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Sun Ray" type="button" size1024="720 63 752 95">Thunder-Dreamer</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Temple of Healing" type="button" size1024="681 63 713 95">Thunder-Walker</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Temple of Healing" type="button" size1024="760 23 792 55">Memories of the Dragonfly</gadget>
+
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Dionysus" type="button" size1024="614 113 670 169">Age 3 Tate</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Hydra" type="button" size1024="721 113 753 145">Canotila</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Bronze" type="button" size1024="679 113 711 145">Winds of Time</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Bacchanalia" type="button" size1024="681 153 713 185">Wiwila</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Anastrophe" type="button" size1024="720 153 752 185">The Son of Love</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Anastrophe" type="button" size1024="760 153 792 185">Etu</gadget>
+
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Hephaestus" type="button" size1024="821 23 877 79">Age 4 Wophe</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Colossus" type="button" size1024="928 21 960 53">Wi Can</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Plenty" type="button" size1024="887 22 919 54">Fires of Peace</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Forge of Olympus" type="button" size1024="928 63 960 95">Cannunpa</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Forge of Olympus" type="button" size1024="968 63 1000 95">Sacred Flame</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Weapon of the Titans" type="button" size1024="887 64 919 96">Falling Star</gadget>
+
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Hera" type="button" size1024="821 113 877 169">Age 4 Anpao and Han</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Medusa" type="button" size1024="927 113 959 145">Woniya Thanka</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Lightning Storm" type="button" size1024="888 113 920 145">Maker of Days</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Athenian Wall" type="button" size1024="887 154 919 186">Cycles of Light</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Face of the Gorgon" type="button" size1024="927 153 959 185">Twilight Lineage</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Face of the Gorgon" type="button" size1024="967 113 999 145">Morning Star</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-TechNode-Face of the Gorgon" type="button" size1024="967 153 999 185">Evening Star</gadget>
+
+				<gadget hidden="" name="FakeTechTree-New24-ShennongBackground" type="gadget" size1024="0 0 1024 768" z="1">
+					<gadget name="ShennongBackground1" type="gadget" size1024="0 0 1024 768" background="UI\ftt hihan" clampbackground=""></gadget>
+				</gadget>
+				<gadget hidden="" name="FakeTechTree-New24-ChineseLegendShennong" type="gadget" z="20">
+					<gadget name="ChineseLegend-Building" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 669 258 689" z="17">$$19159$$Building</gadget>
+					<gadget name="ChineseLegend-Unit" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 699 258 719" z="17">$$19160$$Unit</gadget>
+					<gadget name="ChineseLegend-Improvement" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="163 729 258 749" z="17">$$19161$$Improvement</gadget>
+					<gadget name="ChineseLegend-God" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 669 153 689" z="17">$$19162$$God</gadget>
+					<gadget name="ChineseLegend-God Power" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 699 153 719" z="17">$$19163$$God Power</gadget>
+					<gadget name="ChineseLegend-Myth Unit" type="formatText" textfont="TechTree" textfontsize="11" textcolor="255 255 255" size1024="48 729 153 749" z="17">$$19164$$Myth Unit</gadget>
+				</gadget>
+			</div>
+			
+			
+			
+			
 			<div hidden="" name="FakeTechTree-New25" size1024="0 0 1024 768">
 				<gadget hidden="" name="FakeTechTree-New25-TechNode-Zeus" type="button" size1024="175 22 232 79">Age 1 Nameless Mist</gadget>
 			</div>

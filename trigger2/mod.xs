@@ -39,8 +39,8 @@ active
 	//trChatSend(0, kbGetTechName(654) ); // Eldritch Civ
 	//trChatSend(0, kbGetTechName(650) ); // Zeus Real
 	//trChatSend(0, kbGetTechName(68)  ); // Age 1 Zeus
-	trChatSend(0, kbGetTechName(959)  ); // Age 1 Hanwi Fake
-	trChatSend(0, kbGetTechName(978)  ); // Age 1 Wi
+	//trChatSend(0, kbGetTechName(959)  ); // Age 1 Hanwi Fake
+	//trChatSend(0, kbGetTechName(978)  ); // Age 1 Wi
 	//trchatsend(0, kbGetTechName(1021)  ); // Medicinal Knowledge
 	//trchatsend(0, kbGetTechName(1033)  ); // Fushimi Pilgrimage
 	//trchatsend(0, kbGetTechName(1096)  ); // God Picked
@@ -50,10 +50,10 @@ active
 	//trChatSend(0, kbGetTechName(304)  ); // Omniscience
 	//trChatSend(0, kbGetTechName(1267)  ); // Springtime Radiance
 	//trChatSend(0, kbGetTechName(1312)  ); // Rays of Life
-	trChatSend(0, kbGetTechName(1326)  ); // Age 1 Freyr
-	trChatSend(0, kbGetTechName(1271)  ); // Homeland Fortification
-	trChatSend(0, kbGetTechName(1358)  ); // Age 1 Iapetus Real
-	trChatSend(0, kbGetTechName(1385)  ); // Age 1 Nameless Mist
+	//trChatSend(0, kbGetTechName(1326)  ); // Age 1 Freyr
+	//trChatSend(0, kbGetTechName(1271)  ); // Homeland Fortification
+	//trChatSend(0, kbGetTechName(1358)  ); // Age 1 Iapetus Real
+	//trChatSend(0, kbGetTechName(1385)  ); // Age 1 Nameless Mist
 
 
 	trTechSetStatus(0, 304, cTechStatusActive);
@@ -1395,40 +1395,40 @@ active
 			
 			if(kbGetTechStatus(1004) == cTechStatusActive) { // Migration Trigger Age 2
 				if(kbGetTechStatus(1005) != cTechStatusActive) { // Migration Flag Age 2
-					trChatSend(0, "Migration Flag Found 2" );
+					// trChatSend(0, "Migration Flag Found 2" );
 					for(j=0;<q_len) {
 						trUnitSelectClear();
 						trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
 						trUnitChangeInArea(i, i, "Settlement Level 1", "Dead Town Center", 7.5);
-						trChatSend(0, "TC Killed 2" );
+						// trChatSend(0, "TC Killed 2" );
 					}
 					trTechSetStatus(i, 1005, cTechStatusActive);
 				} else if(kbGetTechStatus(1006) != cTechStatusActive) { // Migration Not Done Age 2
-					trChatSend(0, "Searching for TC" );
+					// trChatSend(0, "Searching for TC" );
 					if (0 < q_len) {
 						trTechSetStatus(i, 1006, cTechStatusActive);
 						trTechSetStatus(i, 1007, cTechStatusActive);
-						trChatSend(0, "TC Found 2" );
+						// trChatSend(0, "TC Found 2" );
 					}
 				}
 			}
 
 			if(kbGetTechStatus(1008) == cTechStatusActive) { // Migration Trigger Age 3
 				if(kbGetTechStatus(1009) != cTechStatusActive) { // Migration Flag Age 3
-					trChatSend(0, "Migration Flag Found 3" );
+					// trChatSend(0, "Migration Flag Found 3" );
 					for(j=0;<q_len) {
 						trUnitSelectClear();
 						trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
 						trUnitChangeInArea(i, i, "Settlement Level 1", "Dead Town Center", 7.5);
-						trChatSend(0, "TC Killed 3" );
+						// trChatSend(0, "TC Killed 3" );
 					}
 					trTechSetStatus(i, 1009, cTechStatusActive);
 				} else if(kbGetTechStatus(1010) != cTechStatusActive) { // Migration Not Done Age 2
-					trChatSend(0, "Searching for TC" );
+					// trChatSend(0, "Searching for TC" );
 					if (0 < q_len) {
 						trTechSetStatus(i, 1010, cTechStatusActive);
 						trTechSetStatus(i, 1011, cTechStatusActive);
-						trChatSend(0, "TC Found 3" );
+						// trChatSend(0, "TC Found 3" );
 					}
 				}
 			}
@@ -1436,20 +1436,20 @@ active
 
 			if(kbGetTechStatus(1012) == cTechStatusActive) { // Migration Trigger Age 4
 				if(kbGetTechStatus(1013) != cTechStatusActive) { // Migration Flag Age 4
-					trChatSend(0, "Migration Flag Found 4" );
+					// trChatSend(0, "Migration Flag Found 4" );
 					for(j=0;<q_len) {
 						trUnitSelectClear();
 						trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
 						trUnitChangeInArea(i, i, "Settlement Level 1", "Dead Town Center", 7.5);
-						trChatSend(0, "TC Killed 4" );
+						// trChatSend(0, "TC Killed 4" );
 					}
 					trTechSetStatus(i, 1013, cTechStatusActive);
 				} else if(kbGetTechStatus(1014) != cTechStatusActive) { // Migration Not Done Age 4
-					trChatSend(0, "Searching for TC" );
+					// trChatSend(0, "Searching for TC" );
 					if (0 < q_len) {
 						trTechSetStatus(i, 1014, cTechStatusActive);
 						trTechSetStatus(i, 1015, cTechStatusActive);
-						trChatSend(0, "TC Found 4" );
+						// trChatSend(0, "TC Found 4" );
 					}
 				}
 			}
@@ -4622,15 +4622,35 @@ priority 100
 		kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Tathanka Gnaskiyan Insane"));
 		kbUnitQuerySetState(q_id,2);
 		int q_len = kbUnitQueryExecute(q_id);
-		for(j=0;<q_len)
+		if(0<q_len)
 		{
 			trUnitSelectClear();
-			trUnitSelectByID(kbUnitQueryGetResult(q_id,j));
-			vector center = kbUnitGetPosition(kbUnitQueryGetResult(q_id,j));
+			trUnitSelectByID(kbUnitQueryGetResult(q_id,0));
+			vector center = kbUnitGetPosition(kbUnitQueryGetResult(q_id,0));
 
 			
 			trTechInvokeGodPower(0, "Crazy Bull Chaos", center, center);
 
+		} else {
+		
+			q_id = kbUnitQueryCreate("Zombie");
+			kbUnitQuerySetPlayerID(q_id, i);
+			kbUnitQuerySetUnitType(q_id,kbGetProtoUnitID("Zombie"));
+			kbUnitQuerySetState(q_id,2);
+			q_len = kbUnitQueryExecute(q_id);
+			if(0<q_len)
+			{
+				trUnitSelectClear();
+				trUnitSelectByID(kbUnitQueryGetResult(q_id,0));
+				center = kbUnitGetPosition(kbUnitQueryGetResult(q_id,0));
+
+				trChatSend(0, "zombie!");
+
+			
+				trTechInvokeGodPower(0, "Crazy Bull Chaos", center, center);
+
+			} 
+		
 		}
 
 
